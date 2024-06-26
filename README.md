@@ -3,7 +3,7 @@ INB staat voor **I**fc **N**l **B**ouw
 Deze repository bevat een experimentele IFC-template en beknopte bibliotheek voor de bouwsector in Nederland. 
 
 # Aanleiding
-De aanleiding tot het maken van deze templateis zijn de onstuimige ontwikkelingen binnen [BlenderBIM | https://blenderbim.org/]. BlenderBIM een Open Source BIM-modelling tool voor de AEC. De verwachting is dat BlenderBIM < medio 2025 geschikt zal zijn om als BIM modelling pakket te kunnen gebruiken.
+De aanleiding tot het maken van deze templateis zijn de onstuimige ontwikkelingen binnen https://blenderbim.org/. BlenderBIM een Open Source BIM-modelling tool voor de AEC. De verwachting is dat BlenderBIM < medio 2025 geschikt zal zijn om als BIM modelling pakket te kunnen gebruiken.
 
 # Versie
 De gebruikte versie is IFC4x3.
