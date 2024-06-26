@@ -476,14 +476,7 @@ basepath_library = "C:/Users/mikev/Documents/GitHub/INB-Template/"
 
 path_library = basepath_library + "Library.ods"
 
-new_path_patterns_200 = basepath + "INB_patterns_BWK_200.svg"
-new_path_patterns_100 = basepath + "INB_patterns_BWK_100.svg"
-new_path_patterns_50 = basepath + "INB_patterns_BWK_50.svg"
-new_path_patterns_20 = basepath + "INB_patterns_BWK_20.svg"
-new_path_patterns_10 = basepath + "INB_patterns_BWK_10.svg"
-new_path_patterns_5 = basepath + "INB_patterns_BWK_5.svg"
-new_path_patterns_2 = basepath + "INB_patterns_BWK_2.svg"
-new_path_patterns_1 = basepath + "INB_patterns_BWK_1.svg"
+new_path_patterns = basepath + "INB_patterns_BWK.svg"
 
 new_path_css_200 = basepath + "INB_stylesheet_BWK_1_200.css"
 new_path_css_100 = basepath + "INB_stylesheet_BWK_1_100.css"
@@ -495,14 +488,7 @@ new_path_css_2 = basepath + "INB_stylesheet_BWK_1_2.css"
 new_path_css_1 = basepath + "INB_stylesheet_BWK_1_1.css"
 
 paths = [
-new_path_patterns_200,
-new_path_patterns_100,
-new_path_patterns_50,
-new_path_patterns_20,
-new_path_patterns_10,
-new_path_patterns_5,
-new_path_patterns_2,
-new_path_patterns_1,
+new_path_patterns,
 new_path_css_200,
 new_path_css_100,
 new_path_css_50,
@@ -546,71 +532,53 @@ css_file_1 = open(new_path_css_1, "x")
 css_file_1.write(PREFIX_CSS)
 
 #CREATE EMPTY PATTERN FILE
-patterns_file_200 = open(new_path_patterns_200, "x")
-patterns_file_200.write(PREFIX_PATTERNS)
-
-patterns_file_100 = open(new_path_patterns_100, "x")
-patterns_file_100.write(PREFIX_PATTERNS)
-
-patterns_file_50 = open(new_path_patterns_50, "x")
-patterns_file_50.write(PREFIX_PATTERNS)
-
-patterns_file_20 = open(new_path_patterns_20, "x")
-patterns_file_20.write(PREFIX_PATTERNS)
-
-patterns_file_10 = open(new_path_patterns_10, "x")
-patterns_file_10.write(PREFIX_PATTERNS)
-
-patterns_file_5 = open(new_path_patterns_5, "x")
-patterns_file_5.write(PREFIX_PATTERNS)
-
-patterns_file_2 = open(new_path_patterns_2, "x")
-patterns_file_2.write(PREFIX_PATTERNS)
-
-patterns_file_1 = open(new_path_patterns_1, "x")
-patterns_file_1.write(PREFIX_PATTERNS)
+patterns_file = open(new_path_patterns, "x")
+patterns_file.write(PREFIX_PATTERNS)
 
 #CREATE PATTERN AND CSS
 sheet_name = "cut_patterns_cust" # TAB FROM EXCELSHEET WITH DATA OF PATTERNS
 library_mat = read_ods(path_library, sheet_name)
 
+lstScales = [
+    2,1,0.75,0.5,0.4,0.3,0.2,0.1
+]
 #FOR LOOP FOR PATTERN FILES AND CSS MATERIAL
 for ind in library_mat.index:
-    link_predefined_type = library_mat["link_predefined_type"][ind] # BOOLEAN FOR CREATE A PREDIFINED TYPE IN CSS FOR FILLED REGION
+    link_predefined_type = library_mat["link_predefined_type"][ind] # BOOLEAN FOR CREATE A PREDIFINED TYPE IN CSS FOR FILLED AREA
     blender_name = library_mat["blender_name"][ind] #name in Blender for material/link_predefined_type
     scales = []
     scale_independent = library_mat["scale_independent"][ind]
     scale_1_200 = library_mat["1_200"][ind]
     if scale_1_200:
-        scales.append(["1:200", 2, "_200", css_file_200, patterns_file_200])
+        scales.append(["1:200", lstScales[0], "_200", css_file_200, patterns_file])
 
     scale_1_100 = library_mat["1_100"][ind]
     if scale_1_100:
-        scales.append(["1:100", 1, "_100", css_file_100, patterns_file_100])
+        scales.append(["1:100", lstScales[1], "_100", css_file_100, patterns_file])
 
     scale_1_50 = library_mat["1_50"][ind]
     if scale_1_50:
-        scales.append(["1:50", 0.75, "_50", css_file_50, patterns_file_50])
+        scales.append(["1:50", lstScales[2], "_50", css_file_50, patterns_file])
 
     scale_1_20 = library_mat["1_20"][ind]
     if scale_1_20:
-        scales.append(["1:20", 0.5, "_20", css_file_20, patterns_file_20])
+        scales.append(["1:20", lstScales[3], "_20", css_file_20, patterns_file])
 
     scale_1_10 = library_mat["1_10"][ind]
     if scale_1_10:
-        scales.append(["1:10", 0.4, "_10", css_file_10, patterns_file_10])
+        scales.append(["1:10", lstScales[4], "_10", css_file_10, patterns_file])
 
     scale_1_5 = library_mat["1_5"][ind]
     if scale_1_5:
-        scales.append(["1:5", 0.3, "_5", css_file_5, patterns_file_5])
+        scales.append(["1:5", lstScales[5], "_5", css_file_5, patterns_file])
 
     scale_1_2 = library_mat["1_2"][ind]
     if scale_1_2:
-        scales.append(["1:2", 0.2, "_2", css_file_2, patterns_file_2])
+        scales.append(["1:2", lstScales[6], "_2", css_file_2, patterns_file])
 
     scale_1_1 = library_mat["1_1"][ind]
     if scale_1_1:
-        scales.append(["1:1", 0.1, "_1", css_file_1, patterns_file_1])
+        scales.append(["1:1", lstScales[7], "_1", css_file_1, patterns_file])
     #list created with applicable scales of this pattern
 
     for i in scales:
@@ -645,35 +613,35 @@ for ind in library_mat.index:
     scale_independent = library_mat["scale_independent"][ind]
     scale_1_200 = library_mat["1_200"][ind]
     if scale_1_200:
-        scales.append(["1:200", 2, "_200", css_file_200, patterns_file_200])
+        scales.append(["1:200", lstScales[0], "_200", css_file_200, patterns_file])
 
     scale_1_100 = library_mat["1_100"][ind]
     if scale_1_100:
-        scales.append(["1:100", 1, "_100", css_file_100, patterns_file_100])
+        scales.append(["1:100", lstScales[1], "_100", css_file_100, patterns_file])
 
     scale_1_50 = library_mat["1_50"][ind]
     if scale_1_50:
-        scales.append(["1:50", 0.5, "_50", css_file_50, patterns_file_50])
+        scales.append(["1:50", lstScales[2], "_50", css_file_50, patterns_file])
 
     scale_1_20 = library_mat["1_20"][ind]
     if scale_1_20:
-        scales.append(["1:20", 0.2, "_20", css_file_20, patterns_file_20])
+        scales.append(["1:20", lstScales[3], "_20", css_file_20, patterns_file])
 
     scale_1_10 = library_mat["1_10"][ind]
     if scale_1_10:
-        scales.append(["1:10", 0.1, "_10", css_file_10, patterns_file_10])
+        scales.append(["1:10", lstScales[4], "_10", css_file_10, patterns_file])
 
     scale_1_5 = library_mat["1_5"][ind]
     if scale_1_5:
-        scales.append(["1:5", 0.05, "_5", css_file_5, patterns_file_5])
+        scales.append(["1:5", lstScales[5], "_5", css_file_5, patterns_file])
 
     scale_1_2 = library_mat["1_2"][ind]
     if scale_1_2:
-        scales.append(["1:2", 0.02, "_2", css_file_2, patterns_file_2])
+        scales.append(["1:2", lstScales[6], "_2", css_file_2, patterns_file])
 
     scale_1_1 = library_mat["1_1"][ind]
     if scale_1_1:
-        scales.append(["1:1", 0.01, "_1", css_file_1, patterns_file_1])
+        scales.append(["1:1", lstScales[7], "_1", css_file_1, patterns_file])
     #list created with applicable scales of this pattern
 
     for i in scales:
@@ -690,22 +658,8 @@ for ind in library_mat.index:
             pass
 
 #write and close pattern-files
-patterns_file_200.write(SUFFIX_PATTERNS)
-patterns_file_200.close()
-patterns_file_100.write(SUFFIX_PATTERNS)
-patterns_file_100.close()
-patterns_file_50.write(SUFFIX_PATTERNS)
-patterns_file_50.close()
-patterns_file_20.write(SUFFIX_PATTERNS)
-patterns_file_20.close()
-patterns_file_10.write(SUFFIX_PATTERNS)
-patterns_file_10.close()
-patterns_file_5.write(SUFFIX_PATTERNS)
-patterns_file_5.close()
-patterns_file_2.write(SUFFIX_PATTERNS)
-patterns_file_2.close()
-patterns_file_1.write(SUFFIX_PATTERNS)
-patterns_file_1.close()
+patterns_file.write(SUFFIX_PATTERNS)
+patterns_file.close()
 
 #write and close css-files
 css_file_200.write(SUFFIX_CSS)
