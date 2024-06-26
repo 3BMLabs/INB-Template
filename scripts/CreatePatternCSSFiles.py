@@ -540,8 +540,9 @@ sheet_name = "cut_patterns_cust" # TAB FROM EXCELSHEET WITH DATA OF PATTERNS
 library_mat = read_ods(path_library, sheet_name)
 
 lstScales = [
-    2,1,0.75,0.5,0.4,0.3,0.2,0.1
+    0.5,0.75,0.75,0.75,0.9,2.6,6,12
 ]
+
 #FOR LOOP FOR PATTERN FILES AND CSS MATERIAL
 for ind in library_mat.index:
     link_predefined_type = library_mat["link_predefined_type"][ind] # BOOLEAN FOR CREATE A PREDIFINED TYPE IN CSS FOR FILLED AREA

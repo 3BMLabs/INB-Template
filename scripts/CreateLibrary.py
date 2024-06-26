@@ -1,6 +1,6 @@
 # CODE PIECES USED OF DION MOULT
 # CODE PIECES USED OF COEN  CLAUS
-# 2024-05-06: Modified by Maarten Vroegindeweij
+# 2024-06-26: Modified by Maarten Vroegindeweij
 # documentation:
 #  https://blenderbim.org/docs-python/autoapi/ifcopenshell/api/material/add_material_set/index.html
 #  https://wiki.osarch.org/index.php?title=IFC_-_Industry_Foundation_Classes/IFC_materials
