@@ -385,6 +385,16 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-LINEWORK.medium { stroke-width: 0.35; }\n' \
 '.PredefinedType-LINEWORK.thick { stroke-width: 0.5; }\n' \
 '.PredefinedType-LINEWORK.strong { stroke-width: 1; }\n' \
+'.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3;}\n' \
+'.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3;}\n' \
+'.PredefinedType-LINEWORK.grey { stroke:	#808080; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }\n' \
+'.PredefinedType-LINEWORK.foil{ stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }\n' \
+'.PredefinedType-LINEWORK.grid{ stroke:blue; stroke-dasharray: 10, 4, 2, 4; stroke-width: 0.2; }\n' \
+'.PredefinedType-LINEWORK.gridends{ marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2;}\n' \
+'.PredefinedType-LINEWORK.section{ marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); stroke:black; stroke-width: 0.2; }\n' \
+'.PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.2; }\n' \
 '.PredefinedType-BACKGROUND { stroke: black; stroke-width: 0.18; }\n' \
 '.PredefinedType-GRID { marker-start: url(#grid-marker); marker-end: url(#grid-marker); }\n' \
 '.PredefinedType-SECTION { stroke-dasharray: 12.5, 3, 3, 3; }\n' \
@@ -412,11 +422,19 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-glass { fill: url(#glass); }\n' \
 '.PredefinedType-grass { fill: url(#grass); }\n' \
 '.PredefinedType-wood { fill: url(#wood); }\n' \
-'.PredefinedType-sand { fill: url(#sand); }\n' \
 '.PredefinedType-concrete { fill: url(#concrete); }\n' \
+'.PredefinedType-black { fill: black; }\n' \
+'.PredefinedType-white{ fill: white; stroke: black; stroke-width: 0.2;}\n' \
+'.PredefinedType-white25 {fill: white; opacity: 0.25; stroke: none;}\n' \
+'.PredefinedType-white50 {fill: white; opacity: 0.5; stroke: none;}\n' \
+'.PredefinedType-white75 {fill: white; opacity: 0.75; stroke: none;}\n' \
 
-
-SUFFIX_CSS = 'path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }\n' \
+SUFFIX_CSS = \
+'.PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }\n' \
+'.PredefinedType-SECTION { marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); }\n' \
+'.PredefinedType-TEXT.blue { fill: blue; stroke: none; }\n' \
+'.PredefinedType-TEXT.witachter {display: inline-block; background-color: white;}\n' \
+'path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }\n' \
 'text.PredefinedType-TEXTLEADER, tspan.PredefinedType-TEXTLEADER { fill: black; stroke: none; }\n' \
 'text.title, tspan.title { /* 7mm */ font-size: 11.55px; }\n' \
 'text.header, tspan.header { /* 5mm */ font-size: 8.25px; }\n' \
@@ -424,6 +442,7 @@ SUFFIX_CSS = 'path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); 
 'text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }\n' \
 'text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }\n' \
 'text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }\n' \
+'text.italic, tspan.italic {font-style: italic;}\n' \
 'text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }\n' \
 '.material-blank { fill: white; }\n' \
 '.material-diagonal1 { fill: url(#diagonal1); }\n' \
@@ -452,8 +471,8 @@ from pandas_ods_reader import read_ods
 import os
 import sys
 
-basepath = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/BlenderBIM/Template NL test/drawings/assets/"
-basepath_library = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/BlenderBIM/Template NL test/"
+basepath = "C:/Users/mikev/Documents/GitHub/INB-Template/drawings/assets/"
+basepath_library = "C:/Users/mikev/Documents/GitHub/INB-Template/"
 
 path_library = basepath_library + "Library.ods"
 
