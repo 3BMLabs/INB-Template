@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="rectangle-tag">
+        <rect x="-6" y="-2.5" width="12" height="5" fill="white" stroke="black" style="stroke-width: 0.25;" />
+    </g>
+    <g id="triangle-tag">
+        <path style="fill: white; stroke: black; stroke-width: 0.25;" d="M 3.1409425e-7,-7.1069207 5.7650623,2.8784603 l -11.5301246,-6e-7 z" />
+    </g>
+    <g id="hexagon-tag">
+        <path style="fill: white; stroke: black; stroke-width: 0.25;" d="m 0.0161133,-6.0583333 5.2339915,3.8366023 -2.031433,6.1633977 c 0,0 -6.4894866,-0.027414 -6.4894866,-0.027414 l -1.97929,-6.1803395 5.2662181,-3.7922467" />
+    </g>
+    <g id="capsule-tag">
+        <rect x="-6" y="-2.5" width="12" height="5" rx="2.5" ry="2.5" fill="white" stroke="black" style="stroke-width: 0.25;" />
+    </g>
+    <g id="circle-tag">
+        <circle r="5" fill="white" stroke="black" style="stroke-width: 0.25;" />
+    </g>
+    <g id="door-tag">
+        <circle r="5" fill="white" stroke="black" style="stroke-width: 0.25;" />
+        <text y="-1.75" class="regular" text-anchor="middle" dominant-baseline="middle" data-type="text-template"></text>
+        <line x1="-5" x2="5" style="stroke: black; stroke-width: 0.25;" />
+        <text y="2.5" class="regular" text-anchor="middle" dominant-baseline="middle" data-type="text-template"></text>
+    </g>
+    <g id="window-tag">
+        <path style="fill: white; stroke: black; stroke-width: 0.25;" d="m 0.0161133,-6.0583333 5.2339915,3.8366023 -2.031433,6.1633977 c 0,0 -6.4894866,-0.027414 -6.4894866,-0.027414 l -1.97929,-6.1803395 5.2662181,-3.7922467" />
+    </g>
+	 <g id="space-tag">
+		<rect x="0" y="-6" width="18" height="15" fill="white" stroke="none"/>
+        <text y="-3" font-size="small" text-anchor="left" dominant-baseline="left" data-type="text-template" font-style="italic" ></text>
+        <text  font-size="large" text-anchor="left" dominant-baseline="middle" data-type="text-template" font-weight="bold"></text>
+        <text  y="3.5" class="small" text-anchor="left" dominant-baseline="middle" data-type="text-template"></text>
+		<text  y="7" class="small" text-anchor="left" dominant-baseline="middle" data-type="text-template"></text>
+	</g> 
+<!--	Originele versie: 
+	<g id="space-tag">
+        <text y="-5" class="large" text-anchor="middle" dominant-baseline="middle" data-type="text-template"></text>
+        <rect x="-6" y="-2.5" width="12" height="5" fill="white" stroke="black" style="stroke-width: 0.25;" />
+        <text class="regular" text-anchor="middle" dominant-baseline="middle" data-type="text-template"></text>
+        <text y="5" class="regular" text-anchor="middle" dominant-baseline="middle" data-type="text-template"></text>
+    </g> -->
+	<g
+     id="60WDBDO"
+     transform="scale(0.01)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect1"
+       width="17.608606"
+       height="15.31517"
+       x="34.006508"
+       y="80.639709" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="42.889175"
+       y="87.532822"
+       id="text1"><tspan
+         id="tspan1"
+         style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="42.889175"
+         y="87.532822">60</tspan><tspan
+         style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="42.889175"
+         y="91.501572"
+         id="tspan2">WDBDO</tspan></text>
+	</g> 
+    <g id="hwa" transform=" translate(-7.15,-9.1) scale(0.06)">
+	<path
+         style="fill:#000000;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 78.469755,152.87286 H 161.03347 Z"
+         id="path1" />
+		 <path
+         style="fill:#000000;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120.33277,194.67023 -0.82226,-82.55962 z"
+         id="path1-0" />
+		 <circle
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2"
+         cx="119.9063"
+         cy="153.38069"
+         r="20.450706" />
+		</g>
+    <g id="elevation-arrow">
+        <path style="fill: black;" d="M -7.07106 0 0 -7.07106 7.07106 0" />
+    </g>
+    <g id="elevation-tag">
+        <circle r="5" fill="white" stroke="black" style="stroke-width: 0.25;" />
+        <line x1="-5" y1="0" x2="5" y2="0" style="stroke: black; stroke-width: 0.25;" />
+    </g>
+	<g id="section-arrow">
+        <path style="fill: black;" d="M -3 0 L 0 -4 L 3 0" />
+    </g>
+    <g id="section-tag">
+    </g>
+<!-- 	Origineel: 
+    <g id="section-arrow">
+        <path style="fill: black;" d="M -7.07106 0 0 -7.07106 7.07106 0" />
+    </g>
+    <g id="section-tag">
+        <circle r="5" fill="white" stroke="black" style="stroke-width: 0.25;" />
+        <line x1="-5" y1="0" x2="5" y2="0" style="stroke: black; stroke-width: 0.25;" />
+    </g>
+-->
+    <g id="dot">
+        <circle r="1" fill="black" stroke="black" style="stroke-width: 0.25;" />
+    </g>
+    <g id="setout-tag">
+        <circle fill="white" stroke="black" r="2.5" style="stroke-width: 0.5"/>
+        <path d="M 0 0 L -2.5 0 A 2.5 2.5 0 0 1 0 -2.5 Z" fill="black"/>
+        <path d="M 0 0 L 2.5 0 A 2.5 2.5 0 0 1 0 2.5 Z" fill="black"/>
+        <text x="3" y="-8" class="small" text-anchor="start" dominant-baseline="auto" data-type="text-template"></text>
+        <text x="3" y="-4" class="regular" text-anchor="start" dominant-baseline="auto" data-type="text-template"></text>
+    </g>
+    <g id="setout-point">
+        <circle fill="white" stroke="black" r="2.5" style="stroke-width: 0.5"/>
+        <path d="M 0 0 L -2.5 0 A 2.5 2.5 0 0 1 0 -2.5 Z" fill="black"/>
+        <path d="M 0 0 L 2.5 0 A 2.5 2.5 0 0 1 0 2.5 Z" fill="black"/>
+    </g>
+    <g id="control-point">
+        <path style="fill: white; stroke: black; stroke-width: 0.5;" d="M 2.286165,1.4798666 H -1.0000316e-7 -2.2861651 L -1.1430826,-0.5000101 -1.0000316e-7,-2.479888 1.1430827,-0.5000101 Z" />
+        <circle r="0.5" fill="black" stroke="black" style="stroke-width: 0.25;" />
+    </g>
+    <g id="traverse-point">
+        <path style="fill: white; stroke: black; stroke-width: 0.5;" d="M -2,-2 2,2 M -2,2 2,-2" />
+    </g>
+<!-- Nooduitgang symbool -->
+	<g id="g10" transform="translate(-5.5, 2.6) scale(-0.01, 0.01) rotate(180)">
+      <path
+         d="M 0,0 V 526.43 H 1133.86 V 0 H 0"
+         style="fill:#00a650;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path12" />
+      <path
+         d="M 650.906,77.9805 786.453,211.008 H 677.859 V 430.012 H 623.953 V 211.008 H 513.805 L 650.906,77.9805"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path14" />
+      <path
+         d="M 1076.02,78.8398 V 433.82 H 872.656 V 78.8398 h 203.364"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path16" />
+      <path
+         d="m 355.508,117.063 v 72.617 l -75.203,75.199 21.879,21.875 46.015,-46.012 c 5.016,-5.019 13.141,-5.019 18.156,0 l 12.102,12.102 c 5.012,5.008 5.012,13.133 0,18.148 l -46.019,46.02 32.406,32.406 v 11.613 c 5.609,-2.222 11.715,-3.457 18.117,-3.457 27.176,0 49.203,22.031 49.203,49.203 0,27.18 -22.027,49.203 -49.203,49.203 -27.18,0 -49.211,-22.023 -49.211,-49.203 0,-4.711 0.68,-9.265 1.918,-13.578 H 197.297 l -59.332,-59.336 c -5.012,-5.011 -5.012,-13.14 0,-18.156 l 12.101,-12.098 c 5.016,-5.011 13.141,-5.011 18.157,0 l 46.797,46.797 h 34.582 L 144.488,245.293 H 70.6797 c -7.0899,0 -12.8359,-5.75 -12.8359,-12.84 v -25.668 c 0,-7.097 5.746,-12.84 12.8359,-12.84 H 209.371 L 244,228.574 304.16,168.41 V 83.2813 c 0,-7.0899 5.746,-12.8321 12.844,-12.8321 h 25.668 c 7.09,0 12.836,5.7422 12.836,12.8321 v 33.7817"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path18" />
+	</g>
+<!-- 		Cirkel met kruis -->
+	<g 	id="c1" transform="translate(-7.15,-9.1) scale(0.06)">
+	<path
+         style="fill:#000000;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 78.469755,152.87286 H 161.03347 Z"
+         id="path1" />
+		 <path
+         style="fill:#000000;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 90.316816,182.03439 58.508274,-58.2542 z"
+         id="path1-8" />
+		 <path
+         style="fill:#000000;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120.33277,194.67023 -0.82226,-82.55962 z"
+         id="path1-0" />
+		 <path
+         style="fill:#000000;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 149.37487,182.53334 90.540869,124.60812 Z"
+         id="path1-8-0" />
+		 <circle
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2"
+         cx="119.9063"
+         cy="153.38069"
+         r="41.450706" />
+	</g>
+<!--	Originele versie
+		transform="scale(0.06)translate(-1px, -1px)">
+		<path
+		 d="M 78.469755,152.87286 H 161.03347 Z"
+         style="fill: black;stroke: black;stroke-width:4;stroke-opacity:1"
+         id="path1" />
+		<path
+		 d="m 90.316816,182.03439 58.508274,-58.2542 z"
+         style="fill: black;stroke: black;stroke-width:4;stroke-opacity:1"
+         id="path1-8" />
+		<path
+		 d="m 120.33277,194.67023 -0.82226,-82.55962 z"
+         style="fill: black;stroke: black;stroke-width:4;stroke-opacity:1"
+         id="path1-0" />
+		<path
+		 d="M 149.37487,182.53334 90.540869,124.60812 Z"
+         style="fill: black;stroke: black;stroke-width:4;stroke-opacity:1"
+         id="path1-8-0" />
+		<circle
+		 id="path2" cx="119.9063" cy="153.38069" r="41.450706"
+         style="fill:none;stroke: black;stroke-width:4;stroke-opacity:1" />
+	-->
+    <g id="spot-elevation">
+        <path style="fill: white; stroke: black; stroke-width: 0.5;" d="M 0,-2 0,2 M -2,0 2,0" />
+	</g>
+</svg>
