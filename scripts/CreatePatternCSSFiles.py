@@ -476,16 +476,16 @@ basepath_library = "C:/Users/mikev/Documents/GitHub/INB-Template/"
 
 path_library = basepath_library + "Library.ods"
 
-new_path_patterns = basepath + "INB_patterns_BWK.svg"
+new_path_patterns = basepath + "INB_BWK_patterns.svg"
 
-new_path_css_200 = basepath + "INB_stylesheet_BWK_1_200.css"
-new_path_css_100 = basepath + "INB_stylesheet_BWK_1_100.css"
-new_path_css_50 = basepath + "INB_stylesheet_BWK_1_50.css"
-new_path_css_20 = basepath + "INB_stylesheet_BWK_1_20.css"
-new_path_css_10 = basepath + "INB_stylesheet_BWK_1_10.css"
-new_path_css_5 = basepath + "INB_stylesheet_BWK_1_5.css"
-new_path_css_2 = basepath + "INB_stylesheet_BWK_1_2.css"
-new_path_css_1 = basepath + "INB_stylesheet_BWK_1_1.css"
+new_path_css_200 = basepath + "INB_BWK_stylesheet_1_200.css"
+new_path_css_100 = basepath + "INB_BWK_stylesheet_1_100.css"
+new_path_css_50 = basepath + "INB_BWK_stylesheet_1_50.css"
+new_path_css_20 = basepath + "INB_BWK_stylesheet_1_20.css"
+new_path_css_10 = basepath + "INB_BWK_stylesheet_1_10.css"
+new_path_css_5 = basepath + "INB_BWK_stylesheet_1_5.css"
+new_path_css_2 = basepath + "INB_BWK_stylesheet_1_2.css"
+new_path_css_1 = basepath + "INB_BWK_stylesheet_1_1.css"
 
 paths = [
 new_path_patterns,
