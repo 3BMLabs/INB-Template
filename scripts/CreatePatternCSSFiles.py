@@ -424,7 +424,7 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-wood { fill: url(#wood); }\n' \
 '.PredefinedType-concrete { fill: url(#concrete); }\n' \
 '.PredefinedType-black { fill: black; }\n' \
-'.PredefinedType-white{ fill: white; stroke: black; stroke-width: 0.2;}\n' \
+'.PredefinedType-white{ fill: white; stroke: none;}\n' \
 '.PredefinedType-white25 {fill: white; opacity: 0.25; stroke: none;}\n' \
 '.PredefinedType-white50 {fill: white; opacity: 0.5; stroke: none;}\n' \
 '.PredefinedType-white75 {fill: white; opacity: 0.75; stroke: none;}\n' \
