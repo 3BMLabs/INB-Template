@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition[DesignTransferView]'),'2;1');
-FILE_NAME('IFC4 NL Demo Template 0.2.ifc','2024-03-25T22:14:06+01:00',(),(),'IfcOpenShell v0.7.0-6c9e130ca','BlenderBIM 0.0.240213-bd09330','Nobody');
+FILE_NAME('INB-Template 0.1.ifc','2024-09-05T08:13:26+02:00',$,$,'IfcOpenShell 0.8.0','Bonsai 0.8.0','Nobody');
 FILE_SCHEMA(('IFC4'));
 ENDSEC;
 DATA;
@@ -492,5 +492,9 @@ DATA;
 #1183=IFCDIRECTION((1.,0.,0.));
 #1184=IFCAXIS2PLACEMENT3D(#1181,#1182,#1183);
 #1185=IFCLOCALPLACEMENT($,#1184);
+#1186=IFCCLASSIFICATION('STABU','(6 cijfers)',$,'STABU-Element','Deze 6 cijferige codering wordt niet meer ondersteund door Stichting Stabu.\X2\000A000A\X0\Kies hieronder een Elementen codering. Deze code wordt als ifc-classificatie aan het geselecteerde element toegevoegd','www.stabu.org',('.'));
+#1187=IFCRELASSOCIATESCLASSIFICATION('0aNVSJ6wX0QwrMXgEDeHW2',$,$,$,(#1),#1186);
+#1188=IFCCLASSIFICATION('BIMLoket','december 2019','2023-01-13','NL-SfB tabel 1 Classification','Kies de gewenste NL-SfB codering. Deze wordt als IfcClassificationReference aan het element toegevoegd.','https://stprodeuwmystabu002stor.blob.core.windows.net/overig/NL-SfB_Tabel_0-4_Update-V201912.xlsx',$);
+#1189=IFCRELASSOCIATESCLASSIFICATION('2HbUUFBnL22gPo2wEPzfQw',$,$,$,(#1),#1188);
 ENDSEC;
 END-ISO-10303-21;

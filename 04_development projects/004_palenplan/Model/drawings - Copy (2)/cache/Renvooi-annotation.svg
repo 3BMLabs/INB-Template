@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="300.0000190734863mm" id="root" version="1.1" viewBox="0 0 300.0000190734863 300.0000190734863" width="300.0000190734863mm">
+  <defs/>
+  <use transform="translate(120.00000762939453, 250.0) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_nuit"/>
+  <use transform="translate(120.00000762939453, 240.0) rotate(-0.0) scale(1.0)" xlink:href="#son_nuit"/>
+  <use transform="translate(130.00001525878906, 240.0) rotate(-0.0) scale(1.0)" xlink:href="#son_uit"/>
+  <use transform="translate(130.00001525878906, 250.0) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
+  <use transform="translate(190.0, 260.0) rotate(-0.0) scale(1.0)" xlink:href="#kol_beid"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(190.0, 260.0) rotate(-0.0)">
+    <tspan class="GlobalId-03hvU0ZD98GA3jgJiwty8x IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">HEA120</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(190.0, 260.0) rotate(-0.0)">
+    <tspan class="GlobalId-03hvU0ZD98GA3jgJiwty8x IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0">HEA120</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(50.00000762939453, 225.0) rotate(-0.0)">
+    <tspan class="GlobalId-2WE2a$cx59xRUQ6TJtG05X IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Tekstgroottes</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(50.00000762939453, 240.0) rotate(-0.0)">
+    <tspan class="GlobalId-3cSLDhPvn3PQfoZbo2JyEQ IfcAnnotation PredefinedType-TEXT title" dy="0em" x="0" y="0">Grootte 7.0</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(29.885129928588867, 125.00000762939453) rotate(89.999995674289)">
+    <tspan class="GlobalId-2qqabkOkj4tvJfolzlk6qG IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">3D-elementen + symbolen</tspan>
+  </text>
+  <use transform="translate(190.0, 252.5) rotate(-0.0) scale(1.0)" xlink:href="#kol_ond"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(190.0, 252.5) rotate(-0.0)">
+    <tspan class="GlobalId-1R39OBprv6cvycPFclpR2F IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">HEA120</tspan>
+  </text>
+  <use transform="translate(190.0, 240.0) rotate(-0.0) scale(1.0)" xlink:href="#kol_bov"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(190.0, 240.0) rotate(-0.0)">
+    <tspan class="GlobalId-2XbiyJV0X71vGFn1rUP19C IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">HEA120</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(29.885129928588867, 225.0) rotate(89.999995674289)">
+    <tspan class="GlobalId-1mRdQc6Az8V9DqB0Svuc_j IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">Annotaties</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(120.00000762939453, 225.0) rotate(-0.0)">
+    <tspan class="GlobalId-0ghqEWEND4sPJazbWeNjXZ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Symbolen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(50.00000762939453, 262.5) rotate(-0.0)">
+    <tspan class="GlobalId-3KeIZHCjX45hSllhCZa4pH IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Grootte 2.5</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(50.00000762939453, 255.0) rotate(-0.0)">
+    <tspan class="GlobalId-0rcNrALQXD_g9cW1Ogwq5A IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">Grootte 3.5</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(50.00000762939453, 270.0) rotate(-0.0)">
+    <tspan class="GlobalId-2mLBUWR2j5Rx3_5ev7RRF_ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Grootte 1.8</tspan>
+  </text>
+  <use transform="translate(120.00000762939453, 262.5) rotate(-0.0) scale(1.0)" xlink:href="#pn_2_5"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(120.00000762939453, 262.5) rotate(-0.0)">
+    <tspan class="GlobalId-2EF9VVXc5BnAI5rfnMVcFH IfcAnnotation PredefinedType-TEXT regular" dy="0em" x="0" y="0">PUNTNIVEAU: -14.0 m N.A.P.</tspan>
+  </text>
+  <use transform="translate(120.00000762939453, 272.5) rotate(-0.0) scale(1.0)" xlink:href="#pn_1_8"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(120.00000762939453, 272.5) rotate(-0.0)">
+    <tspan class="GlobalId-0lHRr7YYrCLfF2nluKO4JU IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">PUNTNIVEAU: -14.0 m N.A.P.</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(50.00000762939453, 125.00000762939453) rotate(-0.0)">
+    <tspan class="GlobalId-2G2t$0XFT1CAfzZlaFJ3fz IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Palenplan</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(50.00000762939453, 247.5) rotate(-0.0)">
+    <tspan class="GlobalId-0xk42KEGX0rQWANpYObkSz IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">Grootte 5.0</tspan>
+  </text>
+</svg>
