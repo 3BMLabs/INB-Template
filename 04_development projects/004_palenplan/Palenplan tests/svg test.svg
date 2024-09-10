@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="15.560000000000002mm" id="root" version="1.1" viewBox="0 0 215.7 15.560000000000002" width="215.7mm">
+  <defs>
+    <style type="text/css"><![CDATA[/*
+ * Bonsai - OpenBIM Blender Add-on
+ * Copyright (C) 2020, 2021 Dion Moult <dion@thinkmoult.com>
+ *
+ * This file is part of Bonsai.
+ *
+ * Bonsai is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Bonsai is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * long with Bonsai.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * You may copy this `schedule.css` template alongside your input schedule
+ * document with the same filename. For example if you have a schedule called
+ * `door_types.ods`, you can create a `door_types.css` in the same folder to
+ * style that schedule.
+ */
+
+/**
+ * If you specify a font size in CSS, such as text { font-size: 5; }, all fonts
+ * will be overriden to match that size.
+ *
+ * If your CSS, ODS, XLSX does not specify a font size, the variables below
+ * will specify the default font size.
+ *
+ * If your ODS, XLSX does specify a font size, they will scale linearly based
+ * on the variables below.
+ */
+
+:root {
+    --font-size-pt: 12;
+    --font-size-px: 4.13;
+    --font-width: 0.45;
+}
+
+text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type B TT', 'DejaVu Sans Condensed', 'Liberation Sans', 'Arial Narrow', 'Arial'; }
+
+.border {
+    stroke: #000000;
+    stroke-width:.125;
+    fill: none; /* will be overriden if background color is set in .ods, or .xlsx */
+}]]></style>
+  </defs>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="1" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="12.29" y="2">IFC Class</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="23.58" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="34.87" y="2">type</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="23.81" x="46.16" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="58.065" y="2">length</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="69.97" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="81.25999999999999" y="2">shaft</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="26.07" x="92.55" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="105.585" y="2">cutting height</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="25.86" x="118.62" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="131.55" y="2">top uncut pile</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="31.89" x="144.48000000000002" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="160.425" y="2">driven pile height</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="15.75" x="176.37" y="1"/>
+  <text dominant-baseline="hanging" font-size="4.13" font-weight="bold" text-anchor="middle" x="184.245" y="2">number</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="192.12" y="1"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="1" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="2" y="9.040000000000001">IfcPile</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="23.58" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="24.58" y="9.040000000000001">fp_c_d300_lb</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="23.81" x="46.16" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="47.16" y="9.040000000000001">30</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="69.97" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="70.97" y="9.040000000000001">220</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="26.07" x="92.55" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="93.55" y="9.040000000000001">-1780</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="25.86" x="118.62" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="119.62" y="9.040000000000001">-1450</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="31.89" x="144.48000000000002" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="145.48000000000002" y="9.040000000000001">-18500</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="15.75" x="176.37" y="5.5200000000000005"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="177.37" y="9.040000000000001">23</text>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="192.12" y="5.5200000000000005"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="1" y="10.040000000000001"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="23.58" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="24.58" y="13.560000000000002"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="23.81" x="46.16" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="47.16" y="13.560000000000002"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="69.97" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="70.97" y="13.560000000000002"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="26.07" x="92.55" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="93.55" y="13.560000000000002"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="25.86" x="118.62" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="119.62" y="13.560000000000002"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="31.89" x="144.48000000000002" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="145.48000000000002" y="13.560000000000002"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="15.75" x="176.37" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="177.37" y="13.560000000000002"/>
+  <rect class="border" height="4.5200000000000005" style="fill: #ffffff;" width="22.58" x="192.12" y="10.040000000000001"/>
+  <text dominant-baseline="baseline" font-size="4.13" text-anchor="start" x="193.12" y="13.560000000000002"/>
+</svg>

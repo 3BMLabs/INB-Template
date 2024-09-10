@@ -61,6 +61,9 @@
   <use transform="translate(190.60546875, 85.01002502441406) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
   <use transform="translate(77.41516876220703, 85.01002502441406) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
   <use transform="translate(77.41516876220703, 214.81332397460938) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(110.69999694824219, 222.8011474609375) rotate(-0.0)">
+    <tspan class="GlobalId-0TkVVf2AzCVOtmBu_WeSEJ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">19</tspan>
+  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(255.45005798339844, 152.3499755859375) rotate(-0.0)">
     <tspan class="GlobalId-1yFlFEgib6JPflBWUjiQKg IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">16</tspan>
   </text>
@@ -109,20 +112,20 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(255.45005798339844, 205.7009735107422) rotate(-0.0)">
     <tspan class="GlobalId-0Eul1ntxP5mRgcJ2Lomt_o IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">17</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(84.41516876220703, 207.81332397460938) rotate(-0.0)">
-    <tspan class="GlobalId-22iLnvSvHA_hgWFCwNtQAG IfcAnnotation PredefinedType-TEXT italic bold large" dy="0em" x="0" y="0">02</tspan>
-  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(255.45005798339844, 120.85000610351562) rotate(-0.0)">
     <tspan class="GlobalId-0jNg00wbjBqO018hdnKNYx IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">11</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(232.48252868652344, 207.81332397460938) rotate(-0.0)">
     <tspan class="GlobalId-2MUJvDtMvAsfb7TKNGTdyb IfcAnnotation PredefinedType-TEXT italic bold large" dy="0em" x="0" y="0">01</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(147.3740234375, 235.5) rotate(-0.0)">
-    <tspan class="GlobalId-3JuIj48M19J9V7Xn9Ytc2V IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">21</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(84.41516876220703, 207.81332397460938) rotate(-0.0)">
+    <tspan class="GlobalId-22iLnvSvHA_hgWFCwNtQAG IfcAnnotation PredefinedType-TEXT italic bold large" dy="0em" x="0" y="0">02</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(184.45001220703125, 235.5) rotate(-0.0)">
     <tspan class="GlobalId-0zope1$8jC7wx7tUMQG5_$ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">22</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(147.3740234375, 235.5) rotate(-0.0)">
+    <tspan class="GlobalId-3JuIj48M19J9V7Xn9Ytc2V IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">21</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(213.9500274658203, 51.099998474121094) rotate(-0.0)">
     <tspan class="GlobalId-2BlAE2sJD2IP90dZlxWwwk IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">3</tspan>
@@ -142,8 +145,5 @@
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(61.52558135986328, 222.8011474609375) rotate(-0.0)">
     <tspan class="GlobalId-3ON1kQZyvAKxqZEBHB9lde IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">18</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(110.69999694824219, 222.8011474609375) rotate(-0.0)">
-    <tspan class="GlobalId-0TkVVf2AzCVOtmBu_WeSEJ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">19</tspan>
   </text>
 </svg>

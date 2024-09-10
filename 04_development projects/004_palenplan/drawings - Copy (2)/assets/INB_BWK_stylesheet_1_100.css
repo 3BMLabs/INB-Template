@@ -72,7 +72,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-wood { fill: url(#wood); }
 .PredefinedType-concrete { fill: url(#concrete); }
 .PredefinedType-black { fill: black; }
-.PredefinedType-blank { fill: white; stroke: none;}
 .PredefinedType-white{ fill: white; stroke: black; stroke-width: 0.2;}
 .PredefinedType-white25 {fill: white; opacity: 0.25; stroke: none;}
 .PredefinedType-white50 {fill: white; opacity: 0.5; stroke: none;}
@@ -264,7 +263,6 @@ text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
 text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }
 text.italic, tspan.italic {font-style: italic;}
-text.bold, tspan.bold {font-weight: bold;}
 text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
 .material-blank { fill: white; }
 .material-diagonal1 { fill: url(#diagonal1); }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="root"
+   version="1.1"
+   width="594.0mm"
+   height="420.0mm"
+   viewBox="0 0 594.0 420.0"
+   sodipodi:docname="A01 - Palenplan.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.23742443"
+     inkscape:cx="1021.3776"
+     inkscape:cy="438.03411"
+     inkscape:window-width="2400"
+     inkscape:window-height="1262"
+     inkscape:window-x="7192"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="root" />
+  <g
+     data-type="titleblock"
+     id="g1">
+    <image
+       xlink:href="titleblocks%5CA2.svg"
+       x="0"
+       y="0"
+       width="594.0"
+       height="420.0"
+       id="image1" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="24323"
+     data-drawing="1SOqzFzwP5wubdLPXIilTR"
+     id="g3"
+     transform="translate(339.71638,152.99894)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CRenvooi%20PP%20PBP.svg"
+       x="30"
+       y="30"
+       width="219.85713"
+       height="149.83052"
+       id="image2" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="24324"
+     data-drawing="39O08Pl6b21whmbI0NX38c"
+     id="g5"
+     transform="translate(8.6775336,38.173234)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CPalenplan.svg"
+       x="30"
+       y="30"
+       width="300.00003"
+       height="300.00003"
+       id="image4" />
+  </g>
+  <g
+     data-id="24340"
+     data-type="schedule"
+     data-document="24337"
+     id="g6"
+     transform="translate(46.247172,-27.859742)">
+    <image
+       data-type="content"
+       xlink:href="..%5Csvg%20test.svg"
+       x="328.64914"
+       y="322.93619"
+       width="215.7"
+       height="15.56"
+       id="image3" />
+  </g>
+</svg>
