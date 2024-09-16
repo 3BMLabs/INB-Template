@@ -39,10 +39,10 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
 .PredefinedType-LINEWORK.foil{ stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }
-.PredefinedType-LINEWORK.grid{ stroke:blue; stroke-dasharray: 9, 5, 0.5, 5; stroke-width: 0.05; }
+.PredefinedType-LINEWORK.grid{ stroke:blue; stroke-dasharray: 9, 5, 0.5, 5; stroke-width: 0.1; }
 .PredefinedType-LINEWORK.gridends{ marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.section{ marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); stroke:black; stroke-width: 0.2; }
-.PredefinedType-LINEWORK.sectionfake{ stroke:black; stroke-dasharray: 9, 5, 0.5, 5; stroke-width: 0.05; }
+.PredefinedType-LINEWORK.sectionfake{ stroke:black; stroke-dasharray: 9, 5, 0.5, 5; stroke-width: 0.1; }
 .PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.2; }
 .PredefinedType-BACKGROUND { stroke: black; stroke-width: 0.18; }
 .PredefinedType-GRID { marker-start: url(#grid-marker); marker-end: url(#grid-marker); }
@@ -263,6 +263,7 @@ text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
 text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
 text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
+text.mini, tspan.mini { /* 1.3mm */ font-size: 2.145px; }
 text.GRID, tspan.GRID { /* 2.5mm */ font-size: 4.13px; }
 text.italic, tspan.italic {font-style: italic;}
 text.bold, tspan.bold {font-weight: bold;}
