@@ -8,76 +8,11 @@
         </marker>
     </defs>
     <g ifc:name="Elevation Palenplan" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,60.000009],[0.000000,10.000000,240.000005],[0.000000,0.000000,1.000000]]">
-        <g id="product-2b07debf-a1ca-4ad0-a545-2c02271223ba" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600.002" ifc:guid="0h1zw$eSfAqAL5B08d4YEw">
-            <path d="M252.7,78.1 L256.7,78.1"/>
-            <path d="M252.7,211 L256.7,211"/>
-            <path d="M256.7,211 L256.7,78.1"/>
-            <path d="M252.7,211 L252.7,78.1"/>
-        </g>
-        <g id="product-3043ad9b-4168-47f5-914c-e908d4ff7526" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0mGwsRGMX7zP5CwGZK$tKc">
-            <path d="M134.85,56.6 L138.35,56.6"/>
-            <path d="M134.85,123.35 L138.35,123.35"/>
-            <path d="M138.35,123.35 L138.35,56.6"/>
-            <path d="M134.85,123.35 L134.85,56.6"/>
-        </g>
-        <g id="product-4b8534eb-2315-4f54-8af7-1584db4b0384" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1BXJJh8nLFL8ht5OJRImE4">
-            <path d="M62.5,126.85 L62.5,123.35"/>
-            <path d="M252.7,126.85 L252.7,123.35"/>
-            <path d="M252.7,123.35 L138.35,123.35"/>
-            <path d="M134.85,123.35 L62.5,123.35"/>
-            <path d="M252.7,126.85 L62.5,126.85"/>
-        </g>
         <g id="product-608827c7-febd-44cd-a83b-701d071a0e77" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1WY2V7$hr4pQWxS1q76Wvt">
             <path d="M214.7,82.1 L214.7,78.1"/>
             <path d="M252.7,82.1 L252.7,78.1"/>
             <path d="M252.7,78.1 L214.7,78.1"/>
             <path d="M252.7,82.1 L214.7,82.1"/>
-        </g>
-        <g id="product-5140bb03-13a2-4137-9f28-b868fcae8c6e" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600.004" ifc:guid="1HGBi34w91Dvyek6Zyhenk">
-            <path d="M220.7,53.1 L220.7,56.6"/>
-            <path d="M59,53.1 L59,56.6"/>
-            <path d="M62.5,56.6 L220.7,56.6"/>
-            <path d="M59,53.1 L220.7,53.1"/>
-        </g>
-        <g id="product-cba427ec-d9de-49ef-8476-25ef3cc75f68" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="3Bf2VisTv9xuHs9Uyynrze">
-            <path d="M59,56.6 L62.5,56.6"/>
-            <path d="M59,225 L62.5,225"/>
-            <path d="M62.5,225 L62.5,56.6"/>
-            <path d="M59,225 L59,56.6"/>
-        </g>
-        <g id="product-3c744250-ce71-476c-ad22-c6cd3d5d9421" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0yT49Gpd57RAqYniqzNPGX">
-            <path d="M252.7,158.35 L252.7,154.85"/>
-            <path d="M252.7,154.85 L62.5,154.85"/>
-            <path d="M252.7,158.35 L182.95,158.35"/>
-            <path d="M179.45,158.35 L62.5,158.35"/>
-        </g>
-        <g id="product-df7f9f97-d008-4758-9807-e98761dc362d" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="3VVv_Nq0X7M9W7wOTXt3Oj">
-            <path d="M105.7,158.35 L109.7,158.35"/>
-            <path d="M105.7,238 L109.7,238"/>
-            <path d="M109.7,238 L109.7,158.35"/>
-            <path d="M105.7,238 L105.7,158.35"/>
-        </g>
-        <g id="product-566c41c1-df3d-43d8-9992-cb24a6fe95a2" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1MR471tpr3s9cIooIc$fMY">
-            <path d="M227.45,238 L227.45,242"/>
-            <path d="M105.7,238 L105.7,242"/>
-            <path d="M105.7,242 L227.45,242"/>
-            <path d="M105.7,238 L227.45,238"/>
-        </g>
-        <g id="product-751b7abc-52c4-4c10-9131-fd81a7822f04" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1r6tgyKiHC494n$O6dWYy4">
-            <path d="M179.45,158.35 L182.95,158.35"/>
-            <path d="M182.95,238 L182.95,158.35"/>
-            <path d="M179.45,238 L179.45,158.35"/>
-        </g>
-        <g id="product-a7674a2c-fa38-45d1-9885-5b454a803f71" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="2dPqei_ZX5qPY5MqLAW3zn">
-            <path d="M242.144,229 L243.7,230.556"/>
-            <path d="M242.144,229 L243.7,227.444"/>
-            <path d="M242.144,229 L242.144,229"/>
-            <path d="M242.144,229 L242.144,229"/>
-            <path d="M242.144,229 L243.7,227.444"/>
-            <path d="M243.7,230.556 L245.256,229"/>
-            <path d="M243.7,227.444 L243.7,227.444"/>
-            <path d="M245.256,229 L243.7,227.444"/>
-            <path d="M243.7,227.444 L243.7,227.444"/>
         </g>
         <g id="product-f57310ce-cb6b-40ac-87b3-a12ee9a6429c" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="3rSn3Eosj0h8UpeIxffaAS">
             <path d="M210.7,56.6 L214.7,56.6"/>
@@ -91,259 +26,110 @@
             <path d="M105.7,225 L59,225"/>
             <path d="M105.7,228.5 L59,228.5"/>
         </g>
-        <g id="product-8ec6657c-25fa-476a-855c-9d6edaa1af7e" class="IfcBuildingElementProxy material-null projection" ifc:name="Type 2" ifc:guid="2EncLy9Vf7QeLSdMxQeQz_">
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M60,238.9 L61.1,238.9"/>
-            <path d="M61.1,238.9 L60,238.9"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,241.1 L58.9,241.1"/>
-            <path d="M58.9,241.1 L60,241.1"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M61.1,240 L61.1,238.9"/>
-            <path d="M61.1,238.9 L61.1,240"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M61.1,241.1 L61.1,240.733"/>
-            <path d="M61.1,240.733 L61.1,241.1"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M58.9,240 L58.9,241.1"/>
-            <path d="M58.9,241.1 L58.9,240"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,241.1 L60,242.2"/>
-            <path d="M60,242.2 L60,241.1"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M60.7333,240 L61.1,240"/>
-            <path d="M61.1,240 L60.7333,240"/>
-            <path d="M60,238.9 L60,237.8"/>
-            <path d="M60,237.8 L60,238.9"/>
+        <g id="product-566c41c1-df3d-43d8-9992-cb24a6fe95a2" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1MR471tpr3s9cIooIc$fMY">
+            <path d="M225.314,238 L225.314,242"/>
+            <path d="M105.7,238 L105.7,242"/>
+            <path d="M105.7,242 L225.314,242"/>
+            <path d="M105.7,238 L225.314,238"/>
         </g>
-        <g id="product-91d496a5-1a52-46bb-94bd-324000377791" class="IfcBuildingElementProxy material-null projection" ifc:name="Symbol type 1" ifc:guid="2Hr9Qb6b96kvIzCa00DtUH">
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M60,238.9 L61.1,238.9"/>
-            <path d="M61.1,238.9 L60,238.9"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,241.1 L58.9,241.1"/>
-            <path d="M58.9,241.1 L60,241.1"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M61.1,240 L61.1,238.9"/>
-            <path d="M61.1,238.9 L61.1,240"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M61.1,241.1 L61.1,240.733"/>
-            <path d="M61.1,240.733 L61.1,241.1"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M58.9,240 L58.9,241.1"/>
-            <path d="M58.9,241.1 L58.9,240"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,241.1 L60,242.2"/>
-            <path d="M60,242.2 L60,241.1"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M60.7333,240 L61.1,240"/>
-            <path d="M61.1,240 L60.7333,240"/>
-            <path d="M60,238.9 L60,237.8"/>
-            <path d="M60,237.8 L60,238.9"/>
+        <g id="product-2b07debf-a1ca-4ad0-a545-2c02271223ba" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600.002" ifc:guid="0h1zw$eSfAqAL5B08d4YEw">
+            <path d="M252.7,78.1 L256.7,78.1"/>
+            <path d="M252.7,210.6 L256.7,210.6"/>
+            <path d="M256.7,210.6 L256.7,78.1"/>
+            <path d="M252.7,210.6 L252.7,78.1"/>
         </g>
-        <g id="product-2bc6b691-b1e0-4448-a34b-2278e92f94d1" class="IfcBuildingElementProxy material-null projection" ifc:name="Type 1" ifc:guid="0hnhQHiU14IADB8dZfBvJH">
-            <path d="M62.2,244.735 L61.1,244.735"/>
-            <path d="M62.2,244.735 L61.1,244.735"/>
-            <path d="M61.1,244.369 L61.1,244.002"/>
-            <path d="M61.1,244.369 L61.1,244.002"/>
-            <path d="M60.3667,243.635 L60,243.635"/>
-            <path d="M60.3667,243.635 L60,243.635"/>
-            <path d="M60.3667,243.635 L60,244.002"/>
-            <path d="M60.3667,243.635 L60,244.002"/>
-            <path d="M59.2667,243.635 L59.6333,243.635"/>
-            <path d="M59.2667,243.635 L59.6333,243.635"/>
-            <path d="M59.2667,244.735 L59.6333,244.735"/>
-            <path d="M59.2667,244.735 L59.6333,244.735"/>
-            <path d="M61.1,244.735 L61.1,244.369"/>
-            <path d="M61.1,244.735 L61.1,244.369"/>
-            <path d="M60,243.635 L58.9,244.735"/>
-            <path d="M60,243.635 L58.9,244.735"/>
-            <path d="M60,242.535 L60,243.635"/>
-            <path d="M60,242.535 L60,243.635"/>
-            <path d="M59.2667,244.735 L58.9,244.735"/>
-            <path d="M59.2667,244.735 L58.9,244.735"/>
-            <path d="M61.1,243.635 L60,244.735"/>
-            <path d="M61.1,243.635 L60,244.735"/>
-            <path d="M60.3667,243.635 L60.7333,243.635"/>
-            <path d="M60.3667,243.635 L60.7333,243.635"/>
-            <path d="M60,244.735 L60.3667,244.735"/>
-            <path d="M60,244.735 L60.3667,244.735"/>
-            <path d="M60,244.002 L60,244.369"/>
-            <path d="M60,244.002 L60,244.369"/>
-            <path d="M58.9,243.635 L59.2667,243.635"/>
-            <path d="M58.9,243.635 L59.2667,243.635"/>
-            <path d="M58.9,243.635 L58.9,244.002"/>
-            <path d="M58.9,243.635 L58.9,244.002"/>
-            <path d="M61.1,243.635 L60.7333,243.635"/>
-            <path d="M61.1,243.635 L60.7333,243.635"/>
-            <path d="M59.6333,243.635 L60,243.635"/>
-            <path d="M59.6333,243.635 L60,243.635"/>
-            <path d="M59.6333,244.735 L60,244.369"/>
-            <path d="M59.6333,244.735 L60,244.369"/>
-            <path d="M58.9,244.002 L58.9,244.369"/>
-            <path d="M58.9,244.002 L58.9,244.369"/>
-            <path d="M60,244.735 L60,244.369"/>
-            <path d="M60,244.735 L60,244.369"/>
-            <path d="M61.1,244.735 L60.7333,244.735"/>
-            <path d="M61.1,244.735 L60.7333,244.735"/>
-            <path d="M61.1,243.635 L61.1,244.002"/>
-            <path d="M61.1,243.635 L61.1,244.002"/>
-            <path d="M59.2667,244.735 L60,244.002"/>
-            <path d="M59.2667,244.735 L60,244.002"/>
-            <path d="M58.9,244.002 L59.2667,243.635"/>
-            <path d="M59.2667,243.635 L58.9,244.002"/>
-            <path d="M57.8,244.735 L58.9,244.735"/>
-            <path d="M57.8,244.735 L58.9,244.735"/>
-            <path d="M58.9,244.369 L58.9,244.735"/>
-            <path d="M58.9,244.369 L58.9,244.735"/>
-            <path d="M61.1,245.835 L61.1,244.735"/>
-            <path d="M61.1,244.735 L61.1,245.835"/>
-            <path d="M58.9,244.369 L59.6333,243.635"/>
-            <path d="M59.6333,243.635 L58.9,244.369"/>
-            <path d="M60,245.835 L61.1,245.835"/>
-            <path d="M61.1,245.835 L60,245.835"/>
-            <path d="M59.6333,244.735 L60,244.735"/>
-            <path d="M59.6333,244.735 L60,244.735"/>
-            <path d="M60,245.835 L60,244.735"/>
-            <path d="M60,244.735 L60,245.835"/>
-            <path d="M60,243.635 L60,244.002"/>
-            <path d="M60,244.002 L60,243.635"/>
-            <path d="M60,245.835 L60,246.935"/>
-            <path d="M60,246.935 L60,245.835"/>
-            <path d="M60.7333,244.735 L60.3667,244.735"/>
-            <path d="M60.7333,244.735 L60.3667,244.735"/>
-            <path d="M60.7333,243.635 L60,244.369"/>
-            <path d="M60,244.369 L60.7333,243.635"/>
-            <path d="M61.1,244.369 L60.7333,244.735"/>
-            <path d="M60.7333,244.735 L61.1,244.369"/>
-            <path d="M58.9,245.835 L58.9,244.735"/>
-            <path d="M58.9,244.735 L58.9,245.835"/>
-            <path d="M61.1,244.002 L60.3667,244.735"/>
-            <path d="M60.3667,244.735 L61.1,244.002"/>
-            <path d="M58.9,245.835 L60,245.835"/>
-            <path d="M60,245.835 L58.9,245.835"/>
+        <g id="product-cba427ec-d9de-49ef-8476-25ef3cc75f68" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="3Bf2VisTv9xuHs9Uyynrze">
+            <path d="M59,53.1 L62.5,53.1"/>
+            <path d="M59,225 L62.5,225"/>
+            <path d="M62.5,225 L62.5,53.1"/>
+            <path d="M59,225 L59,53.1"/>
+        </g>
+        <g id="product-5140bb03-13a2-4137-9f28-b868fcae8c6e" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600.004" ifc:guid="1HGBi34w91Dvyek6Zyhenk">
+            <path d="M220.7,53.1 L220.7,56.6"/>
+            <path d="M62.5,56.6 L220.7,56.6"/>
+            <path d="M62.5,53.1 L220.7,53.1"/>
+        </g>
+        <g id="product-3043ad9b-4168-47f5-914c-e908d4ff7526" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0mGwsRGMX7zP5CwGZK$tKc">
+            <path d="M134.85,56.6 L138.35,56.6"/>
+            <path d="M134.85,126.85 L138.35,126.85"/>
+            <path d="M138.35,126.85 L138.35,56.6"/>
+            <path d="M134.85,126.85 L134.85,56.6"/>
+        </g>
+        <g id="product-4b8534eb-2315-4f54-8af7-1584db4b0384" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1BXJJh8nLFL8ht5OJRImE4">
+            <path d="M62.5,126.85 L62.5,123.35"/>
+            <path d="M127.85,126.85 L127.85,123.35"/>
+            <path d="M127.85,123.35 L62.5,123.35"/>
+            <path d="M127.85,126.85 L62.5,126.85"/>
+        </g>
+        <g id="product-ccf6806b-de7c-41e2-9199-9554210e1dd0" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="3Cze1htdn1uf6PbLGX3XtG">
+            <path d="M179.45,126.85 L179.45,123.35"/>
+            <path d="M245.7,126.85 L245.7,123.35"/>
+            <path d="M245.7,123.35 L179.45,123.35"/>
+            <path d="M245.7,126.85 L179.45,126.85"/>
+        </g>
+        <g id="product-c4129421-a237-4fb5-958f-727a022a5593" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="344fGXeZTFjPMFSde2AbMJ">
+            <path d="M138.35,126.85 L138.35,123.35"/>
+            <path d="M172.45,126.85 L172.45,123.35"/>
+            <path d="M172.45,123.35 L138.35,123.35"/>
+            <path d="M172.45,126.85 L138.35,126.85"/>
+        </g>
+        <g id="product-34154590-45d7-4941-8ca1-38e03fe78540" class="IfcPile material-null projection" ifc:name="FP_220_Type 1" ifc:guid="0q5KMGHTT9GOoXEE0$vuL0">
+            <path d="M213.8,124 L213.8,126.2"/>
+            <path d="M211.6,124 L211.6,126.2"/>
+            <path d="M211.6,124 L213.8,124"/>
+            <path d="M211.6,126.2 L213.8,126.2"/>
+        </g>
+        <g id="product-3c744250-ce71-476c-ad22-c6cd3d5d9421" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0yT49Gpd57RAqYniqzNPGX">
+            <path d="M98.7,158.35 L98.7,154.85"/>
+            <path d="M98.7,154.85 L62.5,154.85"/>
+            <path d="M98.7,158.35 L62.5,158.35"/>
+        </g>
+        <g id="product-751b7abc-52c4-4c10-9131-fd81a7822f04" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1r6tgyKiHC494n$O6dWYy4">
+            <path d="M179.45,154.85 L182.95,154.85"/>
+            <path d="M182.95,238 L182.95,154.85"/>
+            <path d="M179.45,238 L179.45,154.85"/>
+        </g>
+        <g id="product-fbefd1af-664c-4258-a7b6-3683b532bb6f" class="IfcBeam material-null projection" ifc:name="BB_400x600_hoek" ifc:guid="3xxz6lPan2MAUsDeErChjl">
+            <path d="M240.146,236.171 L250.892,225.425"/>
+            <path d="M250.887,225.429 L256.703,211.388"/>
+            <path d="M252.7,210.6 L247.496,223.165"/>
+            <path d="M247.496,223.165 L237.879,232.781"/>
+            <path d="M250.892,225.425 L240.152,236.169"/>
+            <path d="M250.892,225.425 L256.703,211.388"/>
+            <path d="M256.703,211.388 L256.7,210.6"/>
+            <path d="M256.7,210.6 L252.7,210.6"/>
+            <path d="M225.314,242 L225.314,237.986"/>
+            <path d="M225.314,242 L226.112,241.985"/>
+            <path d="M225.314,237.986 L237.879,232.781"/>
+            <path d="M240.152,236.169 L226.112,241.985"/>
+        </g>
+        <g id="product-df7f9f97-d008-4758-9807-e98761dc362d" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="3VVv_Nq0X7M9W7wOTXt3Oj">
+            <path d="M105.7,154.85 L109.7,154.85"/>
+            <path d="M105.7,238 L109.7,238"/>
+            <path d="M109.7,238 L109.7,154.85"/>
+            <path d="M105.7,238 L105.7,154.85"/>
+        </g>
+        <g id="product-6d8c4283-0a3d-4691-9b40-59ab412962e0" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="1jZ4A32Zr6aPj0MQj1AMBW">
+            <path d="M190.6,124 L190.6,126.2"/>
+            <path d="M190.6,124 L192.8,124"/>
+            <path d="M190.6,126.2 L192.8,126.2"/>
+            <path d="M192.8,126.2 L192.8,124"/>
+        </g>
+        <g id="product-bc23877a-bb36-4a0e-82a9-07df6b3369d2" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="2y8uTwkpPA3eAf1zzhCsdI">
+            <path d="M242.65,124 L242.65,126.2"/>
+            <path d="M242.65,124 L244.85,124"/>
+            <path d="M242.65,126.2 L244.85,126.2"/>
+            <path d="M244.85,126.2 L244.85,124"/>
+        </g>
+        <g id="product-69c27e30-503c-4731-b0c3-06e88f28990d" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1fmdumK3n7CR331kYFA9aD">
+            <path d="M172.45,158.35 L172.45,154.85"/>
+            <path d="M172.45,154.85 L109.7,154.85"/>
+            <path d="M172.45,158.35 L109.7,158.35"/>
+        </g>
+        <g id="product-a6495a82-e66c-4b9a-a3d0-c33f51260dcc" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="2cILg2vcnBcgFGmpzH9WtC">
+            <path d="M189.95,158.35 L189.95,154.85"/>
+            <path d="M252.7,154.85 L189.95,154.85"/>
+            <path d="M252.7,158.35 L189.95,158.35"/>
         </g>
         <g id="product-bdceab11-439a-4122-81ac-d760329a5bc9" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="2zpgiHGvf18e6irs0ocbl9">
             <path d="M60.75,53.7501 L60.75,52.6501"/>
@@ -4731,7 +4517,7 @@
             <path d="M60.3834,154.2 L60.0167,154.2"/>
             <path d="M60.0167,154.2 L60.3834,154.2"/>
         </g>
-        <g id="product-e680b0b3-cb1f-445e-abb0-2e007ac8c1ad" class="IfcPile material-null projection" ifc:name="FP_220_Type 1" ifc:guid="3cWB2ponz4NgkmBW1woC6j">
+        <g id="product-e680b0b3-cb1f-445e-abb0-2e007ac8c1ad" class="IfcPile material-null projection" ifc:name="FP_220_Type 1.014" ifc:guid="3cWB2ponz4NgkmBW1woC6j">
             <path d="M109.9,125.1 L108.8,125.1"/>
             <path d="M108.8,125.1 L109.9,125.1"/>
             <path d="M108.8,126.2 L108.433,126.2"/>

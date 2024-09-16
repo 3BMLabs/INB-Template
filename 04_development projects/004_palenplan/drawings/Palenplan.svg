@@ -4833,76 +4833,11 @@ text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
 	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
 </pattern>
 </defs>    <g ifc:name="Elevation Palenplan" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,60.000009],[0.000000,10.000000,240.000005],[0.000000,0.000000,1.000000]]">
-        <g id="product-2b07debf-a1ca-4ad0-a545-2c02271223ba" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600.002" ifc:guid="0h1zw$eSfAqAL5B08d4YEw">
-            <path d="M252.7,78.1 L256.7,78.1"/>
-            <path d="M252.7,211 L256.7,211"/>
-            <path d="M256.7,211 L256.7,78.1"/>
-            <path d="M252.7,211 L252.7,78.1"/>
-        </g>
-        <g id="product-3043ad9b-4168-47f5-914c-e908d4ff7526" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0mGwsRGMX7zP5CwGZK$tKc">
-            <path d="M134.85,56.6 L138.35,56.6"/>
-            <path d="M134.85,123.35 L138.35,123.35"/>
-            <path d="M138.35,123.35 L138.35,56.6"/>
-            <path d="M134.85,123.35 L134.85,56.6"/>
-        </g>
-        <g id="product-4b8534eb-2315-4f54-8af7-1584db4b0384" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1BXJJh8nLFL8ht5OJRImE4">
-            <path d="M62.5,126.85 L62.5,123.35"/>
-            <path d="M252.7,126.85 L252.7,123.35"/>
-            <path d="M252.7,123.35 L138.35,123.35"/>
-            <path d="M134.85,123.35 L62.5,123.35"/>
-            <path d="M252.7,126.85 L62.5,126.85"/>
-        </g>
         <g id="product-608827c7-febd-44cd-a83b-701d071a0e77" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1WY2V7$hr4pQWxS1q76Wvt">
             <path d="M214.7,82.1 L214.7,78.1"/>
             <path d="M252.7,82.1 L252.7,78.1"/>
             <path d="M252.7,78.1 L214.7,78.1"/>
             <path d="M252.7,82.1 L214.7,82.1"/>
-        </g>
-        <g id="product-5140bb03-13a2-4137-9f28-b868fcae8c6e" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600.004" ifc:guid="1HGBi34w91Dvyek6Zyhenk">
-            <path d="M220.7,53.1 L220.7,56.6"/>
-            <path d="M59,53.1 L59,56.6"/>
-            <path d="M62.5,56.6 L220.7,56.6"/>
-            <path d="M59,53.1 L220.7,53.1"/>
-        </g>
-        <g id="product-cba427ec-d9de-49ef-8476-25ef3cc75f68" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="3Bf2VisTv9xuHs9Uyynrze">
-            <path d="M59,56.6 L62.5,56.6"/>
-            <path d="M59,225 L62.5,225"/>
-            <path d="M62.5,225 L62.5,56.6"/>
-            <path d="M59,225 L59,56.6"/>
-        </g>
-        <g id="product-3c744250-ce71-476c-ad22-c6cd3d5d9421" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0yT49Gpd57RAqYniqzNPGX">
-            <path d="M252.7,158.35 L252.7,154.85"/>
-            <path d="M252.7,154.85 L62.5,154.85"/>
-            <path d="M252.7,158.35 L182.95,158.35"/>
-            <path d="M179.45,158.35 L62.5,158.35"/>
-        </g>
-        <g id="product-df7f9f97-d008-4758-9807-e98761dc362d" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="3VVv_Nq0X7M9W7wOTXt3Oj">
-            <path d="M105.7,158.35 L109.7,158.35"/>
-            <path d="M105.7,238 L109.7,238"/>
-            <path d="M109.7,238 L109.7,158.35"/>
-            <path d="M105.7,238 L105.7,158.35"/>
-        </g>
-        <g id="product-566c41c1-df3d-43d8-9992-cb24a6fe95a2" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1MR471tpr3s9cIooIc$fMY">
-            <path d="M227.45,238 L227.45,242"/>
-            <path d="M105.7,238 L105.7,242"/>
-            <path d="M105.7,242 L227.45,242"/>
-            <path d="M105.7,238 L227.45,238"/>
-        </g>
-        <g id="product-751b7abc-52c4-4c10-9131-fd81a7822f04" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1r6tgyKiHC494n$O6dWYy4">
-            <path d="M179.45,158.35 L182.95,158.35"/>
-            <path d="M182.95,238 L182.95,158.35"/>
-            <path d="M179.45,238 L179.45,158.35"/>
-        </g>
-        <g id="product-a7674a2c-fa38-45d1-9885-5b454a803f71" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="2dPqei_ZX5qPY5MqLAW3zn">
-            <path d="M242.144,229 L243.7,230.556"/>
-            <path d="M242.144,229 L243.7,227.444"/>
-            <path d="M242.144,229 L242.144,229"/>
-            <path d="M242.144,229 L242.144,229"/>
-            <path d="M242.144,229 L243.7,227.444"/>
-            <path d="M243.7,230.556 L245.256,229"/>
-            <path d="M243.7,227.444 L243.7,227.444"/>
-            <path d="M245.256,229 L243.7,227.444"/>
-            <path d="M243.7,227.444 L243.7,227.444"/>
         </g>
         <g id="product-f57310ce-cb6b-40ac-87b3-a12ee9a6429c" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="3rSn3Eosj0h8UpeIxffaAS">
             <path d="M210.7,56.6 L214.7,56.6"/>
@@ -4916,259 +4851,110 @@ text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
             <path d="M105.7,225 L59,225"/>
             <path d="M105.7,228.5 L59,228.5"/>
         </g>
-        <g id="product-8ec6657c-25fa-476a-855c-9d6edaa1af7e" class="IfcBuildingElementProxy material-null projection" ifc:name="Type 2" ifc:guid="2EncLy9Vf7QeLSdMxQeQz_">
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M60,238.9 L61.1,238.9"/>
-            <path d="M61.1,238.9 L60,238.9"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,241.1 L58.9,241.1"/>
-            <path d="M58.9,241.1 L60,241.1"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M61.1,240 L61.1,238.9"/>
-            <path d="M61.1,238.9 L61.1,240"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M61.1,241.1 L61.1,240.733"/>
-            <path d="M61.1,240.733 L61.1,241.1"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M58.9,240 L58.9,241.1"/>
-            <path d="M58.9,241.1 L58.9,240"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,241.1 L60,242.2"/>
-            <path d="M60,242.2 L60,241.1"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M60.7333,240 L61.1,240"/>
-            <path d="M61.1,240 L60.7333,240"/>
-            <path d="M60,238.9 L60,237.8"/>
-            <path d="M60,237.8 L60,238.9"/>
+        <g id="product-566c41c1-df3d-43d8-9992-cb24a6fe95a2" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1MR471tpr3s9cIooIc$fMY">
+            <path d="M225.314,238 L225.314,242"/>
+            <path d="M105.7,238 L105.7,242"/>
+            <path d="M105.7,242 L225.314,242"/>
+            <path d="M105.7,238 L225.314,238"/>
         </g>
-        <g id="product-91d496a5-1a52-46bb-94bd-324000377791" class="IfcBuildingElementProxy material-null projection" ifc:name="Symbol type 1" ifc:guid="2Hr9Qb6b96kvIzCa00DtUH">
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M60,240.733 L60,241.1"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M57.8,240 L58.9,240"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M60.3667,241.1 L60.7333,241.1"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M62.2,240 L61.1,240"/>
-            <path d="M60,238.9 L61.1,238.9"/>
-            <path d="M61.1,238.9 L60,238.9"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.7333,241.1 L61.1,240.733"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,241.1 L60,241.1"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,240 L60.7333,240"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,241.1 L61.1,240.367"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60.3667,240 L60,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M60,241.1 L61.1,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M59.6333,240 L60,240"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M58.9,240 L58.9,239.633"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,240.733 L60.7333,240"/>
-            <path d="M60,241.1 L58.9,241.1"/>
-            <path d="M58.9,241.1 L60,241.1"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M59.6333,240 L59.2667,240"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M58.9,239.633 L58.9,239.267"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M60.3667,240 L60,240.367"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M59.2667,240 L58.9,240"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M58.9,238.9 L58.9,239.267"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M59.6333,240 L60,239.633"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60,240.733 L60,240.367"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M60.7333,241.1 L61.1,241.1"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M59.2667,240 L60,239.267"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M61.1,240.367 L61.1,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M60,240.367 L60,240"/>
-            <path d="M61.1,240 L61.1,238.9"/>
-            <path d="M61.1,238.9 L61.1,240"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M58.9,240 L60,238.9"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M61.1,240.367 L61.1,240.733"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M60,240 L60,239.633"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,238.9 L59.2667,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M58.9,239.633 L59.6333,238.9"/>
-            <path d="M61.1,241.1 L61.1,240.733"/>
-            <path d="M61.1,240.733 L61.1,241.1"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M60,239.633 L60,239.267"/>
-            <path d="M58.9,240 L58.9,241.1"/>
-            <path d="M58.9,241.1 L58.9,240"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M58.9,239.267 L59.2667,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M59.2667,238.9 L59.6333,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,239.267 L60,238.9"/>
-            <path d="M60,241.1 L60,242.2"/>
-            <path d="M60,242.2 L60,241.1"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M59.6333,238.9 L60,238.9"/>
-            <path d="M60.7333,240 L61.1,240"/>
-            <path d="M61.1,240 L60.7333,240"/>
-            <path d="M60,238.9 L60,237.8"/>
-            <path d="M60,237.8 L60,238.9"/>
+        <g id="product-2b07debf-a1ca-4ad0-a545-2c02271223ba" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600.002" ifc:guid="0h1zw$eSfAqAL5B08d4YEw">
+            <path d="M252.7,78.1 L256.7,78.1"/>
+            <path d="M252.7,210.6 L256.7,210.6"/>
+            <path d="M256.7,210.6 L256.7,78.1"/>
+            <path d="M252.7,210.6 L252.7,78.1"/>
         </g>
-        <g id="product-2bc6b691-b1e0-4448-a34b-2278e92f94d1" class="IfcBuildingElementProxy material-null projection" ifc:name="Type 1" ifc:guid="0hnhQHiU14IADB8dZfBvJH">
-            <path d="M62.2,244.735 L61.1,244.735"/>
-            <path d="M62.2,244.735 L61.1,244.735"/>
-            <path d="M61.1,244.369 L61.1,244.002"/>
-            <path d="M61.1,244.369 L61.1,244.002"/>
-            <path d="M60.3667,243.635 L60,243.635"/>
-            <path d="M60.3667,243.635 L60,243.635"/>
-            <path d="M60.3667,243.635 L60,244.002"/>
-            <path d="M60.3667,243.635 L60,244.002"/>
-            <path d="M59.2667,243.635 L59.6333,243.635"/>
-            <path d="M59.2667,243.635 L59.6333,243.635"/>
-            <path d="M59.2667,244.735 L59.6333,244.735"/>
-            <path d="M59.2667,244.735 L59.6333,244.735"/>
-            <path d="M61.1,244.735 L61.1,244.369"/>
-            <path d="M61.1,244.735 L61.1,244.369"/>
-            <path d="M60,243.635 L58.9,244.735"/>
-            <path d="M60,243.635 L58.9,244.735"/>
-            <path d="M60,242.535 L60,243.635"/>
-            <path d="M60,242.535 L60,243.635"/>
-            <path d="M59.2667,244.735 L58.9,244.735"/>
-            <path d="M59.2667,244.735 L58.9,244.735"/>
-            <path d="M61.1,243.635 L60,244.735"/>
-            <path d="M61.1,243.635 L60,244.735"/>
-            <path d="M60.3667,243.635 L60.7333,243.635"/>
-            <path d="M60.3667,243.635 L60.7333,243.635"/>
-            <path d="M60,244.735 L60.3667,244.735"/>
-            <path d="M60,244.735 L60.3667,244.735"/>
-            <path d="M60,244.002 L60,244.369"/>
-            <path d="M60,244.002 L60,244.369"/>
-            <path d="M58.9,243.635 L59.2667,243.635"/>
-            <path d="M58.9,243.635 L59.2667,243.635"/>
-            <path d="M58.9,243.635 L58.9,244.002"/>
-            <path d="M58.9,243.635 L58.9,244.002"/>
-            <path d="M61.1,243.635 L60.7333,243.635"/>
-            <path d="M61.1,243.635 L60.7333,243.635"/>
-            <path d="M59.6333,243.635 L60,243.635"/>
-            <path d="M59.6333,243.635 L60,243.635"/>
-            <path d="M59.6333,244.735 L60,244.369"/>
-            <path d="M59.6333,244.735 L60,244.369"/>
-            <path d="M58.9,244.002 L58.9,244.369"/>
-            <path d="M58.9,244.002 L58.9,244.369"/>
-            <path d="M60,244.735 L60,244.369"/>
-            <path d="M60,244.735 L60,244.369"/>
-            <path d="M61.1,244.735 L60.7333,244.735"/>
-            <path d="M61.1,244.735 L60.7333,244.735"/>
-            <path d="M61.1,243.635 L61.1,244.002"/>
-            <path d="M61.1,243.635 L61.1,244.002"/>
-            <path d="M59.2667,244.735 L60,244.002"/>
-            <path d="M59.2667,244.735 L60,244.002"/>
-            <path d="M58.9,244.002 L59.2667,243.635"/>
-            <path d="M59.2667,243.635 L58.9,244.002"/>
-            <path d="M57.8,244.735 L58.9,244.735"/>
-            <path d="M57.8,244.735 L58.9,244.735"/>
-            <path d="M58.9,244.369 L58.9,244.735"/>
-            <path d="M58.9,244.369 L58.9,244.735"/>
-            <path d="M61.1,245.835 L61.1,244.735"/>
-            <path d="M61.1,244.735 L61.1,245.835"/>
-            <path d="M58.9,244.369 L59.6333,243.635"/>
-            <path d="M59.6333,243.635 L58.9,244.369"/>
-            <path d="M60,245.835 L61.1,245.835"/>
-            <path d="M61.1,245.835 L60,245.835"/>
-            <path d="M59.6333,244.735 L60,244.735"/>
-            <path d="M59.6333,244.735 L60,244.735"/>
-            <path d="M60,245.835 L60,244.735"/>
-            <path d="M60,244.735 L60,245.835"/>
-            <path d="M60,243.635 L60,244.002"/>
-            <path d="M60,244.002 L60,243.635"/>
-            <path d="M60,245.835 L60,246.935"/>
-            <path d="M60,246.935 L60,245.835"/>
-            <path d="M60.7333,244.735 L60.3667,244.735"/>
-            <path d="M60.7333,244.735 L60.3667,244.735"/>
-            <path d="M60.7333,243.635 L60,244.369"/>
-            <path d="M60,244.369 L60.7333,243.635"/>
-            <path d="M61.1,244.369 L60.7333,244.735"/>
-            <path d="M60.7333,244.735 L61.1,244.369"/>
-            <path d="M58.9,245.835 L58.9,244.735"/>
-            <path d="M58.9,244.735 L58.9,245.835"/>
-            <path d="M61.1,244.002 L60.3667,244.735"/>
-            <path d="M60.3667,244.735 L61.1,244.002"/>
-            <path d="M58.9,245.835 L60,245.835"/>
-            <path d="M60,245.835 L58.9,245.835"/>
+        <g id="product-cba427ec-d9de-49ef-8476-25ef3cc75f68" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="3Bf2VisTv9xuHs9Uyynrze">
+            <path d="M59,53.1 L62.5,53.1"/>
+            <path d="M59,225 L62.5,225"/>
+            <path d="M62.5,225 L62.5,53.1"/>
+            <path d="M59,225 L59,53.1"/>
+        </g>
+        <g id="product-5140bb03-13a2-4137-9f28-b868fcae8c6e" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600.004" ifc:guid="1HGBi34w91Dvyek6Zyhenk">
+            <path d="M220.7,53.1 L220.7,56.6"/>
+            <path d="M62.5,56.6 L220.7,56.6"/>
+            <path d="M62.5,53.1 L220.7,53.1"/>
+        </g>
+        <g id="product-3043ad9b-4168-47f5-914c-e908d4ff7526" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0mGwsRGMX7zP5CwGZK$tKc">
+            <path d="M134.85,56.6 L138.35,56.6"/>
+            <path d="M134.85,126.85 L138.35,126.85"/>
+            <path d="M138.35,126.85 L138.35,56.6"/>
+            <path d="M134.85,126.85 L134.85,56.6"/>
+        </g>
+        <g id="product-4b8534eb-2315-4f54-8af7-1584db4b0384" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1BXJJh8nLFL8ht5OJRImE4">
+            <path d="M62.5,126.85 L62.5,123.35"/>
+            <path d="M127.85,126.85 L127.85,123.35"/>
+            <path d="M127.85,123.35 L62.5,123.35"/>
+            <path d="M127.85,126.85 L62.5,126.85"/>
+        </g>
+        <g id="product-ccf6806b-de7c-41e2-9199-9554210e1dd0" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="3Cze1htdn1uf6PbLGX3XtG">
+            <path d="M179.45,126.85 L179.45,123.35"/>
+            <path d="M245.7,126.85 L245.7,123.35"/>
+            <path d="M245.7,123.35 L179.45,123.35"/>
+            <path d="M245.7,126.85 L179.45,126.85"/>
+        </g>
+        <g id="product-c4129421-a237-4fb5-958f-727a022a5593" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="344fGXeZTFjPMFSde2AbMJ">
+            <path d="M138.35,126.85 L138.35,123.35"/>
+            <path d="M172.45,126.85 L172.45,123.35"/>
+            <path d="M172.45,123.35 L138.35,123.35"/>
+            <path d="M172.45,126.85 L138.35,126.85"/>
+        </g>
+        <g id="product-34154590-45d7-4941-8ca1-38e03fe78540" class="IfcPile material-null projection" ifc:name="FP_220_Type 1" ifc:guid="0q5KMGHTT9GOoXEE0$vuL0">
+            <path d="M213.8,124 L213.8,126.2"/>
+            <path d="M211.6,124 L211.6,126.2"/>
+            <path d="M211.6,124 L213.8,124"/>
+            <path d="M211.6,126.2 L213.8,126.2"/>
+        </g>
+        <g id="product-3c744250-ce71-476c-ad22-c6cd3d5d9421" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="0yT49Gpd57RAqYniqzNPGX">
+            <path d="M98.7,158.35 L98.7,154.85"/>
+            <path d="M98.7,154.85 L62.5,154.85"/>
+            <path d="M98.7,158.35 L62.5,158.35"/>
+        </g>
+        <g id="product-751b7abc-52c4-4c10-9131-fd81a7822f04" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1r6tgyKiHC494n$O6dWYy4">
+            <path d="M179.45,154.85 L182.95,154.85"/>
+            <path d="M182.95,238 L182.95,154.85"/>
+            <path d="M179.45,238 L179.45,154.85"/>
+        </g>
+        <g id="product-fbefd1af-664c-4258-a7b6-3683b532bb6f" class="IfcBeam material-null projection" ifc:name="BB_400x600_hoek" ifc:guid="3xxz6lPan2MAUsDeErChjl">
+            <path d="M240.146,236.171 L250.892,225.425"/>
+            <path d="M250.887,225.429 L256.703,211.388"/>
+            <path d="M252.7,210.6 L247.496,223.165"/>
+            <path d="M247.496,223.165 L237.879,232.781"/>
+            <path d="M250.892,225.425 L240.152,236.169"/>
+            <path d="M250.892,225.425 L256.703,211.388"/>
+            <path d="M256.703,211.388 L256.7,210.6"/>
+            <path d="M256.7,210.6 L252.7,210.6"/>
+            <path d="M225.314,242 L225.314,237.986"/>
+            <path d="M225.314,242 L226.112,241.985"/>
+            <path d="M225.314,237.986 L237.879,232.781"/>
+            <path d="M240.152,236.169 L226.112,241.985"/>
+        </g>
+        <g id="product-df7f9f97-d008-4758-9807-e98761dc362d" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="3VVv_Nq0X7M9W7wOTXt3Oj">
+            <path d="M105.7,154.85 L109.7,154.85"/>
+            <path d="M105.7,238 L109.7,238"/>
+            <path d="M109.7,238 L109.7,154.85"/>
+            <path d="M105.7,238 L105.7,154.85"/>
+        </g>
+        <g id="product-6d8c4283-0a3d-4691-9b40-59ab412962e0" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="1jZ4A32Zr6aPj0MQj1AMBW">
+            <path d="M190.6,124 L190.6,126.2"/>
+            <path d="M190.6,124 L192.8,124"/>
+            <path d="M190.6,126.2 L192.8,126.2"/>
+            <path d="M192.8,126.2 L192.8,124"/>
+        </g>
+        <g id="product-bc23877a-bb36-4a0e-82a9-07df6b3369d2" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="2y8uTwkpPA3eAf1zzhCsdI">
+            <path d="M242.65,124 L242.65,126.2"/>
+            <path d="M242.65,124 L244.85,124"/>
+            <path d="M242.65,126.2 L244.85,126.2"/>
+            <path d="M244.85,126.2 L244.85,124"/>
+        </g>
+        <g id="product-69c27e30-503c-4731-b0c3-06e88f28990d" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1fmdumK3n7CR331kYFA9aD">
+            <path d="M172.45,158.35 L172.45,154.85"/>
+            <path d="M172.45,154.85 L109.7,154.85"/>
+            <path d="M172.45,158.35 L109.7,158.35"/>
+        </g>
+        <g id="product-a6495a82-e66c-4b9a-a3d0-c33f51260dcc" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="2cILg2vcnBcgFGmpzH9WtC">
+            <path d="M189.95,158.35 L189.95,154.85"/>
+            <path d="M252.7,154.85 L189.95,154.85"/>
+            <path d="M252.7,158.35 L189.95,158.35"/>
         </g>
         <g id="product-bdceab11-439a-4122-81ac-d760329a5bc9" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="2zpgiHGvf18e6irs0ocbl9">
             <path d="M60.75,53.7501 L60.75,52.6501"/>
@@ -9556,7 +9342,7 @@ text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
             <path d="M60.3834,154.2 L60.0167,154.2"/>
             <path d="M60.0167,154.2 L60.3834,154.2"/>
         </g>
-        <g id="product-e680b0b3-cb1f-445e-abb0-2e007ac8c1ad" class="IfcPile material-null projection" ifc:name="FP_220_Type 1" ifc:guid="3cWB2ponz4NgkmBW1woC6j">
+        <g id="product-e680b0b3-cb1f-445e-abb0-2e007ac8c1ad" class="IfcPile material-null projection" ifc:name="FP_220_Type 1.014" ifc:guid="3cWB2ponz4NgkmBW1woC6j">
             <path d="M109.9,125.1 L108.8,125.1"/>
             <path d="M108.8,125.1 L109.9,125.1"/>
             <path d="M108.8,126.2 L108.433,126.2"/>
@@ -9660,8 +9446,6 @@ text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
         </g>
     </g>
   <defs/>
-  <use transform="translate(35.45466613769531, 68.49856567382812) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
-  <use transform="translate(35.45466613769531, 214.81332397460938) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
   <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="268.70001220703125" x2="268.70001220703125" y1="240.0001220703125" y2="229.00009155273438"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(267.70001220703125, 234.50010681152344) rotate(-90.00000250447816)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1100</tspan>
@@ -9710,80 +9494,80 @@ text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(192.72503662109375, 40.0999755859375) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">3995</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="60.750038146972656" x2="88.75000762939453" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(74.7500228881836, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="60.750038146972656" x2="88.75000762939453" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(74.7500228881836, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">2800</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="88.75000762939453" x2="107.70000457763672" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(98.22500610351562, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="88.75000762939453" x2="107.70000457763672" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(98.22500610351562, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1895</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="107.70000457763672" x2="123.80001068115234" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(115.75000762939453, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="107.70000457763672" x2="123.80001068115234" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(115.75000762939453, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1610</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="123.80001068115234" x2="144.75001525878906" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(134.27500915527344, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="123.80001068115234" x2="144.75001525878906" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(134.27500915527344, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">2095</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="144.75001525878906" x2="158.20001220703125" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(151.47500610351562, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="144.75001525878906" x2="158.20001220703125" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(151.47500610351562, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1345</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="158.20001220703125" x2="168.75001525878906" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(163.47500610351562, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="158.20001220703125" x2="168.75001525878906" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(163.47500610351562, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1055</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="168.75001525878906" x2="170.70001220703125" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(173.70001220703125, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="168.75001525878906" x2="170.70001220703125" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(173.70001220703125, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">195</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="170.70001220703125" x2="181.2000274658203" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(175.95001220703125, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="170.70001220703125" x2="181.2000274658203" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(175.95001220703125, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1050</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="181.2000274658203" x2="191.70001220703125" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(186.45001220703125, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="181.2000274658203" x2="191.70001220703125" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(186.45001220703125, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1050</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="191.70001220703125" x2="212.70001220703125" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(202.20001220703125, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="191.70001220703125" x2="212.70001220703125" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(202.20001220703125, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">2100</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="212.70001220703125" x2="243.75003051757812" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(228.2250213623047, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="212.70001220703125" x2="243.75003051757812" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(228.2250213623047, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">3105</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="243.75003051757812" x2="254.70001220703125" y1="148.85000610351562" y2="148.85000610351562"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(249.2250213623047, 147.85000610351562) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="243.75003051757812" x2="254.70001220703125" y1="119.35002136230469" y2="119.35002136230469"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(249.2250213623047, 118.35002136230469) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1095</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="60.750038146972656" x2="107.70000457763672" y1="211.9293212890625" y2="211.9293212890625"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(84.22502136230469, 210.9293212890625) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="60.750038146972656" x2="107.70000457763672" y1="210.60000610351562" y2="210.60000610351562"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(84.22502136230469, 209.60000610351562) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">4695</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="107.70000457763672" x2="136.75001525878906" y1="211.9293212890625" y2="211.9293212890625"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(122.22500610351562, 210.9293212890625) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="107.70000457763672" x2="136.75001525878906" y1="210.60000610351562" y2="210.60000610351562"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(122.22500610351562, 209.60000610351562) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">2905</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="136.75001525878906" x2="158.15000915527344" y1="211.9293212890625" y2="211.9293212890625"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(147.45001220703125, 210.9293212890625) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="136.75001525878906" x2="158.15000915527344" y1="210.60000610351562" y2="210.60000610351562"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(147.45001220703125, 209.60000610351562) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">2140</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="158.15000915527344" x2="181.2000274658203" y1="211.9293212890625" y2="211.9293212890625"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(169.67501831054688, 210.9293212890625) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="158.15000915527344" x2="181.2000274658203" y1="210.60000610351562" y2="210.60000610351562"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(169.67501831054688, 209.60000610351562) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">2305</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="181.2000274658203" x2="216.70001220703125" y1="211.9293212890625" y2="211.9293212890625"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(198.95001220703125, 210.9293212890625) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="181.2000274658203" x2="216.70001220703125" y1="210.60000610351562" y2="210.60000610351562"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(198.95001220703125, 209.60000610351562) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">3550</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="216.70001220703125" x2="243.7000274658203" y1="211.9293212890625" y2="211.9293212890625"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(230.20001220703125, 210.9293212890625) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="216.70001220703125" x2="243.7000274658203" y1="210.60000610351562" y2="210.60000610351562"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(230.20001220703125, 209.60000610351562) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">2700</tspan>
   </text>
-  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="243.7000274658203" x2="254.70001220703125" y1="211.9293212890625" y2="211.9293212890625"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(249.20001220703125, 210.9293212890625) rotate(0.0)">
+  <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="243.7000274658203" x2="254.70001220703125" y1="210.60000610351562" y2="210.60000610351562"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(249.20001220703125, 209.60000610351562) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1100</tspan>
   </text>
   <line class="GlobalId-327aPwUej2HhEw6DNJMfdI IfcAnnotation PredefinedType-DIMENSION" x1="101.69999694824219" x2="101.69999694824219" y1="240.0000762939453" y2="236.75010681152344"/>
@@ -9862,28 +9646,156 @@ text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(46.00000762939453, 69.97506713867188) rotate(-90.00000250447816)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">3025</tspan>
   </text>
-  <use transform="translate(190.60546875, 85.01002502441406) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
   <use transform="translate(225.48251342773438, 225.449951171875) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(255.45005798339844, 205.7009735107422) rotate(-0.0)">
-    <tspan class="GlobalId-0Eul1ntxP5mRgcJ2Lomt_o IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">None</tspan>
+  <use transform="translate(227.0220947265625, 67.99401092529297) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
+  <use transform="translate(29.81557846069336, 67.99401092529297) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
+  <use transform="translate(29.81557846069336, 225.449951171875) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(109.80001831054688, 233.65008544921875) rotate(-0.0)">
+    <tspan class="GlobalId-3BgllCE8f3fwSVpbin8Bk4 IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">41</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(42.454673767089844, 207.81332397460938) rotate(-0.0)">
-    <tspan class="GlobalId-22iLnvSvHA_hgWFCwNtQAG IfcAnnotation PredefinedType-TEXT italic bold large" dy="0em" x="0" y="0">02</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(156.85003662109375, 51.75006103515625) rotate(-0.0)">
+    <tspan class="GlobalId-3wWDHlZM53IR9icWmzce5S IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">5</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(146.85000610351562, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-2oedcrCoT4rgD_Fpxg4Ruo IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">15</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(193.80003356933594, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-1O87PiNa5EwwT6BBoRscFU IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">18</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.85003662109375, 82.00007629394531) rotate(-0.0)">
+    <tspan class="GlobalId-1VN6NRy8X6q8bxTSe0ItHr IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">9</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(256.800048828125, 86.90010070800781) rotate(-0.0)">
+    <tspan class="GlobalId-0flg47izz59R_fIcnOOFDN IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">10</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(246.25564575195312, 225.4444580078125) rotate(-0.0)">
+    <tspan class="GlobalId-3qntIOh6T9JwcnkCPjo$wT IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">39</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(109.80001831054688, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-1PP6qAbgL0t9$Z$LJE8A3L IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">13</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(160.30001831054688, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-1eaDoC1pT5GhkNPTBjCWM3 IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">16</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(138.85000610351562, 236.9001007080078) rotate(-0.0)">
+    <tspan class="GlobalId-0iUd8uC4b6CB4UteE7t6kT IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">42</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(214.80003356933594, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-0ML61PcljCZOYd4Dq8r8Pi IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">30</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(36.815574645996094, 218.44993591308594) rotate(-0.0)">
+    <tspan class="GlobalId-22iLnvSvHA_hgWFCwNtQAG IfcAnnotation PredefinedType-TEXT italic bold regular" dy="0em" x="0" y="0">02</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.85003662109375, 150.00009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-02krwt_5LAlBoZGDUm0kKE IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">22</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(218.80001831054688, 236.9001007080078) rotate(-0.0)">
+    <tspan class="GlobalId-3PefPAVof1gQN3SbIvZqeI IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">44</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.85003662109375, 113.00007629394531) rotate(-0.0)">
+    <tspan class="GlobalId-06Hq80Ulb4K8KXOKkCl9cO IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">11</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(109.80001831054688, 213.65008544921875) rotate(-0.0)">
+    <tspan class="GlobalId-3SnCgf4nTBvfaZU4W1qcew IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">36</tspan>
+  </text>
+  <use transform="translate(138.95277404785156, 142.24520874023438) rotate(-0.0) scale(1.0)" xlink:href="#pn_1_8"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(138.95277404785156, 142.24520874023438) rotate(-0.0)">
+    <tspan class="GlobalId-2GxjM0hbvAbOzvTxL8CxO4 IfcAnnotation PredefinedType-TEXT small bold" dy="0em" x="0" y="0">PUNTNIVEAU: -21.0 m N.A.P.</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(183.30001831054688, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-2r80$2oA19wgiIeyMrq566 IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">28</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(214.80003356933594, 77.00012969970703) rotate(-0.0)">
+    <tspan class="GlobalId-0Y4u7D9W9EPQIwwPArhsO0 IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">8</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(245.85003662109375, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-0W9cGTt259gvGs2RzWSXJ1 IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">31</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(109.80001831054688, 168.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-1fZgMIjT9AGPfqaF3NEcZB IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">32</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(256.800048828125, 198.90011596679688) rotate(-0.0)">
+    <tspan class="GlobalId-1I4l_X$q57lwSPfmuWP0cG IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">35</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(245.85003662109375, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-3ALGCTRfXBnRVtYmVvUWCi IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">20</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(160.30001831054688, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-32DDBbiR96jRNpRESa73rJ IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">26</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(109.80001831054688, 223.65008544921875) rotate(-0.0)">
+    <tspan class="GlobalId-3RqPRIKLnD$R8e$xHHVWls IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">38</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(193.80001831054688, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-0ghXCKx7vBQhibhZiGym0q IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">29</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(256.800048828125, 146.90011596679688) rotate(-0.0)">
+    <tspan class="GlobalId-0EQwPbofn1thFbV_7DqK5Z IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">21</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(111.85004425048828, 51.75006103515625) rotate(-0.0)">
+    <tspan class="GlobalId-0cPhLq0rf7VA6o$9g$qz6B IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">3</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.85003662109375, 187.20008850097656) rotate(-0.0)">
+    <tspan class="GlobalId-2JMTi1$mr7URXUmCVylqwn IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">33</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(109.80001831054688, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-2QImu7GEb6e8FYGlIQsEAT IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">24</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.85003662109375, 51.75006103515625) rotate(-0.0)">
+    <tspan class="GlobalId-1vGlN5J0f4ARcalcc6e0Qn IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(183.30001831054688, 230.6501007080078) rotate(-0.0)">
+    <tspan class="GlobalId-2DvjznXWv94ffRC1tNDipI IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">40</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(36.815574645996094, 60.99400329589844) rotate(-0.0)">
+    <tspan class="GlobalId-1hLyaccU1CgRkCOGo5fvMb IfcAnnotation PredefinedType-TEXT italic bold regular" dy="0em" x="0" y="0">03</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(234.0220947265625, 60.99400329589844) rotate(-0.0)">
+    <tspan class="GlobalId-0Zwd3YFdbA6Rg1j0DtY0PA IfcAnnotation PredefinedType-TEXT italic bold regular" dy="0em" x="0" y="0">04</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(172.80001831054688, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-1gIWftVXD8f8MY5cY8Ri1Z IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">27</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(174.85003662109375, 51.75006103515625) rotate(-0.0)">
+    <tspan class="GlobalId-3OJbsqVaf5X8Emb1tQt3Xo IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">6</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(93.05004119873047, 51.75006103515625) rotate(-0.0)">
+    <tspan class="GlobalId-2BA5mA1FH4Aw2N1QWyhcfD IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">2</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(214.80003356933594, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-3rR9GE_mD8YPBgwCESqzCL IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">19</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.85003662109375, 223.65008544921875) rotate(-0.0)">
+    <tspan class="GlobalId-3wT71yZIXDOwKyzcO35RaL IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">37</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(183.30001831054688, 188.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-0S9cAb$KbAJxCPKHw$_JBs IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">34</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(232.48252868652344, 218.44993591308594) rotate(-0.0)">
     <tspan class="GlobalId-2MUJvDtMvAsfb7TKNGTdyb IfcAnnotation PredefinedType-TEXT italic bold regular" dy="0em" x="0" y="0">01</tspan>
   </text>
-  <use transform="translate(146.65597534179688, 139.0017547607422) rotate(-0.0) scale(1.0)" xlink:href="#pn_1_8"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(146.65597534179688, 139.0017547607422) rotate(-0.0)">
-    <tspan class="GlobalId-2GxjM0hbvAbOzvTxL8CxO4 IfcAnnotation PredefinedType-TEXT small bold" dy="0em" x="0" y="0">PUNTNIVEAU: -14.0 m N.A.P.</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(146.85000610351562, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-1h$2Ec4UPFGeGAcDA5kKRe IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">25</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(61.52558135986328, 51.099998474121094) rotate(-0.0)">
-    <tspan class="GlobalId-1vGlN5J0f4ARcalcc6e0Qn IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">None</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(134.85003662109375, 51.75006103515625) rotate(-0.0)">
+    <tspan class="GlobalId-3ybFetPlb0z9r1ZfdyHnof IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">4</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(42.454673767089844, 61.498558044433594) rotate(-0.0)">
-    <tspan class="GlobalId-1hLyaccU1CgRkCOGo5fvMb IfcAnnotation PredefinedType-TEXT italic bold large" dy="0em" x="0" y="0">03</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(125.90000915527344, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-34wEQYIV5EHwExCtL7EuUa IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">14</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(197.60546875, 78.01001739501953) rotate(-0.0)">
-    <tspan class="GlobalId-0Zwd3YFdbA6Rg1j0DtY0PA IfcAnnotation PredefinedType-TEXT italic bold large" dy="0em" x="0" y="0">04</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(160.25001525878906, 236.9001007080078) rotate(-0.0)">
+    <tspan class="GlobalId-2O0ptyFY90PeZFsjwaVosR IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">43</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(214.80003356933594, 51.75006103515625) rotate(-0.0)">
+    <tspan class="GlobalId-0CwpD2ayr4XOGGs82r9HpY IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">7</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(170.85003662109375, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-1fv_GWKFP3SQtlIuszKQs3 IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">17</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(90.85000610351562, 153.50009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-37FwZ_rHb9NAxZ2j4Z9hvF IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">23</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(90.85000610351562, 122.00016784667969) rotate(-0.0)">
+    <tspan class="GlobalId-1RYGVFHhDDIPHeLONLjdYt IfcAnnotation PredefinedType-TEXT mini" dy="0em" x="0" y="0">12</tspan>
   </text>
 </svg>
