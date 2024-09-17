@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.ifcopenshell.org/ns" width="300mm" height="300mm" viewBox="0 0 300 300">
+    <defs>
+        <marker id="arrowend" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+          <polygon points="0 0, 10 3.5, 0 7"/>
+        </marker>
+        <marker id="arrowstart" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+          <polygon points="10 0, 0 3.5, 10 7"/>
+        </marker>
+    </defs>
+    <g ifc:name="Elevation 1e Verdieping" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,60.000009],[0.000000,10.000000,240.271058],[0.000000,0.000000,1.000000]]">
+        <g id="product-67d03345-76a8-4700-b26b-d6e685c2a366" class="IfcBeam material-HEA180 projection" ifc:name="HEA180" ifc:guid="1dq3D5TgX70B9hrkQ5mgDc">
+            <path d="M60,154.171 L61.8,154.171"/>
+            <path d="M60,227.771 L61.8,227.771"/>
+            <path d="M61.8,227.771 L61.8,154.171"/>
+            <path d="M60,227.771 L60,154.171"/>
+        </g>
+        <g id="product-f0b35b7b-30fa-43be-9167-642a75d51554" class="IfcBeam material-HEA180 projection" ifc:name="HEA180" ifc:guid="3mirjxCFf3lf5dP2frrHLK">
+            <path d="M60,56.771 L61.8,56.771"/>
+            <path d="M60,154.171 L60,154.171"/>
+            <path d="M61.8,154.171 L61.8,56.771"/>
+            <path d="M60,154.171 L60,56.771"/>
+        </g>
+        <g id="product-9009d019-69d6-4d6c-a944-5e60195009da" class="IfcColumn material-K1401408 projection" ifc:name="K140/140/8" ifc:guid="2G2T0PQTPDRAb4Nc0PK0dQ">
+            <path d="M208.711,157.991 L209.711,157.991"/>
+            <path d="M209.831,157.871 L209.831,156.871"/>
+            <path d="M209.711,156.751 L208.711,156.751"/>
+            <path d="M208.591,156.871 L208.591,157.871"/>
+            <path d="M208.511,156.871 L208.511,157.871"/>
+            <path d="M209.711,156.671 L208.711,156.671"/>
+            <path d="M209.911,157.871 L209.911,156.871"/>
+            <path d="M208.711,158.071 L209.711,158.071"/>
+            <path d="M208.651,157.975 L208.711,157.991"/>
+            <path d="M208.608,157.931 L208.651,157.975"/>
+            <path d="M208.591,157.871 L208.608,157.931"/>
+            <path d="M209.815,157.931 L209.831,157.871"/>
+            <path d="M209.771,157.975 L209.815,157.931"/>
+            <path d="M209.711,157.991 L209.771,157.975"/>
+            <path d="M209.771,156.767 L209.711,156.751"/>
+            <path d="M209.815,156.811 L209.771,156.767"/>
+            <path d="M209.831,156.871 L209.815,156.811"/>
+            <path d="M208.608,156.811 L208.591,156.871"/>
+            <path d="M208.651,156.767 L208.608,156.811"/>
+            <path d="M208.711,156.751 L208.651,156.767"/>
+            <path d="M208.527,156.795 L208.511,156.871"/>
+            <path d="M208.57,156.73 L208.527,156.795"/>
+            <path d="M208.635,156.686 L208.57,156.73"/>
+            <path d="M208.711,156.671 L208.635,156.686"/>
+            <path d="M209.788,156.686 L209.711,156.671"/>
+            <path d="M209.853,156.73 L209.788,156.686"/>
+            <path d="M209.896,156.795 L209.853,156.73"/>
+            <path d="M209.911,156.871 L209.896,156.795"/>
+            <path d="M209.896,157.948 L209.911,157.871"/>
+            <path d="M209.853,158.012 L209.896,157.948"/>
+            <path d="M209.788,158.056 L209.853,158.012"/>
+            <path d="M209.711,158.071 L209.788,158.056"/>
+            <path d="M208.635,158.056 L208.711,158.071"/>
+            <path d="M208.57,158.012 L208.635,158.056"/>
+            <path d="M208.527,157.948 L208.57,158.012"/>
+            <path d="M208.511,157.871 L208.527,157.948"/>
+        </g>
+        <g id="product-f5d91e21-da13-4e50-b34d-11373fb4f0a2" class="IfcBeam material-HEA160 projection" ifc:name="HEA160" ifc:guid="3rsHuXsXDEKBDD4JS$jF2Y">
+            <path d="M92.1,226.171 L92.1,227.771"/>
+            <path d="M61.8,226.171 L61.8,227.771"/>
+            <path d="M61.8,227.771 L92.1,227.771"/>
+            <path d="M61.8,226.171 L92.1,226.171"/>
+        </g>
+        <g id="product-90a0601b-8f6a-4c6a-be34-3b2bd5bb970c" class="IfcBeam material-HEA220 projection" ifc:name="HEA220" ifc:guid="2Ge60RZsfCQhuqEolLkvSC">
+            <path d="M224.832,238.071 L224.832,240.271"/>
+            <path d="M95.1,238.071 L95.1,240.271"/>
+            <path d="M95.1,240.271 L224.832,240.271"/>
+            <path d="M95.1,238.071 L224.832,238.071"/>
+        </g>
+        <g id="product-f6705fa3-1444-4c49-934a-c3d720069fae" class="IfcBeam material-HEA240 projection" ifc:name="HEA240" ifc:guid="3sS5_Z54HCIPDAmzSW1f_k">
+            <path d="M132.2,54.371 L132.2,56.771"/>
+            <path d="M60,54.371 L60,56.771"/>
+            <path d="M60,56.771 L123.8,56.771"/>
+            <path d="M126.2,56.771 L132.2,56.771"/>
+            <path d="M60,54.371 L123.8,54.371"/>
+            <path d="M126.2,54.371 L132.2,54.371"/>
+        </g>
+        <g id="product-3b829f77-e860-4927-bd52-2439bbe93960" class="IfcBeam material-HEA240 projection" ifc:name="HEA240" ifc:guid="0xWfztw6199xrI93cxwJbW">
+            <path d="M212.7,126.571 L210.3,126.571"/>
+            <path d="M212.7,54.371 L210.3,54.371"/>
+            <path d="M210.3,54.371 L210.3,126.571"/>
+            <path d="M212.7,54.371 L212.7,126.571"/>
+        </g>
+        <g id="product-9af0c215-4ac2-4b8a-84e0-b4692289330f" class="IfcBeam material-HEA240 projection" ifc:name="HEA240" ifc:guid="2QyC8LIi9BYeJWj6aYYJCF">
+            <path d="M210.3,54.371 L210.3,56.771"/>
+            <path d="M132.2,54.371 L132.2,54.371"/>
+            <path d="M132.2,56.771 L210.3,56.771"/>
+            <path d="M132.2,54.371 L210.3,54.371"/>
+        </g>
+        <g id="product-e2e5a0bf-7ba1-4402-a2d4-572f1d033681" class="IfcBeam material-HEA400 projection" ifc:name="HEA400" ifc:guid="3YvQ2$Uw540gBKLoyT0pQ1">
+            <path d="M156.7,156.871 L159.7,156.871"/>
+            <path d="M159.7,238.071 L159.7,156.871"/>
+            <path d="M156.7,238.071 L156.7,156.871"/>
+        </g>
+        <g id="product-66d1c6c8-6c43-497f-be71-19a7635ffb10" class="IfcBeam material-HEA400 projection" ifc:name="HEA400" ifc:guid="1cqSR8R4D9Vxvn6QTZN$iG">
+            <path d="M210.8,156.871 L213.8,156.871"/>
+            <path d="M210.8,238.071 L213.8,238.071"/>
+            <path d="M213.8,238.071 L213.8,156.871"/>
+            <path d="M210.8,238.071 L210.8,156.871"/>
+        </g>
+        <g id="product-d30bd53d-796d-4cda-8f30-2a42fae30217" class="IfcBeam material-HEA240 projection" ifc:name="HEA240" ifc:guid="3J2zKzUMrCseymAaBwum8N">
+            <path d="M126.2,126.571 L123.8,126.571"/>
+            <path d="M126.2,54.371 L123.8,54.371"/>
+            <path d="M123.8,54.371 L123.8,126.571"/>
+            <path d="M126.2,54.371 L126.2,126.571"/>
+        </g>
+        <g id="product-88d293f7-f7ff-454e-ac38-39870c2fe98d" class="IfcBeam material-HEA400 projection" ifc:name="HEA400" ifc:guid="28qfFtz$z5JgmuEOSCB_cD">
+            <path d="M92.1,156.871 L95.1,156.871"/>
+            <path d="M92.1,240.271 L95.1,240.271"/>
+            <path d="M95.1,240.271 L95.1,156.871"/>
+            <path d="M92.1,240.271 L92.1,156.871"/>
+        </g>
+    </g>
+</svg>
