@@ -63,4 +63,4 @@ Voor deze nieuwe Nederlandse Ifc-template hanteren we eenvoudige naamgevingsrege
 * 
 
 ![Image](img/Pile_Layout_Plan.svg)
-![Image](img/Arceringen_Annotaties.svg)
+![Image](img/Arceringen_Annotaties.png)
