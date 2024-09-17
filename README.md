@@ -61,3 +61,6 @@ Voor deze nieuwe Nederlandse Ifc-template hanteren we eenvoudige naamgevingsrege
 # To Do lijst
 * Lijndiktes in arceringen mee laten verschalen.
 * 
+
+![Image](img/Pile_Layout_Plan.svg)
+![Image](img/Arceringen_Annotaties.svg)
