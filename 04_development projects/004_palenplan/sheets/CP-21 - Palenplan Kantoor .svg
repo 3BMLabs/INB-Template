@@ -2,7 +2,7 @@
   <defs id="defs5" />
   <sodipodi:namedview id="namedview5" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#505050" inkscape:document-units="mm" inkscape:zoom="0.6715377" inkscape:cx="1122.0517" inkscape:cy="793.70079" inkscape:window-width="2400" inkscape:window-height="1262" inkscape:window-x="4792" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="root" />
   <g data-type="titleblock" id="g1">
-    <g transform="translate(0.0,0.0)" clip-path="url(#f0e8edf0-4aef-4775-b1a4-ba105c98b260)"><defs id="defs686">
+    <g transform="translate(0.0,0.0)" clip-path="url(#51248daf-6082-4084-913e-04c08dc75c5c)"><defs id="defs686">
   <marker style="overflow:visible" refY="0" refX="0" orient="auto" id="DistanceX">
     <path id="path1069" style="stroke:#000000;stroke-width:0.5" d="M 3,-3 -3,3 M 0,-5 V 5" />
   </marker>
@@ -184,7 +184,7 @@
 </g>
 </g></g>
   <g data-type="drawing" data-id="50949" data-drawing="3$vMudpznEyOQH6iMOLK3H" id="g3" transform="translate(335.68481,80.067741)">
-    <g transform="translate(30.0,30.0)" clip-path="url(#0d38d1be-aeba-4b37-bc86-ccf6b7fe22c5)"><defs><style type="text/css">/*
+    <g transform="translate(30.0,30.0)" clip-path="url(#a76b3b0d-5796-48e3-9b19-0fcaec59cec2)"><defs><style type="text/css">/*
  * BlenderBIM Add-on - OpenBIM Blender Add-on
  * Copyright (C) 2020, 2021 Dion Moult &lt;dion@thinkmoult.com&gt;
  *
@@ -5447,7 +5447,7 @@ text.DIMENSION.d50949, tspan.DIMENSION.d50949 { /* 1.8mm */ font-size: 2.97px; }
   </text>
 </g></g>
   <g data-type="drawing" data-id="50950" data-drawing="39O08Pl6b21whmbI0NX38c" id="g5" transform="translate(14.183865,29.999985)">
-    <g transform="translate(30.0,30.0)" clip-path="url(#4debfce4-ef73-4a63-8220-caaaea28caca)"><defs><style type="text/css">/*
+    <g transform="translate(30.0,30.0)" clip-path="url(#24cb24ca-9263-42a4-b892-1a57ec982092)"><defs><style type="text/css">/*
  * BlenderBIM Add-on - OpenBIM Blender Add-on
  * Copyright (C) 2020, 2021 Dion Moult &lt;dion@thinkmoult.com&gt;
  *
@@ -15230,4 +15230,4 @@ text.DIMENSION.d50950, tspan.DIMENSION.d50950 { /* 1.8mm */ font-size: 2.97px; }
     <tspan class="GlobalId-3RqPRIKLnD$R8e$xHHVWls IfcAnnotation PredefinedType-TEXT mini d50950" dy="0em" x="0" y="0">38</tspan>
   </text>
 </g></g>
-<defs><clipPath id="f0e8edf0-4aef-4775-b1a4-ba105c98b260"><rect x="0" y="0" width="594.0" height="420.0" /></clipPath><clipPath id="0d38d1be-aeba-4b37-bc86-ccf6b7fe22c5"><rect x="0" y="0" width="250.00002" height="199.86452" /></clipPath><clipPath id="4debfce4-ef73-4a63-8220-caaaea28caca"><rect x="0" y="0" width="300.00003" height="300.00003" /></clipPath></defs></svg>
+<defs><clipPath id="51248daf-6082-4084-913e-04c08dc75c5c"><rect x="0" y="0" width="594.0" height="420.0" /></clipPath><clipPath id="a76b3b0d-5796-48e3-9b19-0fcaec59cec2"><rect x="0" y="0" width="250.00002" height="199.86452" /></clipPath><clipPath id="24cb24ca-9263-42a4-b892-1a57ec982092"><rect x="0" y="0" width="300.00003" height="300.00003" /></clipPath></defs></svg>
