@@ -190,15 +190,15 @@ sondering_kleef_nietuitgevoerd (afwijkende optie kleef)
          style="fill:#ffffff;fill-rule:nonzero;stroke:#000000; stroke-width:0.25;"
          id="path1" />
 	</g>
-	<g id="kol_bov" transform="translate(0, 0.5) scale(1.5)">
+	<g id="kol_bov" transform="translate(0, 0.25) scale(1.5)">
 		<path
-         d="M12 0H-1L-6 15"
+         d="M8 0H0L-6 12"
          style="fill:none;stroke:#000000; stroke-width:0.15;"
          id="path1" />
 	 </g>
-	 <g id="kol_ond" transform="translate(0, -4) scale(1.5)">
+	 <g id="kol_ond" transform="translate(0, -0.25) scale(1.5)">
 		<path
-         d="M12 0H-1L-6 15"
+         d="M8 0H0L-6 12"
          style="fill:none;stroke:#000000; stroke-width:0.15;"
          id="path1" />
 	 </g>
