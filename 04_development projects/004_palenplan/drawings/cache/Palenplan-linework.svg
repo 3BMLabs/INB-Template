@@ -8,6 +8,12 @@
         </marker>
     </defs>
     <g ifc:name="Elevation Palenplan" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,60.000009],[0.000000,10.000000,240.000005],[0.000000,0.000000,1.000000]]">
+        <g id="product-608827c7-febd-44cd-a83b-701d071a0e77" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1WY2V7$hr4pQWxS1q76Wvt">
+            <path d="M214.7,82.1 L214.7,78.1"/>
+            <path d="M252.7,82.1 L252.7,78.1"/>
+            <path d="M252.7,78.1 L214.7,78.1"/>
+            <path d="M252.7,82.1 L214.7,82.1"/>
+        </g>
         <g id="product-f57310ce-cb6b-40ac-87b3-a12ee9a6429c" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="3rSn3Eosj0h8UpeIxffaAS">
             <path d="M210.7,56.6 L214.7,56.6"/>
             <path d="M210.7,123.35 L214.7,123.35"/>
@@ -19,12 +25,6 @@
             <path d="M105.7,228.5 L105.7,225"/>
             <path d="M105.7,225 L59,225"/>
             <path d="M105.7,228.5 L59,228.5"/>
-        </g>
-        <g id="product-608827c7-febd-44cd-a83b-701d071a0e77" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1WY2V7$hr4pQWxS1q76Wvt">
-            <path d="M214.7,82.1 L214.7,78.1"/>
-            <path d="M252.7,82.1 L252.7,78.1"/>
-            <path d="M252.7,78.1 L214.7,78.1"/>
-            <path d="M252.7,82.1 L214.7,82.1"/>
         </g>
         <g id="product-566c41c1-df3d-43d8-9992-cb24a6fe95a2" class="IfcBeam material-NLRS28SRbalkbetonBB400x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 400x600" ifc:guid="1MR471tpr3s9cIooIc$fMY">
             <path d="M225.314,238 L225.314,242"/>
@@ -84,6 +84,16 @@
             <path d="M109.7,238 L109.7,154.85"/>
             <path d="M105.7,238 L105.7,154.85"/>
         </g>
+        <g id="product-a6495a82-e66c-4b9a-a3d0-c33f51260dcc" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="2cILg2vcnBcgFGmpzH9WtC">
+            <path d="M189.95,158.35 L189.95,154.85"/>
+            <path d="M252.7,154.85 L189.95,154.85"/>
+            <path d="M252.7,158.35 L189.95,158.35"/>
+        </g>
+        <g id="product-751b7abc-52c4-4c10-9131-fd81a7822f04" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1r6tgyKiHC494n$O6dWYy4">
+            <path d="M179.45,154.85 L182.95,154.85"/>
+            <path d="M182.95,238 L182.95,154.85"/>
+            <path d="M179.45,238 L179.45,154.85"/>
+        </g>
         <g id="product-fbefd1af-664c-4258-a7b6-3683b532bb6f" class="IfcBeam material-null projection" ifc:name="BB_400x600_hoek" ifc:guid="3xxz6lPan2MAUsDeErChjl">
             <path d="M240.146,236.171 L250.892,225.425"/>
             <path d="M250.887,225.429 L256.703,211.388"/>
@@ -98,20 +108,10 @@
             <path d="M225.314,237.986 L237.879,232.781"/>
             <path d="M240.152,236.169 L226.112,241.985"/>
         </g>
-        <g id="product-751b7abc-52c4-4c10-9131-fd81a7822f04" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1r6tgyKiHC494n$O6dWYy4">
-            <path d="M179.45,154.85 L182.95,154.85"/>
-            <path d="M182.95,238 L182.95,154.85"/>
-            <path d="M179.45,238 L179.45,154.85"/>
-        </g>
         <g id="product-69c27e30-503c-4731-b0c3-06e88f28990d" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="1fmdumK3n7CR331kYFA9aD">
             <path d="M172.45,158.35 L172.45,154.85"/>
             <path d="M172.45,154.85 L109.7,154.85"/>
             <path d="M172.45,158.35 L109.7,158.35"/>
-        </g>
-        <g id="product-a6495a82-e66c-4b9a-a3d0-c33f51260dcc" class="IfcBeam material-NLRS28SRbalkbetonBB350x600 projection" ifc:name="NLRS_28_SR_balk_beton BB 350x600" ifc:guid="2cILg2vcnBcgFGmpzH9WtC">
-            <path d="M189.95,158.35 L189.95,154.85"/>
-            <path d="M252.7,154.85 L189.95,154.85"/>
-            <path d="M252.7,158.35 L189.95,158.35"/>
         </g>
         <g id="product-bdceab11-439a-4122-81ac-d760329a5bc9" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="2zpgiHGvf18e6irs0ocbl9">
             <path d="M60.75,53.7501 L60.75,52.6501"/>
