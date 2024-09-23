@@ -34,8 +34,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.thick { stroke-width: 0.5; }
 .PredefinedType-LINEWORK.strong { stroke-width: 1; }
 .PredefinedType-BACKGROUND { stroke: black; stroke-width: 0.18; }
-.PredefinedType-GRID { marker-start: url(#grid-marker); marker-end: url(#grid-marker); }
-.PredefinedType-SECTION { stroke-dasharray: 12.5, 3, 3, 3; }
+.PredefinedType-GRID { marker-start: url(#grid-marker); marker-end: url(#grid-marker); Stroke: blue; }
 .PredefinedType-SECTIONLEVEL { marker-start: url(#section-level-marker); stroke-dasharray: 12.5, 3, 3, 3; }
 .PredefinedType-PLANLEVEL { marker-end: url(#plan-level-marker); }
 .PredefinedType-DIMENSION { marker-start: url(#dimension-marker-start); marker-end: url(#dimension-marker-end); }
@@ -52,16 +51,67 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-FILLAREA { fill: white; stroke: black; }
 .PredefinedType-BREAKLINE { fill: none; stroke: black; stroke-width: 0.25; marker-mid: url(#breakline-marker); }
 .PredefinedType-TEXT { fill: black; stroke: none; }
+path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }
+text.PredefinedType-TEXTLEADER, tspan.PredefinedType-TEXTLEADER { fill: black; stroke: none; }
+text.title, tspan.title { /* 7mm */ font-size: 11.55px; }
+text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
+text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
+text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
+text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
+ text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }
+ text.italic, tspan.italic {font-style: italic;}
+/* Origineel: 
+text.GRID, tspan.GRID { /* 5mm  font-size: 8.25px; } 
+.PredefinedType-SECTION { stroke-dasharray: 12.5, 3, 3, 3; } */
+.material-blank { fill: white; }
+.material-diagonal1 { fill: url(#diagonal1); }
+.material-diagonal2 { fill: url(#diagonal2); }
+.material-diagonal3 { fill: url(#diagonal3); }
+.material-crosshatch1 { fill: url(#crosshatch1); }
+.material-crosshatch2 { fill: url(#crosshatch2); }
+.material-crosshatch3 { fill: url(#crosshatch3); }
+.material-brick { fill: url(#brick); }
+.material-earth { fill: url(#earth); }
+.material-glass { fill: url(#glass); }
+.material-liquid { fill: url(#liquid); }
+.material-grass { fill: url(#grass); }
+.material-honeycomb { fill: url(#honeycomb); }
+.material-sand { fill: url(#sand); }
+.material-concrete { fill: url(#concrete); stroke-width: 0.5; }
+.IfcSpace { fill: none; stroke: none; }
+.PredefinedType-STUD { stroke: black; stroke-width: 1; }
+.PredefinedType-WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }
+.PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
+.PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
+.PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+
+
 /*
  NL Additions
  */
-.PredefinedType-sand { fill: url(#sand); }
-.PredefinedType-earth { fill: url(#earth); }
-.PredefinedType-glass { fill: url(#glass); }
-.PredefinedType-grass { fill: url(#grass); }
-.PredefinedType-wood { fill: url(#wood); }
-.PredefinedType-sand { fill: url(#sand); }
-.PredefinedType-concrete { fill: url(#concrete); }
+.PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }
+.PredefinedType-SECTION { marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); }
+.PredefinedType-LINEWORK.WDBDO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3;}
+.PredefinedType-LINEWORK.afbreeklijn { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3;}
+.PredefinedType-LINEWORK.grey { stroke:	#808080; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
+.PredefinedType-black { fill: black; }
+.PredefinedType-wit{ fill: white; stroke: black; stroke-width: 0.2;}
+.PredefinedType-wit25 {fill: white; opacity: 0.25; stroke: none;}
+.PredefinedType-wit50 {fill: white; opacity: 0.5; stroke: none;}
+.PredefinedType-wit75 {fill: white; opacity: 0.75; stroke: none;}
+.PredefinedType-LINEWORK.folie{ stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.grid{ stroke:blue; stroke-dasharray: 10, 4, 2, 4; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.gridends{ marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2;}
+.PredefinedType-LINEWORK.section{ marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); stroke:black; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.2; }
+.PredefinedType-TEXT.blue { fill: blue; stroke: none; }
+.PredefinedType-TEXT.witachter {display: inline-block; background-color: white;}
+.PredefinedType-metselwerkbaksteenrood5{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_rood_5); }
+.PredefinedType-isolatiePIR5{ fill: url(  #CUST_NEN47_17_isolatie_PIR_5); }
+
+
 .PredefinedType-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_50); }
 .PredefinedType-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_50); }
 .PredefinedType-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
@@ -80,7 +130,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-NEN4720lood{ fill: url(  #NEN47_20_lood_50); }
 .PredefinedType-NEN4722kunststof{ fill: url(  #NEN47_22_kunststof_50); }
 .PredefinedType-NEN4723afdichtingsmiddel{ fill: url(  #NEN47_23_afdichtingsmiddel_50); }
-.PredefinedType-NEN4725maaiveld{ fill: url(  #NEN47_25_maaiveld_50); }
+.PredefinedType-NEN4725maaiveld{ fill: url(  #NEN47_25_maaiveld_50);}
 .PredefinedType-NEN4726zand{ fill: url(  #NEN47_26_zand_50); }
 .PredefinedType-NEN4727grind{ fill: url(  #NEN47_27_grind_50); }
 .PredefinedType-NEN4728water{ fill: url(  #NEN47_28_water_50); }
@@ -113,6 +163,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-metselwerkbaksteencement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_50); }
 .PredefinedType-metselwerkbaksteentras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_50); }
 .PredefinedType-metselwerkbaksteenkalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_50); }
+.PredefinedType-kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
 .PredefinedType-natuursteenhardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_50); }
 .PredefinedType-natuursteenzandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_50); }
 .PredefinedType-natuursteenkalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_50); }
@@ -150,6 +201,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-isolatiePUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_50); }
 .PredefinedType-isolatieEPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_50); }
 .PredefinedType-isolatieEPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_50); }
+.PredefinedType-maaiveldalgemeen{ fill: url(  #CUST_NEN47_25_maaiveld_algemeen_50);  stroke: none;}
 .PredefinedType-maaiveldgrond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_50); }
 .PredefinedType-maaiveldasfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_50); }
 .PredefinedType-maaiveldklei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_50); }
@@ -158,7 +210,9 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-waterwater{ fill: url(  #CUST_NEN47_28_water_water_50); }
 .PredefinedType-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_50); }
 .PredefinedType-glasmat{ fill: url(  #CUST_NEN47_29_glas_mat_50); }
-.PredefinedType-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_50); }
+.PredefinedType-blank { fill: white; stroke: none; }
+.PredefinedType-blankdashed { fill: white; stroke: black; stroke-width: 0.5 ; stroke-dasharray: 3, 4, 3, 4, 3, 4; }
+
 .material-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_50); }
 .material-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_50); }
 .material-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
@@ -210,6 +264,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-metselwerkbaksteencement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_50); }
 .material-metselwerkbaksteentras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_50); }
 .material-metselwerkbaksteenkalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_50); }
+.material-kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
 .material-natuursteenhardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_50); }
 .material-natuursteenzandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_50); }
 .material-natuursteenkalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_50); }
@@ -255,34 +310,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-waterwater{ fill: url(  #CUST_NEN47_28_water_water_50); }
 .material-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_50); }
 .material-glasmat{ fill: url(  #CUST_NEN47_29_glas_mat_50); }
-.material-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_50); }
-path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }
-text.PredefinedType-TEXTLEADER, tspan.PredefinedType-TEXTLEADER { fill: black; stroke: none; }
-text.title, tspan.title { /* 7mm */ font-size: 11.55px; }
-text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
-text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
-text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
-text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
-text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }
-text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
-.material-blank { fill: white; }
-.material-diagonal1 { fill: url(#diagonal1); }
-.material-diagonal2 { fill: url(#diagonal2); }
-.material-diagonal3 { fill: url(#diagonal3); }
-.material-crosshatch1 { fill: url(#crosshatch1); }
-.material-crosshatch2 { fill: url(#crosshatch2); }
-.material-crosshatch3 { fill: url(#crosshatch3); }
-.material-brick { fill: url(#brick); }
-.material-earth { fill: url(#earth); }
-.material-glass { fill: url(#glass); }
-.material-liquid { fill: url(#liquid); }
-.material-grass { fill: url(#grass); }
-.material-honeycomb { fill: url(#honeycomb); }
-.material-sand { fill: url(#sand); }
-.material-concrete { fill: url(#concrete); stroke-width: 0.5; }
-.IfcSpace { fill: none; stroke: none; }
-.PredefinedType-STUD { stroke: black; stroke-width: 1; }
-.PredefinedType-WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }
-.PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
-.PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
-.PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+
+
+
