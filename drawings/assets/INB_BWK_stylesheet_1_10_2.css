@@ -38,10 +38,13 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.grey { stroke:	#808080; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
+.PredefinedType-LINEWORK.hartlijn { stroke:black; stroke-width: 0.2; stroke-dasharray: 10, 1, 1, 1;}
 .PredefinedType-LINEWORK.foil{ stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }
-.PredefinedType-LINEWORK.grid{ stroke:blue; stroke-dasharray: 10, 4, 2, 4; stroke-width: 0.2; }
-.PredefinedType-LINEWORK.gridends{ marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2;}
+.PredefinedType-LINEWORK.grid{ stroke: blue; stroke-width: 0.2; stroke-dasharray: 12.5, 8, 1, 8; }
+.PredefinedType-LINEWORK.gridends{ marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.section{ marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); stroke:black; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.sectionfake{ stroke:black; stroke-dasharray: 9, 5, 0.5, 5; stroke-width: 0.1; }
+.PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }
 .PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.2; }
 .PredefinedType-BACKGROUND { stroke: black; stroke-width: 0.18; }
 .PredefinedType-GRID { marker-start: url(#grid-marker); marker-end: url(#grid-marker); }
@@ -65,6 +68,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 /*
  NL Additions
  */
+.PredefinedType-afbreeklijn{ fill: url(#afbreeklijn); }
 .PredefinedType-sand { fill: url(#sand); }
 .PredefinedType-earth { fill: url(#earth); }
 .PredefinedType-glass { fill: url(#glass); }
@@ -105,6 +109,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_10); }
 .PredefinedType-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_10); }
 .PredefinedType-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_10); }
+.PredefinedType-gewapendbeton{ fill: url(  #CUST_NEN47_6_gewapend_beton_10); }
 .PredefinedType-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_10); }
 .PredefinedType-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_10); }
 .PredefinedType-enkelewandvloerafwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_10); }
@@ -174,7 +179,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_10); }
 .PredefinedType-glasmat{ fill: url(  #CUST_NEN47_29_glas_mat_10); }
 .PredefinedType-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_10); }
-.material-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_10); }
+.material-NEN471metselwerkbaksteen	{ fill: url(  #NEN47_1_metselwerk_baksteen_10); }
 .material-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_10); }
 .material-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_10); }
 .material-NEN474nietdragendelichtescheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_10); }
@@ -202,6 +207,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_10); }
 .material-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_10); }
 .material-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_10); }
+.material-gewapendbeton{ fill: url(  #CUST_NEN47_6_gewapend_beton_10); }
 .material-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_10); }
 .material-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_10); }
 .material-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_10); }

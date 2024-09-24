@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:10" height="1000.0000953674316mm" id="root" version="1.1" viewBox="0 0 1000.0000953674316 1000.0000953674316" width="1000.0000953674316mm">
+  <defs/>
+  <path class="GlobalId-2Lr8gUU_L7rxUchOJmQKaR IfcAnnotation PredefinedType-SECTIONLEVEL" d="M 5821.5439453125 876.6145629882812 L 821.5438842773438 876.6145629882812"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(5821.5439453125, 873.1145629882812) rotate(0.0)">
+    <tspan class="SECTIONLEVEL" dy="-1em" x="0" y="0">My Storey</tspan>
+    <tspan class="SECTIONLEVEL" dy="0em" x="0" y="0">RL -0</tspan>
+  </text>
+</svg>

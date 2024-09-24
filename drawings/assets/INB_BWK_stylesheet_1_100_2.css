@@ -104,6 +104,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
 .PredefinedType-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_100); }
 .PredefinedType-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_100); }
+.PredefinedType-gewapendbeton{ fill: url(  #CUST_NEN47_6_gewapend_beton_100); }
 .PredefinedType-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_100); }
 .PredefinedType-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_100); }
 .PredefinedType-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_100); }
@@ -192,6 +193,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
 .material-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_100); }
 .material-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_100); }
+.material-gewapendbeton{ fill: url(  #CUST_NEN47_6_gewapend_beton_100); }
 .material-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_100); }
 .material-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_100); }
 .material-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_100); }

@@ -283,8 +283,10 @@ text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
 text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
 text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
-text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }
+text.mini, tspan.mini { /* 1.3mm */ font-size: 2.145px; }
+text.GRID, tspan.GRID { /* 1.8mm */ font-size: 2.97px; font-weight: bold; }
 text.italic, tspan.italic {font-style: italic;}
+text.bold, tspan.bold {font-weight: bold;}
 text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
 .material-blank { fill: white; }
 .material-diagonal1 { fill: url(#diagonal1); }
