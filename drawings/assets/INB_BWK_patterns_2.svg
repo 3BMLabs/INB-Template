@@ -1375,7 +1375,7 @@
     <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
 </pattern>
 <pattern id="CUST_NEN47_6_gewapend_beton_10" width="3" height="3" patternTransform="rotate(45 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
-    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3"/>
 </pattern>
 <pattern id="CUST_NEN47_6_gewapend_beton_5" width="3" height="3" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
@@ -3025,7 +3025,7 @@
     <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.2" />
 </pattern>
 <pattern id="CUST_NEN47_12_naaldhout_vuren_CLT_10" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
-    <path style="fill: #F0DCB9;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
+    <path style="fill: #F0DCB9;" d="M 0 0 1.5 0 1.5 1.5 0 1.5"/>
     <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.2" />
 </pattern>
 <pattern id="CUST_NEN47_12_naaldhout_vuren_CLT_5" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">

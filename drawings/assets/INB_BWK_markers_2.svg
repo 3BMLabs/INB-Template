@@ -81,9 +81,9 @@
     </marker>
 	 <marker id="vloeroverspanning-marker" markerHeight="4" markerWidth="16" orient="auto-start-reverse" refX="16" refY="4">
         <path d="M0 0 16 4" class="annotation" style="stroke-width:1;" />
-    </marker>1
-	<marker id="leader-marker" markerHeight="7" markerWidth="10" orient="auto" refX="10" refY="3.5">
-        <path d="M 0 6 L 2 12 L 4 6 L 0 6" class="annotation" style="fill:black;" />
+    </marker>
+	<marker id="leader-marker" markerHeight="8" markerWidth="14" orient="auto" refX="13" refY="3">
+        <path d="M0 6 14 3 0 0V6" class="annotation" style="fill:black;" />
     </marker> 
     <marker id="stair-marker-start" markerHeight="0" markerWidth="0" orient="auto" refX="5" refY="5">
     </marker>
