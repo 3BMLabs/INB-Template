@@ -152,10 +152,10 @@
     <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.15" />
     <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.15" />
 </pattern>
-<pattern id="NEN47_1_metselwerk_baksteen_10" width="3" height="3" patternTransform="rotate(45 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+<pattern id="NEN47_1_metselwerk_baksteen_10" width="3" height="3" patternTransform="rotate(45 0 0) scale(3.0 3.0)" patternUnits="userSpaceOnUse">
     no_background
-    <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.15" />
-    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.15" />
+    <line x1="1" y1="0" x2="1" y2="3" style="stroke:grey; stroke-width:0.05" />
+    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:grey; stroke-width:0.05" />
 </pattern>
 <pattern id="NEN47_1_metselwerk_baksteen_5" width="3" height="3" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     no_background
@@ -1226,9 +1226,9 @@
 	<path style="fill: #C0C0C0;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
    <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
 </pattern>
-<pattern id="CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_10" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+<pattern id="CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_10" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(6.0 6.0)" patternUnits="userSpaceOnUse">
 	<path style="fill: #C0C0C0;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
-   <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
+   <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.05" />
 </pattern>
 <pattern id="CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_5" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
 	<path style="fill: #C0C0C0;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
@@ -1346,9 +1346,9 @@
     <path style="fill: #808080;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
     <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
 </pattern>
-<pattern id="CUST_NEN47_6_gewapend_beton_prefab_10" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+<pattern id="CUST_NEN47_6_gewapend_beton_prefab_10" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(3.0 3.0)" patternUnits="userSpaceOnUse">
     <path style="fill: #808080;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
-    <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
+    <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.1" />
 </pattern>
 <pattern id="CUST_NEN47_6_gewapend_beton_prefab_5" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #808080;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
@@ -2207,10 +2207,10 @@
     <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.15" />
     <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.15" />
 </pattern>
-<pattern id="CUST_NEN47_1_metselwerk_baksteen_rood_10" width="3" height="3" patternTransform="rotate(45 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+<pattern id="CUST_NEN47_1_metselwerk_baksteen_rood_10" width="3" height="3" patternTransform="rotate(45 0 0) scale(3.0 3.0)" patternUnits="userSpaceOnUse">
     <path style="fill: #CD7C61;" d="M 0 0 3 0 3 3 0 3" />
-    <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.15" />
-    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.15" />
+    <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.05" />
+    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.05" />
 </pattern>
 <pattern id="CUST_NEN47_1_metselwerk_baksteen_rood_5" width="3" height="3" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #CD7C61;" d="M 0 0 3 0 3 3 0 3" />
@@ -2348,9 +2348,9 @@
 	<path style="fill: #C0C0C0;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
    <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
 </pattern>
-<pattern id="CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_10" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+<pattern id="CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_10" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(6.0 6.0)" patternUnits="userSpaceOnUse">
 	<path style="fill: #C0C0C0;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
-   <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
+   <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.1" />
 </pattern>
 <pattern id="CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_5" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
 	<path style="fill: #C0C0C0;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
@@ -3484,10 +3484,10 @@
 	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.15" />
 	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.15" />
 </pattern>
-<pattern id="CUST_NEN47_17_isolatie_EPS_10" width="1.5" height="1.5" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+<pattern id="CUST_NEN47_17_isolatie_EPS_10" width="1.5" height="1.5" patternTransform="rotate(0 0 0) scale(3.0 3.0)" patternUnits="userSpaceOnUse">
     <path style="fill: #DCDCE1;" d="M 0 0 3.64 0 3.64 3.64 0 3.64" />
-	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.15" />
+	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:grey; stroke-width:0.05" />
+	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:grey; stroke-width:0.05" />
 </pattern>
 <pattern id="CUST_NEN47_17_isolatie_EPS_5" width="1.5" height="1.5" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #DCDCE1;" d="M 0 0 3.64 0 3.64 3.64 0 3.64" />

@@ -283,7 +283,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }
 .PredefinedType-SECTION { marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); }
 .PredefinedType-TEXT.blue { fill: blue; stroke: none; }
-.PredefinedType-TEXT.witachter {display: inline-block; background-color: white;}
 path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }
 text.PredefinedType-TEXTLEADER, tspan.PredefinedType-TEXTLEADER { fill: black; stroke: none; }
 text.title, tspan.title { /* 7mm */ font-size: 11.55px; }
@@ -291,9 +290,10 @@ text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
 text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
 text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
+text.mini, tspan.mini { /* 1.3mm */ font-size: 2.145px; }
 text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }
 text.italic, tspan.italic {font-style: italic;}
-text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
+text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 .material-blank { fill: white; }
 .material-diagonal1 { fill: url(#diagonal1); }
 .material-diagonal2 { fill: url(#diagonal2); }

@@ -147,7 +147,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-naaldhoutazobe{ fill: url(  #CUST_NEN47_12_naaldhout_azobe_100); }
 .PredefinedType-naaldhoutbamboe{ fill: url(  #CUST_NEN47_12_naaldhout_bamboe_100); }
 .PredefinedType-naaldhoutvurenCLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_100); }
-.PredefinedType-FILL_AREA.naaldhoutvurenCLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_100); }
+.PredefinedType-FILLAREA.naaldhoutvurenCLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_100); }
 .PredefinedType-bekledingsplaatmultiplex{ fill: url(  #CUST_NEN47_16_bekledingsplaat_multiplex_100); }
 .PredefinedType-bekledingsplaatOSB{ fill: url(  #CUST_NEN47_16_bekledingsplaat_OSB_100); }
 .PredefinedType-bekledingsplaatMDF{ fill: url(  #CUST_NEN47_16_bekledingsplaat_MDF_100); }
