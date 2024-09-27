@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:10" height="500.0968394874949mm" id="root" version="1.1" viewBox="0 0 700.0000476837158 500.0968394874949" width="700.0000476837158mm">
+  <defs/>
+  <path class="GlobalId-3l14P$zUPE1xVzDg4_ArGA IfcAnnotation PredefinedType-metselwerkbaksteen" d="M 133.31801891326904 86.07976129648182 L 633.318018913269 86.07976129648182 L 633.318018913269 76.07972314950916 L 133.31801891326904 76.07972314950916 L 133.31801891326904 86.07976129648182"/>
+  <path class="GlobalId-2XYQ4qq5PCEQanJcd2w7Sw IfcAnnotation PredefinedType-nietdragendelichtescheidingswanden" d="M 133.31801891326904 300.07970026132557 L 633.318018913269 300.07970026132557 L 633.318018913269 286.0797612964818 L 133.31801891326904 286.0797612964818 L 133.31801891326904 300.07970026132557"/>
+  <path class="GlobalId-0irUEGHhvDw81279pljB9B IfcAnnotation PredefinedType-loofhout" d="M 133.31801891326904 210.07973840829823 L 633.318018913269 210.07973840829823 L 633.318018913269 200.07970026132557 L 133.31801891326904 200.07970026132557 L 133.31801891326904 210.07973840829823"/>
+  <path class="GlobalId-1iZGzq$89BTQAF8gewRwbd IfcAnnotation PredefinedType-afdichtingsmiddel" d="M 133.31801891326904 386.0797612964818 L 633.318018913269 386.0797612964818 L 633.318018913269 376.07972314950916 L 133.31801891326904 376.07972314950916 L 133.31801891326904 386.0797612964818"/>
+  <path class="GlobalId-1KFGx_34f1XPLZ8fu95ebe IfcAnnotation PredefinedType-isolatie" d="M 133.31801891326904 100.07970026132557 L 633.318018913269 100.07970026132557 L 633.318018913269 86.07976129648182 L 133.31801891326904 86.07976129648182 L 133.31801891326904 100.07970026132557"/>
+  <path class="GlobalId-0wewzRu3v1owSoAngRhQFw IfcAnnotation PredefinedType-bekledingsplaat" d="M 133.31801891326904 286.0797612964818 L 633.318018913269 286.0797612964818 L 633.318018913269 276.07972314950916 L 133.31801891326904 276.07972314950916 L 133.31801891326904 286.0797612964818"/>
+  <path class="GlobalId-2QuR5k_tTFUOL$gTm9RNjl IfcAnnotation PredefinedType-samengesteldewandvloerafwerking" d="M 133.31801891326904 400.07970026132557 L 633.318018913269 400.07970026132557 L 633.318018913269 386.0797612964818 L 133.31801891326904 386.0797612964818 L 133.31801891326904 400.07970026132557"/>
+  <path class="GlobalId-2TBs_svbb8Qwp6hyntsEgS IfcAnnotation PredefinedType-lood" d="M 133.31801891326904 310.0797384082982 L 633.318018913269 310.0797384082982 L 633.318018913269 300.07970026132557 L 133.31801891326904 300.07970026132557 L 133.31801891326904 310.0797384082982"/>
+  <path class="GlobalId-2ZYPA$LozBcRNzkhDSfgPs IfcAnnotation PredefinedType-sierbeton" d="M 133.31801891326904 110.07973840829823 L 633.318018913269 110.07973840829823 L 633.318018913269 100.07970026132557 L 133.31801891326904 100.07970026132557 L 133.31801891326904 110.07973840829823"/>
+  <path class="GlobalId-1sYHB3AeL9RuNv02GEsHJE IfcAnnotation PredefinedType-naaldloofhoutlangsarcering" d="M 133.31801891326904 410.0797384082982 L 633.318018913269 410.0797384082982 L 633.318018913269 400.07970026132557 L 133.31801891326904 400.07970026132557 L 133.31801891326904 410.0797384082982"/>
+  <path class="GlobalId-1Rvyr3YNT0J9uDlcs9lLae IfcAnnotation PredefinedType-naaldhout" d="M 133.31801891326904 200.07970026132557 L 633.318018913269 200.07970026132557 L 633.318018913269 186.07976129648182 L 133.31801891326904 186.07976129648182 L 133.31801891326904 200.07970026132557"/>
+  <path class="GlobalId-1NZ7YSv39E_QkKjRm28c1r IfcAnnotation PredefinedType-natuursteen" d="M 133.31801891326904 186.07976129648182 L 633.318018913269 186.07976129648182 L 633.318018913269 176.07972314950916 L 133.31801891326904 176.07972314950916 L 133.31801891326904 186.07976129648182"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 110.07974243164062) rotate(-0.0)">
+    <tspan class="GlobalId-1M7_BULlH3quNBfprtdqBn IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">sierbeton</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 286.07977294921875) rotate(-0.0)">
+    <tspan class="GlobalId-0hGsNSkPzEQxNdfM7jYDzT IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">bekledingsplaat</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 400.0796813964844) rotate(-0.0)">
+    <tspan class="GlobalId-2YLXjxpAjB8B0CPDjOm4xG IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">samengesteldewandvloerafwerking</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 300.0797119140625) rotate(-0.0)">
+    <tspan class="GlobalId-0Z2TE26GPCZhogUu4O1IHv IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">nietdragendelichtescheidingswanden</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 310.0797424316406) rotate(-0.0)">
+    <tspan class="GlobalId-1Uos8igDD7xPaORI9DKsIo IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">lood</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 386.07977294921875) rotate(-0.0)">
+    <tspan class="GlobalId-2Ep_bJ5zfB3AHxKGmBNAbg IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">afdichtingsmiddel</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 410.0797119140625) rotate(-0.0)">
+    <tspan class="GlobalId-28o9TV1Z5CpxoEBnJnaAoc IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">naaldloofhoutlangsarcering</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 100.07970428466797) rotate(-0.0)">
+    <tspan class="GlobalId-3wyI98$lXA0fdHVjpai6fy IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">isolatie</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 86.07975769042969) rotate(-0.0)">
+    <tspan class="GlobalId-08baGSUor5w91MOb49x51v IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">metselwerkbaksteen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 186.0797576904297) rotate(-0.0)">
+    <tspan class="GlobalId-1Cv84NqEvEXhr5SlXJ_f6c IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">natuursteen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 200.07969665527344) rotate(-0.0)">
+    <tspan class="GlobalId-3EyuIDAqH6ZA3rgw0oTd9u IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">naaldhout</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(125.54676818847656, 210.07974243164062) rotate(-0.0)">
+    <tspan class="GlobalId-1_DrfdAGD2wA$_FJEfTBcZ IfcAnnotation PredefinedType-TEXT header" dy="0em" x="0" y="0">loofhout</tspan>
+  </text>
+</svg>
