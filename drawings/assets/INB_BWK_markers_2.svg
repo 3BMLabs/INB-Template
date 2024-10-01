@@ -99,7 +99,11 @@
             <path d="M 15 15 L 22.5 15 A 7.5 7.5 0 0 1 15 22.5 Z" fill="black"/>
         </g>
 	</marker>
-	<marker id="section-level-marker" markerHeight="11" markerWidth="90" refX="20" refY="10" orient="auto-start-reverse">
+	<marker id="section-level-marker" markerHeight="14" markerWidth="40" refX="20" refY="10" orient="auto-start-reverse">
+        <g>
+            <path d="M0-4 20-4 10 10Z" fill="black" />
+            <path d="M-21 10 20 10" class="annotation" style="stroke-width:1.1;" />
+        </g>
 	</marker>
     <marker id="breakline-marker" markerHeight="20" markerWidth="15" refX="7.5" refY="10" orient="auto">
         <g>

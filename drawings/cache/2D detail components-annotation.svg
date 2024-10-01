@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="100.00000953674316mm" id="root" version="1.1" viewBox="0 0 100.00000953674318 100.00000953674316" width="100.00000953674318mm">
+  <defs/>
+  <line class="GlobalId-1SX7gV6LTDrf75rrkBjxoz IfcAnnotation PredefinedType-DIMENSION oblique" x1="62.8905143737793" x2="62.8905143737793" y1="41.81267166137695" y2="16.812671661376953"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(61.8905143737793, 29.312671661376953) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">2500</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(20.643352508544922, 30.010684967041016) rotate(-0.0)">
+    <tspan class="GlobalId-1XRUw$a8b9BeX1gxt8jzhX IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">2D IfcFurniture</tspan>
+  </text>
+</svg>

@@ -36,6 +36,11 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3;}
 .PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3;}
 .PredefinedType-LINEWORK.grey { stroke:	#808080; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.green { stroke:green; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.yellow{ stroke:yellow; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.red{ stroke:red; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.purple{ stroke:purple; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
 .PredefinedType-LINEWORK.hartlijn { stroke:black; stroke-width: 0.2; stroke-dasharray: 10, 1, 1, 1;}
@@ -45,7 +50,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.section{ marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); stroke:black; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.sectionfake{ stroke:black; stroke-dasharray: 9, 5, 0.5, 5; stroke-width: 0.1; }
 .PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }
-.PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.2; }
+
 .PredefinedType-BACKGROUND { stroke: black; stroke-width: 0.18; }
 .PredefinedType-GRID { stroke: blue; stroke-width: 0.2; stroke-dasharray: 12.5, 8, 1, 8; marker-start: url(#grid-marker); marker-end: url(#grid-marker); }
 .PredefinedType-SECTION { stroke-dasharray: 12.5, 3, 3, 3; }
@@ -268,6 +273,7 @@ text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
 text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
 text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
+text.smaller, tspan.smaller { /* 1.5mm */ font-size: 2.475px; }
 text.mini, tspan.mini { /* 1.3mm */ font-size: 2.145px; }
 text.GRID, tspan.GRID { /* 1.8mm */ font-size: 2.97px; font-weight: bold; }
 text.italic, tspan.italic {font-style: italic;}
