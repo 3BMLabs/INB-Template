@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:50" height="199.83067104717517mm" id="root" version="1.1" viewBox="0 0 400.00003814697266 199.83067104717517" width="400.00003814697266mm">
   <defs/>
+  <line class="GlobalId-2h12pcGyL6PRnzdNIKjhT_ IfcAnnotation PredefinedType-DIMENSION mw" x1="230.25987243652344" x2="240.25987243652344" y1="59.6977424621582" y2="59.6977424621582"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(235.25987243652344, 58.6977424621582) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">500</tspan>
+  </text>
+  <line class="GlobalId-2h12pcGyL6PRnzdNIKjhT_ IfcAnnotation PredefinedType-DIMENSION mw" x1="240.25987243652344" x2="268.2599182128906" y1="59.6977424621582" y2="59.6977424621582"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(254.2598876953125, 58.6977424621582) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">1400</tspan>
+  </text>
+  <line class="GlobalId-2h12pcGyL6PRnzdNIKjhT_ IfcAnnotation PredefinedType-DIMENSION mw" x1="268.2599182128906" x2="270.2598876953125" y1="59.6977424621582" y2="59.6977424621582"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(273.2598876953125, 58.6977424621582) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">100</tspan>
+  </text>
+  <line class="GlobalId-1KHqY1xhTFrxBaYpmeXHld IfcAnnotation PredefinedType-LINEWORK grid gridends" x1="230.25987243652344" x2="270.2598876953125" y1="77.69773864746094" y2="77.69773864746094"/>
+  <use transform="translate(61.45647048950195, 76.69771575927734) rotate(-0.0) scale(1.0)" xlink:href="#wapsym"/>
+  <use transform="translate(193.59292602539062, 123.15331268310547) rotate(-0.0) scale(1.0)" xlink:href="#schaalstok1_5"/>
   <use transform="translate(61.45647048950195, 66.69771575927734) rotate(-0.0) scale(1.0)" xlink:href="#hwa"/>
   <use transform="translate(145.65850830078125, 98.92253875732422) rotate(-0.0) scale(1.0)" xlink:href="#son_nuit"/>
   <use transform="translate(61.45647048950195, 86.69770812988281) rotate(-0.0) scale(1.0)" xlink:href="#wapsym_ng_1"/>
@@ -8,6 +23,7 @@
   <use transform="translate(135.65850830078125, 77.70063781738281) rotate(-0.0) scale(1.0)" xlink:href="#ds_p_l"/>
   <use transform="translate(61.45647048950195, 46.697715759277344) rotate(-0.0) scale(1.0)" xlink:href="#c1"/>
   <use transform="translate(61.45647048950195, 56.697715759277344) rotate(-0.0) scale(1.0)" xlink:href="#g10"/>
+  <use transform="translate(193.59292602539062, 162.3495330810547) rotate(-0.0) scale(1.0)" xlink:href="#schaalstok5_1"/>
   <use transform="translate(145.65850830078125, 118.92253875732422) rotate(-0.0) scale(1.0)" xlink:href="#son_uit"/>
   <line class="GlobalId-38_dF2VOn0FuJLj5g1caA0 IfcAnnotation PredefinedType-DIMENSION" x1="230.25987243652344" x2="240.25987243652344" y1="46.69771194458008" y2="46.69771194458008"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(235.25987243652344, 45.69771194458008) rotate(0.0)">
@@ -24,20 +40,12 @@
   <use transform="translate(125.65850830078125, 118.92253875732422) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_uit"/>
   <use transform="translate(125.65850830078125, 98.92253875732422) rotate(-0.0) scale(1.0)" xlink:href="#son_kl_nuit"/>
   <use transform="translate(61.45647048950195, 96.69770812988281) rotate(-0.0) scale(1.0)" xlink:href="#wapsym_ng_2"/>
-  <line class="GlobalId-2h12pcGyL6PRnzdNIKjhT_ IfcAnnotation PredefinedType-DIMENSION mw" x1="230.25987243652344" x2="240.25987243652344" y1="59.6977424621582" y2="59.6977424621582"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(235.25987243652344, 58.6977424621582) rotate(0.0)">
-    <tspan class="DIMENSION" dy="0em" x="0" y="0">500</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(230.25987243652344, 86.6977310180664) rotate(-0.0)">
+    <tspan class="GlobalId-3p1Y2Bfn1Al94cjFhiADek IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Grid</tspan>
   </text>
-  <line class="GlobalId-2h12pcGyL6PRnzdNIKjhT_ IfcAnnotation PredefinedType-DIMENSION mw" x1="240.25987243652344" x2="268.2599182128906" y1="59.6977424621582" y2="59.6977424621582"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(254.2598876953125, 58.6977424621582) rotate(0.0)">
-    <tspan class="DIMENSION" dy="0em" x="0" y="0">1400</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(230.25987243652344, 68.69774627685547) rotate(-0.0)">
+    <tspan class="GlobalId-1gPze4Zjf03B38Cy_R6TXw IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">class - mw</tspan>
   </text>
-  <line class="GlobalId-2h12pcGyL6PRnzdNIKjhT_ IfcAnnotation PredefinedType-DIMENSION mw" x1="268.2599182128906" x2="270.2598876953125" y1="59.6977424621582" y2="59.6977424621582"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(273.2598876953125, 58.6977424621582) rotate(0.0)">
-    <tspan class="DIMENSION" dy="0em" x="0" y="0">100</tspan>
-  </text>
-  <line class="GlobalId-1KHqY1xhTFrxBaYpmeXHld IfcAnnotation PredefinedType-LINEWORK grid gridends" x1="230.25987243652344" x2="270.2598876953125" y1="77.69773864746094" y2="77.69773864746094"/>
-  <use transform="translate(61.45647048950195, 76.69771575927734) rotate(-0.0) scale(1.0)" xlink:href="#wapsym"/>
   <use transform="translate(125.65850830078125, 138.92254638671875) rotate(-0.0) scale(1.0)" xlink:href="#kol_ond"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(125.65850830078125, 138.92254638671875) rotate(-0.0)">
     <tspan class="GlobalId-3XCtKH9yrEMvK6a$vq3xhy IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">HEA120</tspan>
@@ -46,7 +54,7 @@
   <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(135.65850830078125, 46.697715759277344) rotate(-0.0)">
     <tspan class="GlobalId-3sTSfzqI5B69MFYiw0dw6j IfcAnnotation PredefinedType-TEXT small bold" dy="0em" x="0" y="0">PUNTNIVEAU: -14.0 NAP</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(41.45647048950195, 39.14589309692383) rotate(90.00000250447816)">
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(41.45647048950195, 39.14589309692383) rotate(89.999995674289)">
     <tspan class="GlobalId-0T7eDbHfH0lAWETCNkmJjQ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Symbols &amp; markers</tspan>
   </text>
   <use transform="translate(135.65850830078125, 61.697715759277344) rotate(-0.0) scale(1.0)" xlink:href="#pn_2_5"/>
@@ -56,11 +64,5 @@
   <use transform="translate(145.65850830078125, 135.06497192382812) rotate(-0.0) scale(1.0)" xlink:href="#kol_bov"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(145.65850830078125, 135.06497192382812) rotate(-0.0)">
     <tspan class="GlobalId-31589V89fDxRnMox$gyH2b IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">HEA120</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(230.25987243652344, 86.6977310180664) rotate(-0.0)">
-    <tspan class="GlobalId-3p1Y2Bfn1Al94cjFhiADek IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Grid</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(230.25987243652344, 68.69774627685547) rotate(-0.0)">
-    <tspan class="GlobalId-1gPze4Zjf03B38Cy_R6TXw IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">class - mw</tspan>
   </text>
 </svg>

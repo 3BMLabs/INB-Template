@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:10" height="500.0000476837158mm" id="root" version="1.1" viewBox="0 0 500.0000476837158 500.0000476837158" width="500.0000476837158mm">
+  <defs/>
+  <use transform="translate(37.33723068237305, 251.70237731933594) rotate(-0.0) scale(1.0)" xlink:href="#schaalstok1_100"/>
+  <use transform="translate(37.33723068237305, 81.26557159423828) rotate(-0.0) scale(1.0)" xlink:href="#schaalstok1_1"/>
+</svg>

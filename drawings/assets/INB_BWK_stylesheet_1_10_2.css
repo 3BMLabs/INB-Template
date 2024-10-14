@@ -82,7 +82,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-white25 {fill: white; opacity: 0.25; stroke: none;}
 .PredefinedType-white50 {fill: white; opacity: 0.5; stroke: none;}
 .PredefinedType-white75 {fill: white; opacity: 0.75; stroke: none;}
-.PredefinedType-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_10); }
+.PredefinedType-NEN47_1_metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_10); }
 .PredefinedType-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_10); }
 .PredefinedType-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_10); }
 .PredefinedType-NEN474nietdragendelichtescheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_10); }
