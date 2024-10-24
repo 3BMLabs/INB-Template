@@ -3,13 +3,13 @@ INB staat voor **I**fc **N**l **B**ouw
 Deze repository bevat een experimentele IFC-template en beknopte bibliotheek voor de bouwsector in Nederland. 
 
 # Aanleiding
-De aanleiding tot het maken van deze templateis zijn de onstuimige ontwikkelingen binnen https://blenderbim.org/. BlenderBIM een Open Source BIM-modelling tool voor de AEC. De verwachting is dat BlenderBIM < medio 2025 geschikt zal zijn om als BIM modelling pakket te kunnen gebruiken.
+De aanleiding tot het maken van deze templateis zijn de onstuimige ontwikkelingen binnen https://bonsaibim.org/. Bonsai, eerder BlenderBIM genoemd, is een Open Source BIM-modelling tool voor de AEC. Bonsai wordt geïnstalleerd als extensie op het succesvolle Open Source 3D programma Blender. De verwachting is dat Bonsai < medio 2025 geschikt zal zijn om als BIM modelling pakket te kunnen gebruiken.
 
 # Versie
 De gebruikte versie is IFC4x3.
 
 # Doel
-Het doel van deze repository is om tot een eerste versie te komen van een Nederlandse IFC template die onder andere te gebruiken is binnen BlenderBIM en FreeCAD. 
+Het doel van deze repository is om tot een eerste versie te komen van een Nederlandse IFC template die onder andere te gebruiken is binnen Bonsai en FreeCAD. 
 De template en bibliotheek moet zowel geschikt zijn voor bouwkunde als constructie.
 Het idee is dat je een standaard kunt ontwikkelen via Github zonder gebruikersgroepen en commissies. Om mee te kunnen doen moet je met Github kunnen werken en in staat zijn om goede voorstellen te doen. 
 
