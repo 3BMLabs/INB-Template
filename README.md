@@ -65,5 +65,5 @@ Voor deze nieuwe Nederlandse Ifc-template hanteren we eenvoudige naamgevingsrege
 
 ![Image](img/Arceringen_Annotaties.png)
 ![Image](img/Sheet_Aanzichten_Doorsnede.png)
-![Image](img/Doorsnede.svg)
+![Image](img/Doorsnede.png)
 ![Image](img/Pile_Layout_Plan.svg)
