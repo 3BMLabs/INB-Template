@@ -1,31 +1,31 @@
 /*
- * BlenderBIM Add-on - OpenBIM Blender Add-on
+ * Bonsai - OpenBIM Blender Add-on
  * Copyright (C) 2020, 2021 Dion Moult <dion@thinkmoult.com>
  *
- * This file is part of BlenderBIM Add-on.
+ * This file is part of Bonsai.
  *
- * BlenderBIM Add-on is free software: you can redistribute it and/or modify
+ * Bonsai is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * BlenderBIM Add-on is distributed in the hope that it will be useful,
+ * Bonsai is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with BlenderBIM Add-on.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Bonsai.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 * { stroke-linecap: round; stroke-linejoin: round; }
 text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type B TT', 'DejaVu Sans Condensed', 'Liberation Sans', 'Arial Narrow', 'Arial'; font-size: 4.13px; }
-.cut { fill: black; stroke: black; stroke-linecap: 'round'; stroke-width: 0.35; fill-rule: evenodd; }
-.projection { fill: white; stroke: black; stroke-linecap: 'round'; stroke-width: 0.25; }
+.cut { fill: black; stroke: black; stroke-linecap: round; stroke-width: 0.35; fill-rule: evenodd; }
+.projection { fill: white; stroke: black; stroke-linecap: round; stroke-width: 0.25; }
 .surface { stroke: none; fill: #fff; fill-rule: evenodd; }
-.annotation { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 0.25; }
-.IfcAnnotation { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 0.25; }
-.IfcGeographicElement { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 1; }
+.annotation { fill: none; stroke: black; stroke-linecap: round; stroke-width: 0.25; }
+.IfcAnnotation { fill: none; stroke: black; stroke-linecap: round; stroke-width: 0.25; }
+.IfcGeographicElement { fill: none; stroke: black; stroke-linecap: round; stroke-width: 1; }
 .PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }
 .PredefinedType-LINEWORK.fine { stroke-width: 0.18; stroke: #777777; }
@@ -33,16 +33,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.medium { stroke-width: 0.35; }
 .PredefinedType-LINEWORK.thick { stroke-width: 0.5; }
 .PredefinedType-LINEWORK.strong { stroke-width: 1; }
-.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3;}
-.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3;}
-.PredefinedType-LINEWORK.grey { stroke:	#808080; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
-.PredefinedType-LINEWORK.foil{ stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }
-.PredefinedType-LINEWORK.grid{ stroke:blue; stroke-dasharray: 10, 4, 2, 4; stroke-width: 0.2; }
-.PredefinedType-LINEWORK.gridends{ marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2;}
-.PredefinedType-LINEWORK.section{ marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); stroke:black; stroke-width: 0.2; }
-.PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.2; }
 .PredefinedType-BACKGROUND { stroke: black; stroke-width: 0.18; }
 .PredefinedType-GRID { marker-start: url(#grid-marker); marker-end: url(#grid-marker); }
 .PredefinedType-SECTION { stroke-dasharray: 12.5, 3, 3, 3; }
@@ -65,17 +55,30 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 /*
  NL Additions
  */
-.PredefinedType-sand { fill: url(#sand); }
-.PredefinedType-earth { fill: url(#earth); }
-.PredefinedType-glass { fill: url(#glass); }
-.PredefinedType-grass { fill: url(#grass); }
-.PredefinedType-wood { fill: url(#wood); }
-.PredefinedType-concrete { fill: url(#concrete); }
-.PredefinedType-black { fill: black; }
-.PredefinedType-white{ fill: white; stroke: black; stroke-width: 0.2;}
-.PredefinedType-white25 {fill: white; opacity: 0.25; stroke: none;}
-.PredefinedType-white50 {fill: white; opacity: 0.5; stroke: none;}
-.PredefinedType-white75 {fill: white; opacity: 0.75; stroke: none;}
+.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3; }
+.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }
+.PredefinedType-LINEWORK.grey { stroke:#808080; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.green { stroke:green; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.blue { stroke:blue; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.yellow { stroke:yellow; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.red { stroke:red; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.purple { stroke:purple; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.dashed11 { stroke-dasharray: 1, 1; }
+.PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
+.PredefinedType-LINEWORK.dashed33 { stroke-dasharray: 3, 3; }
+.PredefinedType-LINEWORK.dashed44 { stroke-dasharray: 4, 4; }
+.PredefinedType-LINEWORK.dashed55 { stroke-dasharray: 5, 5; }
+.PredefinedType-LINEWORK.dashed66 { stroke-dasharray: 6, 6; }
+.PredefinedType-LINEWORK.dashed77 { stroke-dasharray: 7, 7; }
+.PredefinedType-LINEWORK.dashed88 { stroke-dasharray: 8, 8; }
+.PredefinedType-LINEWORK.dashed99 { stroke-dasharray: 9, 9; }
+.PredefinedType-LINEWORK.hartlijn { stroke:black; stroke-width: 0.2; stroke-dasharray: 10, 1, 1, 1; }
+.PredefinedType-LINEWORK.foil { stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.gridends { marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }
+.PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }
 .PredefinedType-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_100); }
 .PredefinedType-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_100); }
 .PredefinedType-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
@@ -253,7 +256,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }
 .PredefinedType-SECTION { marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); }
 .PredefinedType-TEXT.blue { fill: blue; stroke: none; }
-.PredefinedType-TEXT.witachter {display: inline-block; background-color: white;}
 path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }
 text.PredefinedType-TEXTLEADER, tspan.PredefinedType-TEXTLEADER { fill: black; stroke: none; }
 text.title, tspan.title { /* 7mm */ font-size: 11.55px; }
@@ -261,10 +263,13 @@ text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
 text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
 text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
-text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }
+text.smaller, tspan.smaller { /* 1.5mm */ font-size: 2.475px; }
+text.mini, tspan.mini { /* 1.3mm */ font-size: 2.145px; }
+text.GRID, tspan.GRID { /* 2.5mm */ font-size: 4.13px; font-weight: bold; }
 text.italic, tspan.italic {font-style: italic;}
-text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
-.material-blank { fill: white; }
+text.bold, tspan.bold {font-weight: bold;}
+text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
+.material-blank { fill: white; stroke: none; }
 .material-diagonal1 { fill: url(#diagonal1); }
 .material-diagonal2 { fill: url(#diagonal2); }
 .material-diagonal3 { fill: url(#diagonal3); }
@@ -285,3 +290,4 @@ text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }
 .PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
 .PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+.PredefinedType-glas{ fill:#A0BEC8;}

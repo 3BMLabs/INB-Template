@@ -318,6 +318,13 @@ NEN47_29_glas = '<pattern id="NEN47_29_glas" width="3" height="3" patternTransfo
 '	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />\n' \
 '</pattern>\n' \
 
+bestaand_gebouw = '<pattern id="bestaand_gebouw" width="18" height="18" patternTransform="rotate(45 0 0) scale(1 1)" patternUnits="userSpaceOnUse">\n' \
+	'<path style="fill: #F2F2F2;" d="M 0 0 18 0 18 18 0 18" />\n' \
+   '<line x1="0" y1="0" x2="0" y2="18" style="stroke: #CACACA; stroke-width:0.25" />\n' \
+   '<line x1="4.5" y1="0" x2="4.5" y2="18" style="stroke: #CACACA; stroke-width:0.25" />\n' \
+   '<line x1="9" y1="0" x2="9" y2="18" style="stroke: #CACACA; stroke-width:0.25" />\n' \
+'</pattern>\n' \
+
 patterns_var = {
 "NEN47_1_metselwerk_baksteen":NEN47_1_metselwerk_baksteen,
 "NEN47_2_speciale_steenachtige_materialen":NEN47_2_speciale_steenachtige_materialen,
@@ -346,38 +353,39 @@ patterns_var = {
 "NEN47_26_zand":NEN47_26_zand,
 "NEN47_27_grind":NEN47_27_grind,
 "NEN47_28_water":NEN47_28_water,
-"NEN47_29_glas":NEN47_29_glas
+"NEN47_29_glas":NEN47_29_glas,
+"bestaand_gebouw":bestaand_gebouw
 }
 
 # CSS
 PREFIX_CSS = '/*\n' \
-' * BlenderBIM Add-on - OpenBIM Blender Add-on\n' \
+' * Bonsai - OpenBIM Blender Add-on\n' \
 ' * Copyright (C) 2020, 2021 Dion Moult <dion@thinkmoult.com>\n' \
 ' *\n' \
-' * This file is part of BlenderBIM Add-on.\n' \
+' * This file is part of Bonsai.\n' \
 ' *\n' \
-' * BlenderBIM Add-on is free software: you can redistribute it and/or modify\n' \
+' * Bonsai is free software: you can redistribute it and/or modify\n' \
 ' * it under the terms of the GNU General Public License as published by\n' \
 ' * the Free Software Foundation, either version 3 of the License, or\n' \
 ' * (at your option) any later version.\n' \
 ' *\n' \
-' * BlenderBIM Add-on is distributed in the hope that it will be useful,\n' \
+' * Bonsai is distributed in the hope that it will be useful,\n' \
 ' * but WITHOUT ANY WARRANTY; without even the implied warranty of\n' \
 ' * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n' \
 ' * GNU General Public License for more details.\n' \
 ' *\n' \
 ' * You should have received a copy of the GNU General Public License\n' \
-' * along with BlenderBIM Add-on.  If not, see <http://www.gnu.org/licenses/>.\n' \
+' * along with Bonsai.  If not, see <http://www.gnu.org/licenses/>.\n' \
 ' */\n' \
 '\n' \
 '* { stroke-linecap: round; stroke-linejoin: round; }\n' \
 'text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: \'OpenGost Type B TT\', \'DejaVu Sans Condensed\', \'Liberation Sans\', \'Arial Narrow\', \'Arial\'; font-size: 4.13px; }\n' \
-'.cut { fill: black; stroke: black; stroke-linecap: \'round\'; stroke-width: 0.35; fill-rule: evenodd; }\n' \
-'.projection { fill: white; stroke: black; stroke-linecap: \'round\'; stroke-width: 0.25; }\n' \
+'.cut { fill: black; stroke: black; stroke-linecap: round; stroke-width: 0.35; fill-rule: evenodd; }\n' \
+'.projection { fill: white; stroke: black; stroke-linecap: round; stroke-width: 0.25; }\n' \
 '.surface { stroke: none; fill: #fff; fill-rule: evenodd; }\n' \
-'.annotation { fill: none; stroke: black; stroke-linecap: \'round\'; stroke-width: 0.25; }\n' \
-'.IfcAnnotation { fill: none; stroke: black; stroke-linecap: \'round\'; stroke-width: 0.25; }\n' \
-'.IfcGeographicElement { fill: none; stroke: black; stroke-linecap: \'round\'; stroke-width: 1; }\n' \
+'.annotation { fill: none; stroke: black; stroke-linecap: round; stroke-width: 0.25; }\n' \
+'.IfcAnnotation { fill: none; stroke: black; stroke-linecap: round; stroke-width: 0.25; }\n' \
+'.IfcGeographicElement { fill: none; stroke: black; stroke-linecap: round; stroke-width: 1; }\n' \
 '.PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }\n' \
 '.PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }\n' \
 '.PredefinedType-LINEWORK.fine { stroke-width: 0.18; stroke: #777777; }\n' \
@@ -385,16 +393,6 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-LINEWORK.medium { stroke-width: 0.35; }\n' \
 '.PredefinedType-LINEWORK.thick { stroke-width: 0.5; }\n' \
 '.PredefinedType-LINEWORK.strong { stroke-width: 1; }\n' \
-'.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3;}\n' \
-'.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3;}\n' \
-'.PredefinedType-LINEWORK.grey { stroke:	#808080; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }\n' \
-'.PredefinedType-LINEWORK.foil{ stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }\n' \
-'.PredefinedType-LINEWORK.grid{ stroke:blue; stroke-dasharray: 10, 4, 2, 4; stroke-width: 0.2; }\n' \
-'.PredefinedType-LINEWORK.gridends{ marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2;}\n' \
-'.PredefinedType-LINEWORK.section{ marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); stroke:black; stroke-width: 0.2; }\n' \
-'.PredefinedType-LINEWORK.blue{ stroke:blue; stroke-width: 0.2; }\n' \
 '.PredefinedType-BACKGROUND { stroke: black; stroke-width: 0.18; }\n' \
 '.PredefinedType-GRID { marker-start: url(#grid-marker); marker-end: url(#grid-marker); }\n' \
 '.PredefinedType-SECTION { stroke-dasharray: 12.5, 3, 3, 3; }\n' \
@@ -413,10 +411,34 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-SEALANT { fill: url(#crosshatch1); stroke-width: 0.25; }\n' \
 '.PredefinedType-FILLAREA { fill: white; stroke: black; }\n' \
 '.PredefinedType-BREAKLINE { fill: none; stroke: black; stroke-width: 0.25; marker-mid: url(#breakline-marker); }\n' \
-'.PredefinedType-TEXT { fill: black; stroke: none; }\n' \
+'.PredefinedType-TEXT { fill: black; stroke: none; }\n'\
 '/*\n' \
 ' NL Additions\n' \
 ' */\n' \
+'.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3; }\n' \
+'.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }\n' \
+'.PredefinedType-LINEWORK.grey { stroke:#808080; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.green { stroke:green; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.blue { stroke:blue; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.yellow { stroke:yellow; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.red { stroke:red; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.purple { stroke:purple; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.dashed11 { stroke-dasharray: 1, 1; }\n' \
+'.PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }\n' \
+'.PredefinedType-LINEWORK.dashed33 { stroke-dasharray: 3, 3; }\n' \
+'.PredefinedType-LINEWORK.dashed44 { stroke-dasharray: 4, 4; }\n' \
+'.PredefinedType-LINEWORK.dashed55 { stroke-dasharray: 5, 5; }\n' \
+'.PredefinedType-LINEWORK.dashed66 { stroke-dasharray: 6, 6; }\n' \
+'.PredefinedType-LINEWORK.dashed77 { stroke-dasharray: 7, 7; }\n' \
+'.PredefinedType-LINEWORK.dashed88 { stroke-dasharray: 8, 8; }\n' \
+'.PredefinedType-LINEWORK.dashed99 { stroke-dasharray: 9, 9; }\n' \
+'.PredefinedType-LINEWORK.hartlijn { stroke:black; stroke-width: 0.2; stroke-dasharray: 10, 1, 1, 1; }\n' \
+'.PredefinedType-LINEWORK.foil { stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }\n' \
+'.PredefinedType-LINEWORK.gridends { marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2; }\n' \
+'.PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }\n' \
+'.PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }\n' \
+'.PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }\n'
 '.PredefinedType-sand { fill: url(#sand); }\n' \
 '.PredefinedType-earth { fill: url(#earth); }\n' \
 '.PredefinedType-glass { fill: url(#glass); }\n' \
@@ -425,15 +447,18 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-concrete { fill: url(#concrete); }\n' \
 '.PredefinedType-black { fill: black; }\n' \
 '.PredefinedType-white{ fill: white; stroke: none;}\n' \
-'.PredefinedType-white25 {fill: white; opacity: 0.25; stroke: none;}\n' \
-'.PredefinedType-white50 {fill: white; opacity: 0.5; stroke: none;}\n' \
-'.PredefinedType-white75 {fill: white; opacity: 0.75; stroke: none;}\n' \
+'.PredefinedType-white25 { fill: white; opacity: 0.25; stroke: none; }\n' \
+'.PredefinedType-white50 { fill: white; opacity: 0.5; stroke: none; }\n' \
+'.PredefinedType-white75 { fill: white; opacity: 0.75; stroke: none; }\n' \
+'.PredefinedType-black10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }\n' \
+'.PredefinedType-black25 { fill: black; opacity: 0.25; stroke: none; }\n'\
+'.PredefinedType-andergebouw{ fill: url( #ander_gebouw); stroke: black; }\n' \
+
 
 SUFFIX_CSS = \
 '.PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }\n' \
 '.PredefinedType-SECTION { marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); }\n' \
 '.PredefinedType-TEXT.blue { fill: blue; stroke: none; }\n' \
-'.PredefinedType-TEXT.witachter {display: inline-block; background-color: white;}\n' \
 'path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }\n' \
 'text.PredefinedType-TEXTLEADER, tspan.PredefinedType-TEXTLEADER { fill: black; stroke: none; }\n' \
 'text.title, tspan.title { /* 7mm */ font-size: 11.55px; }\n' \
@@ -441,10 +466,13 @@ SUFFIX_CSS = \
 'text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }\n' \
 'text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }\n' \
 'text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }\n' \
-'text.GRID, tspan.GRID { /* 3.5mm */ font-size: 5.78px; }\n' \
+'text.smaller, tspan.smaller { /* 1.5mm */ font-size: 2.475px; }\n' \
+'text.mini, tspan.mini { /* 1.3mm */ font-size: 2.145px; }\n' \
+'text.GRID, tspan.GRID { /* 2.5mm */ font-size: 4.13px; font-weight: bold; }\n' \
 'text.italic, tspan.italic {font-style: italic;}\n' \
-'text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px; }\n' \
-'.material-blank { fill: white; }\n' \
+'text.bold, tspan.bold {font-weight: bold;}\n' \
+'text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }\n' \
+'.material-blank { fill: white; stroke: none; }\n' \
 '.material-diagonal1 { fill: url(#diagonal1); }\n' \
 '.material-diagonal2 { fill: url(#diagonal2); }\n' \
 '.material-diagonal3 { fill: url(#diagonal3); }\n' \
@@ -465,16 +493,18 @@ SUFFIX_CSS = \
 '.PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }\n' \
 '.PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }\n' \
 '.PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }\n' \
+'.PredefinedType-glas{ fill:#A0BEC8;}\n' \
 
 
-from pandas_ods_reader import read_ods
+
+from pandas_ods_reader import read_ods # type: ignore
 import os
 import sys
 
-basepath = "C:/Users/mikev/Documents/GitHub/INB-Template/drawings/assets/"
-basepath_library = "C:/Users/mikev/Documents/GitHub/INB-Template/"
+basepath = "C:/Users/Gebruiker/Documents/GitHub/INB-Template/drawings/assets/"
+basepath_library = "C:/Users/Gebruiker/Documents/GitHub/INB-Template/02_scripts/"
 
-path_library = basepath_library + "Library.ods"
+path_library = basepath_library + "Base_Library.ods"
 
 new_path_patterns = basepath + "INB_BWK_patterns.svg"
 

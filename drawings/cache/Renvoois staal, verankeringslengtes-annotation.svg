@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:50" height="600.0000381469727mm" id="root" version="1.1" viewBox="0 0 299.83062324114667 600.0000381469727" width="299.83062324114667mm">
+  <defs/>
+  <path class="GlobalId-3eDh_2PRD53R7$XnH8X6nx IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 424.8073387145996 L 15.780637548307723 420.3073310852051 L 15.780637548307723 424.8073387145996 L 11.280591771940536 424.8073387145996"/>
+  <path class="GlobalId-03es2DIbL2WvfkDFI7$XXC IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 153.199462890625 L 15.780637548307723 148.69945526123047 L 15.780637548307723 153.199462890625 L 11.280591771940536 153.199462890625"/>
+  <path class="GlobalId-1EOmhZ6dzAVBOpRWqf6iNK IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 292.73080825805664 L 15.780637548307723 288.2308006286621 L 15.780637548307723 292.73080825805664 L 11.280591771940536 292.73080825805664"/>
+  <path class="GlobalId-2Qe$$js$v2OA879YA6v0KQ IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 376.80734634399414 L 15.780637548307723 372.3073387145996 L 15.780637548307723 376.80734634399414 L 11.280591771940536 376.80734634399414"/>
+  <path class="GlobalId-2NgmmYVkbFVgEv49G_of1O IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 346.80734634399414 L 15.780637548307723 342.3073387145996 L 15.780637548307723 346.80734634399414 L 11.280591771940536 346.80734634399414"/>
+  <path class="GlobalId-29uZRv0wX0TRU2xMTDoXsJ IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 13.972911834716797 L 15.780637548307723 9.472904205322266 L 15.780637548307723 13.972911834716797 L 11.280591771940536 13.972911834716797"/>
+  <path class="GlobalId-1bRhps1an3yPv0IN$EZMrI IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 460.8073616027832 L 15.780637548307723 456.3073539733887 L 15.780637548307723 460.8073616027832 L 11.280591771940536 460.8073616027832"/>
+  <path class="GlobalId-3TGSBTSqbDzfskNmkPpPxD IfcAnnotation PredefinedType-black25" d="M 11.280591771940536 192.27920532226562 L 15.780637548307723 187.7791976928711 L 15.780637548307723 192.27920532226562 L 11.280591771940536 192.27920532226562"/>
+  <path class="GlobalId-3TGSBTSqbDzfskNmkPpPxD IfcAnnotation PredefinedType-black25" d="M 53.27754764352257 195.5557632446289 L 11.280591771940536 195.5557632446289 L 11.280591771940536 249.8430061340332 L 53.27754764352257 249.8430061340332 L 53.27754764352257 195.5557632446289"/>
+  <path class="GlobalId-3TGSBTSqbDzfskNmkPpPxD IfcAnnotation PredefinedType-black25" d="M 106.59492282662804 222.10317611694336 L 255.42300967965537 222.10317611694336 L 255.42300967965537 195.5557632446289 L 106.59492282662804 195.5557632446289 L 106.59492282662804 222.10317611694336"/>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 290.7792053222656) rotate(-0.0)">
+    <tspan class="GlobalId-2ZfzGj1bL8qgFnlE7WzqQF IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">RENVOOI STAAL</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 458.85736083984375) rotate(-0.0)">
+    <tspan class="GlobalId-3YOWJ88Db1r9_UGSbYla0I IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">RENVOOI LASSEN</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 374.857421875) rotate(-0.0)">
+    <tspan class="GlobalId-0oXjoNTA5EvRBU7_4sztpH IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">SONDERINGEN</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 344.857421875) rotate(-0.0)">
+    <tspan class="GlobalId-1OPPOvQ511LQ6V5ZBuuLeg IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">RENVOOI KANAALPLAATVLOEREN</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 12.02127456665039) rotate(-0.0)">
+    <tspan class="GlobalId-3u5ZNt0WP1CARwI$G7fz4z IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">RENVOOI BELASTINGEN EN UITGANGSPUNTEN</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 422.85736083984375) rotate(-0.0)">
+    <tspan class="GlobalId-3e3Lux2JLAPR3bER4gt7E8 IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">RENVOOI CHEMISCHE ANKERS</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 151.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-3X90$4h6X7MeuRoHp1cWew IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">RENVOOI BOUWKUNDIGE BASIS</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(18.296430587768555, 190.32760620117188) rotate(-0.0)">
+    <tspan class="GlobalId-070rlNqWHBAvVBk626wzDK IfcAnnotation PredefinedType-TEXT bold large white" dy="0em" x="0" y="0">RENVOOI VERANKERINGSLENGTEN</tspan>
+  </text>
+  <line class="GlobalId-02gg1FZd97I8ka7Ry1TNAY IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42298889160156" y1="365.9355163574219" y2="365.9355163574219"/>
+  <line class="GlobalId-02gg1FZd97I8ka7Ry1TNAY IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="255.42298889160156" y1="365.9355163574219" y2="350.08551025390625"/>
+  <line class="GlobalId-02gg1FZd97I8ka7Ry1TNAY IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="11.28059196472168" y1="350.08551025390625" y2="350.08551025390625"/>
+  <line class="GlobalId-02gg1FZd97I8ka7Ry1TNAY IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="350.08551025390625" y2="365.9355163574219"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="175.25131225585938" y1="118.24943542480469" y2="118.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="175.25131225585938" x2="175.25131225585938" y1="118.24943542480469" y2="124.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="175.25131225585938" x2="175.25131225585938" y1="124.24943542480469" y2="130.24945068359375"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="175.25131225585938" x2="175.25131225585938" y1="130.24945068359375" y2="136.24945068359375"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="175.25131225585938" x2="14.280584335327148" y1="136.24945068359375" y2="136.24945068359375"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="136.24945068359375" y2="130.24945068359375"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="130.24945068359375" y2="124.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="124.24943542480469" y2="118.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="118.24943542480469" y2="112.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="175.25131225585938" y1="112.24943542480469" y2="112.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="175.25131225585938" x2="175.25131225585938" y1="112.24943542480469" y2="118.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="175.25131225585938" x2="14.280584335327148" y1="130.24945068359375" y2="130.24945068359375"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="175.25131225585938" x2="14.280584335327148" y1="124.24943542480469" y2="124.24943542480469"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="168.25131225585938" x2="168.25131225585938" y1="112.24943542480469" y2="136.24942016601562"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="161.2512969970703" x2="161.2512969970703" y1="112.24943542480469" y2="136.24942016601562"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="154.25128173828125" x2="154.25128173828125" y1="112.24943542480469" y2="136.24942016601562"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="101.25129699707031" x2="101.25125885009766" y1="112.24943542480469" y2="136.24942016601562"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="62.251319885253906" x2="62.251319885253906" y1="112.24943542480469" y2="136.24942016601562"/>
+  <line class="GlobalId-3ThsYKSvf1OO2pphWNX01p IfcAnnotation PredefinedType-LINEWORK" x1="34.251285552978516" x2="34.251285552978516" y1="112.24943542480469" y2="136.24942016601562"/>
+  <line class="GlobalId-0clvkgucD1CuWB0CknMA2Q IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42298889160156" y1="527.9354858398438" y2="527.9354858398438"/>
+  <line class="GlobalId-0clvkgucD1CuWB0CknMA2Q IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="255.42298889160156" y1="527.9354858398438" y2="464.0855407714844"/>
+  <line class="GlobalId-0clvkgucD1CuWB0CknMA2Q IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="11.28059196472168" y1="464.0855407714844" y2="464.0855407714844"/>
+  <line class="GlobalId-0clvkgucD1CuWB0CknMA2Q IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="464.0855407714844" y2="527.9354858398438"/>
+  <line class="GlobalId-1VKDvQnjjAOAg5ma_StHkT IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42298889160156" y1="449.935546875" y2="449.935546875"/>
+  <line class="GlobalId-1VKDvQnjjAOAg5ma_StHkT IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="255.42298889160156" y1="449.935546875" y2="428.0855712890625"/>
+  <line class="GlobalId-1VKDvQnjjAOAg5ma_StHkT IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="11.28059196472168" y1="428.0855712890625" y2="428.0855712890625"/>
+  <line class="GlobalId-1VKDvQnjjAOAg5ma_StHkT IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="428.0855712890625" y2="449.935546875"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="96.25129699707031" x2="96.25129699707031" y1="169.32762145996094" y2="163.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="96.25129699707031" x2="14.280584335327148" y1="163.32762145996094" y2="163.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="163.32762145996094" y2="169.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="169.32762145996094" y2="175.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="96.25129699707031" y1="175.32762145996094" y2="175.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="96.25129699707031" x2="96.25129699707031" y1="175.32762145996094" y2="169.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="96.25129699707031" x2="14.280584335327148" y1="169.32762145996094" y2="169.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="72.2513198852539" x2="72.2513198852539" y1="163.32762145996094" y2="175.32762145996094"/>
+  <line class="GlobalId-3vzk9CQCn5pwDINRMYX8kG IfcAnnotation PredefinedType-LINEWORK" x1="50.251312255859375" x2="50.251312255859375" y1="163.32762145996094" y2="175.32762145996094"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="246.28060913085938" y1="50.24942398071289" y2="50.24942398071289"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="246.28060913085938" x2="246.28060913085938" y1="50.24942398071289" y2="56.249427795410156"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="246.28060913085938" x2="246.28060913085938" y1="56.249427795410156" y2="62.24943161010742"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="246.28060913085938" x2="246.28060913085938" y1="62.24943161010742" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="246.28060913085938" x2="14.280584335327148" y1="68.24942016601562" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="68.24942016601562" y2="62.24943161010742"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="62.24943161010742" y2="56.249427795410156"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="56.249427795410156" y2="50.24942398071289"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="50.24942398071289" y2="44.24943923950195"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="246.28060913085938" y1="44.24943923950195" y2="44.24943923950195"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="246.28060913085938" x2="246.28060913085938" y1="44.24943923950195" y2="50.24942398071289"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="246.28060913085938" x2="14.280584335327148" y1="62.24943161010742" y2="62.24943161010742"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="246.28060913085938" x2="14.280584335327148" y1="56.249427795410156" y2="56.249427795410156"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="239.28060913085938" x2="239.28060913085938" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="232.2805938720703" x2="232.2805938720703" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="225.2805938720703" x2="225.2805938720703" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="172.28057861328125" x2="172.28057861328125" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="121.28059387207031" x2="121.28059387207031" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="84.28058624267578" x2="84.28058624267578" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="64.28058624267578" x2="64.28058624267578" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="34.251285552978516" x2="34.251285552978516" y1="44.24943923950195" y2="68.24942016601562"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="255.42300415039062" x2="255.42300415039062" y1="142.24945068359375" y2="17.249431610107422"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="255.42300415039062" x2="11.28059196472168" y1="17.249431610107422" y2="17.249431610107422"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="17.249431610107422" y2="142.24945068359375"/>
+  <line class="GlobalId-2TZGSzYPH97AmBsRVsst60 IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42300415039062" y1="142.24945068359375" y2="142.24945068359375"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42300415039062" y1="249.455810546875" y2="249.455810546875"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="255.42300415039062" x2="255.42300415039062" y1="249.455810546875" y2="195.55580139160156"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="255.42300415039062" x2="11.28059196472168" y1="195.55580139160156" y2="195.55580139160156"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="195.55580139160156" y2="249.455810546875"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="53.277549743652344" x2="53.277549743652344" y1="195.55580139160156" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="106.59492492675781" x2="106.59492492675781" y1="195.55580139160156" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="127.18299865722656" x2="127.18299865722656" y1="222.10321044921875" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="143.31809997558594" x2="143.31809997558594" y1="222.10321044921875" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="163.04913330078125" x2="163.04913330078125" y1="222.10321044921875" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="183.29627990722656" x2="183.29627990722656" y1="222.10321044921875" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="194.43588256835938" x2="194.43588256835938" y1="222.10321044921875" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="212.9177703857422" x2="212.9177703857422" y1="222.10321044921875" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="233.2844696044922" x2="233.2844696044922" y1="222.10321044921875" y2="249.84307861328125"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="255.42300415039062" x2="106.59492492675781" y1="222.10321044921875" y2="222.10321044921875"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="106.59492492675781" x2="53.277549743652344" y1="203.25579833984375" y2="203.25579833984375"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="106.59492492675781" x2="53.277549743652344" y1="210.95579528808594" y2="210.95579528808594"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="106.59492492675781" x2="53.277549743652344" y1="218.65579223632812" y2="218.65579223632812"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="106.59492492675781" x2="53.277549743652344" y1="226.35580444335938" y2="226.35580444335938"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="106.59492492675781" x2="53.277549743652344" y1="234.05580139160156" y2="234.05580139160156"/>
+  <line class="GlobalId-3R_fxIsyvAL9GZu9_3wWHd IfcAnnotation PredefinedType-LINEWORK" x1="106.59492492675781" x2="53.277549743652344" y1="241.7558135986328" y2="241.7558135986328"/>
+  <line class="GlobalId-38T7Owrqb3HAG6WeKA$rrU IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42298889160156" y1="335.8573913574219" y2="335.8573913574219"/>
+  <line class="GlobalId-38T7Owrqb3HAG6WeKA$rrU IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="255.42298889160156" y1="335.8573913574219" y2="296.0073547363281"/>
+  <line class="GlobalId-38T7Owrqb3HAG6WeKA$rrU IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="11.28059196472168" y1="296.0073547363281" y2="296.0073547363281"/>
+  <line class="GlobalId-38T7Owrqb3HAG6WeKA$rrU IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="296.0073547363281" y2="335.8573913574219"/>
+  <line class="GlobalId-3mzPOz1Xn6$9v3pzVMpIe$ IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42298889160156" y1="413.935546875" y2="413.935546875"/>
+  <line class="GlobalId-3mzPOz1Xn6$9v3pzVMpIe$ IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="255.42298889160156" y1="413.935546875" y2="380.08551025390625"/>
+  <line class="GlobalId-3mzPOz1Xn6$9v3pzVMpIe$ IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="11.28059196472168" y1="380.08551025390625" y2="380.08551025390625"/>
+  <line class="GlobalId-3mzPOz1Xn6$9v3pzVMpIe$ IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="380.08551025390625" y2="413.935546875"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="125.28060913085938" y1="84.24943542480469" y2="84.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="125.28060913085938" x2="125.28060913085938" y1="84.24943542480469" y2="90.24944305419922"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="125.28060913085938" x2="125.28060913085938" y1="90.24944305419922" y2="96.24945068359375"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="125.28060913085938" x2="125.28060913085938" y1="96.24945068359375" y2="102.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="125.28060913085938" x2="14.280584335327148" y1="102.24943542480469" y2="102.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="102.24943542480469" y2="96.24945068359375"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="96.24945068359375" y2="90.24944305419922"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="90.24944305419922" y2="84.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="14.280584335327148" y1="84.24943542480469" y2="78.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="14.280584335327148" x2="125.28060913085938" y1="78.24943542480469" y2="78.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="125.28060913085938" x2="125.28060913085938" y1="78.24943542480469" y2="84.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="125.28060913085938" x2="14.280584335327148" y1="96.24945068359375" y2="96.24945068359375"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="125.28060913085938" x2="14.280584335327148" y1="90.24944305419922" y2="90.24944305419922"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="118.28060150146484" x2="118.28060150146484" y1="78.24943542480469" y2="102.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="111.28059387207031" x2="111.28059387207031" y1="78.24943542480469" y2="102.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="104.28062438964844" x2="104.28058624267578" y1="78.24943542480469" y2="102.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="84.28058624267578" x2="84.28058624267578" y1="78.24943542480469" y2="102.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="64.28058624267578" x2="64.28058624267578" y1="78.24943542480469" y2="102.24943542480469"/>
+  <line class="GlobalId-2$_jUU1nH9NvLc24WPZxUl IfcAnnotation PredefinedType-LINEWORK" x1="34.251285552978516" x2="34.251285552978516" y1="78.24943542480469" y2="102.24943542480469"/>
+  <line class="GlobalId-3wHLTzzr16t871eqVsPYd9 IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="255.42298889160156" y1="181.32760620117188" y2="181.32760620117188"/>
+  <line class="GlobalId-3wHLTzzr16t871eqVsPYd9 IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="255.42298889160156" y1="181.32760620117188" y2="156.47760009765625"/>
+  <line class="GlobalId-3wHLTzzr16t871eqVsPYd9 IfcAnnotation PredefinedType-LINEWORK" x1="255.42298889160156" x2="11.28059196472168" y1="156.47760009765625" y2="156.47760009765625"/>
+  <line class="GlobalId-3wHLTzzr16t871eqVsPYd9 IfcAnnotation PredefinedType-LINEWORK" x1="11.28059196472168" x2="11.28059196472168" y1="156.47760009765625" y2="181.32760620117188"/>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 359.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-1RNsUk8117ffCbCnTxuf32 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Berekening KPV dusdanig dat 1 streng doorboort kan worden</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(58.74462127685547, 245.6057586669922) rotate(-0.0)">
+    <tspan class="GlobalId-35lwq68Uf29hzaEI4MofYS IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">35</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(36.25129318237305, 81.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-3QyZJveeX1MwVaePHYBzFf IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">AFKORTING</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(33.36330032348633, 245.6057586669922) rotate(-0.0)">
+    <tspan class="GlobalId-0igj1ZF1XEQROucmdSguq6 IfcAnnotation PredefinedType-TEXT bold" dy="0em" x="0" y="0">OVERIG:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(121.84928894042969, 240.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-1vARv0QmHEeQDbSiH3Fvxp IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">12</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(110.3635025024414, 211.463134765625) rotate(-0.0)">
+    <tspan class="GlobalId-0zfllaXsD7xQmCKTWkx4ge IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">diameter verspringende overlappingen</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 431.93548583984375) rotate(-0.0)">
+    <tspan class="GlobalId-3IxCc8YD1BVguDaFEuLcYA IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Voorgeschreven ankertype en fabrikant toepassen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(127.05718994140625, 220.2065887451172) rotate(-0.0)">
+    <tspan class="GlobalId-2$KlF_j59Ar8KkSoxJUseO IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">bundel van 2</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(146.53671264648438, 220.2065887451172) rotate(-0.0)">
+    <tspan class="GlobalId-1h$OX8eDfC_euzgVU$au5$ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">bundel van 3</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(58.74462127685547, 230.20574951171875) rotate(-0.0)">
+    <tspan class="GlobalId-2Dc285Xg57XAdQlO$$enIS IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">40</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(86.25129699707031, 81.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-1cwF8pdS5F98aIAoOtTUVZ IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Q</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 323.857421875) rotate(-0.0)">
+    <tspan class="GlobalId-0BaY_z0R9FP8l$gklyyZZH IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Ankerkwaliteit: 4.6</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(121.84928894042969, 232.20663452148438) rotate(-0.0)">
+    <tspan class="GlobalId-3hbMzUHt1CNRbIvYreNwwp IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">8</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(174.25125122070312, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-0QHi84do10qAZXnNaxqgQ$ IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">VARIABELE BELASTING(Q) kN/m2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(16.25129508972168, 115.24944305419922) rotate(-0.0)">
+    <tspan class="GlobalId-37h88YGtDCguGQIRBh9T7q IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">LOCATIE</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(214.5769500732422, 220.2065887451172) rotate(-0.0)">
+    <tspan class="GlobalId-3sRVnuPfbEcOPGCIC_SzzO IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">bundel van 3</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 407.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-1_DbV_HzH2jh8HC_AKBGWB IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">graag contact opnemen met constructeur alvorens zelf de sondeerlocatie aan te passen</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(123.25126647949219, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-0f99a0jcb0RuLPBKdKXunH IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">SCHEIDINGSWANDEN(Q) kN/m2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(121.84928894042969, 224.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-2o4SDJ8XH7yuMxpGVPGwHL IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">5</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(136.28521728515625, 232.20663452148438) rotate(-0.0)">
+    <tspan class="GlobalId-34ZEokrVLCnuIuVHN8_Lv7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">300</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 479.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-0bWK1qQxP5hO1mfN5K2IZJ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Lasnaden in RVS nabeitsen en passiveren (verkleuringen t.g.v. lassen verwijderen)</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(33.25130081176758, 515.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-12ExLVqUbCJxL8lbicwb3f IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Delingen in doorgaande platen, buizen en profielen: Versprongen uitvoeren.</tspan>
+    <tspan class="GlobalId-12ExLVqUbCJxL8lbicwb3f IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">-Locaties van niet op tekening aangegeven delingen i.o.m. 3BM.</tspan>
+    <tspan class="GlobalId-12ExLVqUbCJxL8lbicwb3f IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">-Aansluitingen in platen van ongelijke dikte: afschuiningen onder heling van minimaal 1:5 aanbgrengen.</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 383.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-3oxHbFYfX1GAyL7arjqSwW IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Sonderingen waterpassen t.o.v. N.A.P.</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 329.857421875) rotate(-0.0)">
+    <tspan class="GlobalId-23pngXJwz9$Pcy9ZiZZajo IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Berekening staalverbindingen door staalleverancier te verzorgen. Berekeningen ter goedkeuring opsturen naar 3BM Bouwtechniek.</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251264572143555, 21.09945297241211) rotate(-0.0)">
+    <tspan class="GlobalId-2K_cbQmCXBg80M6ANjU9Gk IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">TOEGEPASTE NORMEN:</tspan>
+    <tspan class="GlobalId-2K_cbQmCXBg80M6ANjU9Gk IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">ONTWERPLEVENSDUURKLASSE:</tspan>
+    <tspan class="GlobalId-2K_cbQmCXBg80M6ANjU9Gk IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">ONTWERPLEVENSDUUR:</tspan>
+    <tspan class="GlobalId-2K_cbQmCXBg80M6ANjU9Gk IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0">CONSTRUCTIEGEVOLGKLASSE:</tspan>
+    <tspan class="GlobalId-2K_cbQmCXBg80M6ANjU9Gk IfcAnnotation PredefinedType-TEXT small" dy="4em" x="0" y="0">BRANDWERENDHEIDSEIS HOOFDRAAGCONSTRUCTIE:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 473.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-38Qny6N15D2e2mVY1ycYvW IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Geheel omsloten ruimten luchtdicht aflassen, luchtdichtheid aantonen middels afpersen via ventielen en een lekdetectievloeistof. </tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(113.38077545166016, 199.50782775878906) rotate(-0.0)">
+    <tspan class="GlobalId-2zZwo3vEHAsecc1sVp$lGq IfcAnnotation PredefinedType-TEXT bold" dy="0em" x="0" y="0">OVERLAPPINGSLENGTE:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251264572143555, 160.32762145996094) rotate(-0.0)">
+    <tspan class="GlobalId-2VPuhxSOjDkuGQtyEu4kDc IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Constructietekeningen zijn gebaseerd op onderstaande bouwkundige tekeningen:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(58.74462127685547, 207.1057891845703) rotate(-0.0)">
+    <tspan class="GlobalId-1c6zsbX8P0NhgUkz_2UkXc IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">C20/25</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(242.21197509765625, 232.20663452148438) rotate(-0.0)">
+    <tspan class="GlobalId-3zND$DF$bElRh$1zHzoLXh IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">575</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 299.85736083984375) rotate(-0.0)">
+    <tspan class="GlobalId-1twfwvDqf7cOmsBUAjhj$t IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Alle stalen onderdelen in aanraking met de buitenlucht/spouw dienen thermisch verzinkt te worden.</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 467.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-2nGuT29bf8NBoiOyOgsfUu IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Alle aansluitende stalen constructiedelen, niet mechanisch verbonden, verbinden d.m.v. lassen. Lassen rondom en doorgaand uitvoeren.</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 509.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-0hPvWPPAj5RBuslgluhxkp IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Lastype 2:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(16.25129508972168, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-0F0bVD9RvEogh1ssOi0ZbN IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">LOCATIE</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(242.21197509765625, 240.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-1tbayti_TArOETDb7oNnI$ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">1050</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251264572143555, 109.24942016601562) rotate(-0.0)">
+    <tspan class="GlobalId-0Tnyc8md1CjheigAhN$SBb IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">STORTBELASTING</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(33.36330032348633, 237.90579223632812) rotate(-0.0)">
+    <tspan class="GlobalId-3T3Q88mGv5pfYcxkvr5ypZ IfcAnnotation PredefinedType-TEXT bold" dy="0em" x="0" y="0">BOVEN:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(163.2512664794922, 115.24944305419922) rotate(-0.0)">
+    <tspan class="GlobalId-2scuJMc0f2jvr2iN2z47I0 IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ1</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(36.25129318237305, 115.24944305419922) rotate(-0.0)">
+    <tspan class="GlobalId-1DLk7_w490_PuHwz9rOzrs IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">STORT VLOER</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(113.38077545166016, 205.75009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-36WIo8rOb6_w2vqw$UY7$b IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">onderwapening (goede aanhechting)</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(156.2512969970703, 115.24944305419922) rotate(-0.0)">
+    <tspan class="GlobalId-0Ue2oT25nDyghb3nUU6Mvj IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ0</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 214.8057403564453) rotate(-0.0)">
+    <tspan class="GlobalId-1eLP$J3Dz7exgnvgEWl0lt IfcAnnotation PredefinedType-TEXT bold" dy="0em" x="0" y="0">BETONSTAAL:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(58.74462127685547, 214.8057403564453) rotate(-0.0)">
+    <tspan class="GlobalId-1QXCr7ljT4PQEceDqTxPnz IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">B500</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 230.20574951171875) rotate(-0.0)">
+    <tspan class="GlobalId-2GALNNNB124vIUzQQ3xHNp IfcAnnotation PredefinedType-TEXT bold" dy="0em" x="0" y="0">DEKKING ONDER:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(227.2512969970703, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-3JGaDSYpP8xBk1VC3vO39P IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ0</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 317.8573913574219) rotate(-0.0)">
+    <tspan class="GlobalId-13W6WXqCz5Fe$NZh91Ca7h IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Boutkwaliteit: 8.8</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(242.21197509765625, 236.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-0_Rq_kOy58E8fKdJ4GcpBu IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">800</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 389.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-2WL7AbQZb0Ew5Ydq9vI6o7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Sonderingen uitvoeren met kleefmeting</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 401.9355773925781) rotate(-0.0)">
+    <tspan class="GlobalId-0YIsvDHknD1gWVlfGYSQRF IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Indien sonderingen niet op de exacte locatie uitgevoerd kunnen worden zoals op tekening staat, </tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(195.09742736816406, 220.2065887451172) rotate(-0.0)">
+    <tspan class="GlobalId-0qMCMtBtPEMAa0D91NigAN IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">bundel van 2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(174.87319946289062, 232.20663452148438) rotate(-0.0)">
+    <tspan class="GlobalId-2D826hdhP10fZY_Yg7Dlk$ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">425</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(52.25128173828125, 166.32760620117188) rotate(-0.0)">
+    <tspan class="GlobalId-24CucR2q9FL91gmQhVROXe IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">DATUM</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251264572143555, 75.24942016601562) rotate(-0.0)">
+    <tspan class="GlobalId-0ZULsMGEf69geU0zUAU7Yr IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">LIJNLASTEN/PUNTLASTEN</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(242.21197509765625, 244.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-3Y1cApXuz5c9J191iIO_Jt IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">1500</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(174.87319946289062, 240.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-1kpVSlLXH8Lh3s4NnsP6V2 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">725</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(117.13478088378906, 220.2065887451172) rotate(-0.0)">
+    <tspan class="GlobalId-1dw2H_w_b9xA7p6qZVGyhV IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">enkel</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(74.25132751464844, 166.32760620117188) rotate(-0.0)">
+    <tspan class="GlobalId-06ENxDV$X3JhZL7GId4bvN IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">AUTEUR</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(166.22894287109375, 217.3025360107422) rotate(-0.0)">
+    <tspan class="GlobalId-0nRWBHbXP019KzWvScVHPR IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">niet</tspan>
+    <tspan class="GlobalId-0nRWBHbXP019KzWvScVHPR IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">verspringend</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 255.84298706054688) rotate(-0.0)">
+    <tspan class="GlobalId-08uCrsYG144x41SUom047M IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">1) Vrije ruimte tussen overlappende staven niet groter dan: 4x diameter of 50 mm</tspan>
+    <tspan class="GlobalId-08uCrsYG144x41SUom047M IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">2) Slechte aanhechting: bovenwapening als storthoogte &gt;250 mm</tspan>
+    <tspan class="GlobalId-08uCrsYG144x41SUom047M IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">3) Maximaal 25% van de overlappingen vinden plaats in 1 doorsnede, overige overlappingen met minimaal 1.3 * overlappingslengte</tspan>
+    <tspan class="GlobalId-08uCrsYG144x41SUom047M IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0">4) Niet verspringende overlappingen: als meer dan 50% van de overlappingen in 1 doorsnede zitten</tspan>
+    <tspan class="GlobalId-08uCrsYG144x41SUom047M IfcAnnotation PredefinedType-TEXT small" dy="4em" x="0" y="0">5) Bij staalbundels grootste diameter aanhouden. Overlappingen van de staven verspringend aanbrengen 1.3 * overlappingslengte</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(16.25129508972168, 81.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-2BTH1i6oX13vQFSZ2t8lgP IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">LOCATIE</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 311.85736083984375) rotate(-0.0)">
+    <tspan class="GlobalId-3u1SF9Eef2du3H9PVNtGTK IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Staalkwaliteit: S235, kokers S275</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(174.87319946289062, 228.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-0yTt5H2H5BdOYsltcrXHkY IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">300</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(136.28521728515625, 236.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-16uqE8DO94Zvvcnvr29PDn IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">375</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(103.25126647949219, 115.24944305419922) rotate(-0.0)">
+    <tspan class="GlobalId-2PrGVZ4c51SOR502cebsHj IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">VARIABELE BELASTING(Q) kN/m2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(16.25129508972168, 166.32760620117188) rotate(-0.0)">
+    <tspan class="GlobalId-3tb51QHJvCMws8gV$srELW IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">TEKENINGNUMMER</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(234.26918029785156, 217.3025360107422) rotate(-0.0)">
+    <tspan class="GlobalId-3a2sY$ZJT5wf7QfgbHScrN IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">niet</tspan>
+    <tspan class="GlobalId-3a2sY$ZJT5wf7QfgbHScrN IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">verspringend</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(133.2512664794922, 21.09945297241211) rotate(-0.0)">
+    <tspan class="GlobalId-2VeGfQZSjCfeQTQ3lvLAdG IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN-EN 1991-1997 inclusief verwijzingen naar bijbehorende normen</tspan>
+    <tspan class="GlobalId-2VeGfQZSjCfeQTQ3lvLAdG IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">3</tspan>
+    <tspan class="GlobalId-2VeGfQZSjCfeQTQ3lvLAdG IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">50 jaar</tspan>
+    <tspan class="GlobalId-2VeGfQZSjCfeQTQ3lvLAdG IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0">CC1</tspan>
+    <tspan class="GlobalId-2VeGfQZSjCfeQTQ3lvLAdG IfcAnnotation PredefinedType-TEXT small" dy="4em" x="0" y="0">-</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(86.25129699707031, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-1T3QBauFz44PG8stEoPXUW IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">AFWERKING(G) kN/m2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(174.87319946289062, 244.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-0u_M_nPjn4G8k3UocVIAa9 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">1000</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(121.84928894042969, 248.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-1SMokXPs94iBl4WgBaayE7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">20</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(136.28521728515625, 228.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-0ckCvfdSb08hPtwQWbXO_T IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">200</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(33.25130081176758, 491.93548583984375) rotate(-0.0)">
+    <tspan class="GlobalId-09wSsvddP8UBoH4akoCpiY IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-a.min of s.min = 0,5 x t.min (dubbele hoeklas)</tspan>
+    <tspan class="GlobalId-09wSsvddP8UBoH4akoCpiY IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">-a.min of s.min = 1,0 x t.min (enkele hoeklas)</tspan>
+    <tspan class="GlobalId-09wSsvddP8UBoH4akoCpiY IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">-a.min of s.min = 5 (algemeen)</tspan>
+    <tspan class="GlobalId-09wSsvddP8UBoH4akoCpiY IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0">-Indien hoeklassen door de geometrie niet mogelijk zijn, de lassen uitvoeren als (halve) Y-naden.</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 395.9355163574219) rotate(-0.0)">
+    <tspan class="GlobalId-2qM$hgBDb9lhaO_ZNomGOi IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-klic-melding uitvoeren en leidingtekening tevens opsturen naar info@3bm.co.nl</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 199.40579223632812) rotate(-0.0)">
+    <tspan class="GlobalId-0r6c_rA8H0yf7W1z3mdPXM IfcAnnotation PredefinedType-TEXT bold white" dy="0em" x="0" y="0">ONDERDEEL:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(58.74462127685547, 199.40579223632812) rotate(-0.0)">
+    <tspan class="GlobalId-3BFKp$Efr2Tv0WW1C0SCWN IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">Bedrijfsvloer</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(174.87319946289062, 236.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-2ioaHbWr5DYuupjKrvPMNS IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">575</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(185.17501831054688, 211.463134765625) rotate(-0.0)">
+    <tspan class="GlobalId-0E1k2xZb9CtuaroEgM$FCt IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">diameter verspringende overlappingen</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(113.2806396484375, 81.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-3ESrl_pxLDsQgPrHy2UEnl IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ1</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(136.28521728515625, 240.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-3tzVAiAWLF5xjT_besKLxy IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">500</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 443.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-0AbFohn0v2a9iF4srqIYhi IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Verwerkingsvoorschriften fabrikant aanhoude oa: boorgat goed schoonmaken</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(241.25131225585938, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-2$rmdrfoP9DPU0SRRUZ0gc IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(66.25129699707031, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-1PBgCVrz1AfBFY2dXS4rM3 IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">ARCERING</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(120.28060913085938, 81.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-3uGVHvX7rAhO$AGCep_3OP IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(136.28521728515625, 244.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-2mYs6a8$18jfB6fP5oNdGr IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">725</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 485.9355163574219) rotate(-0.0)">
+    <tspan class="GlobalId-2kyj37Oz1CseC7lqTygGa3 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Lastype 1:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251264572143555, 41.249427795410156) rotate(-0.0)">
+    <tspan class="GlobalId-3ieonDth10NROB46U8hb0r IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">VLOER/DAKBELASTINGEN</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 305.85736083984375) rotate(-0.0)">
+    <tspan class="GlobalId-1Zz6RuxwbAfPokPMyHuShx IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Staalconstructie te voorzien van ankers, bouten, strippen, schotten, wapening, bevestigen voor balklagen.</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(170.25131225585938, 115.24944305419922) rotate(-0.0)">
+    <tspan class="GlobalId-2wvgci2vD708JkA$LTmH_k IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(121.84928894042969, 244.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-10VGeOC5f8VvXgVCpUqV9u IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">16</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(36.25129318237305, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-3k6hVQyjHDsgAxe5STZ647 IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">VLOER/DAKTYPE</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(64.25132751464844, 115.24944305419922) rotate(-0.0)">
+    <tspan class="GlobalId-39zb9GGs9AIOLdkv8wHvUH IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">BELASTING(G) kN/m2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(106.28059387207031, 81.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-3AA_Ga_Tv9LvoTDgRrEBak IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ0</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 207.1057891845703) rotate(-0.0)">
+    <tspan class="GlobalId-3Qpuab8PzBdxfnnHPZBXNY IfcAnnotation PredefinedType-TEXT bold" dy="0em" x="0" y="0">BETONKWALITEIT:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 222.5057830810547) rotate(-0.0)">
+    <tspan class="GlobalId-1JbTOS4b9Bdx$VVSgHe6GE IfcAnnotation PredefinedType-TEXT bold" dy="0em" x="0" y="0">MILIEUKLASSEN:</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(58.74462127685547, 237.90579223632812) rotate(-0.0)">
+    <tspan class="GlobalId-1FF$VvZgL9wx0X6Np2sGND IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">35</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(234.2512664794922, 47.24943161010742) rotate(-0.0)">
+    <tspan class="GlobalId-1$p03wjH11auuDGYzJVSbQ IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">Ψ1</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(185.17501831054688, 205.75009155273438) rotate(-0.0)">
+    <tspan class="GlobalId-24H8IPgoHAuBeU1uSlsB2_ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">bovenwapening (slechte aanhechting)</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(185.17501831054688, 220.2065887451172) rotate(-0.0)">
+    <tspan class="GlobalId-15CglLpeLFpONPV1lwQwBY IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">enkel</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(242.21197509765625, 228.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-2X8OV5U2n1YvgIGH1wOIbU IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">450</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(121.84928894042969, 236.20660400390625) rotate(-0.0)">
+    <tspan class="GlobalId-01ihyPKSDFchFiUSKIplJz IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">10</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(66.25129699707031, 81.24945068359375) rotate(-0.0)">
+    <tspan class="GlobalId-2Ua2OHTFDCyQnqsopusGc4 IfcAnnotation PredefinedType-TEXT bold small" dy="0em" x="0" y="0">G</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(58.74462127685547, 222.5057830810547) rotate(-0.0)">
+    <tspan class="GlobalId-0wrp3Ejf9DCuWt2v5Jq3nL IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">XC4, XD3 , XF2</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 353.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-13ulMsmjL8k8J8JXQIc5wH IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Sparingen installateur vooraf aangeven op vloerplan fabrikant, later te maken sparingen ter controle aan fabrikant</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="start" transform="translate(13.251302719116211, 437.935546875) rotate(-0.0)">
+    <tspan class="GlobalId-1zg1JNLBH0BxoVdiGts5kD IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Indien ander type toegepast wordt dient de aannemer aan te tonen dat dat type voldoet</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(121.84928894042969, 228.2066192626953) rotate(-0.0)">
+    <tspan class="GlobalId-0imRZkESz9eQ$uZcNZTFlW IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">6</tspan>
+  </text>
+</svg>
