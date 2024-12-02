@@ -3,7 +3,7 @@ INB staat voor **I**fc **N**l **B**ouw
 Deze repository bevat een experimentele IFC-template en beknopte bibliotheek voor de bouwsector in Nederland. 
 
 # Aanleiding
-De aanleiding tot het maken van deze templateis zijn de onstuimige ontwikkelingen binnen https://bonsaibim.org/. Bonsai, eerder BlenderBIM genoemd, is een Open Source BIM-modelling tool voor de AEC. Bonsai wordt geïnstalleerd als extensie op het succesvolle Open Source 3D programma Blender. De verwachting is dat Bonsai < medio 2025 geschikt zal zijn om als BIM modelling pakket te kunnen gebruiken.
+De aanleiding tot het maken van deze templates zijn de onstuimige ontwikkelingen binnen https://bonsaibim.org/. Bonsai, eerder BlenderBIM genoemd, is een Open Source BIM-modelling tool voor de AEC. Bonsai wordt geïnstalleerd als extensie op het succesvolle Open Source 3D programma Blender. De verwachting is dat Bonsai < medio 2025 geschikt zal zijn om als BIM modelling pakket te kunnen gebruiken.
 
 # Versie
 De gebruikte versie is IFC4x3.
@@ -62,5 +62,8 @@ Voor deze nieuwe Nederlandse Ifc-template hanteren we eenvoudige naamgevingsrege
 * Lijndiktes in arceringen mee laten verschalen.
 * 
 
-![Image](img/Pile_Layout_Plan.svg)
+
 ![Image](img/Arceringen_Annotaties.png)
+![Image](img/Sheet_Aanzichten_Doorsnede.png)
+![Image](img/Doorsnede.svg)
+![Image](img/Pile_Layout_Plan.svg)
