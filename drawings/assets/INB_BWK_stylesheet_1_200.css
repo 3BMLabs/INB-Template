@@ -76,6 +76,8 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.hartlijn { stroke:black; stroke-width: 0.2; stroke-dasharray: 10, 1, 1, 1; }
 .PredefinedType-LINEWORK.foil { stroke:black; stroke-dasharray: 3, 1.5, 3, 1.5; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.gridends { marker-start: url(#grid-marker); marker-end: url(#grid-marker); stroke:blue; stroke-width: 0.2; }
+.PredefinedType-LINEWORK.sectionfake_1{ stroke:black; stroke-dasharray: 12.5, 3, 3, 3; stroke-width: 0.2; marker-start: url(#section-marker);}
+.PredefinedType-LINEWORK.sectionfake_2{ stroke:black; stroke-dasharray: 12.5, 3, 3, 3; stroke-width: 0.2; marker-end: url(#section-marker-2);}
 .PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }
 .PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }
@@ -120,6 +122,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-isolatiePUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_200); }
 .PredefinedType-isolatieEPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_200); }
 .PredefinedType-isolatieEPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_200); }
+.PredefinedType-isolatiefoamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_200); }
 .PredefinedType-maaiveldgrond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_200); }
 .PredefinedType-maaiveldasfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_200); }
 .PredefinedType-maaiveldklei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_200); }
@@ -167,6 +170,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-isolatiePUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_200); }
 .material-isolatieEPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_200); }
 .material-isolatieEPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_200); }
+.material-isolatiefoamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_200); }
 .material-maaiveldgrond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_200); }
 .material-maaiveldasfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_200); }
 .material-maaiveldklei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_200); }

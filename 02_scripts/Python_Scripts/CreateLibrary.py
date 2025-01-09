@@ -1,15 +1,16 @@
 # CODE PIECES USED OF DION MOULT
 # CODE PIECES USED OF COEN  CLAUS
 # 2024-06-26: Modified by Maarten Vroegindeweij
+# 2025-01-03: Modified by Jesse Roodhorst
 # documentation:
-#  https://blenderbim.org/docs-python/autoapi/ifcopenshell/api/material/add_material_set/index.html
+#  https://bonsai.org/docs-python/autoapi/ifcopenshell/api/material/add_material_set/index.html
 #  https://wiki.osarch.org/index.php?title=IFC_-_Industry_Foundation_Classes/IFC_materials
 #  https://academy.ifcopenshell.org/
 
 import bpy
-import blenderbim.tool as tool
-from blenderbim.bim.ifc import IfcStore
-import blenderbim.core.drawing as drawing
+import bonsai.tool as tool
+from bonsai.bim.ifc import IfcStore
+import bonsai.core.drawing as drawing
 import ifcopenshell
 import ifcopenshell.api
 import sys
@@ -28,8 +29,8 @@ Z = 0., 0., 1.
 create_guid = lambda: ifcopenshell.guid.compress(uuid.uuid1().hex)
 
 
-path = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/BlenderBIM/Template NL test/Library.ods"
-library_path = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/BlenderBIM/Template NL test/IFC4 NL Demo Library 0.2.ifc"
+path = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/bonsai/Template NL test/Library.ods"
+library_path = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/bonsai/Template NL test/IFC4 NL Demo Library 0.2.ifc"
 
 # BUILDING STOREY
 building_storeys_lst = []
@@ -63,8 +64,8 @@ class LibraryGenerator:
 
         # CREATE PROJECT FILE & LIBRARY
         self.file = ifcopenshell.api.run("project.create_file")
-        self.project = ifcopenshell.api.run("root.create_entity", self.file, ifc_class="IfcProject", name="BlenderBIM NL Library_Template Proof of Concept v0_2")
-        self.library = ifcopenshell.api.run("root.create_entity", self.file, ifc_class="IfcProjectLibrary", name="BlenderBIM NL Library_Template Proof of Concept v0_2")
+        self.project = ifcopenshell.api.run("root.create_entity", self.file, ifc_class="IfcProject", name="bonsai NL Library_Template Proof of Concept v0_2")
+        self.library = ifcopenshell.api.run("root.create_entity", self.file, ifc_class="IfcProjectLibrary", name="bonsai NL Library_Template Proof of Concept v0_2")
         library = ifcopenshell.api.run("project.assign_declaration", self.file, definition=self.library, relating_context=self.project)
         units = ifcopenshell.api.run("unit.assign_unit", self.file,length={"is_metric": True, "raw": "MILLIMETERS"})  # METERS OR MILLIMETERS
 
@@ -112,7 +113,7 @@ class LibraryGenerator:
 
         # ORGANISATION DETAILS
         organisation = self.file.createIfcOrganization()
-        organisation.Name = "BlenderBIM NL io"
+        organisation.Name = "bonsai NL io"
 
         person = self.file.createIfcPerson()
         person.FamilyName = "M.D. Vroegindeweij"
