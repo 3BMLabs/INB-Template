@@ -7,12 +7,16 @@
 #  https://wiki.osarch.org/index.php?title=IFC_-_Industry_Foundation_Classes/IFC_materials
 #  https://academy.ifcopenshell.org/
 
+import os
 import bpy
-import bonsai.tool as tool
-from bonsai.bim.ifc import IfcStore
-import bonsai.core.drawing as drawing
 import ifcopenshell
-import ifcopenshell.api
+import ifcopenshell.util.element
+import ifcopenshell.util.representation
+import ifcopenshell.util.unit
+import ifcopenshell.api.owner.settings
+import mathutils
+import bonsai.bim
+import bonsai.tool as tool
 import sys
 import pandas as pd
 import numpy
@@ -22,6 +26,8 @@ import uuid
 from collections import OrderedDict
 import time
 
+start_time = time.time()
+
 O = 0., 0., 0.
 X = 1., 0., 0.
 Y = 0., 1., 0.
@@ -29,8 +35,8 @@ Z = 0., 0., 1.
 create_guid = lambda: ifcopenshell.guid.compress(uuid.uuid1().hex)
 
 
-path = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/bonsai/Template NL test/Library.ods"
-library_path = "C:/Users/mikev/Documents/GitHub/FOSS-BIM-Experiments/bonsai/Template NL test/IFC4 NL Demo Library 0.2.ifc"
+path = "C:/Users/Gebruiker/Documents/GitHub/INB-Template/02_scripts/Base_Library.ods"
+library_path = "C:/Users/Gebruiker/Documents/GitHub/INB-Template/"
 
 # BUILDING STOREY
 building_storeys_lst = []
@@ -868,3 +874,4 @@ class LibraryGenerator:
         container_SpatialStructure.RelatedElements = [myGrid]
 
 LibraryGenerator().generate()
+print("--- %s seconds ---" % (time.time() - start_time))

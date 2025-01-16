@@ -1,3 +1,4 @@
+
 #PATTERNS
 
 PREFIX_PATTERNS = '<?xml version="1.0" encoding="utf-8" ?>\n' \
@@ -498,13 +499,14 @@ SUFFIX_CSS = \
 '.PredefinedType-glas{ fill:#A0BEC8;}\n' \
 
 
-
 from pandas_ods_reader import read_ods # type: ignore
 import os
 import sys
 
 basepath = "C:/Users/Gebruiker/Documents/GitHub/INB-Template/drawings/assets/"
 basepath_library = "C:/Users/Gebruiker/Documents/GitHub/INB-Template/02_scripts/"
+
+
 
 path_library = basepath_library + "Base_Library.ods"
 
