@@ -441,7 +441,7 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-LINEWORK.sectionfake_2{ stroke:black; stroke-dasharray: 12.5, 3, 3, 3; stroke-width: 0.2; marker-end: url(#section-marker-2);}\n' \
 '.PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }\n' \
 '.PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }\n' \
-'.PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }\n'
+'.PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }\n' \
 '.PredefinedType-sand { fill: url(#sand); }\n' \
 '.PredefinedType-earth { fill: url(#earth); }\n' \
 '.PredefinedType-glass { fill: url(#glass); }\n' \
@@ -449,6 +449,7 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-wood { fill: url(#wood); }\n' \
 '.PredefinedType-concrete { fill: url(#concrete); }\n' \
 '.PredefinedType-black { fill: black; }\n' \
+'.PredefinedType-blank { fill: white; stroke: none; }\n' \
 '.PredefinedType-white{ fill: white; stroke: none;}\n' \
 '.PredefinedType-white25 { fill: white; opacity: 0.25; stroke: none; }\n' \
 '.PredefinedType-white50 { fill: white; opacity: 0.5; stroke: none; }\n' \
