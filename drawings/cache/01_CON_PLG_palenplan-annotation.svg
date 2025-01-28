@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="250.00001907348633mm" id="root" version="1.1" viewBox="0 0 250.00001907348633 250.00001907348633" width="250.00001907348633mm">
+  <defs/>
+  <use transform="rotate(-90.00000250447816, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
+  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
+  <use transform="rotate(90.00000250447816, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
+  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
+  <use transform="rotate(180.00000500895632, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
+  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
+  <line class="GlobalId-2IoFrLraP8fxSnRzNdoP3O IfcAnnotation PredefinedType-SECTION" x1="274.99847412109375" x2="-224.99847412109375" y1="224.99996948242188" y2="225.00003051757812"/>
+  <use transform="rotate(179.999991348578, 274.99847412109375, 224.99996948242188)" x="274.99847412109375" xlink:href="#section-arrow" y="224.99996948242188"/>
+  <use x="274.99847412109375" xlink:href="#section-tag" y="224.99996948242188"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="222.49996948242188">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="227.49996948242188">-</text>
+  <use transform="rotate(179.999991348578, -224.99847412109375, 225.00003051757812)" x="-224.99847412109375" xlink:href="#section-arrow" y="225.00003051757812"/>
+  <use x="-224.99847412109375" xlink:href="#section-tag" y="225.00003051757812"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="222.50003051757812">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="227.50003051757812">-</text>
+  <use transform="rotate(-0.0, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
+  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
+</svg>
