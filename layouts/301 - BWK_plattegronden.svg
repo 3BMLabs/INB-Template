@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="root"
+   version="1.1"
+   width="841.0mm"
+   height="594.0mm"
+   viewBox="0 0 841.0 594.0"
+   sodipodi:docname="301 - BWK_plattegronden.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.25004479"
+     inkscape:cx="1867.6654"
+     inkscape:cy="1823.6733"
+     inkscape:window-width="1920"
+     inkscape:window-height="992"
+     inkscape:window-x="4792"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="root" />
+  <g
+     data-type="titleblock"
+     id="g1">
+    <image
+       xlink:href="titleblocks%5CA1.svg"
+       x="0"
+       y="0"
+       width="841.0"
+       height="594.0"
+       id="image1" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="2050049"
+     data-drawing="0lERc$vdbDJRu_9yuHpXZY"
+     id="g3">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5C01_BWK_PLG_-1_fundering.svg"
+       x="30.0"
+       y="30.0"
+       width="250.00001907348633"
+       height="250.00001907348633"
+       id="image2" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="2051747"
+     data-drawing="1CyhbdWOz8pPfzdvQRqPre"
+     id="g5"
+     transform="translate(267.98847)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5C01_BWK_PLG_00_begane_grond.svg"
+       x="30"
+       y="30"
+       width="250.00002"
+       height="250.00002"
+       id="image4" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="2051758"
+     data-drawing="1agBtrRNH6qRc$lWvvYBv0"
+     id="g7"
+     transform="translate(0,287.31673)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5C01_BWK_PLG_01_eerste_verdieping.svg"
+       x="30"
+       y="30"
+       width="250.00002"
+       height="250.00002"
+       id="image6" />
+  </g>
+</svg>

@@ -2694,8 +2694,8 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 </pattern>
 <pattern id="CUST_NEN47_1_metselwerk_baksteen_rood_5" width="3" height="3" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #CD7C61;" d="M 0 0 3 0 3 3 0 3" />
-    <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.15" />
-    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.15" />
+    <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.2" />
+    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.2" />
 </pattern>
 <pattern id="CUST_NEN47_1_metselwerk_baksteen_rood_2" width="3" height="3" patternTransform="rotate(45 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
     <path style="fill: #CD7C61;" d="M 0 0 3 0 3 3 0 3" />
@@ -3851,8 +3851,8 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 </pattern>
 <pattern id="CUST_NEN47_17_isolatie_PIR_5" width="1.5" height="1.5" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #F5EBC3;" d="M 0 0 3.64 0 3.64 3.64 0 3.64" />
-	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.15" />
+	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.2" />
+	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.2" />
 </pattern>
 <pattern id="CUST_NEN47_17_isolatie_PIR_2" width="1.5" height="1.5" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
     <path style="fill: #F5EBC3;" d="M 0 0 3.64 0 3.64 3.64 0 3.64" />
@@ -4931,18 +4931,6 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
 </pattern>
 </defs>    <g ifc:name="Elevation 01_CON_PLG_palenplan" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,25.000010],[0.000000,10.000000,225.000006],[0.000000,0.000000,1.000000]]">
-        <g id="product-825af80d-8820-4f34-9343-1cfba5ae6040" class="IfcBeam material-gewapendbeton projection" ifc:name="Randbalk 400x500" ifc:guid="22MlWDY21FD9D37Fkbhc10">
-            <path d="M55,222 L55,225.5"/>
-            <path d="M24.5,222 L24.5,225.5"/>
-            <path d="M24.5,225.5 L55,225.5"/>
-            <path d="M24.5,222 L55,222"/>
-        </g>
-        <g id="product-3ca044f2-cb45-4fd5-9ed1-f2224cc585d0" class="IfcBeam material-gewapendbeton projection" ifc:name="Randbalk 400x500" ifc:guid="0ye4JooqLFrPxHyY9CnONG">
-            <path d="M24.5,195 L28,195"/>
-            <path d="M24.5,222 L28,222"/>
-            <path d="M28,222 L28,195"/>
-            <path d="M24.5,222 L24.5,195"/>
-        </g>
         <g id="product-8f1b571e-1ab6-428d-ac22-869257c874cb" class="IfcPile material-null projection" ifc:name="FP_220_Type_1" ifc:guid="2F6rSU6hP2ZQmYXf9No7JB">
             <path d="M28.7,209.4 L27.6,209.4"/>
             <path d="M27.6,209.4 L28.7,209.4"/>
@@ -5147,31 +5135,64 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
             <path d="M41.7,223.5 L41.3333,223.5"/>
             <path d="M41.3333,223.5 L41.7,223.5"/>
         </g>
-    <g ifc:guid="0Mu_oMfm52hvAVMsNs635_" ifc:name="Example Space" class="IfcSpace material-null cut"><path d="M50.92970848083496,195.89999675750732 L27.60000228881836,195.9000062942505 L27.60000228881836,199.8366117477417 L27.600011825561523,222.4000072479248 L31.670312881469727,222.4000072479248 L55.00001907348633,222.4000072479248 L55.00001907348633,218.46339225769043 L55.000009536743164,195.89999675750732 Z"/></g><path d="M50.92970848083496,195.89999675750732 L27.60000228881836,195.9000062942505 L27.60000228881836,199.8366117477417 L27.600011825561523,222.4000072479248 L31.670312881469727,222.4000072479248 L55.00001907348633,222.4000072479248 L55.00001907348633,218.46339225769043 L55.000009536743164,195.89999675750732 Z" class="IfcSpace material-null"/></g>
+    <g id="product-3ca044f2-cb45-4fd5-9ed1-f2224cc585d0" class="IfcBeam material-null projection" ifc:name="betonbalk_400x500" ifc:guid="0ye4JooqLFrPxHyY9CnONG">
+            <path d="M24.7,195 L28.7,195"/>
+            <path d="M24.7,221.3 L28.7,221.3"/>
+            <path d="M28.7,221.3 L28.7,195"/>
+            <path d="M24.7,221.3 L24.7,195"/>
+        </g>
+        <g id="product-825af80d-8820-4f34-9343-1cfba5ae6040" class="IfcBeam material-null projection" ifc:name="betonbalk_400x500.001" ifc:guid="22MlWDY21FD9D37Fkbhc10">
+            <path d="M55,221.3 L55,225.3"/>
+            <path d="M24.7,221.3 L24.7,225.3"/>
+            <path d="M24.7,225.3 L55,225.3"/>
+            <path d="M24.7,221.3 L55,221.3"/>
+        </g>
+        </g>
   <defs/>
-  <use transform="rotate(-90.00000250447816, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
-  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
-  <use transform="rotate(90.00000250447816, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
-  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
-  <use transform="rotate(180.00000500895632, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
-  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
-  <line class="GlobalId-2IoFrLraP8fxSnRzNdoP3O IfcAnnotation PredefinedType-SECTION" x1="274.99847412109375" x2="-224.99847412109375" y1="224.99996948242188" y2="225.00003051757812"/>
-  <use transform="rotate(179.999991348578, 274.99847412109375, 224.99996948242188)" x="274.99847412109375" xlink:href="#section-arrow" y="224.99996948242188"/>
-  <use x="274.99847412109375" xlink:href="#section-tag" y="224.99996948242188"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="222.49996948242188">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="227.49996948242188">-</text>
-  <use transform="rotate(179.999991348578, -224.99847412109375, 225.00003051757812)" x="-224.99847412109375" xlink:href="#section-arrow" y="225.00003051757812"/>
-  <use x="-224.99847412109375" xlink:href="#section-tag" y="225.00003051757812"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="222.50003051757812">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="227.50003051757812">-</text>
-  <use transform="rotate(-0.0, 25.000009536743164, 225.0)" x="25.000009536743164" xlink:href="#elevation-arrow" y="225.0"/>
-  <use x="25.000009536743164" xlink:href="#elevation-tag" y="225.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="222.5">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="227.5">-</text>
+  <line class="GlobalId-3i6d2ZthvAzPSJsv2wm3Gd IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="55.000030517578125" x2="55.000030517578125" y1="245.0" y2="175.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="55.000030517578125" y="245.0">02</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="55.000030517578125" y="175.0">02</text>
+  <line class="GlobalId-37ng4hlM95agCVbJg9lrYR IfcAnnotation PredefinedType-SECTION" x1="-4.999990463256836" x2="55.00000762939453" y1="258.6257629394531" y2="258.6257629394531"/>
+  <use transform="rotate(0.0, -4.999990463256836, 258.6257629394531)" x="-4.999990463256836" xlink:href="#section-arrow" y="258.6257629394531"/>
+  <use x="-4.999990463256836" xlink:href="#section-tag" y="258.6257629394531"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-4.999990463256836" y="256.1257629394531">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-4.999990463256836" y="261.1257629394531">-</text>
+  <use transform="rotate(0.0, 55.00000762939453, 258.6257629394531)" x="55.00000762939453" xlink:href="#section-arrow" y="258.6257629394531"/>
+  <use x="55.00000762939453" xlink:href="#section-tag" y="258.6257629394531"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="55.00000762939453" y="256.1257629394531">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="55.00000762939453" y="261.1257629394531">-</text>
+  <line class="GlobalId-3k4g8zm$nB9vEbhnPwlf0I IfcAnnotation PredefinedType-SECTION" x1="274.99847412109375" x2="-224.99847412109375" y1="695.0159912109375" y2="695.01611328125"/>
+  <use transform="rotate(179.999991348578, 274.99847412109375, 695.0159912109375)" x="274.99847412109375" xlink:href="#section-arrow" y="695.0159912109375"/>
+  <use x="274.99847412109375" xlink:href="#section-tag" y="695.0159912109375"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="692.5159912109375">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="697.5159912109375">-</text>
+  <use transform="rotate(179.999991348578, -224.99847412109375, 695.01611328125)" x="-224.99847412109375" xlink:href="#section-arrow" y="695.01611328125"/>
+  <use x="-224.99847412109375" xlink:href="#section-tag" y="695.01611328125"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="692.51611328125">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="697.51611328125">-</text>
+  <use transform="rotate(-90.00000250447816, 270.995361328125, 225.0)" x="270.995361328125" xlink:href="#elevation-arrow" y="225.0"/>
+  <use x="270.995361328125" xlink:href="#elevation-tag" y="225.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="270.995361328125" y="222.5">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="270.995361328125" y="227.5">-</text>
+  <use transform="rotate(-0.0, 25.000009536743164, 302.93829345703125)" x="25.000009536743164" xlink:href="#elevation-arrow" y="302.93829345703125"/>
+  <use x="25.000009536743164" xlink:href="#elevation-tag" y="302.93829345703125"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="300.43829345703125">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="305.43829345703125">-</text>
+  <line class="GlobalId-1sRg3iugr4yhhR3TRDOQtm IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="194.99998474121094" y2="194.99998474121094"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="194.99998474121094">B</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="194.99998474121094">B</text>
+  <use transform="rotate(90.00000250447816, -16.883268356323242, 214.39007568359375)" x="-16.883268356323242" xlink:href="#elevation-arrow" y="214.39007568359375"/>
+  <use x="-16.883268356323242" xlink:href="#elevation-tag" y="214.39007568359375"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-16.883268356323242" y="211.89007568359375">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-16.883268356323242" y="216.89007568359375">-</text>
+  <line class="GlobalId-2i30tvtm1DKRksVGEC_Yto IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="225.0" y2="225.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="225.0">A</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="225.0">A</text>
+  <line class="GlobalId-1BYqWAkO94zBeX5LfPiUNa IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="25.000019073486328" x2="25.000019073486328" y1="245.0" y2="175.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="245.0">01</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="175.0">01</text>
+  <use transform="rotate(180.00000500895632, 25.000009536743164, -23.063077926635742)" x="25.000009536743164" xlink:href="#elevation-arrow" y="-23.063077926635742"/>
+  <use x="25.000009536743164" xlink:href="#elevation-tag" y="-23.063077926635742"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="-25.563077926635742">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="-20.563077926635742">-</text>
 </svg>

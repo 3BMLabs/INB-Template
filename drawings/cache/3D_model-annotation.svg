@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="200.0mm" id="root" version="1.1" viewBox="0 0 200.0 200.0" width="200.0mm">
+  <defs/>
+  <line class="GlobalId-3gBkFno$98bPmH5W1vZSss IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="78.8709716796875" x2="128.76406860351562" y1="122.09628295898438" y2="105.84535217285156"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="78.8709716796875" y="122.09628295898438">A</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="128.76406860351562" y="105.84535217285156">A</text>
+  <line class="GlobalId-17r6SZelrAaeEyqCzNlkxn IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="128.53463745117188" x2="79.44459533691406" y1="115.55989074707031" y2="97.80990600585938"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="128.53463745117188" y="115.55989074707031">02</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="79.44459533691406" y="97.80990600585938">02</text>
+  <line class="GlobalId-02K2liAz1CxAveLyErPLT8 IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="57.832374572753906" x2="107.72547912597656" y1="114.4891357421875" y2="98.23821258544922"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="57.832374572753906" y="114.4891357421875">B</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="107.72547912597656" y="98.23821258544922">B</text>
+  <use transform="rotate(109.87891974415261, 14.504785537719727, 89.02522277832031)" x="14.504785537719727" xlink:href="#elevation-arrow" y="89.02522277832031"/>
+  <use x="14.504785537719727" xlink:href="#elevation-tag" y="89.02522277832031"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="14.504785537719727" y="86.52522277832031">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="14.504785537719727" y="91.52522277832031">-</text>
+  <line class="GlobalId-2$kYRPaAj88PTuQflbHBz_ IfcAnnotation PredefinedType-SECTION" x1="114.50890350341797" x2="71.74339294433594" y1="110.48847198486328" y2="124.41783905029297"/>
+  <use transform="rotate(161.95879797679802, 114.50890350341797, 110.48847198486328)" x="114.50890350341797" xlink:href="#section-arrow" y="110.48847198486328"/>
+  <use x="114.50890350341797" xlink:href="#section-tag" y="110.48847198486328"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="114.50890350341797" y="107.98847198486328">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="114.50890350341797" y="112.98847198486328">-</text>
+  <use transform="rotate(161.95879797679802, 71.74339294433594, 124.41783905029297)" x="71.74339294433594" xlink:href="#section-arrow" y="124.41783905029297"/>
+  <use x="71.74339294433594" xlink:href="#section-tag" y="124.41783905029297"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="71.74339294433594" y="121.91783905029297">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="71.74339294433594" y="126.91783905029297">-</text>
+  <use transform="rotate(-70.1209554912095, 142.20982360839844, 135.20083618164062)" x="142.20982360839844" xlink:href="#elevation-arrow" y="135.20083618164062"/>
+  <use x="142.20982360839844" xlink:href="#elevation-tag" y="135.20083618164062"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="142.20982360839844" y="132.70083618164062">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="142.20982360839844" y="137.70083618164062">-</text>
+  <use transform="rotate(-108.04113440455562, 193.4857940673828, 84.7645263671875)" x="193.4857940673828" xlink:href="#elevation-arrow" y="84.7645263671875"/>
+  <use x="193.4857940673828" xlink:href="#elevation-tag" y="84.7645263671875"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="193.4857940673828" y="82.2645263671875">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="193.4857940673828" y="87.2645263671875">-</text>
+  <use transform="rotate(71.95879547231985, -15.258035659790039, 152.7554931640625)" x="-15.258035659790039" xlink:href="#elevation-arrow" y="152.7554931640625"/>
+  <use x="-15.258035659790039" xlink:href="#elevation-tag" y="152.7554931640625"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-15.258035659790039" y="150.2554931640625">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-15.258035659790039" y="155.2554931640625">-</text>
+  <line class="GlobalId-3Xm9e7GgT4$OVQXAV4uK08 IfcAnnotation PredefinedType-SECTION" x1="66.96159362792969" x2="109.72710418701172" y1="121.70906066894531" y2="107.77970123291016"/>
+  <use transform="rotate(-18.041195079327274, 66.96159362792969, 121.70906066894531)" x="66.96159362792969" xlink:href="#section-arrow" y="121.70906066894531"/>
+  <use x="66.96159362792969" xlink:href="#section-tag" y="121.70906066894531"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="66.96159362792969" y="119.20906066894531">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="66.96159362792969" y="124.20906066894531">-</text>
+  <use transform="rotate(-18.041195079327274, 109.72710418701172, 107.77970123291016)" x="109.72710418701172" xlink:href="#section-arrow" y="107.77970123291016"/>
+  <use x="109.72710418701172" xlink:href="#section-tag" y="107.77970123291016"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="109.72710418701172" y="105.27970123291016">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="109.72710418701172" y="110.27970123291016">-</text>
+  <line class="GlobalId-3e0bJ7DxD1B81xCmmRbP4z IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="107.1518783569336" x2="58.061859130859375" y1="122.52456665039062" y2="104.77458953857422"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="107.1518783569336" y="122.52456665039062">01</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="58.061859130859375" y="104.77458953857422">01</text>
+</svg>

@@ -8,18 +8,6 @@
         </marker>
     </defs>
     <g ifc:name="Elevation 01_CON_PLG_palenplan" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,25.000010],[0.000000,10.000000,225.000006],[0.000000,0.000000,1.000000]]">
-        <g id="product-825af80d-8820-4f34-9343-1cfba5ae6040" class="IfcBeam material-gewapendbeton projection" ifc:name="Randbalk 400x500" ifc:guid="22MlWDY21FD9D37Fkbhc10">
-            <path d="M55,222 L55,225.5"/>
-            <path d="M24.5,222 L24.5,225.5"/>
-            <path d="M24.5,225.5 L55,225.5"/>
-            <path d="M24.5,222 L55,222"/>
-        </g>
-        <g id="product-3ca044f2-cb45-4fd5-9ed1-f2224cc585d0" class="IfcBeam material-gewapendbeton projection" ifc:name="Randbalk 400x500" ifc:guid="0ye4JooqLFrPxHyY9CnONG">
-            <path d="M24.5,195 L28,195"/>
-            <path d="M24.5,222 L28,222"/>
-            <path d="M28,222 L28,195"/>
-            <path d="M24.5,222 L24.5,195"/>
-        </g>
         <g id="product-8f1b571e-1ab6-428d-ac22-869257c874cb" class="IfcPile material-null projection" ifc:name="FP_220_Type_1" ifc:guid="2F6rSU6hP2ZQmYXf9No7JB">
             <path d="M28.7,209.4 L27.6,209.4"/>
             <path d="M27.6,209.4 L28.7,209.4"/>
@@ -224,5 +212,17 @@
             <path d="M41.7,223.5 L41.3333,223.5"/>
             <path d="M41.3333,223.5 L41.7,223.5"/>
         </g>
-    <g ifc:guid="0Mu_oMfm52hvAVMsNs635_" ifc:name="Example Space" class="IfcSpace material-null cut"><path d="M50.92970848083496,195.89999675750732 L27.60000228881836,195.9000062942505 L27.60000228881836,199.8366117477417 L27.600011825561523,222.4000072479248 L31.670312881469727,222.4000072479248 L55.00001907348633,222.4000072479248 L55.00001907348633,218.46339225769043 L55.000009536743164,195.89999675750732 Z"/></g><path d="M50.92970848083496,195.89999675750732 L27.60000228881836,195.9000062942505 L27.60000228881836,199.8366117477417 L27.600011825561523,222.4000072479248 L31.670312881469727,222.4000072479248 L55.00001907348633,222.4000072479248 L55.00001907348633,218.46339225769043 L55.000009536743164,195.89999675750732 Z" class="IfcSpace material-null"/></g>
+    <g id="product-3ca044f2-cb45-4fd5-9ed1-f2224cc585d0" class="IfcBeam material-null projection" ifc:name="betonbalk_400x500" ifc:guid="0ye4JooqLFrPxHyY9CnONG">
+            <path d="M24.7,195 L28.7,195"/>
+            <path d="M24.7,221.3 L28.7,221.3"/>
+            <path d="M28.7,221.3 L28.7,195"/>
+            <path d="M24.7,221.3 L24.7,195"/>
+        </g>
+        <g id="product-825af80d-8820-4f34-9343-1cfba5ae6040" class="IfcBeam material-null projection" ifc:name="betonbalk_400x500.001" ifc:guid="22MlWDY21FD9D37Fkbhc10">
+            <path d="M55,221.3 L55,225.3"/>
+            <path d="M24.7,221.3 L24.7,225.3"/>
+            <path d="M24.7,225.3 L55,225.3"/>
+            <path d="M24.7,221.3 L55,221.3"/>
+        </g>
+        </g>
 </svg>

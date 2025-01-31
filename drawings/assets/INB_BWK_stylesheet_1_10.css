@@ -309,7 +309,13 @@ text.mini, tspan.mini { /* 1.3mm */ font-size: 2.145px; }
 text.GRID, tspan.GRID { /* 2.5mm */ font-size: 4.13px; font-weight: bold; }
 text.italic, tspan.italic {font-style: italic;}
 text.bold, tspan.bold {font-weight: bold;}
-text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
+text.DIMENSION, tspan.DIMENSION { /* 1.8mm */ font-size: 2.97px;  }
+text.DIMENSION13, tspan.DIMENSION13 { /* 1.3mm */ font-size: 2.145px; }
+text.DIMENSION15, tspan.DIMENSION15 { /* 1.5mm */ font-size: 2.475px; }
+text.DIMENSION18, tspan.DIMENSION18 { /* 1.8mm */ font-size: 2.97px;  }
+text.DIMENSION25, tspan.DIMENSION25 { /* 2.5mm */ font-size: 4.13px;  }
+text.DIMENSION35, tspan.DIMENSION35 { /* 3.5mm */ font-size: 5.78px;  }
+
 .material-blank { fill: white; stroke: none; }
 .material-diagonal1 { fill: url(#diagonal1); }
 .material-diagonal2 { fill: url(#diagonal2); }

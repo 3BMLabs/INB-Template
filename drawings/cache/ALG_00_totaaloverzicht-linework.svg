@@ -1,0 +1,450 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.ifcopenshell.org/ns" width="599.831mm" height="499.915mm" viewBox="0 0 599.831 499.915">
+    <defs>
+        <marker id="arrowend" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+          <polygon points="0 0, 10 3.5, 0 7"/>
+        </marker>
+        <marker id="arrowstart" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+          <polygon points="10 0, 0 3.5, 10 7"/>
+        </marker>
+    </defs>
+    <g ifc:name="Elevation ALG_00_totaaloverzicht" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[20.000000,0.000000,999.915408],[0.000000,20.000000,469.957676],[0.000000,0.000000,1.000000]]">
+        <g id="product-c42269b9-1b74-45eb-a409-54630889327e" class="IfcWall material-null projection" ifc:name="Untyped" ifc:guid="348ccv6tH5wwG9L6C8YJ9_">
+            <path d="M451.426,58.0402 L451.426,70.0403"/>
+            <path d="M443.426,58.0402 L451.426,58.0402"/>
+            <path d="M443.426,70.0403 L443.426,58.0402"/>
+            <path d="M451.426,70.0403 L443.426,70.0403"/>
+        </g>
+        <g id="product-76bb8afe-41fc-4f5d-b69a-9626babb4b23" class="IfcSlab material-gewapendbetonprefab projection" ifc:name="prefab_beton_200" ifc:guid="1skuh_GVnFNRQQbYQwkqiZ">
+            <path d="M326.987,418.84 L326.987,414.84"/>
+            <path d="M330.987,418.84 L326.987,418.84"/>
+            <path d="M330.987,418.84 L330.987,414.84"/>
+            <path d="M326.987,414.84 L330.987,414.84"/>
+        </g>
+        <g id="product-af69c895-e628-4195-81e4-1ee733e86244" class="IfcSlab material-gewapendbeton projection" ifc:name="beton_200.001" ifc:guid="2lQSYLvYX1bO7a7kSpw694">
+            <path d="M326.987,400.84 L330.987,400.84"/>
+            <path d="M330.987,396.84 L330.987,400.84"/>
+            <path d="M330.987,396.84 L326.987,396.84"/>
+            <path d="M326.987,396.84 L326.987,400.84"/>
+        </g>
+        <g id="product-d8112f79-0248-44a8-9a89-28a0ca7a3ca6" class="IfcSlab material-null projection" ifc:name="gen_100" ifc:guid="3O4Izv0aX4g9g9AA3AUZoc">
+            <path d="M326.987,355.84 L328.987,355.84"/>
+            <path d="M328.987,351.84 L328.987,355.84"/>
+            <path d="M328.987,351.84 L326.987,351.84"/>
+            <path d="M326.987,351.84 L326.987,355.84"/>
+        </g>
+        <g id="product-29710b09-4a78-4909-9592-9622fd25e689" class="IfcSlab material-gewapendbeton projection" ifc:name="beton_150" ifc:guid="0fSGi9IdX92PMIbYBz9UQ9">
+            <path d="M329.987,391.84 L329.987,387.84"/>
+            <path d="M326.987,387.84 L329.987,387.84"/>
+            <path d="M326.987,391.84 L326.987,387.84"/>
+            <path d="M329.987,391.84 L326.987,391.84"/>
+        </g>
+        <g id="product-e1b9fada-c888-4666-95f4-e6c578bf9923" class="IfcSlab material-gewapendbetonprefab projection" ifc:name="prefab_beton_250" ifc:guid="3XkVhQo8X6PfNqviLulvaZ">
+            <path d="M331.968,427.84 L331.968,423.84"/>
+            <path d="M326.968,423.84 L331.968,423.84"/>
+            <path d="M326.968,427.84 L326.968,423.84"/>
+            <path d="M331.968,427.84 L326.968,427.84"/>
+        </g>
+        <g id="product-dc82dd1c-6136-455e-b6e3-6eed39e414b9" class="IfcSlab material-gewapendbeton projection" ifc:name="beton_100" ifc:guid="3SWjqSOJP5NhRZRkqvv1Iv">
+            <path d="M328.987,382.84 L328.987,378.84"/>
+            <path d="M326.987,378.84 L328.987,378.84"/>
+            <path d="M326.987,382.84 L326.987,378.84"/>
+            <path d="M328.987,382.84 L326.987,382.84"/>
+        </g>
+        <g id="product-961ada73-949d-4b1c-9185-cd81b85f584f" class="IfcSlab material-gewapendbeton projection" ifc:name="beton_250" ifc:guid="2M6jfpb9rB7965pO6uNrXF">
+            <path d="M331.987,409.84 L331.987,405.84"/>
+            <path d="M326.987,405.84 L331.987,405.84"/>
+            <path d="M326.987,409.84 L326.987,405.84"/>
+            <path d="M331.987,409.84 L326.987,409.84"/>
+        </g>
+        <g id="product-322dac67-2f56-4f01-8008-e182b39d0b02" class="IfcSlab material-null projection" ifc:name="gen_300" ifc:guid="0oBQndBrPF0O08uOApdGi2">
+            <path d="M332.987,373.84 L332.987,369.84"/>
+            <path d="M326.987,369.84 L332.987,369.84"/>
+            <path d="M326.987,373.84 L326.987,369.84"/>
+            <path d="M332.987,373.84 L326.987,373.84"/>
+        </g>
+        <g id="product-985e514e-7ac7-4e39-8405-6467606174d8" class="IfcSlab material-null projection" ifc:name="gen_200" ifc:guid="2ONb5EUiTEEOG5P6TWONJO">
+            <path d="M330.987,364.84 L330.987,360.84"/>
+            <path d="M326.987,360.84 L330.987,360.84"/>
+            <path d="M326.987,364.84 L326.987,360.84"/>
+            <path d="M330.987,364.84 L326.987,364.84"/>
+        </g>
+        <g id="product-e1218fb3-4f90-4aea-b15b-9f265dc523dd" class="IfcWall material-generiek projection" ifc:name="gen_100" ifc:guid="3X8O_pJv1Awh5RdoPTnIFT">
+            <path d="M196.987,355.84 L176.987,355.84"/>
+            <path d="M196.987,353.84 L196.987,355.84"/>
+            <path d="M176.987,353.84 L196.987,353.84"/>
+            <path d="M176.987,355.84 L176.987,353.84"/>
+        </g>
+        <g id="product-25ef666b-19f1-478e-9dd4-062b86c6b8fd" class="IfcWall material-generiek projection" ifc:name="gen_200" ifc:guid="0bxsPh6V57ZftK1Yk6nhZz">
+            <path d="M196.987,364.84 L176.987,364.84"/>
+            <path d="M196.987,360.84 L196.987,364.84"/>
+            <path d="M176.987,360.84 L196.987,360.84"/>
+            <path d="M176.987,364.84 L176.987,360.84"/>
+        </g>
+        <g id="product-63aaf256-590a-4984-9f77-0772b0de19bb" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_70" ifc:guid="1Zgl9MMGf9X9zt1tAmtXcx">
+            <path d="M246.987,364.84 L226.987,364.84"/>
+            <path d="M246.987,363.44 L246.987,364.84"/>
+            <path d="M226.987,363.44 L246.987,363.44"/>
+            <path d="M226.987,364.84 L226.987,363.44"/>
+        </g>
+        <g id="product-699a8d56-4081-446e-8df1-c7cdfc041e9a" class="IfcWall material-generiek projection" ifc:name="gen_300" ifc:guid="1fcerMG854Retnnyty11wQ">
+            <path d="M196.987,375.84 L176.987,375.84"/>
+            <path d="M196.987,369.84 L196.987,375.84"/>
+            <path d="M176.987,369.84 L196.987,369.84"/>
+            <path d="M176.987,375.84 L176.987,369.84"/>
+        </g>
+        <g id="product-58def3be-8727-43c7-acff-de8a2a21983e" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_90" ifc:guid="1OtlE_XoT3nwp$teeg8PW_">
+            <path d="M246.987,373.84 L226.987,373.84"/>
+            <path d="M246.987,372.04 L246.987,373.84"/>
+            <path d="M226.987,372.04 L246.987,372.04"/>
+            <path d="M226.987,373.84 L226.987,372.04"/>
+        </g>
+        <g id="product-f301f840-6e1f-400b-8865-892050ce260a" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_100" ifc:guid="3p0VX0RXz02uXbYI1GpYOA">
+            <path d="M246.987,382.84 L226.987,382.84"/>
+            <path d="M246.987,380.84 L246.987,382.84"/>
+            <path d="M226.987,380.84 L246.987,380.84"/>
+            <path d="M226.987,382.84 L226.987,380.84"/>
+        </g>
+        <g id="product-64b012bb-ec22-4ba2-8ddb-1920a00125f2" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_60" ifc:guid="1ai1Axx29BeetR6I2W0INo">
+            <path d="M246.987,355.84 L226.987,355.84"/>
+            <path d="M246.987,354.64 L246.987,355.84"/>
+            <path d="M226.987,354.64 L246.987,354.64"/>
+            <path d="M226.987,355.84 L226.987,354.64"/>
+        </g>
+        <g id="product-6d5b541f-1191-43cd-9824-104da3f9e0f3" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_120" ifc:guid="1jMrGV4P53pPWa44sZ_U3p">
+            <path d="M246.987,391.84 L226.987,391.84"/>
+            <path d="M246.987,389.44 L246.987,391.84"/>
+            <path d="M226.987,389.44 L246.987,389.44"/>
+            <path d="M226.987,391.84 L226.987,389.44"/>
+        </g>
+        <g id="product-7468f746-b62e-4de6-b991-d3a36586e184" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_140" ifc:guid="1qQFT6jYvDvhcHqwDbXk64">
+            <path d="M246.987,400.84 L226.987,400.84"/>
+            <path d="M246.987,398.04 L246.987,400.84"/>
+            <path d="M226.987,398.04 L246.987,398.04"/>
+            <path d="M226.987,400.84 L226.987,398.04"/>
+        </g>
+        <g id="product-b061f4fb-2bc4-4df7-94e4-c0693cdb8489" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_160" ifc:guid="2mOVJxAyHDzvJam6aysuI9">
+            <path d="M246.987,409.84 L226.987,409.84"/>
+            <path d="M246.987,406.64 L246.987,409.84"/>
+            <path d="M226.987,406.64 L246.987,406.64"/>
+            <path d="M226.987,409.84 L226.987,406.64"/>
+        </g>
+        <g id="product-e4ad94cb-5cd3-4156-b72c-9a427bcf0257" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_220" ifc:guid="3ahPJBNDD1LhSica9xpm9N">
+            <path d="M246.987,436.84 L226.987,436.84"/>
+            <path d="M246.987,432.44 L246.987,436.84"/>
+            <path d="M226.987,432.44 L246.987,432.44"/>
+            <path d="M226.987,436.84 L226.987,432.44"/>
+        </g>
+        <g id="product-d7e61693-1415-41a9-8c86-adf6d725d160" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_180" ifc:guid="3NvXQJ51L1gOo6hVRN9T5W">
+            <path d="M246.987,418.84 L226.987,418.84"/>
+            <path d="M246.987,415.24 L246.987,418.84"/>
+            <path d="M226.987,415.24 L246.987,415.24"/>
+            <path d="M226.987,418.84 L226.987,415.24"/>
+        </g>
+        <g id="product-f67420db-7520-4319-91ab-e1bde6c241ba" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="clt_200" ifc:guid="3sT23RTI136P6huRtcma6w">
+            <path d="M246.987,427.84 L226.987,427.84"/>
+            <path d="M246.987,423.84 L246.987,427.84"/>
+            <path d="M226.987,423.84 L246.987,423.84"/>
+            <path d="M226.987,427.84 L226.987,423.84"/>
+        </g>
+        <g id="product-be2a8dad-8543-4c10-bd69-8a9dae5619a7" class="IfcWall material-kalkzandsteen projection" ifc:name="kzst_100" ifc:guid="2_AesjXKDC4BrfYfskLXcd">
+            <path d="M196.987,382.84 L176.987,382.84"/>
+            <path d="M196.987,380.84 L196.987,382.84"/>
+            <path d="M176.987,380.84 L196.987,380.84"/>
+            <path d="M176.987,382.84 L176.987,380.84"/>
+        </g>
+        <g id="product-32c512a7-2d55-4ebb-b5e9-79f6ed7424af" class="IfcWall material-kalkzandsteen projection" ifc:name="kzst_120" ifc:guid="0onHAdBLLEkxNfUVRjT2Il">
+            <path d="M196.987,391.84 L176.987,391.84"/>
+            <path d="M196.987,389.44 L196.987,391.84"/>
+            <path d="M176.987,389.44 L196.987,389.44"/>
+            <path d="M176.987,391.84 L176.987,389.44"/>
+        </g>
+        <g id="product-e6272049-2131-48fb-8d3f-807b30f132d5" class="IfcWall material-kalkzandsteen projection" ifc:name="kzst_150" ifc:guid="3c9o198J58_uq$W7imyJBL">
+            <path d="M196.987,409.84 L176.987,409.84"/>
+            <path d="M196.987,406.84 L196.987,409.84"/>
+            <path d="M176.987,406.84 L196.987,406.84"/>
+            <path d="M176.987,409.84 L176.987,406.84"/>
+        </g>
+        <g id="product-32e4d39f-45ea-4aa1-8373-8924dd384c65" class="IfcWall material-kalkzandsteen projection" ifc:name="kzst_214" ifc:guid="0ovDEVHUfAeODpYIJTE4nb">
+            <path d="M196.987,418.84 L176.987,418.84"/>
+            <path d="M196.987,414.56 L196.987,418.84"/>
+            <path d="M176.987,414.56 L196.987,414.56"/>
+            <path d="M176.987,418.84 L176.987,414.56"/>
+        </g>
+        <g id="product-e08e736d-7501-478c-baa7-ede09c6e2528" class="IfcWall material-kalkzandsteen projection" ifc:name="kzst_140" ifc:guid="3WZdDjTG57ZBgdxU2SRYKe">
+            <path d="M196.987,400.84 L176.987,400.84"/>
+            <path d="M196.987,398.04 L196.987,400.84"/>
+            <path d="M176.987,398.04 L196.987,398.04"/>
+            <path d="M176.987,400.84 L176.987,398.04"/>
+        </g>
+        <g id="product-87735f2c-b72c-4338-b969-35f55bc0c064" class="IfcWall material-isolatiePIR projection" ifc:name="isolatie_pir_100" ifc:guid="27Sryijon3EBbfDVLRmC1a">
+            <path d="M296.987,364.84 L276.987,364.84"/>
+            <path d="M296.987,362.84 L296.987,364.84"/>
+            <path d="M276.987,362.84 L296.987,362.84"/>
+            <path d="M276.987,364.84 L276.987,362.84"/>
+        </g>
+        <g id="product-0b1d274d-9285-4105-ab4f-9ed7bebacb46" class="IfcWall material-isolatie projection" ifc:name="isolatie_100" ifc:guid="0B7ITDaeL11QjFdjU_kij6">
+            <path d="M296.987,355.84 L276.987,355.84"/>
+            <path d="M296.987,353.84 L296.987,355.84"/>
+            <path d="M276.987,353.84 L296.987,353.84"/>
+            <path d="M276.987,355.84 L276.987,353.84"/>
+        </g>
+        <g id="product-b4342086-97f0-499a-88e3-5e235570c909" class="IfcWall material-isolatiePIR projection" ifc:name="isolatie_pir_110" ifc:guid="2qD226b$19ceZZNYDLSCa9">
+            <path d="M296.987,373.84 L276.987,373.84"/>
+            <path d="M296.987,371.64 L296.987,373.84"/>
+            <path d="M276.987,371.64 L296.987,371.64"/>
+            <path d="M276.987,373.84 L276.987,371.64"/>
+        </g>
+        <g id="product-72f33676-5539-43cd-975f-f683cbee139c" class="IfcWall material-isolatiePUR projection" ifc:name="isolatie_pur_100" ifc:guid="1oypPsLJb3pPTVzeFBxXES">
+            <path d="M296.987,382.84 L276.987,382.84"/>
+            <path d="M296.987,380.84 L296.987,382.84"/>
+            <path d="M276.987,380.84 L296.987,380.84"/>
+            <path d="M276.987,382.84 L276.987,380.84"/>
+        </g>
+        <g id="product-cb808919-8140-46ec-a95c-ca94af72ba3c" class="IfcWall material-isolatieglaswol projection" ifc:name="isolatie_glaswol_184" ifc:guid="3BW8aPWK16xAbSofIlShey">
+            <path d="M296.987,391.84 L276.987,391.84"/>
+            <path d="M296.987,388.16 L296.987,391.84"/>
+            <path d="M276.987,388.16 L296.987,388.16"/>
+            <path d="M276.987,391.84 L276.987,388.16"/>
+        </g>
+        <g id="product-52031a19-c97e-44e4-b9a7-fa2246f046a8" class="IfcWall material-isolatieglaswol projection" ifc:name="isolatie_glaswol_235" ifc:guid="1I0nePoNv4vBcd_Y96y4Qe">
+            <path d="M296.987,400.84 L276.987,400.84"/>
+            <path d="M296.987,396.14 L296.987,400.84"/>
+            <path d="M276.987,396.14 L296.987,396.14"/>
+            <path d="M276.987,400.84 L276.987,396.14"/>
+        </g>
+        <g id="product-bca107e0-7099-418e-9cba-54d3391d744c" class="IfcWall material-enkelewandvloerafwerking projection" ifc:name="gips_9" ifc:guid="2yeGVWS9b1ZfowLDCv7NHC">
+            <path d="M296.987,409.84 L276.987,409.84"/>
+            <path d="M296.987,409.66 L296.987,409.84"/>
+            <path d="M276.987,409.66 L296.987,409.66"/>
+            <path d="M276.987,409.84 L276.987,409.66"/>
+        </g>
+        <g id="product-192b6f58-03d0-41ac-be26-93e165d04572" class="IfcWall material-enkelewandvloerafwerking projection" ifc:name="gips_12" ifc:guid="0PAszO0z11hBuca_5bq4Lo">
+            <path d="M296.987,414.84 L276.987,414.84"/>
+            <path d="M296.987,414.6 L296.987,414.84"/>
+            <path d="M276.987,414.6 L296.987,414.6"/>
+            <path d="M276.987,414.84 L276.987,414.6"/>
+        </g>
+        <g id="product-7b4d7740-528b-4fad-b70c-266f272c8664" class="IfcWall material-enkelewandvloerafwerking projection" ifc:name="fermacell_12.5" ifc:guid="1xJNT0KejFhRSC9cydB8Pa">
+            <path d="M296.987,419.84 L276.987,419.84"/>
+            <path d="M296.987,419.59 L296.987,419.84"/>
+            <path d="M276.987,419.59 L296.987,419.59"/>
+            <path d="M276.987,419.84 L276.987,419.59"/>
+        </g>
+        <g id="product-ffac6693-ad01-43f1-816b-3dc1340b6aca" class="IfcWall material-enkelewandvloerafwerking projection" ifc:name="promatect_12" ifc:guid="3$h6QJhG53yO5hFS4q2shA">
+            <path d="M296.987,424.84 L276.987,424.84"/>
+            <path d="M296.987,424.59 L296.987,424.84"/>
+            <path d="M276.987,424.59 L296.987,424.59"/>
+            <path d="M276.987,424.84 L276.987,424.59"/>
+        </g>
+        <g id="product-d92707e5-baed-436d-859b-28ac373d2ccb" class="IfcWall material-gewapendbeton projection" ifc:name="beton_250" ifc:guid="3P9mVbkkr3ROMRAAmtFIpB">
+            <path d="M196.987,427.84 L176.987,427.84"/>
+            <path d="M196.987,422.84 L196.987,427.84"/>
+            <path d="M176.987,422.84 L196.987,422.84"/>
+            <path d="M176.987,427.84 L176.987,422.84"/>
+        </g>
+        <g id="product-88c47c16-6d91-40c4-ab18-2ee40e9a8a44" class="IfcWall material-gewapendbetonprefab projection" ifc:name="prefab_beton_100" ifc:guid="28n7mMRP50nAiOBkGEcef4">
+            <path d="M196.987,436.84 L176.987,436.84"/>
+            <path d="M196.987,434.84 L196.987,436.84"/>
+            <path d="M176.987,434.84 L196.987,434.84"/>
+            <path d="M176.987,436.84 L176.987,434.84"/>
+        </g>
+        <g id="product-32bdc73a-561d-410b-a1c4-58417f0500b3" class="IfcWall material-gewapendbetonprefab projection" ifc:name="prefab_beton_180" ifc:guid="0olSSwLXr12w74M45$1G2p">
+            <path d="M196.987,445.84 L176.987,445.84"/>
+            <path d="M196.987,442.24 L196.987,445.84"/>
+            <path d="M176.987,442.24 L196.987,442.24"/>
+            <path d="M176.987,445.84 L176.987,442.24"/>
+        </g>
+        <g id="product-50ead425-dcce-474b-af10-3785238d72c0" class="IfcWall material-gewapendbetonprefab projection" ifc:name="prefab_beton_250" ifc:guid="1GwjGbtCv7IwyGDuKZZNB0">
+            <path d="M196.987,454.84 L176.987,454.84"/>
+            <path d="M196.987,449.84 L196.987,454.84"/>
+            <path d="M176.987,449.84 L196.987,449.84"/>
+            <path d="M176.987,454.84 L176.987,449.84"/>
+        </g>
+        <g id="product-c552f558-bd01-4d4a-8ad3-7f372fa77e26" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="mw_100" ifc:guid="35KlLOlG5DIehJVpSlftuc">
+            <path d="M246.987,445.84 L226.987,445.84"/>
+            <path d="M246.987,443.84 L246.987,445.84"/>
+            <path d="M226.987,443.84 L246.987,443.84"/>
+            <path d="M226.987,445.84 L226.987,443.84"/>
+        </g>
+        <g id="product-b2af7cc0-85c9-43b3-9dc2-3454c31ef988" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="mw_210" ifc:guid="2ohtp0XSb3ivt2D5J37lc8">
+            <path d="M246.987,454.84 L226.987,454.84"/>
+            <path d="M246.987,450.64 L246.987,454.84"/>
+            <path d="M226.987,450.64 L246.987,450.64"/>
+            <path d="M226.987,454.84 L226.987,450.64"/>
+        </g>
+        <g id="product-27554aff-3959-45ba-9d86-31d029be17c2" class="IfcWall material-metselwerkbaksteenporiso projection" ifc:name="mw_poriso_100" ifc:guid="0dLKh$ELb5kfs6CT0flXV2">
+            <path d="M246.987,463.84 L226.987,463.84"/>
+            <path d="M246.987,461.84 L246.987,463.84"/>
+            <path d="M226.987,461.84 L246.987,461.84"/>
+            <path d="M226.987,463.84 L226.987,461.84"/>
+        </g>
+        <g id="product-e8c680d6-368f-4b93-bc9a-c6d8a4b80102" class="IfcWall material-bekledingsplaatmultiplex projection" ifc:name="mplex_10" ifc:guid="3ene3MDezBaxoQnjYak042">
+            <path d="M296.987,439.84 L276.987,439.84"/>
+            <path d="M296.987,439.64 L296.987,439.84"/>
+            <path d="M276.987,439.64 L296.987,439.64"/>
+            <path d="M276.987,439.84 L276.987,439.64"/>
+        </g>
+        <g id="product-4cd4957f-0afd-4c76-ae76-014e3df40360" class="IfcWall material-bekledingsplaatmultiplex projection" ifc:name="mplex_12" ifc:guid="1Cr9L$2lrCTgvs0Kuzz0DW">
+            <path d="M296.987,444.84 L276.987,444.84"/>
+            <path d="M296.987,444.6 L296.987,444.84"/>
+            <path d="M276.987,444.6 L296.987,444.6"/>
+            <path d="M276.987,444.84 L276.987,444.6"/>
+        </g>
+        <g id="product-e77913ba-2b9c-4cb2-b0e5-e5aeec482d81" class="IfcWall material-bekledingsplaatmultiplex projection" ifc:name="mplex_15" ifc:guid="3dUHEwAvnCih3bvQxiI2s1">
+            <path d="M296.987,449.84 L276.987,449.84"/>
+            <path d="M296.987,449.54 L296.987,449.84"/>
+            <path d="M276.987,449.54 L296.987,449.54"/>
+            <path d="M276.987,449.84 L276.987,449.54"/>
+        </g>
+        <g id="product-a0c73c43-7708-424e-96b7-1b5f5c08db34" class="IfcWall material-bekledingsplaatmultiplex projection" ifc:name="mplex_18" ifc:guid="2Wnpn3TmX2JfQt6rzS2Diq">
+            <path d="M296.987,454.84 L276.987,454.84"/>
+            <path d="M296.987,454.48 L296.987,454.84"/>
+            <path d="M276.987,454.48 L296.987,454.48"/>
+            <path d="M276.987,454.84 L276.987,454.48"/>
+        </g>
+        <g id="product-3a70f8de-ee71-4a51-a669-5b3eb4b61213" class="IfcSlab material-ongewapendbeton projection" ifc:name="anhydriet_50" ifc:guid="0wSFZUxd5AKQPfMpwqjX8J">
+            <path d="M376.987,418.84 L376.987,414.84"/>
+            <path d="M377.987,418.84 L376.987,418.84"/>
+            <path d="M377.987,418.84 L377.987,414.84"/>
+            <path d="M376.987,414.84 L377.987,414.84"/>
+        </g>
+        <g id="product-4819f7fe-78c6-41d9-8feb-0b5d43eadbf7" class="IfcSlab material-ongewapendbeton projection" ifc:name="dekvloer_50" ifc:guid="186VV_UCP1sO$h2rr3wjlt">
+            <path d="M376.987,400.84 L377.987,400.84"/>
+            <path d="M377.987,396.84 L377.987,400.84"/>
+            <path d="M377.987,396.84 L376.987,396.84"/>
+            <path d="M376.987,396.84 L376.987,400.84"/>
+        </g>
+        <g id="product-891d662e-98c5-4e53-b90a-902d099dfc05" class="IfcSlab material-ongewapendbeton projection" ifc:name="zandcement_50" ifc:guid="297MOkcCLEKxaAa2q9dVm5">
+            <path d="M378.368,427.84 L378.368,423.84"/>
+            <path d="M376.968,423.84 L378.368,423.84"/>
+            <path d="M376.968,427.84 L376.968,423.84"/>
+            <path d="M378.368,427.84 L376.968,427.84"/>
+        </g>
+        <g id="product-37fc33e5-aa33-4a7d-aa23-6d8b8bdb6452" class="IfcSlab material-ongewapendbeton projection" ifc:name="dekvloer_70" ifc:guid="0t$3FbgZDAVQeZROkBssHI">
+            <path d="M378.387,409.84 L378.387,405.84"/>
+            <path d="M376.987,405.84 L378.387,405.84"/>
+            <path d="M376.987,409.84 L376.987,405.84"/>
+            <path d="M378.387,409.84 L376.987,409.84"/>
+        </g>
+        <g id="product-629415f5-6bfb-4c11-bb09-662a3de93a8f" class="IfcSlab material-gewapendbetonprefab projection" ifc:name="kpv_150" ifc:guid="1Yb1NrQ$jC4Ri9PYezwJgF">
+            <path d="M376.987,355.84 L379.987,355.84"/>
+            <path d="M379.987,351.84 L379.987,355.84"/>
+            <path d="M379.987,351.84 L376.987,351.84"/>
+            <path d="M376.987,351.84 L376.987,355.84"/>
+        </g>
+        <g id="product-d6611f53-e65a-4312-a191-4101b848b4c0" class="IfcSlab material-gewapendbetonprefab projection" ifc:name="kpv_320" ifc:guid="3MOHzJvbf34g6HGG6uIBJ0">
+            <path d="M383.387,382.84 L383.387,378.84"/>
+            <path d="M376.987,378.84 L383.387,378.84"/>
+            <path d="M376.987,382.84 L376.987,378.84"/>
+            <path d="M383.387,382.84 L376.987,382.84"/>
+        </g>
+        <g id="product-445137f8-ee2a-479e-8df6-60adcf3f28c9" class="IfcSlab material-gewapendbetonprefab projection" ifc:name="kpv_200" ifc:guid="14KJVuxYf7detsOAtFFoZ9">
+            <path d="M380.987,364.84 L380.987,360.84"/>
+            <path d="M376.987,360.84 L380.987,360.84"/>
+            <path d="M376.987,364.84 L376.987,360.84"/>
+            <path d="M380.987,364.84 L376.987,364.84"/>
+        </g>
+        <g id="product-d0eda071-fce8-4693-a024-cf6bc33834c7" class="IfcSlab material-gewapendbetonprefab projection" ifc:name="kpv_260" ifc:guid="3GxQ1n$EX6aw0apsl3E3J7">
+            <path d="M382.187,373.84 L382.187,369.84"/>
+            <path d="M376.987,369.84 L382.187,369.84"/>
+            <path d="M376.987,373.84 L376.987,369.84"/>
+            <path d="M382.187,373.84 L376.987,373.84"/>
+        </g>
+        <g id="product-951f472a-aea6-4d67-b564-16686c6a1ddd" class="IfcSlab material-ongewapendbeton projection" ifc:name="zandcement_70" ifc:guid="2L7qSghgPDPxLa5cXiQXtT">
+            <path d="M378.368,436.84 L378.368,432.84"/>
+            <path d="M376.968,432.84 L378.368,432.84"/>
+            <path d="M376.968,436.84 L376.968,432.84"/>
+            <path d="M378.368,436.84 L376.968,436.84"/>
+        </g>
+        <g id="product-80e5f5bc-81f4-4e93-8949-363d4889b15d" class="IfcSlab material-isolatie projection" ifc:name="isolatie_100" ifc:guid="20vVMyWVHEaub9DZr8YR5T">
+            <path d="M476.987,355.84 L478.987,355.84"/>
+            <path d="M478.987,351.84 L478.987,355.84"/>
+            <path d="M478.987,351.84 L476.987,351.84"/>
+            <path d="M476.987,351.84 L476.987,355.84"/>
+        </g>
+        <g id="product-54728763-3b74-4347-8f2d-a8a996e9c3a8" class="IfcSlab material-isolatiePIR projection" ifc:name="isolatie_pir_110" ifc:guid="1KSeTZEtH3HuyjgAcMwSEe">
+            <path d="M479.187,382.84 L479.187,378.84"/>
+            <path d="M476.987,378.84 L479.187,378.84"/>
+            <path d="M476.987,382.84 L476.987,378.84"/>
+            <path d="M479.187,382.84 L476.987,382.84"/>
+        </g>
+        <g id="product-102fdc85-19cb-469d-9294-878193866113" class="IfcSlab material-isolatiePIR projection" ifc:name="isolatie_pir_100" ifc:guid="0GBzo56Sj6dPAKXu6JXc4J">
+            <path d="M478.987,373.84 L478.987,369.84"/>
+            <path d="M476.987,369.84 L478.987,369.84"/>
+            <path d="M476.987,373.84 L476.987,369.84"/>
+            <path d="M478.987,373.84 L476.987,373.84"/>
+        </g>
+        <g id="product-7398c812-8057-48ef-8bc4-8e93bc45c582" class="IfcSlab material-isolatieEPS projection" ifc:name="isolatie_eps_100" ifc:guid="1pcCWIW5T8xul4ZfEyHSM2">
+            <path d="M478.987,364.84 L478.987,360.84"/>
+            <path d="M476.987,360.84 L478.987,360.84"/>
+            <path d="M476.987,364.84 L476.987,360.84"/>
+            <path d="M478.987,364.84 L476.987,364.84"/>
+        </g>
+        <g id="product-37f1a565-ec21-4d88-aaac-3f3c9f0293f9" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_160" ifc:guid="0tyQLbx25DYAgiFpoV0fFv">
+            <path d="M430.187,409.84 L430.187,405.84"/>
+            <path d="M426.987,405.84 L430.187,405.84"/>
+            <path d="M426.987,409.84 L426.987,405.84"/>
+            <path d="M430.187,409.84 L426.987,409.84"/>
+        </g>
+        <g id="product-5d90ddc8-1b98-4e24-9257-e1c0280b922f" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_200" ifc:guid="1TaDt86vXE999NuS0e2v8l">
+            <path d="M430.968,427.84 L430.968,423.84"/>
+            <path d="M426.968,423.84 L430.968,423.84"/>
+            <path d="M426.968,427.84 L426.968,423.84"/>
+            <path d="M430.968,427.84 L426.968,427.84"/>
+        </g>
+        <g id="product-4d92e583-5851-484d-9ca4-639a6bfdad81" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_90" ifc:guid="1DakM3M558JPoaOvfh$Qs1">
+            <path d="M428.787,373.84 L428.787,369.84"/>
+            <path d="M426.987,369.84 L428.787,369.84"/>
+            <path d="M426.987,373.84 L426.987,369.84"/>
+            <path d="M428.787,373.84 L426.987,373.84"/>
+        </g>
+        <g id="product-f8c461ef-7675-411d-b9a5-ff55473b748a" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_70" ifc:guid="3un67lTdL17Rcb$rL7EtIA">
+            <path d="M428.387,364.84 L428.387,360.84"/>
+            <path d="M426.987,360.84 L428.387,360.84"/>
+            <path d="M426.987,364.84 L426.987,360.84"/>
+            <path d="M428.387,364.84 L426.987,364.84"/>
+        </g>
+        <g id="product-d8073f03-cf83-4e0e-93ee-ff379b3dd7cf" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_60" ifc:guid="3O1py3puDE3fFk$pURFTVF">
+            <path d="M426.987,355.84 L428.187,355.84"/>
+            <path d="M428.187,351.84 L428.187,355.84"/>
+            <path d="M428.187,351.84 L426.987,351.84"/>
+            <path d="M426.987,351.84 L426.987,355.84"/>
+        </g>
+        <g id="product-28e7895a-c34b-4772-aa43-3640735cdeff" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_140" ifc:guid="0evubQmqj7Sgf3Da1pNDx$">
+            <path d="M426.987,400.84 L429.787,400.84"/>
+            <path d="M429.787,396.84 L429.787,400.84"/>
+            <path d="M429.787,396.84 L426.987,396.84"/>
+            <path d="M426.987,396.84 L426.987,400.84"/>
+        </g>
+        <g id="product-73a9699a-c71f-41f0-834c-1cf59681bfbc" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_180" ifc:guid="1pgMcQnnz1y8DC7FMMWR_y">
+            <path d="M426.987,418.84 L426.987,414.84"/>
+            <path d="M430.587,418.84 L426.987,418.84"/>
+            <path d="M430.587,418.84 L430.587,414.84"/>
+            <path d="M426.987,414.84 L430.587,414.84"/>
+        </g>
+        <g id="product-21b0e95e-d8e0-4fee-9dbd-b596bdf8fa77" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_120" ifc:guid="0XiEbUsE1FxfszjPQz_Fft">
+            <path d="M429.387,391.84 L429.387,387.84"/>
+            <path d="M426.987,387.84 L429.387,387.84"/>
+            <path d="M426.987,391.84 L426.987,387.84"/>
+            <path d="M429.387,391.84 L426.987,391.84"/>
+        </g>
+        <g id="product-49d063a7-03ee-4efc-b124-a7558967a7ee" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_100" ifc:guid="19q6Ed0_vE$B4afrM9PwVk">
+            <path d="M428.987,382.84 L428.987,378.84"/>
+            <path d="M426.987,378.84 L428.987,378.84"/>
+            <path d="M426.987,382.84 L426.987,378.84"/>
+            <path d="M428.987,382.84 L426.987,382.84"/>
+        </g>
+        <g id="product-260a5b33-7d32-4286-ad1b-3777e5440270" class="IfcSlab material-naaldhoutvurenCLT projection" ifc:name="clt_220" ifc:guid="0c2bipVJ92XgqRDtVbH09m">
+            <path d="M431.368,436.84 L431.368,432.84"/>
+            <path d="M426.968,432.84 L431.368,432.84"/>
+            <path d="M426.968,436.84 L426.968,432.84"/>
+            <path d="M431.368,436.84 L426.968,436.84"/>
+        </g>
+        <g id="product-158a7bb6-c70c-423e-ab1d-c529dfd92d4a" class="IfcSlab material-gewapendbetonprefab projection" ifc:name="kpv_400" ifc:guid="0LYdksnmn2FgiTnIdVsIrA">
+            <path d="M384.987,391.84 L384.987,387.84"/>
+            <path d="M376.987,387.84 L384.987,387.84"/>
+            <path d="M376.987,391.84 L376.987,387.84"/>
+            <path d="M384.987,391.84 L376.987,391.84"/>
+        </g>
+    <g ifc:guid="3zuuPi5DzFRO8_qW0VLaSR" ifc:name="Ruimte" class="IfcSpace material-null cut"><path d="M330.2188491821289,264.4268312890404 L330.2188491821289,244.42677406858144 L330.2188491821289,234.42683128904042 L310.2187728881836,234.42683128904042 L300.2188491821289,234.42683128904042 L300.2188491821289,254.42690758298573 L300.2188491821289,264.42685036252675 L320.2189254760742,264.4268312890404 Z"/></g><g class="348ccv6tH5wwG9L6C8YJ9_ IfcWall material-null cut"><path d="M451.42589569091797,70.0403490502709 L451.42589569091797,64.44025902341544 L451.42589569091797,58.040226979958405 L447.69256591796875,58.040226979958405 L443.4259033203125,58.040226979958405 L443.4259033203125,63.64031700681387 L443.4259033203125,70.0403490502709 L447.1592330932617,70.0403490502709 Z"/></g><g class="3GxQ1n$EX6aw0apsl3E3J7 3XkVhQo8X6PfNqviLulvaZ 0LYdksnmn2FgiTnIdVsIrA IfcSlab 1Yb1NrQ$jC4Ri9PYezwJgF material-gewapendbetonprefab 14KJVuxYf7detsOAtFFoZ9 1skuh_GVnFNRQQbYQwkqiZ cut 3MOHzJvbf34g6HGG6uIBJ0"><path d="M378.90262603759766,351.84025673459706 L376.98673248291016,351.84025673459706 L376.98673248291016,353.2857504327172 L376.98673248291016,355.8402529198998 L378.0708694458008,355.8402529198998 L379.9867248535156,355.8402529198998 L379.9867248535156,354.3947592217797 L379.9867248535156,351.84025673459706 Z"/></g><g class="3GxQ1n$EX6aw0apsl3E3J7 3XkVhQo8X6PfNqviLulvaZ 0LYdksnmn2FgiTnIdVsIrA IfcSlab 1Yb1NrQ$jC4Ri9PYezwJgF material-gewapendbetonprefab 14KJVuxYf7detsOAtFFoZ9 1skuh_GVnFNRQQbYQwkqiZ cut 3MOHzJvbf34g6HGG6uIBJ0"><path d="M376.98673248291016,360.84024338315663 L376.98673248291016,363.19474129270253 L376.98673248291016,364.84023956845937 L378.63224029541016,364.84023956845937 L380.9867477416992,364.84023956845937 L380.9867477416992,362.48574165891347 L380.9867477416992,360.84024338315663 L379.3412399291992,360.84024338315663 Z"/></g><g class="3GxQ1n$EX6aw0apsl3E3J7 3XkVhQo8X6PfNqviLulvaZ 0LYdksnmn2FgiTnIdVsIrA IfcSlab 1Yb1NrQ$jC4Ri9PYezwJgF material-gewapendbetonprefab 14KJVuxYf7detsOAtFFoZ9 1skuh_GVnFNRQQbYQwkqiZ cut 3MOHzJvbf34g6HGG6uIBJ0"><path d="M376.98673248291016,369.8402586419457 L376.98673248291016,371.9547548730248 L376.98673248291016,373.84025482724843 L379.4378662109375,373.84025482724843 L382.1867370605469,373.84025482724843 L382.1867370605469,371.72574905942616 L382.1867370605469,369.8402586419457 L379.73560333251953,369.8402586419457 Z"/></g><g class="3GxQ1n$EX6aw0apsl3E3J7 3XkVhQo8X6PfNqviLulvaZ 0LYdksnmn2FgiTnIdVsIrA IfcSlab 1Yb1NrQ$jC4Ri9PYezwJgF material-gewapendbetonprefab 14KJVuxYf7detsOAtFFoZ9 1skuh_GVnFNRQQbYQwkqiZ cut 3MOHzJvbf34g6HGG6uIBJ0"><path d="M376.98673248291016,378.84025482724843 L376.98673248291016,380.71474937986073 L376.98673248291016,382.84025101255116 L380.38753509521484,382.84025101255116 L383.38672637939453,382.84025101255116 L383.38672637939453,380.9657469231957 L383.38672637939453,378.84025482724843 L379.98592376708984,378.84025482724843 Z"/></g><g class="3GxQ1n$EX6aw0apsl3E3J7 3XkVhQo8X6PfNqviLulvaZ 0LYdksnmn2FgiTnIdVsIrA IfcSlab 1Yb1NrQ$jC4Ri9PYezwJgF material-gewapendbetonprefab 14KJVuxYf7detsOAtFFoZ9 1skuh_GVnFNRQQbYQwkqiZ cut 3MOHzJvbf34g6HGG6uIBJ0"><path d="M376.98673248291016,387.84025101255116 L376.98673248291016,389.3947496850365 L376.98673248291016,391.84025673459706 L381.87774658203125,391.84025673459706 L384.9867248535156,391.84025673459706 L384.9867248535156,390.28574852536855 L384.9867248535156,387.84025101255116 L380.0957489013672,387.84025101255116 Z"/></g><g class="3GxQ1n$EX6aw0apsl3E3J7 3XkVhQo8X6PfNqviLulvaZ 0LYdksnmn2FgiTnIdVsIrA IfcSlab 1Yb1NrQ$jC4Ri9PYezwJgF material-gewapendbetonprefab 14KJVuxYf7detsOAtFFoZ9 1skuh_GVnFNRQQbYQwkqiZ cut 3MOHzJvbf34g6HGG6uIBJ0"><path d="M329.3412399291992,414.84024910520253 L326.98673248291016,414.84024910520253 L326.98673248291016,416.4857378442162 L326.98673248291016,418.84024529050527 L328.63224029541016,418.84024529050527 L330.9867477416992,418.84024529050527 L330.9867477416992,417.19473747800527 L330.9867477416992,414.84024910520253 Z"/></g><g class="3GxQ1n$EX6aw0apsl3E3J7 3XkVhQo8X6PfNqviLulvaZ 0LYdksnmn2FgiTnIdVsIrA IfcSlab 1Yb1NrQ$jC4Ri9PYezwJgF material-gewapendbetonprefab 14KJVuxYf7detsOAtFFoZ9 1skuh_GVnFNRQQbYQwkqiZ cut 3MOHzJvbf34g6HGG6uIBJ0"><path d="M326.9675827026367,423.84024529050527 L326.9675827026367,425.9947481591576 L326.9675827026367,427.840241475808 L329.2744827270508,427.840241475808 L331.9675827026367,427.840241475808 L331.9675827026367,425.68573860715566 L331.9675827026367,423.84024529050527 L329.66068267822266,423.84024529050527 Z"/></g><g class="0fSGi9IdX92PMIbYBz9UQ9 2M6jfpb9rB7965pO6uNrXF 3SWjqSOJP5NhRZRkqvv1Iv 2lQSYLvYX1bO7a7kSpw694 IfcSlab material-gewapendbeton cut"><path d="M328.3639907836914,378.84025482724843 L326.98673248291016,378.84025482724843 L326.98673248291016,381.5947523553246 L326.98673248291016,382.84025101255116 L327.6095199584961,382.84025101255116 L328.98670196533203,382.84025101255116 L328.98670196533203,380.085753484475 L328.98670196533203,378.84025482724843 Z"/></g><g class="0fSGi9IdX92PMIbYBz9UQ9 2M6jfpb9rB7965pO6uNrXF 3SWjqSOJP5NhRZRkqvv1Iv 2lQSYLvYX1bO7a7kSpw694 IfcSlab material-gewapendbeton cut"><path d="M328.90262603759766,387.84025101255116 L326.98673248291016,387.84025101255116 L326.98673248291016,390.3947534997338 L326.98673248291016,391.8402471978539 L328.0708694458008,391.8402471978539 L329.9867630004883,391.8402471978539 L329.9867630004883,389.2857447106713 L329.9867630004883,387.84025101255116 Z"/></g><g class="0fSGi9IdX92PMIbYBz9UQ9 2M6jfpb9rB7965pO6uNrXF 3SWjqSOJP5NhRZRkqvv1Iv 2lQSYLvYX1bO7a7kSpw694 IfcSlab material-gewapendbeton cut"><path d="M329.3412399291992,396.84023766111073 L326.98673248291016,396.84023766111073 L326.98673248291016,398.48574547361073 L326.98673248291016,400.84024338315663 L328.63224029541016,400.84024338315663 L330.9867477416992,400.84024338315663 L330.9867477416992,399.1947451073998 L330.9867477416992,396.84023766111073 Z"/></g><g class="0fSGi9IdX92PMIbYBz9UQ9 2M6jfpb9rB7965pO6uNrXF 3SWjqSOJP5NhRZRkqvv1Iv 2lQSYLvYX1bO7a7kSpw694 IfcSlab material-gewapendbeton cut"><path d="M329.6798324584961,405.84023384641347 L326.98673248291016,405.84023384641347 L326.98673248291016,407.9947367150658 L326.98673248291016,409.84023956845937 L329.2936325073242,409.84023956845937 L331.98673248291016,409.84023956845937 L331.98673248291016,407.685736699807 L331.98673248291016,405.84023384641347 Z"/></g><g class="material-null 0oBQndBrPF0O08uOApdGi2 3O4Izv0aX4g9g9AA3AUZoc IfcSlab 2ONb5EUiTEEOG5P6TWONJO cut"><path d="M328.98670196533203,351.84025673459706 L328.3639907836914,351.84025673459706 L326.98673248291016,351.84025673459706 L326.98673248291016,353.0857553918236 L326.98673248291016,355.8402529198998 L327.6095199584961,355.8402529198998 L328.98670196533203,355.8402529198998 L328.98670196533203,354.59475426267323 Z"/></g><g class="material-null 0oBQndBrPF0O08uOApdGi2 3O4Izv0aX4g9g9AA3AUZoc IfcSlab 2ONb5EUiTEEOG5P6TWONJO cut"><path d="M329.3412399291992,360.84024338315663 L326.98673248291016,360.84024338315663 L326.98673248291016,363.19474129270253 L326.98673248291016,364.84023956845937 L328.63224029541016,364.84023956845937 L330.9867477416992,364.84023956845937 L330.9867477416992,362.48574165891347 L330.9867477416992,360.84024338315663 Z"/></g><g class="material-null 0oBQndBrPF0O08uOApdGi2 3O4Izv0aX4g9g9AA3AUZoc IfcSlab 2ONb5EUiTEEOG5P6TWONJO cut"><path d="M329.9184799194336,369.8402586419457 L326.98673248291016,369.8402586419457 L326.98673248291016,371.7947569329613 L326.98673248291016,373.84025482724843 L330.05496978759766,373.84025482724843 L332.9867172241211,373.84025482724843 L332.9867172241211,371.8857565362328 L332.9867172241211,369.8402586419457 Z"/></g><g class="0bxsPh6V57ZftK1Yk6nhZz 1fcerMG854Retnnyty11wQ 3X8O_pJv1Awh5RdoPTnIFT material-generiek IfcWall cut"><path d="M186.32007598876953,355.8402529198998 L196.98673248291016,355.8402529198998 L196.98673248291016,354.9069109399193 L196.98673248291016,353.84025482724843 L187.65338897705078,353.84025482724843 L176.98673248291016,353.84025482724843 L176.98673248291016,354.77358727048573 L176.98673248291016,355.8402529198998 Z"/></g><g class="0bxsPh6V57ZftK1Yk6nhZz 1fcerMG854Retnnyty11wQ 3X8O_pJv1Awh5RdoPTnIFT material-generiek IfcWall cut"><path d="M196.98673248291016,364.84024910520253 L196.98673248291016,362.97357468198476 L196.98673248291016,360.8402529198998 L187.65338897705078,360.8402529198998 L176.98673248291016,360.8402529198998 L176.98673248291016,362.70692734311757 L176.98673248291016,364.84024910520253 L186.32007598876953,364.84024910520253 Z"/></g><g class="0bxsPh6V57ZftK1Yk6nhZz 1fcerMG854Retnnyty11wQ 3X8O_pJv1Awh5RdoPTnIFT material-generiek IfcWall cut"><path d="M196.98673248291016,375.84024338315663 L196.98673248291016,373.0402269799584 L196.98673248291016,369.84023956845937 L187.65338897705078,369.84023956845937 L176.98673248291016,369.84023956845937 L176.98673248291016,372.6402559716576 L176.98673248291016,375.84024338315663 L186.32007598876953,375.84024338315663 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,355.2802458245629 L246.98673248291016,354.640254064309 L237.65338897705078,354.640254064309 L226.98673248291016,354.640254064309 L226.98673248291016,355.2002516229027 L226.98673248291016,355.8402529198998 L236.32007598876953,355.8402529198998 L246.98673248291016,355.8402529198998 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,364.1869154412621 L246.98673248291016,363.440245671975 L237.65338897705078,363.440245671975 L226.98673248291016,363.440245671975 L226.98673248291016,364.0935888726586 L226.98673248291016,364.84024910520253 L236.32007598876953,364.84024910520253 L246.98673248291016,364.84024910520253 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,373.0002394158715 L246.98673248291016,372.04024223874745 L237.65338897705078,372.04024223874745 L226.98673248291016,372.04024223874745 L226.98673248291016,372.88024811338124 L226.98673248291016,373.84024529050527 L236.32007598876953,373.84024529050527 L246.98673248291016,373.84024529050527 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,380.8402529198998 L237.65338897705078,380.8402529198998 L226.98673248291016,380.8402529198998 L226.98673248291016,381.7735853631371 L226.98673248291016,382.84025101255116 L236.32007598876953,382.84025101255116 L246.98673248291016,382.84025101255116 L246.98673248291016,381.9069090325707 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,389.4402590234154 L237.65338897705078,389.4402590234154 L226.98673248291016,389.4402590234154 L226.98673248291016,390.5602636773461 L226.98673248291016,391.84025673459706 L236.32007598876953,391.84025673459706 L246.98673248291016,391.84025673459706 L246.98673248291016,390.7202520806664 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,399.53358559201894 L246.98673248291016,398.0402460534447 L237.65338897705078,398.0402460534447 L226.98673248291016,398.0402460534447 L226.98673248291016,399.34692291806874 L226.98673248291016,400.8402529198998 L236.32007598876953,400.8402529198998 L246.98673248291016,400.8402529198998 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,408.3469095666283 L246.98673248291016,406.64025215696034 L237.65338897705078,406.64025215696034 L226.98673248291016,406.64025215696034 L226.98673248291016,408.13359169553456 L226.98673248291016,409.84024910520253 L236.32007598876953,409.84024910520253 L246.98673248291016,409.84024910520253 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,417.160252614724 L246.98673248291016,415.24025826047597 L237.65338897705078,415.24025826047597 L226.98673248291016,415.24025826047597 L226.98673248291016,416.92027000974355 L226.98673248291016,418.84024529050527 L236.32007598876953,418.84024529050527 L246.98673248291016,418.84024529050527 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,423.84024529050527 L237.65338897705078,423.84024529050527 L226.98673248291016,423.84024529050527 L226.98673248291016,425.7069292504662 L226.98673248291016,427.8402605492943 L236.32007598876953,427.8402605492943 L246.98673248291016,427.8402605492943 L246.98673248291016,425.9735765893334 Z"/></g><g class="3ahPJBNDD1LhSica9xpm9N 1OtlE_XoT3nwp$teeg8PW_ 3p0VX0RXz02uXbYI1GpYOA 1jMrGV4P53pPWa44sZ_U3p 2mOVJxAyHDzvJam6aysuI9 3NvXQJ51L1gOo6hVRN9T5W 1Zgl9MMGf9X9zt1tAmtXcx material-naaldhoutvurenCLT 1qQFT6jYvDvhcHqwDbXk64 3sT23RTI136P6huRtcma6w 1ai1Axx29BeetR6I2W0INo IfcWall cut"><path d="M246.98673248291016,432.4402513940209 L237.65338897705078,432.4402513940209 L226.98673248291016,432.4402513940209 L226.98673248291016,434.49358849118886 L226.98673248291016,436.84025673459706 L236.32007598876953,436.84025673459706 L246.98673248291016,436.84025673459706 L246.98673248291016,434.7869196374291 Z"/></g><g class="3WZdDjTG57ZBgdxU2SRYKe 3c9o198J58_uq$W7imyJBL 0onHAdBLLEkxNfUVRjT2Il 0ovDEVHUfAeODpYIJTE4nb material-kalkzandsteen 2_AesjXKDC4BrfYfskLXcd IfcWall cut"><path d="M196.98673248291016,382.84025101255116 L196.98673248291016,381.9069090325707 L196.98673248291016,380.8402529198998 L187.65338897705078,380.8402529198998 L176.98673248291016,380.8402529198998 L176.98673248291016,381.7735853631371 L176.98673248291016,382.84025101255116 L186.32007598876953,382.84025101255116 Z"/></g><g class="3WZdDjTG57ZBgdxU2SRYKe 3c9o198J58_uq$W7imyJBL 0onHAdBLLEkxNfUVRjT2Il 0ovDEVHUfAeODpYIJTE4nb material-kalkzandsteen 2_AesjXKDC4BrfYfskLXcd IfcWall cut"><path d="M196.98673248291016,391.84025673459706 L196.98673248291016,390.7202520806664 L196.98673248291016,389.4402590234154 L187.65338897705078,389.4402590234154 L176.98673248291016,389.4402590234154 L176.98673248291016,390.5602636773461 L176.98673248291016,391.84025673459706 L186.32007598876953,391.84025673459706 Z"/></g><g class="3WZdDjTG57ZBgdxU2SRYKe 3c9o198J58_uq$W7imyJBL 0onHAdBLLEkxNfUVRjT2Il 0ovDEVHUfAeODpYIJTE4nb material-kalkzandsteen 2_AesjXKDC4BrfYfskLXcd IfcWall cut"><path d="M196.98673248291016,400.8402529198998 L196.98673248291016,399.53358559201894 L196.98673248291016,398.0402460534447 L187.65338897705078,398.0402460534447 L176.98673248291016,398.0402460534447 L176.98673248291016,399.34692291806874 L176.98673248291016,400.8402529198998 L186.32007598876953,400.8402529198998 Z"/></g><g class="3WZdDjTG57ZBgdxU2SRYKe 3c9o198J58_uq$W7imyJBL 0onHAdBLLEkxNfUVRjT2Il 0ovDEVHUfAeODpYIJTE4nb material-kalkzandsteen 2_AesjXKDC4BrfYfskLXcd IfcWall cut"><path d="M196.98673248291016,408.440245671975 L196.98673248291016,406.84025673459706 L187.65338897705078,406.84025673459706 L176.98673248291016,406.84025673459706 L176.98673248291016,408.2402601678246 L176.98673248291016,409.84024910520253 L186.32007598876953,409.84024910520253 L196.98673248291016,409.84024910520253 Z"/></g><g class="3WZdDjTG57ZBgdxU2SRYKe 3c9o198J58_uq$W7imyJBL 0onHAdBLLEkxNfUVRjT2Il 0ovDEVHUfAeODpYIJTE4nb material-kalkzandsteen 2_AesjXKDC4BrfYfskLXcd IfcWall cut"><path d="M196.98673248291016,416.8429079491967 L196.98673248291016,414.560269399392 L187.65338897705078,414.560269399392 L176.98673248291016,414.560269399392 L176.98673248291016,416.5576067407006 L176.98673248291016,418.8402643639916 L186.32007598876953,418.8402643639916 L196.98673248291016,418.8402643639916 Z"/></g><g class="material-isolatie IfcWall cut 0B7ITDaeL11QjFdjU_kij6"><path d="M276.98673248291016,355.8402529198998 L286.32007598876953,355.8402529198998 L296.98673248291016,355.8402529198998 L296.98673248291016,354.9069109399193 L296.98673248291016,353.84025482724843 L287.6533889770508,353.84025482724843 L276.98673248291016,353.84025482724843 L276.98673248291016,354.77358727048573 Z"/></g><g class="material-isolatiePIR 27Sryijon3EBbfDVLRmC1a 2qD226b$19ceZZNYDLSCa9 IfcWall cut"><path d="M286.32007598876953,364.84024910520253 L296.98673248291016,364.84024910520253 L296.98673248291016,363.90690712522206 L296.98673248291016,362.84025101255116 L287.6533889770508,362.84025101255116 L276.98673248291016,362.84025101255116 L276.98673248291016,363.77358345578847 L276.98673248291016,364.84024910520253 Z"/></g><g class="material-isolatiePIR 27Sryijon3EBbfDVLRmC1a 2qD226b$19ceZZNYDLSCa9 IfcWall cut"><path d="M286.32007598876953,373.84024529050527 L296.98673248291016,373.84024529050527 L296.98673248291016,372.8135767419213 L296.98673248291016,371.6402426202172 L287.6533889770508,371.6402426202172 L276.98673248291016,371.6402426202172 L276.98673248291016,372.6669207055443 L276.98673248291016,373.84024529050527 Z"/></g><g class="material-isolatiePUR 1oypPsLJb3pPTVzeFBxXES IfcWall cut"><path d="M276.98673248291016,382.84025101255116 L286.32007598876953,382.84025101255116 L296.98673248291016,382.84025101255116 L296.98673248291016,381.9069090325707 L296.98673248291016,380.8402529198998 L287.6533889770508,380.8402529198998 L276.98673248291016,380.8402529198998 L276.98673248291016,381.7735853631371 Z"/></g><g class="material-isolatieglaswol 3BW8aPWK16xAbSofIlShey IfcWall cut 1I0nePoNv4vBcd_Y96y4Qe"><path d="M286.32007598876953,391.8402471978539 L296.98673248291016,391.8402471978539 L296.98673248291016,390.1229086358422 L296.98673248291016,388.1602468926781 L287.6533889770508,388.1602468926781 L276.98673248291016,388.1602468926781 L276.98673248291016,389.87758545468984 L276.98673248291016,391.8402471978539 Z"/></g><g class="material-isolatieglaswol 3BW8aPWK16xAbSofIlShey IfcWall cut 1I0nePoNv4vBcd_Y96y4Qe"><path d="M286.32007598876953,400.8402529198998 L296.98673248291016,400.8402529198998 L296.98673248291016,398.6469164330834 L296.98673248291016,396.1402597863549 L287.6533889770508,396.1402597863549 L276.98673248291016,396.1402597863549 L276.98673248291016,398.3335962731713 L276.98673248291016,400.8402529198998 Z"/></g><g class="material-enkelewandvloerafwerking 3$h6QJhG53yO5hFS4q2shA 0PAszO0z11hBuca_5bq4Lo 2yeGVWS9b1ZfowLDCv7NHC 1xJNT0KejFhRSC9cydB8Pa IfcWall cut"><path d="M296.98673248291016,409.84024910520253 L296.98673248291016,409.75624947141347 L296.98673248291016,409.660252614724 L287.6533889770508,409.660252614724 L276.98673248291016,409.660252614724 L276.98673248291016,409.7442522485131 L276.98673248291016,409.84024910520253 L286.32007598876953,409.84024910520253 Z"/></g><g class="material-enkelewandvloerafwerking 3$h6QJhG53yO5hFS4q2shA 0PAszO0z11hBuca_5bq4Lo 2yeGVWS9b1ZfowLDCv7NHC 1xJNT0KejFhRSC9cydB8Pa IfcWall cut"><path d="M296.98673248291016,414.84024910520253 L296.98673248291016,414.7282495934838 L296.98673248291016,414.60024742673573 L287.6533889770508,414.60024742673573 L276.98673248291016,414.60024742673573 L276.98673248291016,414.7122469384545 L276.98673248291016,414.84024910520253 L286.32007598876953,414.84024910520253 Z"/></g><g class="material-enkelewandvloerafwerking 3$h6QJhG53yO5hFS4q2shA 0PAszO0z11hBuca_5bq4Lo 2yeGVWS9b1ZfowLDCv7NHC 1xJNT0KejFhRSC9cydB8Pa IfcWall cut"><path d="M296.98673248291016,419.84024910520253 L296.98673248291016,419.7235765893334 L296.98673248291016,419.5902529198998 L287.6533889770508,419.5902529198998 L276.98673248291016,419.5902529198998 L276.98673248291016,419.7069063622826 L276.98673248291016,419.84024910520253 L286.32007598876953,419.84024910520253 Z"/></g><g class="material-enkelewandvloerafwerking 3$h6QJhG53yO5hFS4q2shA 0PAszO0z11hBuca_5bq4Lo 2yeGVWS9b1ZfowLDCv7NHC 1xJNT0KejFhRSC9cydB8Pa IfcWall cut"><path d="M296.98673248291016,424.84024910520253 L296.98673248291016,424.7235765893334 L296.98673248291016,424.5902529198998 L287.6533889770508,424.5902529198998 L276.98673248291016,424.5902529198998 L276.98673248291016,424.7069063622826 L276.98673248291016,424.84024910520253 L286.32007598876953,424.84024910520253 Z"/></g><g class="3P9mVbkkr3ROMRAAmtFIpB material-gewapendbeton IfcWall cut"><path d="M176.98673248291016,427.8402605492943 L186.32007598876953,427.8402605492943 L196.98673248291016,427.8402605492943 L196.98673248291016,425.50690559934316 L196.98673248291016,422.8402605492943 L187.65338897705078,422.8402605492943 L176.98673248291016,422.8402605492943 L176.98673248291016,425.1735964257592 Z"/></g><g class="28n7mMRP50nAiOBkGEcef4 0olSSwLXr12w74M45$1G2p material-gewapendbetonprefab 1GwjGbtCv7IwyGDuKZZNB0 IfcWall cut"><path d="M186.32007598876953,436.84025673459706 L196.98673248291016,436.84025673459706 L196.98673248291016,435.9069147546166 L196.98673248291016,434.84024910520253 L187.65338897705078,434.84024910520253 L176.98673248291016,434.84024910520253 L176.98673248291016,435.773591085183 L176.98673248291016,436.84025673459706 Z"/></g><g class="28n7mMRP50nAiOBkGEcef4 0olSSwLXr12w74M45$1G2p material-gewapendbetonprefab 1GwjGbtCv7IwyGDuKZZNB0 IfcWall cut"><path d="M196.98673248291016,445.8402529198998 L196.98673248291016,444.16026024411855 L196.98673248291016,442.2402658898705 L187.65338897705078,442.2402658898705 L176.98673248291016,442.2402658898705 L176.98673248291016,443.9202776391381 L176.98673248291016,445.8402529198998 L186.32007598876953,445.8402529198998 Z"/></g><g class="28n7mMRP50nAiOBkGEcef4 0olSSwLXr12w74M45$1G2p material-gewapendbetonprefab 1GwjGbtCv7IwyGDuKZZNB0 IfcWall cut"><path d="M196.98673248291016,454.84026817868886 L196.98673248291016,452.5069132287377 L196.98673248291016,449.84026817868886 L187.65338897705078,449.84026817868886 L176.98673248291016,449.84026817868886 L176.98673248291016,452.1736040551537 L176.98673248291016,454.84026817868886 L186.32007598876953,454.84026817868886 Z"/></g><g class="35KlLOlG5DIehJVpSlftuc material-metselwerkbaksteenrood 2ohtp0XSb3ivt2D5J37lc8 IfcWall cut"><path d="M236.32007598876953,445.8402529198998 L246.98673248291016,445.8402529198998 L246.98673248291016,444.9069109399193 L246.98673248291016,443.84024529050527 L237.65338897705078,443.84024529050527 L226.98673248291016,443.84024529050527 L226.98673248291016,444.77358727048573 L226.98673248291016,445.8402529198998 Z"/></g><g class="35KlLOlG5DIehJVpSlftuc material-metselwerkbaksteenrood 2ohtp0XSb3ivt2D5J37lc8 IfcWall cut"><path d="M236.32007598876953,454.84024910520253 L246.98673248291016,454.84024910520253 L246.98673248291016,452.8802385766381 L246.98673248291016,450.6402483422631 L237.65338897705078,450.6402483422631 L226.98673248291016,450.6402483422631 L226.98673248291016,452.60025887082753 L226.98673248291016,454.84024910520253 Z"/></g><g class="0dLKh$ELb5kfs6CT0flXV2 IfcWall material-metselwerkbaksteenporiso cut"><path d="M226.98673248291016,463.8402643639916 L236.32007598876953,463.8402643639916 L246.98673248291016,463.8402643639916 L246.98673248291016,462.9069223840111 L246.98673248291016,461.84025673459706 L237.65338897705078,461.84025673459706 L226.98673248291016,461.84025673459706 L226.98673248291016,462.77359871457753 Z"/></g><g class="2Wnpn3TmX2JfQt6rzS2Diq 3dUHEwAvnCih3bvQxiI2s1 1Cr9L$2lrCTgvs0Kuzz0DW 3ene3MDezBaxoQnjYak042 material-bekledingsplaatmultiplex IfcWall cut"><path d="M296.98673248291016,439.84024910520253 L296.98673248291016,439.746922536599 L296.98673248291016,439.64026360105214 L287.6533889770508,439.64026360105214 L276.98673248291016,439.64026360105214 L276.98673248291016,439.73359016965566 L276.98673248291016,439.84024910520253 L286.32007598876953,439.84024910520253 Z"/></g><g class="2Wnpn3TmX2JfQt6rzS2Diq 3dUHEwAvnCih3bvQxiI2s1 1Cr9L$2lrCTgvs0Kuzz0DW 3ene3MDezBaxoQnjYak042 material-bekledingsplaatmultiplex IfcWall cut"><path d="M296.98673248291016,444.84024910520253 L296.98673248291016,444.7282495934838 L296.98673248291016,444.60024742673573 L287.6533889770508,444.60024742673573 L276.98673248291016,444.60024742673573 L276.98673248291016,444.7122469384545 L276.98673248291016,444.84024910520253 L286.32007598876953,444.84024910520253 Z"/></g><g class="2Wnpn3TmX2JfQt6rzS2Diq 3dUHEwAvnCih3bvQxiI2s1 1Cr9L$2lrCTgvs0Kuzz0DW 3ene3MDezBaxoQnjYak042 material-bekledingsplaatmultiplex IfcWall cut"><path d="M296.98673248291016,449.84024910520253 L296.98673248291016,449.7002497155541 L296.98673248291016,449.5402613122338 L287.6533889770508,449.5402613122338 L276.98673248291016,449.5402613122338 L276.98673248291016,449.6802607018822 L276.98673248291016,449.84024910520253 L286.32007598876953,449.84024910520253 Z"/></g><g class="2Wnpn3TmX2JfQt6rzS2Diq 3dUHEwAvnCih3bvQxiI2s1 1Cr9L$2lrCTgvs0Kuzz0DW 3ene3MDezBaxoQnjYak042 material-bekledingsplaatmultiplex IfcWall cut"><path d="M296.98673248291016,454.84024910520253 L296.98673248291016,454.6722498376244 L296.98673248291016,454.4802561242455 L287.6533889770508,454.4802561242455 L276.98673248291016,454.4802561242455 L276.98673248291016,454.6482553918236 L276.98673248291016,454.84024910520253 L286.32007598876953,454.84024910520253 Z"/></g><g class="material-ongewapendbeton 186VV_UCP1sO$h2rr3wjlt 0wSFZUxd5AKQPfMpwqjX8J 297MOkcCLEKxaAa2q9dVm5 2L7qSghgPDPxLa5cXiQXtT IfcSlab cut 0t$3FbgZDAVQeZROkBssHI"><path d="M377.7253723144531,396.84023766111073 L376.98673248291016,396.84023766111073 L376.98673248291016,397.88574127744374 L376.98673248291016,400.84024338315663 L377.2481155395508,400.84024338315663 L377.9867172241211,400.84024338315663 L377.9867172241211,399.7947397668236 L377.9867172241211,396.84023766111073 Z"/></g><g class="material-ongewapendbeton 186VV_UCP1sO$h2rr3wjlt 0wSFZUxd5AKQPfMpwqjX8J 297MOkcCLEKxaAa2q9dVm5 2L7qSghgPDPxLa5cXiQXtT IfcSlab cut 0t$3FbgZDAVQeZROkBssHI"><path d="M377.9928207397461,405.84023384641347 L376.98673248291016,405.84023384641347 L376.98673248291016,408.7147417504662 L376.98673248291016,409.84023956845937 L377.38067626953125,409.84023956845937 L378.38672637939453,409.84023956845937 L378.38672637939453,406.9657412011498 L378.38672637939453,405.84023384641347 Z"/></g><g class="material-ongewapendbeton 186VV_UCP1sO$h2rr3wjlt 0wSFZUxd5AKQPfMpwqjX8J 297MOkcCLEKxaAa2q9dVm5 2L7qSghgPDPxLa5cXiQXtT IfcSlab cut 0t$3FbgZDAVQeZROkBssHI"><path d="M377.9867172241211,414.84024910520253 L377.7253723144531,414.84024910520253 L376.98673248291016,414.84024910520253 L376.98673248291016,415.8857431847924 L376.98673248291016,418.84024529050527 L377.2481155395508,418.84024529050527 L377.9867172241211,418.84024529050527 L377.9867172241211,417.7947512109154 Z"/></g><g class="material-ongewapendbeton 186VV_UCP1sO$h2rr3wjlt 0wSFZUxd5AKQPfMpwqjX8J 297MOkcCLEKxaAa2q9dVm5 2L7qSghgPDPxLa5cXiQXtT IfcSlab cut 0t$3FbgZDAVQeZROkBssHI"><path d="M376.9675827026367,423.84024529050527 L376.9675827026367,426.7147341210717 L376.9675827026367,427.840241475808 L377.3615264892578,427.840241475808 L378.3675765991211,427.840241475808 L378.3675765991211,424.96573357175527 L378.3675765991211,423.84024529050527 L377.97367095947266,423.84024529050527 Z"/></g><g class="material-ongewapendbeton 186VV_UCP1sO$h2rr3wjlt 0wSFZUxd5AKQPfMpwqjX8J 297MOkcCLEKxaAa2q9dVm5 2L7qSghgPDPxLa5cXiQXtT IfcSlab cut 0t$3FbgZDAVQeZROkBssHI"><path d="M376.9675827026367,432.840241475808 L376.9675827026367,435.71474937986073 L376.9675827026367,436.84023766111073 L377.3615264892578,436.84023766111073 L378.3675765991211,436.84023766111073 L378.3675765991211,433.9657488305443 L378.3675765991211,432.840241475808 L377.97367095947266,432.840241475808 Z"/></g><g class="0GBzo56Sj6dPAKXu6JXc4J material-isolatiePIR IfcSlab 1KSeTZEtH3HuyjgAcMwSEe cut"><path d="M478.9867401123047,369.8402586419457 L478.3639907836914,369.8402586419457 L476.98673248291016,369.8402586419457 L476.98673248291016,372.59475617002187 L476.98673248291016,373.84025482724843 L477.60948181152344,373.84025482724843 L478.9867401123047,373.84025482724843 L478.9867401123047,371.08575729917226 Z"/></g><g class="0GBzo56Sj6dPAKXu6JXc4J material-isolatiePIR IfcSlab 1KSeTZEtH3HuyjgAcMwSEe cut"><path d="M479.1867446899414,378.84025482724843 L478.4796905517578,378.84025482724843 L476.98673248291016,378.84025482724843 L476.98673248291016,381.5547552544945 L476.98673248291016,382.84025101255116 L477.6937484741211,382.84025101255116 L479.1867446899414,382.84025101255116 L479.1867446899414,380.12575058530507 Z"/></g><g class="material-isolatie IfcSlab cut 20vVMyWVHEaub9DZr8YR5T"><path d="M478.9867401123047,354.59475426267323 L478.9867401123047,351.84025673459706 L478.3639907836914,351.84025673459706 L476.98673248291016,351.84025673459706 L476.98673248291016,353.0857553918236 L476.98673248291016,355.8402529198998 L477.60948181152344,355.8402529198998 L478.9867401123047,355.8402529198998 Z"/></g><g class="1pcCWIW5T8xul4ZfEyHSM2 IfcSlab material-isolatieEPS cut"><path d="M478.9867401123047,362.0857420403832 L478.9867401123047,360.84024338315663 L478.3639907836914,360.84024338315663 L476.98673248291016,360.84024338315663 L476.98673248291016,363.5947409112328 L476.98673248291016,364.84023956845937 L477.60948181152344,364.84023956845937 L478.9867401123047,364.84023956845937 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.98673248291016,351.84025673459706 L426.98673248291016,352.925747915017 L426.98673248291016,355.8402529198998 L427.31239318847656,355.8402529198998 L428.1867218017578,355.8402529198998 L428.1867218017578,354.7547522027367 L428.1867218017578,351.84025673459706 L427.86109924316406,351.84025673459706 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.98673248291016,360.84024338315663 L426.98673248291016,363.7147417504662 L426.98673248291016,364.84023956845937 L427.38067626953125,364.84023956845937 L428.38672637939453,364.84023956845937 L428.38672637939453,361.9657412011498 L428.38672637939453,360.84024338315663 L427.9928207397461,360.84024338315663 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.98673248291016,369.8402586419457 L426.98673248291016,372.63475327085195 L426.98673248291016,373.84025482724843 L427.5292205810547,373.84025482724843 L428.78673553466797,373.84025482724843 L428.78673553466797,371.045750661599 L428.78673553466797,369.8402586419457 L428.24424743652344,369.8402586419457 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.98673248291016,381.5947523553246 L426.98673248291016,382.84025101255116 L427.60948181152344,382.84025101255116 L428.9867401123047,382.84025101255116 L428.9867401123047,380.085753484475 L428.9867401123047,378.84025482724843 L428.3639907836914,378.84025482724843 L426.98673248291016,378.84025482724843 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.98673248291016,390.5147543389672 L426.98673248291016,391.84025673459706 L427.78202056884766,391.84025673459706 L429.3867492675781,391.84025673459706 L429.3867492675781,389.16575340818105 L429.3867492675781,387.84025101255116 L428.59142303466797,387.84025101255116 L426.98673248291016,387.84025101255116 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.98673248291016,396.84023766111073 L426.98673248291016,398.24574379514394 L426.98673248291016,400.84024338315663 L427.9705810546875,400.84024338315663 L429.7867202758789,400.84024338315663 L429.7867202758789,399.4347467858666 L429.7867202758789,396.84023766111073 L428.80287170410156,396.84023766111073 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.98673248291016,405.84023384641347 L426.98673248291016,408.354739232766 L426.98673248291016,409.84023956845937 L428.1751251220703,409.84023956845937 L430.18672943115234,409.84023956845937 L430.18672943115234,407.3257341821068 L430.18672943115234,405.84023384641347 L428.9983367919922,405.84023384641347 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M429.1777801513672,414.84024910520253 L426.98673248291016,414.84024910520253 L426.98673248291016,416.40574364255605 L426.98673248291016,418.84024529050527 L428.39569091796875,418.84024529050527 L430.5867385864258,418.84024529050527 L430.5867385864258,417.27475075315175 L430.5867385864258,414.84024910520253 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.9675827026367,426.1947527367943 L426.9675827026367,427.840241475808 L428.6130905151367,427.840241475808 L430.9675979614258,427.840241475808 L430.9675979614258,425.48573402951894 L430.9675979614258,423.84024529050527 L429.3220901489258,423.84024529050527 L426.9675827026367,423.84024529050527 Z"/></g><g class="1TaDt86vXE999NuS0e2v8l 3un67lTdL17Rcb$rL7EtIA 1pgMcQnnz1y8DC7FMMWR_y 0evubQmqj7Sgf3Da1pNDx$ IfcSlab 3O1py3puDE3fFk$pURFTVF material-naaldhoutvurenCLT 0c2bipVJ92XgqRDtVbH09m 19q6Ed0_vE$B4afrM9PwVk 1DakM3M558JPoaOvfh$Qs1 0XiEbUsE1FxfszjPQz_Fft cut 0tyQLbx25DYAgiFpoV0fFv"><path d="M426.9675827026367,435.1147356469506 L426.9675827026367,436.84023766111073 L428.8656234741211,436.84023766111073 L431.36756896972656,436.84023766111073 L431.36756896972656,434.56574348996816 L431.36756896972656,432.840241475808 L429.4695281982422,432.840241475808 L426.9675827026367,432.840241475808 Z"/></g><path d="M330.2188491821289,264.4268312890404 L330.2188491821289,244.42677406858144 L330.2188491821289,234.42683128904042 L310.2187728881836,234.42683128904042 L300.2188491821289,234.42683128904042 L300.2188491821289,254.42690758298573 L300.2188491821289,264.42685036252675 L320.2189254760742,264.4268312890404 Z" class="IfcSpace material-null"/></g>
+</svg>

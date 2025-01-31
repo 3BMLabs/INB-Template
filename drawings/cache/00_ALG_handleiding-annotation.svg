@@ -14,9 +14,9 @@
   <line class="GlobalId-15mdibsQH9affokVkWjISB IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="300.0" x2="300.0" y1="340.0" y2="200.0"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="300.0" y="340.0">01</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="300.0" y="200.0">01</text>
-  <line class="GlobalId-1$eAA81FX89RIIxi2jfXkw IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="360.0000305175781" x2="360.0000305175781" y1="340.0" y2="200.0"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="360.0000305175781" y="340.0">02</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="360.0000305175781" y="200.0">02</text>
+  <line class="GlobalId-1$eAA81FX89RIIxi2jfXkw IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="360.0" x2="360.0" y1="340.0" y2="200.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="360.0" y="340.0">02</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="360.0" y="200.0">02</text>
   <use transform="rotate(180.00000500895632, 300.0, 300.0)" x="300.0" xlink:href="#elevation-arrow" y="300.0"/>
   <use x="300.0" xlink:href="#elevation-tag" y="300.0"/>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="300.0" y="297.5">-</text>
@@ -38,9 +38,14 @@
   <use x="300.0" xlink:href="#elevation-tag" y="300.0"/>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="300.0" y="297.5">-</text>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="300.0" y="302.5">-</text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 39.024658203125) rotate(-0.0)">
-    <tspan class="GlobalId-2_p6d93aL7QuZ2y3Y1R1MA IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Beste lezer, </tspan>
-    <tspan class="GlobalId-2_p6d93aL7QuZ2y3Y1R1MA IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">Leuk dat je Bonsai en daarbij deze INB-Template gaat gebruiken!</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 124.10116577148438) rotate(-0.0)">
+    <tspan class="GlobalId-3phslx6iz5ew_9gQMWTwYz IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">1) De volgende instellingen maken volgens ons het werken met Bonsai een stuk makkelijker:</tspan>
+    <tspan class="GlobalId-3phslx6iz5ew_9gQMWTwYz IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">Stel snapping en gizmo van Blender in</tspan>
+    <tspan class="GlobalId-3phslx6iz5ew_9gQMWTwYz IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">Verander bij Blender preferences&gt;Keymap&gt;Middle mouse action van Orbit naar Pan</tspan>
+    <tspan class="GlobalId-3phslx6iz5ew_9gQMWTwYz IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0">Verander Blender interface zoals gewenst,</tspan>
+    <tspan class="GlobalId-3phslx6iz5ew_9gQMWTwYz IfcAnnotation PredefinedType-TEXT small" dy="4em" x="0" y="0">bijvoorbeeld een extra window aan de zijkant</tspan>
+    <tspan class="GlobalId-3phslx6iz5ew_9gQMWTwYz IfcAnnotation PredefinedType-TEXT small" dy="5em" x="0" y="0">Nadat alles naar wens is, sla dit op als nieuwe default Blender (File&gt;Defaults&gt;Save Startup Files)</tspan>
+    <tspan class="GlobalId-3phslx6iz5ew_9gQMWTwYz IfcAnnotation PredefinedType-TEXT small" dy="6em" x="0" y="0">Zo hou je je favoriete instellingen voor elk project.</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(38.19963455200195, 50.741939544677734) rotate(-0.0)">
     <tspan class="GlobalId-0jzelnNCLCZ8LlxwEkr7pp IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">- Drawings and Documents tab,</tspan>
@@ -48,7 +53,7 @@
     <tspan class="GlobalId-0jzelnNCLCZ8LlxwEkr7pp IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0"> bijvoorbeeld overzichten van de beschikbare items in de template.</tspan>
     <tspan class="GlobalId-0jzelnNCLCZ8LlxwEkr7pp IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0"> Kijk deze even rustig door, ook hoe ze zijn opgebouwd!</tspan>
     <tspan class="GlobalId-0jzelnNCLCZ8LlxwEkr7pp IfcAnnotation PredefinedType-TEXT small" dy="4em" x="0" y="0">- Een heel aantal elementen (types) die geplaatst en of aangepast kunnen worden;</tspan>
-    <tspan class="GlobalId-0jzelnNCLCZ8LlxwEkr7pp IfcAnnotation PredefinedType-TEXT small" dy="5em" x="0" y="0"/>
+    <tspan class="GlobalId-0jzelnNCLCZ8LlxwEkr7pp IfcAnnotation PredefinedType-TEXT small" dy="5em" x="0" y="0">- Andere profielen / constructieve elementen kunnen via de INB-Library ingeladen worden.</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 32.3980712890625) rotate(-0.0)">
     <tspan class="GlobalId-2Z2wZ3vb19pwVymcHRWH1D IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Handleiding voor de INB-Template</tspan>
@@ -56,18 +61,27 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 47.03351974487305) rotate(-0.0)">
     <tspan class="GlobalId-1glvR8up90fvv_Ap4RvMCV IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Deze template is als volgt opgebouwd:</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(38.19963455200195, 126.25591278076172) rotate(-0.0)">
-    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">- Check of je Blender standaardinstellingen goed</tspan>
-    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">  zijn ingesteld, zie ook 1);</tspan>
-    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">- </tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(38.19963455200195, 92.44743347167969) rotate(-0.0)">
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">- Het is aan te raden om te beginnen met de stable versie van Bonsai</tspan>
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">- Check of je Blender standaardinstellingen goed</tspan>
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">  zijn ingesteld, zie ook 1);</tspan>
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0">- Wanneer je niet weet hoe iets gemaakt moet worden,</tspan>
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="4em" x="0" y="0">  kijk even bij de voorbeeldhoek of tekeningen hoe het standaard is gedaan</tspan>
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="5em" x="0" y="0">- Maak een sheet aan door het gewenste formaat te kiezen. Voeg drawings toe.</tspan>
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="6em" x="0" y="0">  Pas deze gemaakte sheet eenmalig aan in Inkscape aan, bijvoorbeeld positie, onderhoek etc.</tspan>
+    <tspan class="GlobalId-3X7zadmNb98xDNRF49ZlI0 IfcAnnotation PredefinedType-TEXT small" dy="7em" x="0" y="0">- Kijk voor specifieke vragen op het OSArch forum: https://community.osarch.org/</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 118.50694274902344) rotate(-0.0)">
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 84.698486328125) rotate(-0.0)">
     <tspan class="GlobalId-0WhCTAz6X0kh7aVujxLirh IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Hierbij een aantal tips &amp; tricks om wegwijs te worden:</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 86.45018005371094) rotate(-0.0)">
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 161.8846435546875) rotate(-0.0)">
     <tspan class="GlobalId-0hoUIYRsP3bOSKqpEtevT9 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Let op: Bonsai en deze template zijn nog sterk in ontwikkeling.</tspan>
     <tspan class="GlobalId-0hoUIYRsP3bOSKqpEtevT9 IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">Soms wordt er op creatieve wijze omgegaan met problemen,</tspan>
     <tspan class="GlobalId-0hoUIYRsP3bOSKqpEtevT9 IfcAnnotation PredefinedType-TEXT small" dy="2em" x="0" y="0">verwacht dus niet dat alles helemaal soepel verloopt.</tspan>
     <tspan class="GlobalId-0hoUIYRsP3bOSKqpEtevT9 IfcAnnotation PredefinedType-TEXT small" dy="3em" x="0" y="0">Met dat in je achterhoofd kan Bonsai een krachtige tool zijn voor jou!</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(27.781715393066406, 39.024658203125) rotate(-0.0)">
+    <tspan class="GlobalId-2_p6d93aL7QuZ2y3Y1R1MA IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Beste lezer, </tspan>
+    <tspan class="GlobalId-2_p6d93aL7QuZ2y3Y1R1MA IfcAnnotation PredefinedType-TEXT small" dy="1em" x="0" y="0">Leuk dat je Bonsai en daarbij deze INB-Template gaat gebruiken!</tspan>
   </text>
 </svg>

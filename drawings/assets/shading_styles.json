@@ -1,1 +1,6 @@
-{}
+{
+    "New Drawing Style": {
+        "render_type": "VIEWPORT",
+        "raster_style": {}
+    }
+}

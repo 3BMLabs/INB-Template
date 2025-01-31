@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.ifcopenshell.org/ns" width="250mm" height="250mm" viewBox="0 0 250 250">
+    <defs>
+        <marker id="arrowend" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+          <polygon points="0 0, 10 3.5, 0 7"/>
+        </marker>
+        <marker id="arrowstart" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+          <polygon points="10 0, 0 3.5, 10 7"/>
+        </marker>
+    </defs>
+    <g ifc:name="Elevation 01_BWK_PLG_01_eerste_verdieping" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,25.000010],[0.000000,10.000000,225.000006],[0.000000,0.000000,1.000000]]">
+        <g id="product-2de96125-daa6-4473-85a5-751c95fe6f49" class="IfcSlab material-gewapendbeton projection" ifc:name="beton_200" ifc:guid="0jwM4bsgP4SuMbTHoL$cz9">
+            <path d="M55,222.441 L55,222.441"/>
+            <path d="M55,222.441 L55,221.55"/>
+        </g>
+        <g id="product-bdd2c04b-301b-437f-b5b4-c152c73b62ad" class="IfcSlab material-null projection" ifc:name="Cementdekvloer 70" ifc:guid="2zqi1BC1j3VxMqmLB7EsAj">
+            <path d="M28.45,221.55 L55,221.55"/>
+            <path d="M55,195 L55,195"/>
+            <path d="M55,221.55 L55,195"/>
+        </g>
+        <g id="product-24151b66-b605-46df-8c23-cdb722960a7c" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="0a5HjcjWL6tumZpRSYbWfy">
+            <path d="M26,195 L26,225"/>
+            <path d="M25,195 L26,195"/>
+            <path d="M25,225 L25,195"/>
+            <path d="M26,225 L25,225"/>
+        </g>
+        <g id="product-a8256432-6506-4059-9c01-fe484e21e762" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90.001" ifc:guid="2e9MGoPGP0MPm1$aXE8UTY">
+            <path d="M28.45,195 L28.45,221.55"/>
+            <path d="M27.55,195 L28.45,195"/>
+            <path d="M27.55,221.55 L27.55,195"/>
+            <path d="M28.45,221.55 L27.55,221.55"/>
+        </g>
+        <g id="product-2f725bfd-1d36-4b75-a58d-cc5b9a1b49ab" class="IfcWall material-isolatie projection" ifc:name="ISO100" ifc:guid="0lSblz7JPBTQMDp5kQ6qch">
+            <path d="M27.55,195 L27.55,222.441"/>
+            <path d="M26.55,195 L27.55,195"/>
+            <path d="M26.55,222.441 L26.55,195"/>
+            <path d="M27.55,222.441 L26.55,222.441"/>
+        </g>
+        <g id="product-d1eea825-bc53-4fdc-87d9-2ac5de7f5971" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90" ifc:guid="3HxgWbl5DFt8VPAiNUVrbn">
+            <path d="M55,221.55 L27.55,221.55"/>
+            <path d="M55,222.45 L27.55,222.45"/>
+            <path d="M27.55,222.45 L27.55,221.55"/>
+            <path d="M55,222.45 L55,221.55"/>
+        </g>
+        <g id="product-e006a622-80c5-4895-9be0-c8a07689d7fd" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90" ifc:guid="3W1gOYWCL8bPlWoA1sYTVz">
+            <path d="M55,195 L28.45,195"/>
+            <path d="M55,195.9 L28.45,195.9"/>
+            <path d="M28.45,195.9 L28.45,195"/>
+            <path d="M55,195.9 L55,195"/>
+        </g>
+        <g id="product-4ca552b4-5839-4d2d-9212-0d32fe4f6562" class="IfcWall material-isolatie projection" ifc:name="ISO100" ifc:guid="1CfLAqM3bDBP8I3JB_JsLY">
+            <path d="M55,222.441 L26.55,222.441"/>
+            <path d="M55,223.441 L26.55,223.441"/>
+            <path d="M26.55,223.441 L26.55,222.441"/>
+            <path d="M55,223.441 L55,222.441"/>
+        </g>
+        <g id="product-c5e9504b-7df5-48b3-97e7-63b109bc7cac" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="35wL1BVVL8ivVdOx49l7oi">
+            <path d="M55,225 L26,225"/>
+            <path d="M55,224 L55,225"/>
+            <path d="M26,224 L55,224"/>
+            <path d="M26,225 L26,224"/>
+        </g>
+        <g id="product-ac94c655-cb30-4114-8c8f-cb59c9a4150a" class="IfcWindow material-null projection" ifc:name="W_2D_990x1560" ifc:guid="2ibCPLop1158oFord9f1KA">
+            <path d="M46.8344,223.618 L46.8344,223.618"/>
+            <path d="M46.8344,223.898 L46.8344,223.898"/>
+            <path d="M47.5044,223.897 L47.5044,224"/>
+            <path d="M47.5044,223.897 L47.5044,223.897"/>
+            <path d="M47.5044,223.897 L47.5044,223.897"/>
+            <path d="M47.5044,223.897 L47.5044,223.897"/>
+            <path d="M47.5044,223.617 L47.5044,223.441"/>
+            <path d="M46.8344,223.618 L46.8344,223.618"/>
+            <path d="M46.8344,223.898 L46.8344,223.898"/>
+            <path d="M47.3444,223.618 L47.3444,223.618"/>
+            <path d="M47.5044,223.617 L47.5044,223.617"/>
+            <path d="M47.5044,223.617 L47.5044,223.617"/>
+            <path d="M47.5044,223.617 L47.5044,223.617"/>
+            <path d="M38.2744,223.618 L38.2744,223.618"/>
+            <path d="M38.2744,223.898 L38.2744,223.898"/>
+            <path d="M37.6044,223.898 L37.6044,223.898"/>
+            <path d="M38.2744,223.618 L38.2744,223.618"/>
+            <path d="M38.2744,223.898 L38.2744,223.898"/>
+            <path d="M37.7644,223.618 L37.7644,223.618"/>
+            <path d="M47.5044,223.898 L37.6044,223.898"/>
+            <path d="M47.5044,224 L47.5044,223.618"/>
+            <path d="M37.6044,224 L37.6044,223.618"/>
+            <path d="M47.5044,223.618 L37.6044,223.618"/>
+            <path d="M47.5044,223.898 L47.5044,223.618"/>
+            <path d="M47.5044,223.898 L47.5044,224"/>
+            <path d="M47.5044,223.898 L47.5044,223.898"/>
+            <path d="M47.5044,223.898 L47.5044,223.618"/>
+            <path d="M47.5044,223.618 L47.5044,223.618"/>
+            <path d="M47.5044,223.618 L47.5044,223.441"/>
+            <path d="M37.6044,223.618 L37.6044,223.441"/>
+            <path d="M37.6044,223.898 L37.6044,223.618"/>
+            <path d="M37.6044,223.898 L37.6044,224"/>
+            <path d="M37.6044,223.618 L37.6044,223.898"/>
+        </g>
+        <g id="product-8f1b571e-1ab6-428d-ac22-869257c874cb" class="IfcPile material-null projection" ifc:name="FP_220_Type_1" ifc:guid="2F6rSU6hP2ZQmYXf9No7JB">
+            <path d="M26.55,210.5 L26.5,210.5"/>
+            <path d="M26.5,210.5 L26.55,210.5"/>
+            <path d="M26.5,210.5 L26.1333,210.5"/>
+            <path d="M26.1333,210.5 L26.5,210.5"/>
+            <path d="M26.5,208.3 L26.55,208.3"/>
+            <path d="M26.55,208.3 L26.5,208.3"/>
+            <path d="M26.5,208.667 L26.55,208.617"/>
+            <path d="M26.55,208.617 L26.5,208.667"/>
+            <path d="M26.5,210.133 L26.5,209.767"/>
+            <path d="M26.5,209.767 L26.5,210.133"/>
+            <path d="M26,208.3 L26.1333,208.3"/>
+            <path d="M26.1333,208.3 L26,208.3"/>
+            <path d="M26.1333,209.4 L26,209.4"/>
+            <path d="M26,209.4 L26.1333,209.4"/>
+            <path d="M26.5,208.3 L26,208.8"/>
+            <path d="M26,208.8 L26.5,208.3"/>
+            <path d="M26.5,207.2 L26.5,208.3"/>
+            <path d="M26.5,208.3 L26.5,207.2"/>
+            <path d="M26.5,209.4 L26.55,209.35"/>
+            <path d="M26.55,209.35 L26.5,209.4"/>
+            <path d="M26.55,209.4 L26.5,209.4"/>
+            <path d="M26.5,209.4 L26.55,209.4"/>
+            <path d="M26.5,209.033 L26.5,208.667"/>
+            <path d="M26.5,208.667 L26.5,209.033"/>
+            <path d="M26.5,210.5 L26.5,210.133"/>
+            <path d="M26.5,210.133 L26.5,210.5"/>
+            <path d="M26.1333,208.3 L26.5,208.3"/>
+            <path d="M26.5,208.3 L26.1333,208.3"/>
+            <path d="M26.1333,209.4 L26.5,209.033"/>
+            <path d="M26.5,209.033 L26.1333,209.4"/>
+            <path d="M26.5,209.4 L26.5,209.033"/>
+            <path d="M26.5,209.033 L26.5,209.4"/>
+            <path d="M26,209.167 L26.5,208.667"/>
+            <path d="M26.5,208.667 L26,209.167"/>
+            <path d="M24.3,209.4 L25,209.4"/>
+            <path d="M25,209.4 L24.3,209.4"/>
+            <path d="M26.1333,208.3 L26,208.433"/>
+            <path d="M26,208.433 L26.1333,208.3"/>
+            <path d="M26.5,209.4 L26.1333,209.4"/>
+            <path d="M26.1333,209.4 L26.5,209.4"/>
+            <path d="M26.5,209.767 L26.5,209.4"/>
+            <path d="M26.5,209.4 L26.5,209.767"/>
+            <path d="M26.5,208.667 L26.5,208.3"/>
+            <path d="M26.5,208.3 L26.5,208.667"/>
+            <path d="M26.5,211.6 L26.5,210.5"/>
+            <path d="M26.5,210.5 L26.5,211.6"/>
+            <path d="M26.5,209.033 L26.55,208.983"/>
+            <path d="M26.55,208.983 L26.5,209.033"/>
+            <path d="M26.1333,210.5 L26,210.5"/>
+            <path d="M26,210.5 L26.1333,210.5"/>
+        </g>
+        <g id="product-41e90adb-649b-4055-9402-0577efead61e" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="11wGhRP9j0LPG21NVlwjOU">
+            <path d="M40.6,225.7 L40.6,225"/>
+            <path d="M40.6,225 L40.6,225.7"/>
+        </g>
+    <g id="product-3ca044f2-cb45-4fd5-9ed1-f2224cc585d0" class="IfcBeam material-null projection" ifc:name="betonbalk_400x500" ifc:guid="0ye4JooqLFrPxHyY9CnONG">
+            <path d="M24.7,195 L25,195"/>
+            <path d="M26,195 L26.55,195"/>
+            <path d="M27.55,195 L27.55,195"/>
+            <path d="M24.7,221.3 L25,221.3"/>
+            <path d="M26,221.3 L26.55,221.3"/>
+            <path d="M24.7,221.3 L24.7,195"/>
+        </g>
+        <g id="product-825af80d-8820-4f34-9343-1cfba5ae6040" class="IfcBeam material-null projection" ifc:name="betonbalk_400x500.001" ifc:guid="22MlWDY21FD9D37Fkbhc10">
+            <path d="M55,222.441 L55,225.3"/>
+            <path d="M24.7,221.3 L24.7,225.3"/>
+            <path d="M24.7,225.3 L55,225.3"/>
+            <path d="M24.7,221.3 L25,221.3"/>
+            <path d="M26,221.3 L26.55,221.3"/>
+        </g>
+        </g>
+</svg>
