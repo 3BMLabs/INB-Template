@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" xmlns:ns5="http://www.ifcopenshell.org/ns" xmlns:ns7="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0">
-    <g data-type="titleblock">
-        <g transform="translate(0.0,0.0)" clip-path="url(#f65f8aef-a514-4f6f-a275-131d6c997ac0)"><defs id="defs686">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" xmlns:ns5="http://www.ifcopenshell.org/ns" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0" sodipodi:docname="301 - BWK_plattegronden.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
+  <defs id="defs7" />
+  <sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#505050" inkscape:document-units="mm" inkscape:zoom="0.25004479" inkscape:cx="1867.6654" inkscape:cy="1823.6733" inkscape:window-width="1920" inkscape:window-height="992" inkscape:window-x="4792" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="root" />
+  <g data-type="titleblock" id="g1">
+    <g transform="translate(0.0,0.0)" clip-path="url(#3df1b2f0-aa7e-4216-af04-5694aa331b18)"><defs id="defs686">
   <marker style="overflow:visible" refY="0" refX="0" orient="auto" id="DistanceX">
     <path id="path1069" style="stroke:#000000;stroke-width:0.5" d="M 3,-3 -3,3 M 0,-5 V 5" />
   </marker>
@@ -172,7 +174,8 @@
   </g>
 </g>
 </g></g>
-<g data-type="drawing" data-id="2050049" data-drawing="0lERc$vdbDJRu_9yuHpXZY"><g transform="translate(30.0,30.0)" clip-path="url(#cd5c2d85-736f-4501-a2d7-759ed1b0d4e4)"><defs><style type="text/css">/*
+  <g data-type="drawing" data-id="2050049" data-drawing="0lERc$vdbDJRu_9yuHpXZY" id="g3">
+    <g transform="translate(30.0,30.0)" clip-path="url(#cae1f6f7-397d-4997-9ac1-27f0fedcb090)"><defs><style type="text/css">/*
  * Bonsai - OpenBIM Blender Add-on
  * Copyright (C) 2020, 2021 Dion Moult &lt;dion@thinkmoult.com&gt;
  *
@@ -5309,7 +5312,7 @@ text.DIMENSION.d2050049, tspan.DIMENSION.d2050049 { /* 2.5mm */ font-size: 4.13p
             <path d="M41.7,223.5 L41.3333,223.5" />
             <path d="M41.3333,223.5 L41.7,223.5" />
         </g>
-    <g ns5:guid="0Mu_oMfm52hvAVMsNs635_" ns5:name="Example Space" class="IfcSpace material-null cut d2050049"><path d="M55.00001907348633,221.5499973297119 L55.00001907348633,214.28250312805176 L55.000009536743164,195.89999675750732 L47.47750282287598,195.9000015258789 L28.450002670288086,195.9000062942505 L28.450002670288086,203.16750526428223 L28.450002670288086,221.55000686645508 L35.97250938415527,221.55000686645508 Z" /></g><g id="d2050049-product-3ca044f2-cb45-4fd5-9ed1-f2224cc585d0" class="IfcBeam material-null projection d2050049" ns5:name="betonbalk_400x500" ns5:guid="0ye4JooqLFrPxHyY9CnONG">
+    <g id="d2050049-product-3ca044f2-cb45-4fd5-9ed1-f2224cc585d0" class="IfcBeam material-null projection d2050049" ns5:name="betonbalk_400x500" ns5:guid="0ye4JooqLFrPxHyY9CnONG">
             <path d="M24.7,195 L28.7,195" />
             <path d="M24.7,221.3 L28.7,221.3" />
             <path d="M28.7,221.3 L28.7,195" />
@@ -5321,7 +5324,7 @@ text.DIMENSION.d2050049, tspan.DIMENSION.d2050049 { /* 2.5mm */ font-size: 4.13p
             <path d="M24.7,225.3 L55,225.3" />
             <path d="M24.7,221.3 L55,221.3" />
         </g>
-        <path d="M55.00001907348633,221.5499973297119 L55.00001907348633,214.28250312805176 L55.000009536743164,195.89999675750732 L47.47750282287598,195.9000015258789 L28.450002670288086,195.9000062942505 L28.450002670288086,203.16750526428223 L28.450002670288086,221.55000686645508 L35.97250938415527,221.55000686645508 Z" class="IfcSpace material-null d2050049" /></g>
+        </g>
   <defs />
   <line class="GlobalId-3IQPNAS79BxO0JzjVT1EVp IfcAnnotation PredefinedType-SECTION d2050049" x1="-4.999990463256836" x2="55.00000762939453" y1="258.6257629394531" y2="258.6257629394531" />
   <use transform="rotate(0.0, -4.999990463256836, 258.6257629394531)" x="-4.999990463256836" xlink:href="#d2050049-section-arrow" y="258.6257629394531" />
@@ -5340,18 +5343,18 @@ text.DIMENSION.d2050049, tspan.DIMENSION.d2050049 { /* 2.5mm */ font-size: 4.13p
   <use x="270.995361328125" xlink:href="#d2050049-elevation-tag" y="225.0" />
   <text class="ELEVATION d2050049" dominant-baseline="middle" text-anchor="middle" x="270.995361328125" y="222.5">-</text>
   <text class="ELEVATION d2050049" dominant-baseline="middle" text-anchor="middle" x="270.995361328125" y="227.5">-</text>
+  <line class="GlobalId-0fbzylJi90sBf_BR6rfN6E IfcAnnotation PredefinedType-GRID d2050049" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="225.0" y2="225.0" />
+  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="225.0">A</text>
+  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="225.0">A</text>
+  <line class="GlobalId-2FxZ96bl96nxGCj4uaCogz IfcAnnotation PredefinedType-GRID d2050049" stroke-dasharray="12.5, 3, 3, 3" x1="25.000019073486328" x2="25.000019073486328" y1="245.0" y2="175.0" />
+  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="245.0">01</text>
+  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="175.0">01</text>
   <line class="GlobalId-34z3qa2OP3k8MBaBZrm9qd IfcAnnotation PredefinedType-GRID d2050049" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="194.99998474121094" y2="194.99998474121094" />
   <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="194.99998474121094">B</text>
   <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="194.99998474121094">B</text>
   <line class="GlobalId-0nT9wF5mb4iQ7d8zrbMDoJ IfcAnnotation PredefinedType-GRID d2050049" stroke-dasharray="12.5, 3, 3, 3" x1="55.000030517578125" x2="55.000030517578125" y1="245.0" y2="175.0" />
   <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="55.000030517578125" y="245.0">02</text>
   <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="55.000030517578125" y="175.0">02</text>
-  <line class="GlobalId-2FxZ96bl96nxGCj4uaCogz IfcAnnotation PredefinedType-GRID d2050049" stroke-dasharray="12.5, 3, 3, 3" x1="25.000019073486328" x2="25.000019073486328" y1="245.0" y2="175.0" />
-  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="245.0">01</text>
-  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="175.0">01</text>
-  <line class="GlobalId-0fbzylJi90sBf_BR6rfN6E IfcAnnotation PredefinedType-GRID d2050049" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="225.0" y2="225.0" />
-  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="225.0">A</text>
-  <text class="GRID d2050049" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="225.0">A</text>
   <use transform="rotate(-0.0, 25.000009536743164, 302.93829345703125)" x="25.000009536743164" xlink:href="#d2050049-elevation-arrow" y="302.93829345703125" />
   <use x="25.000009536743164" xlink:href="#d2050049-elevation-tag" y="302.93829345703125" />
   <text class="ELEVATION d2050049" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="300.43829345703125">-</text>
@@ -5369,24 +5372,9 @@ text.DIMENSION.d2050049, tspan.DIMENSION.d2050049 { /* 2.5mm */ font-size: 4.13p
   <use x="-16.883268356323242" xlink:href="#d2050049-elevation-tag" y="214.39007568359375" />
   <text class="ELEVATION d2050049" dominant-baseline="middle" text-anchor="middle" x="-16.883268356323242" y="211.89007568359375">-</text>
   <text class="ELEVATION d2050049" dominant-baseline="middle" text-anchor="middle" x="-16.883268356323242" y="216.89007568359375">-</text>
-</g><g transform="translate(30.0,285.0000190734863)" clip-path="url(#ef3adece-1ec6-471f-bb1c-c20078811238)"><defs id="defs2" />
-  <metadata id="metadata5">
-    <rdf:RDF>
-      <ns7:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </ns7:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform="translate(-27.82024,-96.649986)" id="layer1">
-    <circle r="4.8499999" cy="101.64999" cx="32.82024" id="path853" style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path id="path855" d="m 37.67024,101.64999 40.37246,-1e-5" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <text id="text859" y="103.10933" x="32.822662" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.80276871px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96055365px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.26458332px" y="103.10933" x="32.822662" id="tspan857">1</tspan></text>
-    <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.71626091px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458329px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="39.12896" y="100.19173" id="text863"><tspan id="tspan861" x="39.12896" y="100.19173" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.54325247px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:start;text-anchor:start;stroke-width:0.26458329px">01_BWK_PLG_-1_fundering</tspan></text>
-    <text id="text867" y="105.0553" x="39.285267" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.71626282px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.54325247px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:start;text-anchor:start;stroke-width:0.26458332px" y="105.0553" x="39.285267" id="tspan865">1:100</tspan></text>
-  </g>
-</g></g><g data-type="drawing" data-id="2051747" data-drawing="1CyhbdWOz8pPfzdvQRqPre"><g transform="translate(30.0,30.0)" clip-path="url(#8c0c67ce-2c9e-47f5-9507-66b9837d2298)"><defs><style type="text/css">/*
+</g></g>
+  <g data-type="drawing" data-id="2051747" data-drawing="1CyhbdWOz8pPfzdvQRqPre" id="g5" transform="translate(267.98847)">
+    <g transform="translate(30.0,30.0)" clip-path="url(#4947c567-f306-474a-a20d-2f7c296c56d1)"><defs><style type="text/css">/*
  * Bonsai - OpenBIM Blender Add-on
  * Copyright (C) 2020, 2021 Dion Moult &lt;dion@thinkmoult.com&gt;
  *
@@ -10542,24 +10530,9 @@ text.DIMENSION.d2051747, tspan.DIMENSION.d2051747 { /* 2.5mm */ font-size: 4.13p
   <use x="25.000009536743164" xlink:href="#d2051747-elevation-tag" y="-23.063077926635742" />
   <text class="ELEVATION d2051747" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="-25.563077926635742">-</text>
   <text class="ELEVATION d2051747" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="-20.563077926635742">-</text>
-</g><g transform="translate(30.0,285.0000190734863)" clip-path="url(#c356ecd1-8e13-4fd0-8170-29b7017af5d1)"><defs id="defs2" />
-  <metadata id="metadata5">
-    <rdf:RDF>
-      <ns7:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </ns7:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform="translate(-27.82024,-96.649986)" id="layer1">
-    <circle r="4.8499999" cy="101.64999" cx="32.82024" id="path853" style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path id="path855" d="m 37.67024,101.64999 40.37246,-1e-5" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <text id="text859" y="103.10933" x="32.822662" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.80276871px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96055365px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.26458332px" y="103.10933" x="32.822662" id="tspan857">2</tspan></text>
-    <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.71626091px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458329px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="39.12896" y="100.19173" id="text863"><tspan id="tspan861" x="39.12896" y="100.19173" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.54325247px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:start;text-anchor:start;stroke-width:0.26458329px">01_BWK_PLG_00_begane_grond</tspan></text>
-    <text id="text867" y="105.0553" x="39.285267" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.71626282px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.54325247px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:start;text-anchor:start;stroke-width:0.26458332px" y="105.0553" x="39.285267" id="tspan865">1:100</tspan></text>
-  </g>
-</g></g><g data-type="drawing" data-id="2051758" data-drawing="1agBtrRNH6qRc$lWvvYBv0"><g transform="translate(30.0,30.0)" clip-path="url(#cb620185-b4a4-41ee-b83d-82d50bc99a32)"><defs><style type="text/css">/*
+</g></g>
+  <g data-type="drawing" data-id="2051758" data-drawing="1agBtrRNH6qRc$lWvvYBv0" id="g7" transform="translate(0,287.31673)">
+    <g transform="translate(30.0,30.0)" clip-path="url(#ffa4f0c7-3cc4-4f13-b9e8-3ffa243b0014)"><defs><style type="text/css">/*
  * Bonsai - OpenBIM Blender Add-on
  * Copyright (C) 2020, 2021 Dion Moult &lt;dion@thinkmoult.com&gt;
  *
@@ -15697,21 +15670,5 @@ text.DIMENSION.d2051758, tspan.DIMENSION.d2051758 { /* 2.5mm */ font-size: 4.13p
   <line class="GlobalId-3JsxX3W$b96xHHRZSi9Gcn IfcAnnotation PredefinedType-GRID d2051758" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="194.99998474121094" y2="194.99998474121094" />
   <text class="GRID d2051758" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="194.99998474121094">B</text>
   <text class="GRID d2051758" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="194.99998474121094">B</text>
-</g><g transform="translate(30.0,285.0000190734863)" clip-path="url(#d6e99d0b-0e00-4783-8da2-e8b2ec69ba6b)"><defs id="defs2" />
-  <metadata id="metadata5">
-    <rdf:RDF>
-      <ns7:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </ns7:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform="translate(-27.82024,-96.649986)" id="layer1">
-    <circle r="4.8499999" cy="101.64999" cx="32.82024" id="path853" style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path id="path855" d="m 37.67024,101.64999 40.37246,-1e-5" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <text id="text859" y="103.10933" x="32.822662" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.80276871px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96055365px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.26458332px" y="103.10933" x="32.822662" id="tspan857">3</tspan></text>
-    <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.71626091px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458329px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="39.12896" y="100.19173" id="text863"><tspan id="tspan861" x="39.12896" y="100.19173" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.54325247px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:start;text-anchor:start;stroke-width:0.26458329px">01_BWK_PLG_01_eerste_verdieping</tspan></text>
-    <text id="text867" y="105.0553" x="39.285267" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.71626282px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.54325247px;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:start;text-anchor:start;stroke-width:0.26458332px" y="105.0553" x="39.285267" id="tspan865">1:100</tspan></text>
-  </g>
-</g></g><defs><clipPath id="f65f8aef-a514-4f6f-a275-131d6c997ac0"><rect x="0" y="0" width="841.0" height="594.0" /></clipPath><clipPath id="cd5c2d85-736f-4501-a2d7-759ed1b0d4e4"><rect x="0" y="0" width="250.00001907348633" height="250.00001907348633" /></clipPath><clipPath id="ef3adece-1ec6-471f-bb1c-c20078811238"><rect x="0" y="0" width="50.222462" height="10.0" /></clipPath><clipPath id="8c0c67ce-2c9e-47f5-9507-66b9837d2298"><rect x="0" y="0" width="250.00001907348633" height="250.00001907348633" /></clipPath><clipPath id="c356ecd1-8e13-4fd0-8170-29b7017af5d1"><rect x="0" y="0" width="50.222462" height="10.0" /></clipPath><clipPath id="cb620185-b4a4-41ee-b83d-82d50bc99a32"><rect x="0" y="0" width="250.00001907348633" height="250.00001907348633" /></clipPath><clipPath id="d6e99d0b-0e00-4783-8da2-e8b2ec69ba6b"><rect x="0" y="0" width="50.222462" height="10.0" /></clipPath></defs></svg>
+</g></g>
+<defs><clipPath id="3df1b2f0-aa7e-4216-af04-5694aa331b18"><rect x="0" y="0" width="841.0" height="594.0" /></clipPath><clipPath id="cae1f6f7-397d-4997-9ac1-27f0fedcb090"><rect x="0" y="0" width="250.00001907348633" height="250.00001907348633" /></clipPath><clipPath id="4947c567-f306-474a-a20d-2f7c296c56d1"><rect x="0" y="0" width="250.00002" height="250.00002" /></clipPath><clipPath id="ffa4f0c7-3cc4-4f13-b9e8-3ffa243b0014"><rect x="0" y="0" width="250.00002" height="250.00002" /></clipPath></defs></svg>
