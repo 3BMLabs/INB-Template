@@ -55,15 +55,22 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 /*
  NL Additions
  */
-.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3; }
+.PredefinedType-LINEWORK.hidden { stroke-dasharray: 12, 2, 3, 2; }
+.PredefinedType-LINEWORK.center { stroke-dasharray: 12, 2, 1, 2; }
+.PredefinedType-LINEWORK.lineweight13 { stroke-width: 0.13; }
+.PredefinedType-LINEWORK.lineweight18 { stroke-width: 0.18; }
+.PredefinedType-LINEWORK.lineweight25 { stroke-width: 0.25; }
+.PredefinedType-LINEWORK.lineweight35 { stroke-width: 0.35; }
+.PredefinedType-LINEWORK.lineweight50 { stroke-width: 0.5; }
 .PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }
-.PredefinedType-LINEWORK.grey { stroke:#808080; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.green { stroke:green; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.blue { stroke:blue; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.yellow { stroke:yellow; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.red { stroke:red; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.purple { stroke:purple; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.grey { stroke:#808080; }
+.PredefinedType-LINEWORK.black { stroke:black; }
+.PredefinedType-LINEWORK.green { stroke:green; }
+.PredefinedType-LINEWORK.blue { stroke:blue; }
+.PredefinedType-LINEWORK.yellow { stroke:yellow; }
+.PredefinedType-LINEWORK.red { stroke:red; }
+.PredefinedType-LINEWORK.purple { stroke:purple; }
+.PredefinedType-LINEWORK.darkgrey { stroke:#696969; }
 .PredefinedType-LINEWORK.dashed11 { stroke-dasharray: 1, 1; }
 .PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
 .PredefinedType-LINEWORK.dashed33 { stroke-dasharray: 3, 3; }
@@ -95,10 +102,11 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-white75 { fill: white; opacity: 0.75; stroke: none; }
 .PredefinedType-black10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }
 .PredefinedType-black25 { fill: black; opacity: 0.25; stroke: none; }
-.PredefinedType-bestaandgebouw{ fill: url( #bestaand_gebouw); stroke: black; }
+.PredefinedType-bestaandgebouw { fill: url( #bestaand_gebouw); stroke: black; }
 .PredefinedType-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_200); }
 .PredefinedType-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_200); }
 .PredefinedType-NEN474nietdragendelichtescheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_200); }
+.PredefinedType-NEN475gewapendbetontpg{ fill: url(  #NEN47_5_gewapend_beton_tpg_200); }
 .PredefinedType-NEN476gewapendbetonprefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_200); }
 .PredefinedType-NEN477ongewapendbeton{ fill: url(  #NEN47_7_ongewapend_beton_200); }
 .PredefinedType-NEN478sierbeton{ fill: url(  #NEN47_8_sierbeton_200); }
@@ -106,6 +114,10 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-NEN4710enkelewandvloerafwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_200); }
 .PredefinedType-NEN4711samengesteldewandvloerafwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_200); }
 .PredefinedType-NEN4717isolatie{ fill: url(  #NEN47_17_isolatie_200); }
+.PredefinedType-NEN4718staal{ fill: url(  #NEN47_18_staal_200); }
+.PredefinedType-NEN4719aluminiumbronskoper{ fill: url(  #NEN47_19_aluminium_brons_koper_200); }
+.PredefinedType-NEN4721zink{ fill: url(  #NEN47_21_zink_200); }
+.PredefinedType-NEN4724bitumen{ fill: url(  #NEN47_24_bitumen_200); }
 .PredefinedType-NEN4725maaiveld{ fill: url(  #NEN47_25_maaiveld_200); }
 .PredefinedType-NEN4726zand{ fill: url(  #NEN47_26_zand_200); }
 .PredefinedType-NEN4727grind{ fill: url(  #NEN47_27_grind_200); }
@@ -113,6 +125,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-specialesteenachtigematerialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_200); }
 .PredefinedType-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_200); }
 .PredefinedType-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_200); }
+.PredefinedType-gewapendbetontpg{ fill: url(  #CUST_NEN47_5_gewapend_beton_tpg_200); }
 .PredefinedType-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_200); }
 .PredefinedType-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_200); }
 .PredefinedType-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_200); }
@@ -120,6 +133,10 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-enkelewandvloerafwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_200); }
 .PredefinedType-samengesteldewandvloerafwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_200); }
 .PredefinedType-isolatie{ fill: url(  #CUST_NEN47_17_isolatie_200); }
+.PredefinedType-staal{ fill: url(  #CUST_NEN47_18_staal_200); }
+.PredefinedType-aluminiumbronskoper{ fill: url(  #CUST_NEN47_19_aluminium_brons_koper_200); }
+.PredefinedType-zink{ fill: url(  #CUST_NEN47_21_zink_200); }
+.PredefinedType-bitumen{ fill: url(  #CUST_NEN47_24_bitumen_200); }
 .PredefinedType-maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_200); }
 .PredefinedType-zand{ fill: url(  #CUST_NEN47_26_zand_200); }
 .PredefinedType-grind{ fill: url(  #CUST_NEN47_27_grind_200); }
@@ -147,6 +164,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_200); }
 .material-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_200); }
 .material-NEN474nietdragendelichtescheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_200); }
+.material-NEN475gewapendbetontpg{ fill: url(  #NEN47_5_gewapend_beton_tpg_200); }
 .material-NEN476gewapendbetonprefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_200); }
 .material-NEN477ongewapendbeton{ fill: url(  #NEN47_7_ongewapend_beton_200); }
 .material-NEN478sierbeton{ fill: url(  #NEN47_8_sierbeton_200); }
@@ -154,6 +172,10 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-NEN4710enkelewandvloerafwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_200); }
 .material-NEN4711samengesteldewandvloerafwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_200); }
 .material-NEN4717isolatie{ fill: url(  #NEN47_17_isolatie_200); }
+.material-NEN4718staal{ fill: url(  #NEN47_18_staal_200); }
+.material-NEN4719aluminiumbronskoper{ fill: url(  #NEN47_19_aluminium_brons_koper_200); }
+.material-NEN4721zink{ fill: url(  #NEN47_21_zink_200); }
+.material-NEN4724bitumen{ fill: url(  #NEN47_24_bitumen_200); }
 .material-NEN4725maaiveld{ fill: url(  #NEN47_25_maaiveld_200); }
 .material-NEN4726zand{ fill: url(  #NEN47_26_zand_200); }
 .material-NEN4727grind{ fill: url(  #NEN47_27_grind_200); }
@@ -161,6 +183,7 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-specialesteenachtigematerialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_200); }
 .material-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_200); }
 .material-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_200); }
+.material-gewapendbetontpg{ fill: url(  #CUST_NEN47_5_gewapend_beton_tpg_200); }
 .material-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_200); }
 .material-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_200); }
 .material-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_200); }
@@ -168,6 +191,10 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-enkelewandvloerafwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_200); }
 .material-samengesteldewandvloerafwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_200); }
 .material-isolatie{ fill: url(  #CUST_NEN47_17_isolatie_200); }
+.material-staal{ fill: url(  #CUST_NEN47_18_staal_200); }
+.material-aluminiumbronskoper{ fill: url(  #CUST_NEN47_19_aluminium_brons_koper_200); }
+.material-zink{ fill: url(  #CUST_NEN47_21_zink_200); }
+.material-bitumen{ fill: url(  #CUST_NEN47_24_bitumen_200); }
 .material-maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_200); }
 .material-zand{ fill: url(  #CUST_NEN47_26_zand_200); }
 .material-grind{ fill: url(  #CUST_NEN47_27_grind_200); }

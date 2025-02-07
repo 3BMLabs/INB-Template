@@ -1,4 +1,3 @@
-
 #PATTERNS
 
 PREFIX_PATTERNS = '<?xml version="1.0" encoding="utf-8" ?>\n' \
@@ -134,10 +133,6 @@ PREFIX_PATTERNS = '<?xml version="1.0" encoding="utf-8" ?>\n' \
 '    <path style="fill: white;" d="M 0 0 10 0 10 10 0 10" />\n' \
 '<path style="stroke:#000000;stroke-width:0.25;stroke-linecap:round" d="M.5.5H.8L.65.9zm1.2 3.7.692-.186-.149.611zm.4 3.2.56.203-.25.6zm1.5-5.3.6-.4-.3.5zm3.2-.3.35.25-.439.594zm.4 7.5.3-.2-.15.4zm1.7-5.6.25.4-.1-.3zm.2 2.8.4.2-.2.3zM.8 2.1l.1.1m.4 4.4.05-.05M2.7 3.4l.1.1m.4 1.7.1-.1m1.6-3.6.05.05M3.732.589 3.628.678M5.5 7.1l.1.1m.5-2.7.1-.1m1.2-2.1.05.05M8.3 8.4l.1.1m1.2 1.2.05-.05M.4 4.9.5 5m1-2.2.1-.1m.6 3 .1.1m1.5 1.5.1-.1m.8-4 .1.1m.3 3.1.05-.05M6.9 8.2l.1.1m.5-6.4.05-.05M8.7 4.3l.1.1m.4 1.8.1-.1M.3.2.4.3m.8 8.8.1-.1m1-7.2.1.1m.7 5.9.1-.1m.9-5.3.1.1m1.2 5.8.1-.1m-1.366.788.06.149M6.6.7l.1.1m1.2 4.7.1-.1m.6-2.8.1.1m.7 4.5.1-.1" />\n' \
 '</pattern>\n' \
-'<pattern id="NEN47_5_gewapend_beton_tpg" width="3" height="3" patternTransform="rotate(0 0 0) scale(1 1)" patternUnits="userSpaceOnUse">\n' \
-'	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />\n' \
-'</pattern>\n' \
-
 
 SUFFIX_PATTERNS = '</svg>'
 
@@ -419,15 +414,22 @@ PREFIX_CSS = '/*\n' \
 '/*\n' \
 ' NL Additions\n' \
 ' */\n' \
-'.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3; }\n' \
+'.PredefinedType-LINEWORK.hidden { stroke-dasharray: 12, 2, 3, 2; }\n' \
+'.PredefinedType-LINEWORK.center { stroke-dasharray: 12, 2, 1, 2; }\n' \
+'.PredefinedType-LINEWORK.lineweight13 { stroke-width: 0.13; }\n' \
+'.PredefinedType-LINEWORK.lineweight18 { stroke-width: 0.18; }\n' \
+'.PredefinedType-LINEWORK.lineweight25 { stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.lineweight35 { stroke-width: 0.35; }\n' \
+'.PredefinedType-LINEWORK.lineweight50 { stroke-width: 0.5; }\n' \
 '.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }\n' \
-'.PredefinedType-LINEWORK.grey { stroke:#808080; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.green { stroke:green; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.blue { stroke:blue; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.yellow { stroke:yellow; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.red { stroke:red; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.purple { stroke:purple; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.grey { stroke:#808080; }\n' \
+'.PredefinedType-LINEWORK.black { stroke:black; }\n' \
+'.PredefinedType-LINEWORK.green { stroke:green; }\n' \
+'.PredefinedType-LINEWORK.blue { stroke:blue; }\n' \
+'.PredefinedType-LINEWORK.yellow { stroke:yellow; }\n' \
+'.PredefinedType-LINEWORK.red { stroke:red; }\n' \
+'.PredefinedType-LINEWORK.purple { stroke:purple; }\n' \
+'.PredefinedType-LINEWORK.darkgrey { stroke:#696969; }\n' \
 '.PredefinedType-LINEWORK.dashed11 { stroke-dasharray: 1, 1; }\n' \
 '.PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }\n' \
 '.PredefinedType-LINEWORK.dashed33 { stroke-dasharray: 3, 3; }\n' \
@@ -459,8 +461,7 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-white75 { fill: white; opacity: 0.75; stroke: none; }\n' \
 '.PredefinedType-black10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }\n' \
 '.PredefinedType-black25 { fill: black; opacity: 0.25; stroke: none; }\n'\
-'.PredefinedType-bestaandgebouw{ fill: url( #bestaand_gebouw); stroke: black; }\n' \
-'.PredefinedType-gewapendbeton{ fill: url( #NEN47_5_gewapend_beton_tpg}\n' \
+'.PredefinedType-bestaandgebouw { fill: url( #bestaand_gebouw); stroke: black; }\n' \
 
 
 SUFFIX_CSS = \
@@ -515,7 +516,7 @@ basepath_library = "C:/Users/Gebruiker/Documents/GitHub/INB-Template/02_scripts/
 
 path_library = basepath_library + "Base_Library.ods"
 
-new_path_patterns = basepath + "INB_BWK_patterns.svg"
+new_path_patterns = basepath + "patterns.svg"
 
 new_path_css_200 = basepath + "INB_BWK_stylesheet_1_200.css"
 new_path_css_100 = basepath + "INB_BWK_stylesheet_1_100.css"
@@ -589,7 +590,7 @@ for ind in library_mat.index:
     scales = []
     scale_independent = library_mat["scale_independent"][ind]
     scale_1_200 = library_mat["1_200"][ind]
-    if scale_1_200:
+    if scale_1_200: 
         scales.append(["1:200", lstScales[0], "_200", css_file_200, patterns_file])
 
     scale_1_100 = library_mat["1_100"][ind]
