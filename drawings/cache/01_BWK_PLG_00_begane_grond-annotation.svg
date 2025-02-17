@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:50" height="500.00003814697266mm" id="root" version="1.1" viewBox="0 0 500.00003814697266 500.00003814697266" width="500.00003814697266mm">
   <defs/>
-  <line class="GlobalId-2y6NFyym559uuXlG31I1dk IfcAnnotation PredefinedType-SECTION" x1="549.9969482421875" x2="-449.9969482421875" y1="1390.031982421875" y2="1390.0322265625"/>
-  <use transform="rotate(179.999991348578, 549.9969482421875, 1390.031982421875)" x="549.9969482421875" xlink:href="#section-arrow" y="1390.031982421875"/>
-  <use x="549.9969482421875" xlink:href="#section-tag" y="1390.031982421875"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="549.9969482421875" y="1387.531982421875">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="549.9969482421875" y="1392.531982421875">-</text>
-  <use transform="rotate(179.999991348578, -449.9969482421875, 1390.0322265625)" x="-449.9969482421875" xlink:href="#section-arrow" y="1390.0322265625"/>
-  <use x="-449.9969482421875" xlink:href="#section-tag" y="1390.0322265625"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-449.9969482421875" y="1387.5322265625">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-449.9969482421875" y="1392.5322265625">-</text>
-  <use transform="rotate(90.00000250447816, -33.766536712646484, 428.7801513671875)" x="-33.766536712646484" xlink:href="#elevation-arrow" y="428.7801513671875"/>
-  <use x="-33.766536712646484" xlink:href="#elevation-tag" y="428.7801513671875"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-33.766536712646484" y="426.2801513671875">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-33.766536712646484" y="431.2801513671875">-</text>
   <use transform="rotate(-90.00000250447816, 541.99072265625, 450.0)" x="541.99072265625" xlink:href="#elevation-arrow" y="450.0"/>
   <use x="541.99072265625" xlink:href="#elevation-tag" y="450.0"/>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="447.5">-</text>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="452.5">-</text>
-  <path class="GlobalId-2Krs9hZjfBHe7vIcaYHfWi IfcAnnotation PredefinedType-FILLAREA isolatie_PUR" d="M 204.15329933166504 310.59393882751465 L 141.6533088684082 310.59393882751465 L 141.6533088684082 185.5939483642578 L 204.15329933166504 185.5939483642578 L 204.15329933166504 310.59393882751465"/>
-  <path class="GlobalId-0SPL7RBxXE7B_nBly4rFNo IfcAnnotation PredefinedType-FILLAREA metselwerk_baksteen_rood" d="M 315.7103157043457 332.26327896118164 L 253.2103157043457 332.26327896118164 L 253.2103157043457 207.26327896118164 L 315.7103157043457 207.26327896118164 L 315.7103157043457 332.26327896118164"/>
   <line class="GlobalId-0a8KIWZOf2AfHuVWxxRXFV IfcAnnotation PredefinedType-SECTION" x1="-9.999980926513672" x2="110.00001525878906" y1="517.2515258789062" y2="517.2515258789062"/>
   <use transform="rotate(0.0, -9.999980926513672, 517.2515258789062)" x="-9.999980926513672" xlink:href="#section-arrow" y="517.2515258789062"/>
   <use x="-9.999980926513672" xlink:href="#section-tag" y="517.2515258789062"/>
@@ -33,6 +18,15 @@
   <use x="50.00001907348633" xlink:href="#elevation-tag" y="605.8765869140625"/>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="603.3765869140625">-</text>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="608.3765869140625">-</text>
+  <line class="GlobalId-2y6NFyym559uuXlG31I1dk IfcAnnotation PredefinedType-SECTION" x1="549.9969482421875" x2="-449.9969482421875" y1="1390.031982421875" y2="1390.0322265625"/>
+  <use transform="rotate(179.999991348578, 549.9969482421875, 1390.031982421875)" x="549.9969482421875" xlink:href="#section-arrow" y="1390.031982421875"/>
+  <use x="549.9969482421875" xlink:href="#section-tag" y="1390.031982421875"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="549.9969482421875" y="1387.531982421875">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="549.9969482421875" y="1392.531982421875">-</text>
+  <use transform="rotate(179.999991348578, -449.9969482421875, 1390.0322265625)" x="-449.9969482421875" xlink:href="#section-arrow" y="1390.0322265625"/>
+  <use x="-449.9969482421875" xlink:href="#section-tag" y="1390.0322265625"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-449.9969482421875" y="1387.5322265625">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-449.9969482421875" y="1392.5322265625">-</text>
   <line class="GlobalId-2BM41tHbr1ifWGhpvBQspW IfcAnnotation PredefinedType-DIMENSION" x1="50.000038146972656" x2="110.00006103515625" y1="480.0" y2="480.0"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(80.00004577636719, 479.0) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
@@ -45,6 +39,10 @@
   <use x="50.00001907348633" xlink:href="#elevation-tag" y="-46.126155853271484"/>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-48.626155853271484">-</text>
   <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-43.626155853271484">-</text>
+  <use transform="rotate(90.00000250447816, -33.766536712646484, 428.7801513671875)" x="-33.766536712646484" xlink:href="#elevation-arrow" y="428.7801513671875"/>
+  <use x="-33.766536712646484" xlink:href="#elevation-tag" y="428.7801513671875"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-33.766536712646484" y="426.2801513671875">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-33.766536712646484" y="431.2801513671875">-</text>
   <line class="GlobalId-2cMezBAJz10e0U9Kka$ijV IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="110.00006866455078" x2="110.00006866455078" y1="490.0" y2="-46.126155853271484"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.00006866455078" y="490.0">02</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.00006866455078" y="-46.126155853271484">02</text>
@@ -57,7 +55,7 @@
   <line class="GlobalId-3VRlJ7QhLE$Bzbpl9xr7Nn IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="10.000057220458984" x2="541.99072265625" y1="389.9999694824219" y2="389.9999694824219"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="10.000057220458984" y="389.9999694824219">B</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="389.9999694824219">B</text>
-  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-blank" d="M 410.0000190734863 545.6291770935059 L 520.906925201416 545.6291770935059 L 520.906925201416 89.99998092651367 L 410.0000190734863 89.99998092651367 L 410.0000190734863 545.6291770935059"/>
-  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-blank" d="M 409.999942779541 -20.147266387939453 L -19.73712921142578 -20.147266387939453 L -19.73712921142578 89.99998092651367 L 409.9999809265137 89.99998092651367 L 409.999942779541 -20.147266387939453"/>
-  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-blank" d="M 520.9068870544434 89.99998092651367 L 409.999942779541 89.99998092651367 L 409.9999809265137 -20.147266387939453 L 520.9068870544434 -20.147266387939453 L 520.9068870544434 89.99998092651367"/>
+  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-FILLAREA blank" d="M 410.0000190734863 545.6291770935059 L 520.906925201416 545.6291770935059 L 520.906925201416 89.99998092651367 L 410.0000190734863 89.99998092651367 L 410.0000190734863 545.6291770935059"/>
+  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-FILLAREA blank" d="M 409.999942779541 -20.147266387939453 L -19.73712921142578 -20.147266387939453 L -19.73712921142578 89.99998092651367 L 409.9999809265137 89.99998092651367 L 409.999942779541 -20.147266387939453"/>
+  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-FILLAREA blank" d="M 520.9068870544434 89.99998092651367 L 409.999942779541 89.99998092651367 L 409.9999809265137 -20.147266387939453 L 520.9068870544434 -20.147266387939453 L 520.9068870544434 89.99998092651367"/>
 </svg>
