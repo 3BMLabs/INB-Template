@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.ifcopenshell.org/ns" width="500mm" height="500mm" viewBox="0 0 500 500">
+    <defs>
+        <marker id="arrowend" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+          <polygon points="0 0, 10 3.5, 0 7"/>
+        </marker>
+        <marker id="arrowstart" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+          <polygon points="10 0, 0 3.5, 10 7"/>
+        </marker>
+    </defs>
+    <g ifc:name="Elevation BWK_principe_doorsnede" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[20.000000,0.000000,290.000017],[0.000000,20.000000,395.000011],[0.000000,0.000000,1.000000]]">
+        <g id="product-41e90adb-649b-4055-9402-0577efead61e" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="11wGhRP9j0LPG21NVlwjOU">
+            <path d="M265.8,420 L265.8,826.6"/>
+            <path d="M265.8,826.6 L265.8,826.6"/>
+            <path d="M265.8,826.6 L261.4,826.6"/>
+            <path d="M265.8,826.6 L265.8,826.6"/>
+            <path d="M261.4,826.6 L261.4,420"/>
+        </g>
+        <g id="product-bdd2c04b-301b-437f-b5b4-c152c73b62ad" class="IfcSlab material-ongewapendbeton projection" ifc:name="dekvloer_70.001" ifc:guid="2zqi1BC1j3VxMqmLB7EsAj">
+            <path d="M288.2,395 L230,395"/>
+            <path d="M230,396.4 L230,395"/>
+            <path d="M288.2,396.4 L230,396.4"/>
+            <path d="M288.2,395 L288.2,396.4"/>
+        </g>
+        <g id="product-2de96125-daa6-4473-85a5-751c95fe6f49" class="IfcSlab material-gewapendbetontpg projection" ifc:name="beton_200" ifc:guid="0jwM4bsgP4SuMbTHoL$cz9">
+            <path d="M290,400.4 L290,396.4"/>
+            <path d="M230,396.4 L290,396.4"/>
+            <path d="M230,396.4 L230,400.4"/>
+            <path d="M230,400.4 L290,400.4"/>
+        </g>
+        <g id="product-a8256432-6506-4059-9c01-fe484e21e762" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90.001" ifc:guid="2e9MGoPGP0MPm1$aXE8UTY">
+            <path d="M290,335 L288.2,335"/>
+            <path d="M288.2,396.4 L288.2,335"/>
+            <path d="M290,396.4 L288.2,396.4"/>
+            <path d="M290,335 L290,396.4"/>
+        </g>
+        <g id="product-24151b66-b605-46df-8c23-cdb722960a7c" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="0a5HjcjWL6tumZpRSYbWfy">
+            <path d="M294.8,335 L292.8,335"/>
+            <path d="M292.8,410 L292.8,335"/>
+            <path d="M294.8,410 L292.8,410"/>
+            <path d="M294.8,335 L294.8,410"/>
+        </g>
+        <g id="product-2f725bfd-1d36-4b75-a58d-cc5b9a1b49ab" class="IfcWall material-isolatie projection" ifc:name="ISO100" ifc:guid="0lSblz7JPBTQMDp5kQ6qch">
+            <path d="M292,335 L290,335"/>
+            <path d="M290,410 L290,335"/>
+            <path d="M292,410 L290,410"/>
+            <path d="M292,335 L292,410"/>
+        </g>
+        <g id="product-192a9b43-2910-4a77-8397-f252e3cba880" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="0PAfj3AH1ATuENybBZowY0">
+            <path d="M234.8,410 L234.8,400.4"/>
+            <path d="M287.7,410 L287.7,400.4"/>
+        </g>
+        <g id="product-2ad1db50-db1f-4814-b6d5-3055f193edfc" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="0gqTjGsnz85BRLC5Nna_ty">
+            <path d="M290,400.4 L288,400.4"/>
+            <path d="M288,410 L288,400.4"/>
+            <path d="M290,410 L288,410"/>
+            <path d="M290,400.4 L290,410"/>
+        </g>
+        <g id="product-c5e9504b-7df5-48b3-97e7-63b109bc7cac" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="35wL1BVVL8ivVdOx49l7oi">
+            <path d="M292.8,335 L290,335"/>
+        </g>
+        <g id="product-d1eea825-bc53-4fdc-87d9-2ac5de7f5971" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90" ifc:guid="3HxgWbl5DFt8VPAiNUVrbn">
+            <path d="M269.591,345.195 L269.591,376.4"/>
+            <path d="M249.791,345.195 L269.591,345.195"/>
+            <path d="M249.791,376.4 L249.791,345.195"/>
+            <path d="M269.591,376.4 L249.791,376.4"/>
+            <path d="M230,335 L288.2,335"/>
+            <path d="M230,396.4 L230,396.4"/>
+            <path d="M230,396.4 L230,335"/>
+        </g>
+        <g id="product-4ca552b4-5839-4d2d-9212-0d32fe4f6562" class="IfcWall material-isolatie projection" ifc:name="ISO100" ifc:guid="1CfLAqM3bDBP8I3JB_JsLY">
+            <path d="M269.591,345.195 L269.591,345.195"/>
+            <path d="M269.591,376.4 L269.591,376.4"/>
+            <path d="M230,335 L230,335"/>
+            <path d="M230,410 L230,410"/>
+            <path d="M230,410 L230,335"/>
+        </g>
+    <g ifc:guid="0Mu_oMfm52hvAVMsNs635_" ifc:name="Example Space" class="IfcSpace material-null cut"><path d="M288.2000231742859,395.0000190734863 L288.2000231742859,348.2923889160156 L288.2000231742859,335.00003814697266 L242.89355516433716,335.00003814697266 L229.99996900558472,335.00003814697266 L229.99996900558472,381.70766830444336 L229.99996900558472,395.0000190734863 L242.89355993270874,395.0000190734863 Z"/></g><g class="IfcSlab 0jwM4bsgP4SuMbTHoL$cz9 cut material-gewapendbetontpg"><path d="M244.2948031425476,396.40002250671387 L229.99998807907104,396.40002250671387 L229.99998807907104,399.44703102111816 L229.99998807907104,400.4000186920166 L275.7052183151245,400.4000186920166 L290.0000333786011,400.4000186920166 L290.0000333786011,397.3530101776123 L290.0000333786011,396.40002250671387 Z"/></g><g class="IfcSlab cut material-ongewapendbeton 2zqi1BC1j3VxMqmLB7EsAj"><path d="M242.89357900619507,395.0000190734863 L229.99997854232788,395.0000190734863 L229.99997854232788,395.31017303466797 L229.99997854232788,396.40002250671387 L275.3064298629761,396.40002250671387 L288.20002794265747,396.40002250671387 L288.20002794265747,396.0898685455322 L288.20002794265747,395.0000190734863 Z"/></g><g class="material-naaldhoutvurenCLT IfcWall 2e9MGoPGP0MPm1$aXE8UTY cut"><path d="M288.5864591598511,335.0000190734863 L288.2000231742859,335.0000190734863 L288.2000231742859,348.18182945251465 L288.2000231742859,396.40002250671387 L289.61358547210693,396.40002250671387 L290.0000238418579,396.40002250671387 L290.0000238418579,383.2182025909424 L290.0000238418579,335.0000190734863 Z"/></g><g class="cut 0gqTjGsnz85BRLC5Nna_ty 0a5HjcjWL6tumZpRSYbWfy IfcWall material-metselwerkbaksteenrood"><path d="M292.8000211715698,335.0000190734863 L292.8000211715698,357.10049629211426 L292.8000211715698,410.0000190734863 L294.21067237854004,410.0000190734863 L294.8000192642212,410.0000190734863 L294.8000192642212,387.89953231811523 L294.8000192642212,335.0000190734863 L293.389368057251,335.0000190734863 Z"/></g><g class="cut 0gqTjGsnz85BRLC5Nna_ty 0a5HjcjWL6tumZpRSYbWfy IfcWall material-metselwerkbaksteenrood"><path d="M288.00002098083496,400.4000186920166 L288.00002098083496,407.781400680542 L288.00002098083496,410.0000190734863 L289.5378112792969,410.0000190734863 L290.0000238418579,410.0000190734863 L290.0000238418579,402.61863708496094 L290.0000238418579,400.4000186920166 L289.5378112792969,400.4000186920166 Z"/></g><g class="cut material-isolatie IfcWall 0lSblz7JPBTQMDp5kQ6qch"><path d="M290.52566051483154,335.0000190734863 L290.0000238418579,335.0000190734863 L290.0000238418579,354.7114849090576 L290.0000238418579,410.0000190734863 L291.47438526153564,410.0000190734863 L292.0000219345093,410.0000190734863 L292.0000219345093,390.2885437011719 L292.0000219345093,335.0000190734863 Z"/></g><g id="product-ab85943e-e372-43ef-ad25-cad109981d3f" class="IfcBeam material-gewapendbetontpg projection" ifc:name="BB 400x500" ifc:guid="2hXPG_ut93xwqboj49c1q$">
+            <path d="M287.4,420 L295.4,420"/>
+            <path d="M295.4,420 L295.4,410"/>
+            <path d="M295.4,410 L287.4,410"/>
+            <path d="M287.4,410 L287.4,420"/>
+        </g>
+        <g id="product-7f9c48ec-33d6-4873-9626-17aaf58c8ed1" class="IfcBeam material-gewapendbetontpg projection" ifc:name="BB 400x500" ifc:guid="1$d4ZiCzP8SvOc5whrZ8xH">
+            <path d="M230,420 L230,410"/>
+            <path d="M287.4,420 L287.4,420"/>
+            <path d="M287.4,410 L230,410"/>
+            <path d="M287.4,420 L230,420"/>
+        </g>
+        <g ifc:guid="2hXPG_ut93xwqboj49c1q$" ifc:name="BB 400x500" class="IfcBeam material-gewapendbetontpg cut"><path d="M287.4000406265259,413.0114555358887 L287.4000406265259,420.0000190734863 L289.80919122695923,420.0000190734863 L295.4000425338745,420.0000190734863 L295.4000425338745,416.988582611084 L295.4000425338745,410.0000190734863 L292.99088954925537,410.0000190734863 L287.4000406265259,410.0000190734863 Z"/></g><path d="M288.2000231742859,395.0000190734863 L288.2000231742859,348.2923889160156 L288.2000231742859,335.00003814697266 L242.89355516433716,335.00003814697266 L229.99996900558472,335.00003814697266 L229.99996900558472,381.70766830444336 L229.99996900558472,395.0000190734863 L242.89355993270874,395.0000190734863 Z" class="IfcSpace material-null"/></g>
+</svg>

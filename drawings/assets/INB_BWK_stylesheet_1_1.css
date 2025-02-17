@@ -27,7 +27,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .IfcAnnotation { fill: none; stroke: black; stroke-linecap: round; stroke-width: 0.25; }
 .IfcGeographicElement { fill: none; stroke: black; stroke-linecap: round; stroke-width: 1; }
 .PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }
 .PredefinedType-LINEWORK.fine { stroke-width: 0.18; stroke: #777777; }
 .PredefinedType-LINEWORK.thin { stroke-width: 0.25; }
 .PredefinedType-LINEWORK.medium { stroke-width: 0.35; }
@@ -48,20 +47,29 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-DIAMETER { marker-start: url(#diameter-marker-start); marker-end: url(#diameter-marker-end); }
 .PredefinedType-STAIRARROW { marker-start: url(#stair-marker-start); marker-end: url(#stair-marker-end); }
 .PredefinedType-BOUNDARY { fill: none; stroke: red; stroke-width: 1; stroke-dasharray: 12, 4, 3, 4, 3, 4; }
-.PredefinedType-SEALANT { fill: url(#crosshatch1); stroke-width: 0.25; }
 .PredefinedType-FILLAREA { fill: white; stroke: black; }
 .PredefinedType-BREAKLINE { fill: none; stroke: black; stroke-width: 0.25; marker-mid: url(#breakline-marker); }
 .PredefinedType-TEXT { fill: black; stroke: none; }
 /*
  NL Additions
  */
-.PredefinedType-LINEWORK.hidden { stroke-dasharray: 12, 2, 3, 2; }
-.PredefinedType-LINEWORK.center { stroke-dasharray: 12, 2, 1, 2; }
-.PredefinedType-LINEWORK.lineweight13 { stroke-width: 0.13; }
-.PredefinedType-LINEWORK.lineweight18 { stroke-width: 0.18; }
-.PredefinedType-LINEWORK.lineweight25 { stroke-width: 0.25; }
-.PredefinedType-LINEWORK.lineweight35 { stroke-width: 0.35; }
-.PredefinedType-LINEWORK.lineweight50 { stroke-width: 0.5; }
+.PredefinedType-LINEWORK.continuous { stroke-dasharray: 10, 0; }
+.PredefinedType-LINEWORK.dashed { stroke-dasharray: 6, 3; }
+.PredefinedType-LINEWORK.hidden { stroke-dasharray: 9, 3; }
+.PredefinedType-LINEWORK.center { stroke-dasharray: 12, 3, 3, 3; }
+.PredefinedType-LINEWORK.phantom { stroke-dasharray: 12, 3, 3, 3, 3, 3; }
+.PredefinedType-LINEWORK.dot { stroke-dasharray: 1, 3; }
+.PredefinedType-LINEWORK.dashdot { stroke-dasharray: 6, 3, 1, 3; }
+.PredefinedType-LINEWORK.border { stroke-dasharray: 15, 3, 3, 3; }
+.PredefinedType-LINEWORK.divide { stroke-dasharray: 12, 3, 3, 3; }
+.PredefinedType-LINEWORK.lineweight_0_13 { stroke-width: 0.13; }
+.PredefinedType-LINEWORK.lineweight_0_18 { stroke-width: 0.18; }
+.PredefinedType-LINEWORK.lineweight_0_25 { stroke-width: 0.25; }
+.PredefinedType-LINEWORK.lineweight_0_35 { stroke-width: 0.35; }
+.PredefinedType-LINEWORK.lineweight_0_50 { stroke-width: 0.5; }
+.PredefinedType-LINEWORK.lineweight_0_70 { stroke-width: 0.7; }
+.PredefinedType-LINEWORK.lineweight_1_00 { stroke-width: 1.0; }
+.PredefinedType-LINEWORK.lineweight_1_40 { stroke-width: 1.4; }
 .PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }
 .PredefinedType-LINEWORK.grey { stroke:#808080; }
 .PredefinedType-LINEWORK.black { stroke:black; }
@@ -88,130 +96,135 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }
 .PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }
-.PredefinedType-sand { fill: url(#sand); }
-.PredefinedType-earth { fill: url(#earth); }
-.PredefinedType-glass { fill: url(#glass); }
-.PredefinedType-grass { fill: url(#grass); }
-.PredefinedType-wood { fill: url(#wood); }
-.PredefinedType-concrete { fill: url(#concrete); }
-.PredefinedType-black { fill: black; }
-.PredefinedType-blank { fill: white; stroke: none; }
-.PredefinedType-white{ fill: white; stroke: none;}
-.PredefinedType-white25 { fill: white; opacity: 0.25; stroke: none; }
-.PredefinedType-white50 { fill: white; opacity: 0.5; stroke: none; }
-.PredefinedType-white75 { fill: white; opacity: 0.75; stroke: none; }
-.PredefinedType-black10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }
-.PredefinedType-black25 { fill: black; opacity: 0.25; stroke: none; }
-.PredefinedType-bestaandgebouw { fill: url( #bestaand_gebouw); stroke: black; }
-.PredefinedType-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_1); }
-.PredefinedType-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_1); }
-.PredefinedType-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_1); }
-.PredefinedType-NEN474nietdragendelichtescheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_1); }
-.PredefinedType-NEN475gewapendbetontpg{ fill: url(  #NEN47_5_gewapend_beton_tpg_1); }
-.PredefinedType-NEN476gewapendbetonprefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_1); }
-.PredefinedType-NEN477ongewapendbeton{ fill: url(  #NEN47_7_ongewapend_beton_1); }
-.PredefinedType-NEN478sierbeton{ fill: url(  #NEN47_8_sierbeton_1); }
-.PredefinedType-NEN479natuursteen{ fill: url(  #NEN47_9_natuursteen_1); }
-.PredefinedType-NEN4710enkelewandvloerafwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_1); }
-.PredefinedType-NEN4711samengesteldewandvloerafwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_1); }
-.PredefinedType-NEN4712naaldhout{ fill: url(  #NEN47_12_naaldhout_1); }
-.PredefinedType-NEN4713loofhout{ fill: url(  #NEN47_13_loofhout_1); }
-.PredefinedType-NEN4714naaldloofhoutlangsarcering{ fill: url(  #NEN47_14_naald_loofhout_langsarcering_1); }
-.PredefinedType-NEN4716bekledingsplaat{ fill: url(  #NEN47_16_bekledingsplaat_1); }
-.PredefinedType-NEN4717isolatie{ fill: url(  #NEN47_17_isolatie_1); }
-.PredefinedType-NEN4718staal{ fill: url(  #NEN47_18_staal_1); }
-.PredefinedType-NEN4719aluminiumbronskoper{ fill: url(  #NEN47_19_aluminium_brons_koper_1); }
-.PredefinedType-NEN4720lood{ fill: url(  #NEN47_20_lood_1); }
-.PredefinedType-NEN4721zink{ fill: url(  #NEN47_21_zink_1); }
-.PredefinedType-NEN4722kunststof{ fill: url(  #NEN47_22_kunststof_1); }
-.PredefinedType-NEN4723afdichtingsmiddel{ fill: url(  #NEN47_23_afdichtingsmiddel_1); }
-.PredefinedType-NEN4724bitumen{ fill: url(  #NEN47_24_bitumen_1); }
-.PredefinedType-NEN4725maaiveld{ fill: url(  #NEN47_25_maaiveld_1); }
-.PredefinedType-NEN4726zand{ fill: url(  #NEN47_26_zand_1); }
-.PredefinedType-NEN4727grind{ fill: url(  #NEN47_27_grind_1); }
-.PredefinedType-NEN4728water{ fill: url(  #NEN47_28_water_1); }
-.PredefinedType-NEN4729glas{ fill: url(  #NEN47_29_glas_1); }
-.PredefinedType-metselwerkbaksteen{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_1); }
-.PredefinedType-specialesteenachtigematerialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_1); }
-.PredefinedType-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_1); }
-.PredefinedType-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_1); }
-.PredefinedType-gewapendbetontpg{ fill: url(  #CUST_NEN47_5_gewapend_beton_tpg_1); }
-.PredefinedType-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_1); }
-.PredefinedType-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_1); }
-.PredefinedType-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_1); }
-.PredefinedType-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_1); }
-.PredefinedType-enkelewandvloerafwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_1); }
-.PredefinedType-samengesteldewandvloerafwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_1); }
-.PredefinedType-naaldhout{ fill: url(  #CUST_NEN47_12_naaldhout_1); }
-.PredefinedType-loofhout{ fill: url(  #CUST_NEN47_13_loofhout_1); }
-.PredefinedType-naaldloofhoutlangsarcering{ fill: url(  #CUST_NEN47_14_naald_loofhout_langsarcering_1); }
-.PredefinedType-bekledingsplaat{ fill: url(  #CUST_NEN47_16_bekledingsplaat_1); }
-.PredefinedType-isolatie{ fill: url(  #CUST_NEN47_17_isolatie_1); }
-.PredefinedType-staal{ fill: url(  #CUST_NEN47_18_staal_1); }
-.PredefinedType-aluminiumbronskoper{ fill: url(  #CUST_NEN47_19_aluminium_brons_koper_1); }
-.PredefinedType-lood{ fill: url(  #CUST_NEN47_20_lood_1); }
-.PredefinedType-zink{ fill: url(  #CUST_NEN47_21_zink_1); }
-.PredefinedType-kunststof{ fill: url(  #CUST_NEN47_22_kunststof_1); }
-.PredefinedType-afdichtingsmiddel{ fill: url(  #CUST_NEN47_23_afdichtingsmiddel_1); }
-.PredefinedType-bitumen{ fill: url(  #CUST_NEN47_24_bitumen_1); }
-.PredefinedType-maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_1); }
-.PredefinedType-zand{ fill: url(  #CUST_NEN47_26_zand_1); }
-.PredefinedType-grind{ fill: url(  #CUST_NEN47_27_grind_1); }
-.PredefinedType-water{ fill: url(  #CUST_NEN47_28_water_1); }
-.PredefinedType-glas{ fill: url(  #CUST_NEN47_29_glas_1); }
-.PredefinedType-metselwerkbaksteenporiso{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_poriso_1); }
-.PredefinedType-metselwerkbaksteenrood{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_rood_1); }
-.PredefinedType-metselwerkbaksteencement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_1); }
-.PredefinedType-metselwerkbaksteentras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_1); }
-.PredefinedType-metselwerkbaksteenkalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_1); }
-.PredefinedType-kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_1); }
-.PredefinedType-natuursteenhardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_1); }
-.PredefinedType-natuursteenzandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_1); }
-.PredefinedType-natuursteenkalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_1); }
-.PredefinedType-natuursteentuf{ fill: url(  #CUST_NEN47_9_natuursteen_tuf_1); }
-.PredefinedType-natuursteenmergel{ fill: url(  #CUST_NEN47_9_natuursteen_mergel_1); }
-.PredefinedType-naaldhoutvuren{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_1); }
-.PredefinedType-naaldhoutvurengewolmaniseerd{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_gewolmaniseerd_1); }
-.PredefinedType-naaldhouteiken{ fill: url(  #CUST_NEN47_12_naaldhout_eiken_1); }
-.PredefinedType-naaldhoutlariks{ fill: url(  #CUST_NEN47_12_naaldhout_lariks_1); }
-.PredefinedType-naaldhoutmerbau{ fill: url(  #CUST_NEN47_12_naaldhout_merbau_1); }
-.PredefinedType-naaldhoutmeranti{ fill: url(  #CUST_NEN47_12_naaldhout_meranti_1); }
-.PredefinedType-naaldhoutjatoba{ fill: url(  #CUST_NEN47_12_naaldhout_jatoba_1); }
-.PredefinedType-naaldhoutmahonie{ fill: url(  #CUST_NEN47_12_naaldhout_mahonie_1); }
-.PredefinedType-naaldhoutdouglas{ fill: url(  #CUST_NEN47_12_naaldhout_douglas_1); }
-.PredefinedType-naaldhoutgrenen{ fill: url(  #CUST_NEN47_12_naaldhout_grenen_1); }
-.PredefinedType-naaldhoutredcedar{ fill: url(  #CUST_NEN47_12_naaldhout_red_cedar_1); }
-.PredefinedType-naaldhoutiroko{ fill: url(  #CUST_NEN47_12_naaldhout_iroko_1); }
-.PredefinedType-naaldhoutniove{ fill: url(  #CUST_NEN47_12_naaldhout_niove_1); }
-.PredefinedType-naaldhoutbangkirai{ fill: url(  #CUST_NEN47_12_naaldhout_bangkirai_1); }
-.PredefinedType-naaldhoutazobe{ fill: url(  #CUST_NEN47_12_naaldhout_azobe_1); }
-.PredefinedType-naaldhoutbamboe{ fill: url(  #CUST_NEN47_12_naaldhout_bamboe_1); }
-.PredefinedType-naaldhoutvurenCLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_1); }
-.PredefinedType-bekledingsplaatmultiplex{ fill: url(  #CUST_NEN47_16_bekledingsplaat_multiplex_1); }
-.PredefinedType-bekledingsplaatOSB{ fill: url(  #CUST_NEN47_16_bekledingsplaat_OSB_1); }
-.PredefinedType-bekledingsplaatMDF{ fill: url(  #CUST_NEN47_16_bekledingsplaat_MDF_1); }
-.PredefinedType-bekledingsplaatwatervast{ fill: url(  #CUST_NEN47_16_bekledingsplaat_watervast_1); }
-.PredefinedType-bekledingsplaatokoume{ fill: url(  #CUST_NEN47_16_bekledingsplaat_okoume_1); }
-.PredefinedType-bekledingsplaatrodespaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_rode_spaan_1); }
-.PredefinedType-bekledingsplaatgroenespaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_groene_spaan_1); }
-.PredefinedType-bekledingsplaatunderlayment{ fill: url(  #CUST_NEN47_16_bekledingsplaat_underlayment_1); }
-.PredefinedType-isolatieglaswol{ fill: url(  #CUST_NEN47_17_isolatie_glaswol_1); }
-.PredefinedType-isolatiesteenwol{ fill: url(  #CUST_NEN47_17_isolatie_steenwol_1); }
-.PredefinedType-isolatiePIR{ fill: url(  #CUST_NEN47_17_isolatie_PIR_1); }
-.PredefinedType-isolatiekooltherm{ fill: url(  #CUST_NEN47_17_isolatie_kooltherm_1); }
-.PredefinedType-isolatiePUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_1); }
-.PredefinedType-isolatieEPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_1); }
-.PredefinedType-isolatieEPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_1); }
-.PredefinedType-isolatiefoamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_1); }
-.PredefinedType-maaiveldgrond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_1); }
-.PredefinedType-maaiveldasfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_1); }
-.PredefinedType-maaiveldklei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_1); }
-.PredefinedType-maaiveldveen{ fill: url(  #CUST_NEN47_25_maaiveld_veen_1); }
-.PredefinedType-zandzand{ fill: url(  #CUST_NEN47_26_zand_zand_1); }
-.PredefinedType-waterwater{ fill: url(  #CUST_NEN47_28_water_water_1); }
-.PredefinedType-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_1); }
-.PredefinedType-glasmat{ fill: url(  #CUST_NEN47_29_glas_mat_1); }
-.PredefinedType-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_1); }
+.PredefinedType-FILLAREA.green { fill:green; stroke:none; }
+.PredefinedType-FILLAREA.blue { fill:blue; stroke:none; }
+.PredefinedType-FILLAREA.yellow { fill:yellow; stroke:none; }
+.PredefinedType-FILLAREA.red { fill:red; stroke:none; }
+.PredefinedType-FILLAREA.purple { fill:purple; stroke:none; }
+.PredefinedType-FILLAREA.darkgrey { fill:#696969; stroke:none; }
+.PredefinedType-FILLAREA.sand { fill: url(#sand); }
+.PredefinedType-FILLAREA.earth { fill: url(#earth); }
+.PredefinedType-FILLAREA.glass { fill: url(#glass); }
+.PredefinedType-FILLAREA.grass { fill: url(#grass); }
+.PredefinedType-FILLAREA.wood { fill: url(#wood); }
+.PredefinedType-FILLAREA.concrete { fill: url(#concrete); }
+.PredefinedType-FILLAREA.black { fill: black; }
+.PredefinedType-FILLAREA.grey { fill: grey; }
+.PredefinedType-FILLAREA.blank { fill: white; stroke: none; }
+.PredefinedType-FILLAREA.white_25 { fill: white; opacity: 0.25; stroke: none; }
+.PredefinedType-FILLAREA.white_50 { fill: white; opacity: 0.5; stroke: none; }
+.PredefinedType-FILLAREA.white_75 { fill: white; opacity: 0.75; stroke: none; }
+.PredefinedType-FILLAREA.black_10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.black_25 { fill: black; opacity: 0.25; stroke: none; }
+.PredefinedType-FILLAREA.bestaand_gebouw { fill: url( #bestaand_gebouw); stroke: black; }
+.PredefinedType-FILLAREA.NEN47_1_metselwerk_baksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_1); }
+.PredefinedType-FILLAREA.NEN47_2_speciale_steenachtige_materialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_1); }
+.PredefinedType-FILLAREA.NEN47_3_metselwerk_niet_gebakken_kunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_1); }
+.PredefinedType-FILLAREA.NEN47_4_niet_dragende_lichte_scheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_1); }
+.PredefinedType-FILLAREA.NEN47_5_gewapend_beton_tpg{ fill: url(  #NEN47_5_gewapend_beton_tpg_1); }
+.PredefinedType-FILLAREA.NEN47_6_gewapend_beton_prefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_1); }
+.PredefinedType-FILLAREA.NEN47_7_ongewapend_beton{ fill: url(  #NEN47_7_ongewapend_beton_1); }
+.PredefinedType-FILLAREA.NEN47_8_sierbeton{ fill: url(  #NEN47_8_sierbeton_1); }
+.PredefinedType-FILLAREA.NEN47_9_natuursteen{ fill: url(  #NEN47_9_natuursteen_1); }
+.PredefinedType-FILLAREA.NEN47_10_enkele_wand_vloer_afwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_1); }
+.PredefinedType-FILLAREA.NEN47_11_samengestelde_wand_vloer_afwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_1); }
+.PredefinedType-FILLAREA.NEN47_12_naaldhout{ fill: url(  #NEN47_12_naaldhout_1); }
+.PredefinedType-FILLAREA.NEN47_13_loofhout{ fill: url(  #NEN47_13_loofhout_1); }
+.PredefinedType-FILLAREA.NEN47_14_naald_loofhout_langsarcering{ fill: url(  #NEN47_14_naald_loofhout_langsarcering_1); }
+.PredefinedType-FILLAREA.NEN47_16_bekledingsplaat{ fill: url(  #NEN47_16_bekledingsplaat_1); }
+.PredefinedType-FILLAREA.NEN47_17_isolatie{ fill: url(  #NEN47_17_isolatie_1); }
+.PredefinedType-FILLAREA.NEN47_18_staal{ fill: url(  #NEN47_18_staal_1); }
+.PredefinedType-FILLAREA.NEN47_19_aluminium_brons_koper{ fill: url(  #NEN47_19_aluminium_brons_koper_1); }
+.PredefinedType-FILLAREA.NEN47_20_lood{ fill: url(  #NEN47_20_lood_1); }
+.PredefinedType-FILLAREA.NEN47_21_zink{ fill: url(  #NEN47_21_zink_1); }
+.PredefinedType-FILLAREA.NEN47_22_kunststof{ fill: url(  #NEN47_22_kunststof_1); }
+.PredefinedType-FILLAREA.NEN47_23_afdichtingsmiddel{ fill: url(  #NEN47_23_afdichtingsmiddel_1); }
+.PredefinedType-FILLAREA.NEN47_24_bitumen{ fill: url(  #NEN47_24_bitumen_1); }
+.PredefinedType-FILLAREA.NEN47_25_maaiveld{ fill: url(  #NEN47_25_maaiveld_1); }
+.PredefinedType-FILLAREA.NEN47_26_zand{ fill: url(  #NEN47_26_zand_1); }
+.PredefinedType-FILLAREA.NEN47_27_grind{ fill: url(  #NEN47_27_grind_1); }
+.PredefinedType-FILLAREA.NEN47_28_water{ fill: url(  #NEN47_28_water_1); }
+.PredefinedType-FILLAREA.NEN47_29_glas{ fill: url(  #NEN47_29_glas_1); }
+.PredefinedType-FILLAREA.metselwerk_baksteen{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_1); }
+.PredefinedType-FILLAREA.speciale_steenachtige_materialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_1); }
+.PredefinedType-FILLAREA.metselwerk_niet_gebakken_kunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_1); }
+.PredefinedType-FILLAREA.niet_dragende_lichte_scheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_1); }
+.PredefinedType-FILLAREA.gewapend_beton_tpg{ fill: url(  #CUST_NEN47_5_gewapend_beton_tpg_1); }
+.PredefinedType-FILLAREA.gewapend_beton_prefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_1); }
+.PredefinedType-FILLAREA.ongewapend_beton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_1); }
+.PredefinedType-FILLAREA.sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_1); }
+.PredefinedType-FILLAREA.natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_1); }
+.PredefinedType-FILLAREA.enkele_wand_vloer_afwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_1); }
+.PredefinedType-FILLAREA.samengestelde_wand_vloer_afwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_1); }
+.PredefinedType-FILLAREA.naaldhout{ fill: url(  #CUST_NEN47_12_naaldhout_1); }
+.PredefinedType-FILLAREA.loofhout{ fill: url(  #CUST_NEN47_13_loofhout_1); }
+.PredefinedType-FILLAREA.naald_loofhout_langsarcering{ fill: url(  #CUST_NEN47_14_naald_loofhout_langsarcering_1); }
+.PredefinedType-FILLAREA.bekledingsplaat{ fill: url(  #CUST_NEN47_16_bekledingsplaat_1); }
+.PredefinedType-FILLAREA.isolatie{ fill: url(  #CUST_NEN47_17_isolatie_1); }
+.PredefinedType-FILLAREA.staal{ fill: url(  #CUST_NEN47_18_staal_1); }
+.PredefinedType-FILLAREA.aluminium_brons_koper{ fill: url(  #CUST_NEN47_19_aluminium_brons_koper_1); }
+.PredefinedType-FILLAREA.lood{ fill: url(  #CUST_NEN47_20_lood_1); }
+.PredefinedType-FILLAREA.zink{ fill: url(  #CUST_NEN47_21_zink_1); }
+.PredefinedType-FILLAREA.kunststof{ fill: url(  #CUST_NEN47_22_kunststof_1); }
+.PredefinedType-FILLAREA.afdichtingsmiddel{ fill: url(  #CUST_NEN47_23_afdichtingsmiddel_1); }
+.PredefinedType-FILLAREA.bitumen{ fill: url(  #CUST_NEN47_24_bitumen_1); }
+.PredefinedType-FILLAREA.maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_1); }
+.PredefinedType-FILLAREA.zand{ fill: url(  #CUST_NEN47_26_zand_1); }
+.PredefinedType-FILLAREA.grind{ fill: url(  #CUST_NEN47_27_grind_1); }
+.PredefinedType-FILLAREA.water{ fill: url(  #CUST_NEN47_28_water_1); }
+.PredefinedType-FILLAREA.glas{ fill: url(  #CUST_NEN47_29_glas_1); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_poriso{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_poriso_1); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_rood{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_rood_1); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_cement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_1); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_tras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_1); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_kalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_1); }
+.PredefinedType-FILLAREA.kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_1); }
+.PredefinedType-FILLAREA.natuursteen_hardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_1); }
+.PredefinedType-FILLAREA.natuursteen_zandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_1); }
+.PredefinedType-FILLAREA.natuursteen_kalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_1); }
+.PredefinedType-FILLAREA.natuursteen_tuf{ fill: url(  #CUST_NEN47_9_natuursteen_tuf_1); }
+.PredefinedType-FILLAREA.natuursteen_mergel{ fill: url(  #CUST_NEN47_9_natuursteen_mergel_1); }
+.PredefinedType-FILLAREA.naaldhout_vuren{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_1); }
+.PredefinedType-FILLAREA.naaldhout_vuren_gewolmaniseerd{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_gewolmaniseerd_1); }
+.PredefinedType-FILLAREA.naaldhout_eiken{ fill: url(  #CUST_NEN47_12_naaldhout_eiken_1); }
+.PredefinedType-FILLAREA.naaldhout_lariks{ fill: url(  #CUST_NEN47_12_naaldhout_lariks_1); }
+.PredefinedType-FILLAREA.naaldhout_merbau{ fill: url(  #CUST_NEN47_12_naaldhout_merbau_1); }
+.PredefinedType-FILLAREA.naaldhout_meranti{ fill: url(  #CUST_NEN47_12_naaldhout_meranti_1); }
+.PredefinedType-FILLAREA.naaldhout_jatoba{ fill: url(  #CUST_NEN47_12_naaldhout_jatoba_1); }
+.PredefinedType-FILLAREA.naaldhout_mahonie{ fill: url(  #CUST_NEN47_12_naaldhout_mahonie_1); }
+.PredefinedType-FILLAREA.naaldhout_douglas{ fill: url(  #CUST_NEN47_12_naaldhout_douglas_1); }
+.PredefinedType-FILLAREA.naaldhout_grenen{ fill: url(  #CUST_NEN47_12_naaldhout_grenen_1); }
+.PredefinedType-FILLAREA.naaldhout_red_cedar{ fill: url(  #CUST_NEN47_12_naaldhout_red_cedar_1); }
+.PredefinedType-FILLAREA.naaldhout_iroko{ fill: url(  #CUST_NEN47_12_naaldhout_iroko_1); }
+.PredefinedType-FILLAREA.naaldhout_niove{ fill: url(  #CUST_NEN47_12_naaldhout_niove_1); }
+.PredefinedType-FILLAREA.naaldhout_bangkirai{ fill: url(  #CUST_NEN47_12_naaldhout_bangkirai_1); }
+.PredefinedType-FILLAREA.naaldhout_azobe{ fill: url(  #CUST_NEN47_12_naaldhout_azobe_1); }
+.PredefinedType-FILLAREA.naaldhout_bamboe{ fill: url(  #CUST_NEN47_12_naaldhout_bamboe_1); }
+.PredefinedType-FILLAREA.naaldhout_vuren_CLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_multiplex{ fill: url(  #CUST_NEN47_16_bekledingsplaat_multiplex_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_OSB{ fill: url(  #CUST_NEN47_16_bekledingsplaat_OSB_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_MDF{ fill: url(  #CUST_NEN47_16_bekledingsplaat_MDF_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_watervast{ fill: url(  #CUST_NEN47_16_bekledingsplaat_watervast_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_okoume{ fill: url(  #CUST_NEN47_16_bekledingsplaat_okoume_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_rode_spaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_rode_spaan_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_groene_spaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_groene_spaan_1); }
+.PredefinedType-FILLAREA.bekledingsplaat_underlayment{ fill: url(  #CUST_NEN47_16_bekledingsplaat_underlayment_1); }
+.PredefinedType-FILLAREA.isolatie_glaswol{ fill: url(  #CUST_NEN47_17_isolatie_glaswol_1); }
+.PredefinedType-FILLAREA.isolatie_steenwol{ fill: url(  #CUST_NEN47_17_isolatie_steenwol_1); }
+.PredefinedType-FILLAREA.isolatie_PIR{ fill: url(  #CUST_NEN47_17_isolatie_PIR_1); }
+.PredefinedType-FILLAREA.isolatie_kooltherm{ fill: url(  #CUST_NEN47_17_isolatie_kooltherm_1); }
+.PredefinedType-FILLAREA.isolatie_PUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_1); }
+.PredefinedType-FILLAREA.isolatie_EPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_1); }
+.PredefinedType-FILLAREA.isolatie_EPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_1); }
+.PredefinedType-FILLAREA.isolatie_foamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_1); }
+.PredefinedType-FILLAREA.maaiveld_grond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_1); }
+.PredefinedType-FILLAREA.maaiveld_asfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_1); }
+.PredefinedType-FILLAREA.maaiveld_klei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_1); }
+.PredefinedType-FILLAREA.maaiveld_veen{ fill: url(  #CUST_NEN47_25_maaiveld_veen_1); }
+.PredefinedType-FILLAREA.zand_zand{ fill: url(  #CUST_NEN47_26_zand_zand_1); }
+.PredefinedType-FILLAREA.water_water{ fill: url(  #CUST_NEN47_28_water_water_1); }
+.PredefinedType-FILLAREA.glas_helder{ fill: url(  #CUST_NEN47_29_glas_helder_1); }
+.PredefinedType-FILLAREA.glas_mat{ fill: url(  #CUST_NEN47_29_glas_mat_1); }
 .material-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_1); }
 .material-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_1); }
 .material-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_1); }
@@ -320,7 +333,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .material-waterwater{ fill: url(  #CUST_NEN47_28_water_water_1); }
 .material-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_1); }
 .material-glasmat{ fill: url(  #CUST_NEN47_29_glas_mat_1); }
-.material-glashelder{ fill: url(  #CUST_NEN47_29_glas_helder_1); }
 .PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }
 .PredefinedType-SECTION { marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); }
 .PredefinedType-TEXT.blue { fill: blue; stroke: none; }
@@ -338,12 +350,12 @@ text.italic, tspan.italic {font-style: italic;}
 text.bold, tspan.bold {font-weight: bold;}
 text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 .material-blank { fill: white; stroke: none; }
-.material-diagonal1 { fill: url(#diagonal1); }
-.material-diagonal2 { fill: url(#diagonal2); }
-.material-diagonal3 { fill: url(#diagonal3); }
-.material-crosshatch1 { fill: url(#crosshatch1); }
-.material-crosshatch2 { fill: url(#crosshatch2); }
-.material-crosshatch3 { fill: url(#crosshatch3); }
+.material-diagonal_1 { fill: url(#diagonal_1); }
+.material-diagonal_2 { fill: url(#diagonal_2); }
+.material-diagonal_3 { fill: url(#diagonal_3); }
+.material-crosshatch_1 { fill: url(#crosshatch_1); }
+.material-crosshatch_2 { fill: url(#crosshatch_2); }
+.material-crosshatch_3 { fill: url(#crosshatch_3); }
 .material-brick { fill: url(#brick); }
 .material-earth { fill: url(#earth); }
 .material-glass { fill: url(#glass); }
@@ -353,9 +365,24 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 .material-sand { fill: url(#sand); }
 .material-concrete { fill: url(#concrete); stroke-width: 0.5; }
 .IfcSpace { fill: none; stroke: none; }
-.PredefinedType-STUD { stroke: black; stroke-width: 1; }
-.PredefinedType-WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }
-.PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
-.PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
-.PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
-.PredefinedType-glas{ fill:#A0BEC8;}
+.PredefinedType-FILLAREA.stud { stroke: black; stroke-width: 1; }
+.PredefinedType-FILLAREA.wood { fill: url(#wood); stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.steel { fill: url(#steel); stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.concrete { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.plasterboard { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+.PredefinedType-FILLAREA.sealant { fill: url(#crosshatch_1); stroke-width: 0.25; }
+.PredefinedType-FILLAREA.blank { fill: white; stroke: none; }
+.PredefinedType-FILLAREA.diagonal_1 { fill: url(#diagonal_1); }
+.PredefinedType-FILLAREA.diagonal_2 { fill: url(#diagonal_2); }
+.PredefinedType-FILLAREA.diagonal_3 { fill: url(#diagonal_3); }
+.PredefinedType-FILLAREA.crosshatch_1 { fill: url(#crosshatch_1); }
+.PredefinedType-FILLAREA.crosshatch_2 { fill: url(#crosshatch_2); }
+.PredefinedType-FILLAREA.crosshatch_3 { fill: url(#crosshatch_3); }
+.PredefinedType-FILLAREA.brick { fill: url(#brick); }
+.PredefinedType-FILLAREA.earth { fill: url(#earth); }
+.PredefinedType-FILLAREA.glass { fill: url(#glass); }
+.PredefinedType-FILLAREA.liquid { fill: url(#liquid); }
+.PredefinedType-FILLAREA.grass { fill: url(#grass); }
+.PredefinedType-FILLAREA.honeycomb { fill: url(#honeycomb); }
+.PredefinedType-FILLAREA.sand { fill: url(#sand); }
+.PredefinedType-FILLAREA.concrete { fill: url(#concrete); stroke-width: 0.5; }

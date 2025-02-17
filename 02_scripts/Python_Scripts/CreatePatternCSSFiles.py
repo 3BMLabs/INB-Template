@@ -10,13 +10,13 @@ PREFIX_PATTERNS = '<?xml version="1.0" encoding="utf-8" ?>\n' \
 '    <line x1="0" y1="0" x2="0" y2="1" style="stroke:black; stroke-width:0.25" />\n' \
 '    <line x1="1" y1="0" x2="1" y2="1" style="stroke:black; stroke-width:0.25" />\n' \
 '</pattern>\n' \
-'<pattern id="diagonal1" width="1" height="1" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
+'<pattern id="diagonal_1" width="1" height="1" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
 '    <line x1="0" y1="0" x2="0" y2="1" style="stroke:black; stroke-width:0.25" />\n' \
 '</pattern>\n' \
-'<pattern id="diagonal2" width="2" height="2" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
+'<pattern id="diagonal_2" width="2" height="2" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
 '    <line x1="0" y1="0" x2="0" y2="2" style="stroke:black; stroke-width:0.25" />\n' \
 '</pattern>\n' \
-'<pattern id="diagonal3" width="3" height="3" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
+'<pattern id="diagonal_3" width="3" height="3" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
 '    <line x1="0" y1="0" x2="0" y2="3" style="stroke:black; stroke-width:0.25" />\n' \
 '</pattern>\n' \
 '<pattern id="square1" width="1" height="1" patternUnits="userSpaceOnUse">\n' \
@@ -64,15 +64,15 @@ PREFIX_PATTERNS = '<?xml version="1.0" encoding="utf-8" ?>\n' \
 '<pattern id="board3" width="12" height="6" patternUnits="userSpaceOnUse">\n' \
 '    <path style="stroke: black; stroke-width: 0.15; fill: none;" d="M 0 0 12 0 12 3 0 3 M 6 3 6 6" />\n' \
 '</pattern>\n' \
-'<pattern id="crosshatch1" width="1" height="1" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
+'<pattern id="crosshatch_1" width="1" height="1" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
 '    <line x1="0" y1="0" x2="0" y2="1" style="stroke:black; stroke-width:0.25" />\n' \
 '    <line x1="0" y1="0" x2="1" y2="0" style="stroke:black; stroke-width:0.25" />\n' \
 '</pattern>\n' \
-'<pattern id="crosshatch2" width="2" height="2" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
+'<pattern id="crosshatch_2" width="2" height="2" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
 '    <line x1="0" y1="0" x2="0" y2="2" style="stroke:black; stroke-width:0.25" />\n' \
 '    <line x1="0" y1="0" x2="2" y2="0" style="stroke:black; stroke-width:0.25" />\n' \
 '</pattern>\n' \
-'<pattern id="crosshatch3" width="3" height="3" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
+'<pattern id="crosshatch_3" width="3" height="3" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' \
 '    <line x1="0" y1="0" x2="0" y2="3" style="stroke:black; stroke-width:0.25" />\n' \
 '    <line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.25" />\n' \
 '</pattern>\n' \
@@ -386,7 +386,6 @@ PREFIX_CSS = '/*\n' \
 '.IfcAnnotation { fill: none; stroke: black; stroke-linecap: round; stroke-width: 0.25; }\n' \
 '.IfcGeographicElement { fill: none; stroke: black; stroke-linecap: round; stroke-width: 1; }\n' \
 '.PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }\n' \
 '.PredefinedType-LINEWORK.fine { stroke-width: 0.18; stroke: #777777; }\n' \
 '.PredefinedType-LINEWORK.thin { stroke-width: 0.25; }\n' \
 '.PredefinedType-LINEWORK.medium { stroke-width: 0.35; }\n' \
@@ -407,20 +406,29 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-DIAMETER { marker-start: url(#diameter-marker-start); marker-end: url(#diameter-marker-end); }\n' \
 '.PredefinedType-STAIRARROW { marker-start: url(#stair-marker-start); marker-end: url(#stair-marker-end); }\n' \
 '.PredefinedType-BOUNDARY { fill: none; stroke: red; stroke-width: 1; stroke-dasharray: 12, 4, 3, 4, 3, 4; }\n' \
-'.PredefinedType-SEALANT { fill: url(#crosshatch1); stroke-width: 0.25; }\n' \
 '.PredefinedType-FILLAREA { fill: white; stroke: black; }\n' \
 '.PredefinedType-BREAKLINE { fill: none; stroke: black; stroke-width: 0.25; marker-mid: url(#breakline-marker); }\n' \
 '.PredefinedType-TEXT { fill: black; stroke: none; }\n'\
 '/*\n' \
 ' NL Additions\n' \
 ' */\n' \
-'.PredefinedType-LINEWORK.hidden { stroke-dasharray: 12, 2, 3, 2; }\n' \
-'.PredefinedType-LINEWORK.center { stroke-dasharray: 12, 2, 1, 2; }\n' \
-'.PredefinedType-LINEWORK.lineweight13 { stroke-width: 0.13; }\n' \
-'.PredefinedType-LINEWORK.lineweight18 { stroke-width: 0.18; }\n' \
-'.PredefinedType-LINEWORK.lineweight25 { stroke-width: 0.25; }\n' \
-'.PredefinedType-LINEWORK.lineweight35 { stroke-width: 0.35; }\n' \
-'.PredefinedType-LINEWORK.lineweight50 { stroke-width: 0.5; }\n' \
+'.PredefinedType-LINEWORK.continuous { stroke-dasharray: 10, 0; }\n' \
+'.PredefinedType-LINEWORK.dashed { stroke-dasharray: 6, 3; }\n' \
+'.PredefinedType-LINEWORK.hidden { stroke-dasharray: 9, 3; }\n' \
+'.PredefinedType-LINEWORK.center { stroke-dasharray: 12, 3, 3, 3; }\n' \
+'.PredefinedType-LINEWORK.phantom { stroke-dasharray: 12, 3, 3, 3, 3, 3; }\n' \
+'.PredefinedType-LINEWORK.dot { stroke-dasharray: 1, 3; }\n' \
+'.PredefinedType-LINEWORK.dashdot { stroke-dasharray: 6, 3, 1, 3; }\n' \
+'.PredefinedType-LINEWORK.border { stroke-dasharray: 15, 3, 3, 3; }\n' \
+'.PredefinedType-LINEWORK.divide { stroke-dasharray: 12, 3, 3, 3; }\n' \
+'.PredefinedType-LINEWORK.lineweight_0_13 { stroke-width: 0.13; }\n' \
+'.PredefinedType-LINEWORK.lineweight_0_18 { stroke-width: 0.18; }\n' \
+'.PredefinedType-LINEWORK.lineweight_0_25 { stroke-width: 0.25; }\n' \
+'.PredefinedType-LINEWORK.lineweight_0_35 { stroke-width: 0.35; }\n' \
+'.PredefinedType-LINEWORK.lineweight_0_50 { stroke-width: 0.5; }\n' \
+'.PredefinedType-LINEWORK.lineweight_0_70 { stroke-width: 0.7; }\n' \
+'.PredefinedType-LINEWORK.lineweight_1_00 { stroke-width: 1.0; }\n' \
+'.PredefinedType-LINEWORK.lineweight_1_40 { stroke-width: 1.4; }\n' \
 '.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }\n' \
 '.PredefinedType-LINEWORK.grey { stroke:#808080; }\n' \
 '.PredefinedType-LINEWORK.black { stroke:black; }\n' \
@@ -447,21 +455,27 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }\n' \
 '.PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }\n' \
 '.PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }\n' \
-'.PredefinedType-sand { fill: url(#sand); }\n' \
-'.PredefinedType-earth { fill: url(#earth); }\n' \
-'.PredefinedType-glass { fill: url(#glass); }\n' \
-'.PredefinedType-grass { fill: url(#grass); }\n' \
-'.PredefinedType-wood { fill: url(#wood); }\n' \
-'.PredefinedType-concrete { fill: url(#concrete); }\n' \
-'.PredefinedType-black { fill: black; }\n' \
-'.PredefinedType-blank { fill: white; stroke: none; }\n' \
-'.PredefinedType-white{ fill: white; stroke: none;}\n' \
-'.PredefinedType-white25 { fill: white; opacity: 0.25; stroke: none; }\n' \
-'.PredefinedType-white50 { fill: white; opacity: 0.5; stroke: none; }\n' \
-'.PredefinedType-white75 { fill: white; opacity: 0.75; stroke: none; }\n' \
-'.PredefinedType-black10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }\n' \
-'.PredefinedType-black25 { fill: black; opacity: 0.25; stroke: none; }\n'\
-'.PredefinedType-bestaandgebouw { fill: url( #bestaand_gebouw); stroke: black; }\n' \
+'.PredefinedType-FILLAREA.green { fill:green; stroke:none; }\n' \
+'.PredefinedType-FILLAREA.blue { fill:blue; stroke:none; }\n' \
+'.PredefinedType-FILLAREA.yellow { fill:yellow; stroke:none; }\n' \
+'.PredefinedType-FILLAREA.red { fill:red; stroke:none; }\n' \
+'.PredefinedType-FILLAREA.purple { fill:purple; stroke:none; }\n' \
+'.PredefinedType-FILLAREA.darkgrey { fill:#696969; stroke:none; }\n' \
+'.PredefinedType-FILLAREA.sand { fill: url(#sand); }\n' \
+'.PredefinedType-FILLAREA.earth { fill: url(#earth); }\n' \
+'.PredefinedType-FILLAREA.glass { fill: url(#glass); }\n' \
+'.PredefinedType-FILLAREA.grass { fill: url(#grass); }\n' \
+'.PredefinedType-FILLAREA.wood { fill: url(#wood); }\n' \
+'.PredefinedType-FILLAREA.concrete { fill: url(#concrete); }\n' \
+'.PredefinedType-FILLAREA.black { fill: black; }\n' \
+'.PredefinedType-FILLAREA.grey { fill: grey; }\n' \
+'.PredefinedType-FILLAREA.blank { fill: white; stroke: none; }\n' \
+'.PredefinedType-FILLAREA.white_25 { fill: white; opacity: 0.25; stroke: none; }\n' \
+'.PredefinedType-FILLAREA.white_50 { fill: white; opacity: 0.5; stroke: none; }\n' \
+'.PredefinedType-FILLAREA.white_75 { fill: white; opacity: 0.75; stroke: none; }\n' \
+'.PredefinedType-FILLAREA.black_10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }\n' \
+'.PredefinedType-FILLAREA.black_25 { fill: black; opacity: 0.25; stroke: none; }\n'\
+'.PredefinedType-FILLAREA.bestaand_gebouw { fill: url( #bestaand_gebouw); stroke: black; }\n' \
 
 
 SUFFIX_CSS = \
@@ -482,12 +496,12 @@ SUFFIX_CSS = \
 'text.bold, tspan.bold {font-weight: bold;}\n' \
 'text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }\n' \
 '.material-blank { fill: white; stroke: none; }\n' \
-'.material-diagonal1 { fill: url(#diagonal1); }\n' \
-'.material-diagonal2 { fill: url(#diagonal2); }\n' \
-'.material-diagonal3 { fill: url(#diagonal3); }\n' \
-'.material-crosshatch1 { fill: url(#crosshatch1); }\n' \
-'.material-crosshatch2 { fill: url(#crosshatch2); }\n' \
-'.material-crosshatch3 { fill: url(#crosshatch3); }\n' \
+'.material-diagonal_1 { fill: url(#diagonal_1); }\n' \
+'.material-diagonal_2 { fill: url(#diagonal_2); }\n' \
+'.material-diagonal_3 { fill: url(#diagonal_3); }\n' \
+'.material-crosshatch_1 { fill: url(#crosshatch_1); }\n' \
+'.material-crosshatch_2 { fill: url(#crosshatch_2); }\n' \
+'.material-crosshatch_3 { fill: url(#crosshatch_3); }\n' \
 '.material-brick { fill: url(#brick); }\n' \
 '.material-earth { fill: url(#earth); }\n' \
 '.material-glass { fill: url(#glass); }\n' \
@@ -497,12 +511,28 @@ SUFFIX_CSS = \
 '.material-sand { fill: url(#sand); }\n' \
 '.material-concrete { fill: url(#concrete); stroke-width: 0.5; }\n' \
 '.IfcSpace { fill: none; stroke: none; }\n' \
-'.PredefinedType-STUD { stroke: black; stroke-width: 1; }\n' \
-'.PredefinedType-WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }\n' \
-'.PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }\n' \
-'.PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }\n' \
-'.PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }\n' \
-'.PredefinedType-glas{ fill:#A0BEC8;}\n' \
+'.PredefinedType-FILLAREA.stud { stroke: black; stroke-width: 1; }\n' \
+'.PredefinedType-FILLAREA.wood { fill: url(#wood); stroke: black; stroke-width: 0.5; }\n' \
+'.PredefinedType-FILLAREA.steel { fill: url(#steel); stroke: black; stroke-width: 0.5; }\n' \
+'.PredefinedType-FILLAREA.concrete { fill: url(#concrete); stroke: black; stroke-width: 0.5; }\n' \
+'.PredefinedType-FILLAREA.plasterboard { fill: url(#sand); stroke: black; stroke-width: 0.25; }\n' \
+'.PredefinedType-FILLAREA.sealant { fill: url(#crosshatch_1); stroke-width: 0.25; }\n' \
+'.PredefinedType-FILLAREA.blank { fill: white; stroke: none; }\n' \
+'.PredefinedType-FILLAREA.diagonal_1 { fill: url(#diagonal_1); }\n' \
+'.PredefinedType-FILLAREA.diagonal_2 { fill: url(#diagonal_2); }\n' \
+'.PredefinedType-FILLAREA.diagonal_3 { fill: url(#diagonal_3); }\n' \
+'.PredefinedType-FILLAREA.crosshatch_1 { fill: url(#crosshatch_1); }\n' \
+'.PredefinedType-FILLAREA.crosshatch_2 { fill: url(#crosshatch_2); }\n' \
+'.PredefinedType-FILLAREA.crosshatch_3 { fill: url(#crosshatch_3); }\n' \
+'.PredefinedType-FILLAREA.brick { fill: url(#brick); }\n' \
+'.PredefinedType-FILLAREA.earth { fill: url(#earth); }\n' \
+'.PredefinedType-FILLAREA.glass { fill: url(#glass); }\n' \
+'.PredefinedType-FILLAREA.liquid { fill: url(#liquid); }\n' \
+'.PredefinedType-FILLAREA.grass { fill: url(#grass); }\n' \
+'.PredefinedType-FILLAREA.honeycomb { fill: url(#honeycomb); }\n' \
+'.PredefinedType-FILLAREA.sand { fill: url(#sand); }\n' \
+'.PredefinedType-FILLAREA.concrete { fill: url(#concrete); stroke-width: 0.5; }\n' \
+
 
 
 from pandas_ods_reader import read_ods # type: ignore
@@ -526,6 +556,7 @@ new_path_css_10 = basepath + "INB_BWK_stylesheet_1_10.css"
 new_path_css_5 = basepath + "INB_BWK_stylesheet_1_5.css"
 new_path_css_2 = basepath + "INB_BWK_stylesheet_1_2.css"
 new_path_css_1 = basepath + "INB_BWK_stylesheet_1_1.css"
+duplicate_1_50_to_default_css = basepath + "default.css"
 
 paths = [
 new_path_patterns,
@@ -536,7 +567,8 @@ new_path_css_20,
 new_path_css_10,
 new_path_css_5,
 new_path_css_2,
-new_path_css_1
+new_path_css_1,
+duplicate_1_50_to_default_css
 ]
 
 for i in paths:  #remove old files if available
@@ -583,10 +615,10 @@ lstScales = [
     0.5,0.75,0.75,0.75,0.9,2.6,6,12
 ]
 
-#FOR LOOP FOR PATTERN FILES AND CSS MATERIAL
+#FOR LOOP FOR PATTERN FILES AND CSS PREDEFINED TYPE
 for ind in library_mat.index:
     link_predefined_type = library_mat["link_predefined_type"][ind] # BOOLEAN FOR CREATE A PREDIFINED TYPE IN CSS FOR FILLED AREA
-    blender_name = library_mat["blender_name"][ind] #name in Blender for material/link_predefined_type
+    blender_name = library_mat["blender_name_underscore"][ind] #name in Blender for material/link_predefined_type
     scales = []
     scale_independent = library_mat["scale_independent"][ind]
     scale_1_200 = library_mat["1_200"][ind]
@@ -640,16 +672,16 @@ for ind in library_mat.index:
         base_pattern_string = base_pattern_string.replace("scale(1 1)", scale_str) #change scale of pattern in svg-string
 
         if link_predefined_type:
-            predefined_type_str = ".PredefinedType-" + blender_name + "{ fill: url(  #" + new_pattern_name + "); }\n"
+            predefined_type_str = ".PredefinedType-FILLAREA." + blender_name + "{ fill: url(  #" + new_pattern_name + "); }\n"
             i[3].write(predefined_type_str)
         else:
             pass
         i[4].write(base_pattern_string)
 
-#FOR LOOP FOR PATTERN FILES AND CSS PREDIFINED TYPE
+#FOR LOOP FOR PATTERN FILES AND CSS MATERIALS
 for ind in library_mat.index:
     link_material = library_mat["link_material"][ind] # BOOLEAN FOR CREATE A MATERIAL LINK IN CSS
-    blender_name = library_mat["blender_name"][ind] #name in Blender for material/link_predefined_type
+    blender_name = library_mat["blender_name_no_underscore"][ind] #name in Blender for material/link_predefined_type
     scales = []
     scale_independent = library_mat["scale_independent"][ind]
     scale_1_200 = library_mat["1_200"][ind]
@@ -719,3 +751,11 @@ css_file_2.write(SUFFIX_CSS)
 css_file_2.close()
 css_file_1.write(SUFFIX_CSS)
 css_file_1.close()
+
+#duplicate and rename 1_50 to default.css
+from pathlib import Path
+
+src_path = Path(new_path_css_50)
+dest_path = Path(basepath)
+new_path_default = dest_path / "default.css"
+src_path.rename(new_path_default)

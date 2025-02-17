@@ -1,4 +1,4 @@
-<svg baseProfile="full" data-scale="1:100" height="250.00001907348633mm" id="root" version="1.1" viewBox="0 0 250.00001907348633 250.00001907348633" width="250.00001907348633mm" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"><![CDATA[/*
+<svg baseProfile="full" data-scale="1:50" height="500.00003814697266mm" id="root" version="1.1" viewBox="0 0 500.00003814697266 500.00003814697266" width="500.00003814697266mm" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"><![CDATA[/*
  * Bonsai - OpenBIM Blender Add-on
  * Copyright (C) 2020, 2021 Dion Moult <dion@thinkmoult.com>
  *
@@ -55,15 +55,22 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 /*
  NL Additions
  */
-.PredefinedType-LINEWORK.WBDBO60 { fill: white; stroke:#00FF00; stroke-width: 0.35; stroke-dasharray: 12.5, 3, 3, 3; }
+.PredefinedType-LINEWORK.hidden { stroke-dasharray: 12, 2, 3, 2; }
+.PredefinedType-LINEWORK.center { stroke-dasharray: 12, 2, 1, 2; }
+.PredefinedType-LINEWORK.lineweight13 { stroke-width: 0.13; }
+.PredefinedType-LINEWORK.lineweight18 { stroke-width: 0.18; }
+.PredefinedType-LINEWORK.lineweight25 { stroke-width: 0.25; }
+.PredefinedType-LINEWORK.lineweight35 { stroke-width: 0.35; }
+.PredefinedType-LINEWORK.lineweight50 { stroke-width: 0.5; }
 .PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }
-.PredefinedType-LINEWORK.grey { stroke:#808080; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.green { stroke:green; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.blue { stroke:blue; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.yellow { stroke:yellow; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.red { stroke:red; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.purple { stroke:purple; stroke-width: 0.25; }
-.PredefinedType-LINEWORK.darkgrey { stroke:#696969; stroke-width: 0.25; }
+.PredefinedType-LINEWORK.grey { stroke:#808080; }
+.PredefinedType-LINEWORK.black { stroke:black; }
+.PredefinedType-LINEWORK.green { stroke:green; }
+.PredefinedType-LINEWORK.blue { stroke:blue; }
+.PredefinedType-LINEWORK.yellow { stroke:yellow; }
+.PredefinedType-LINEWORK.red { stroke:red; }
+.PredefinedType-LINEWORK.purple { stroke:purple; }
+.PredefinedType-LINEWORK.darkgrey { stroke:#696969; }
 .PredefinedType-LINEWORK.dashed11 { stroke-dasharray: 1, 1; }
 .PredefinedType-LINEWORK.dashed22 { stroke-dasharray: 2, 2; }
 .PredefinedType-LINEWORK.dashed33 { stroke-dasharray: 3, 3; }
@@ -81,197 +88,243 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }
 .PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }
-.PredefinedType-sand { fill: url(#sand); }
-.PredefinedType-earth { fill: url(#earth); }
-.PredefinedType-glass { fill: url(#glass); }
-.PredefinedType-grass { fill: url(#grass); }
-.PredefinedType-wood { fill: url(#wood); }
-.PredefinedType-concrete { fill: url(#concrete); }
-.PredefinedType-black { fill: black; }
-.PredefinedType-blank { fill: white; stroke: none; }
-.PredefinedType-white{ fill: white; stroke: none;}
-.PredefinedType-white25 { fill: white; opacity: 0.25; stroke: none; }
-.PredefinedType-white50 { fill: white; opacity: 0.5; stroke: none; }
-.PredefinedType-white75 { fill: white; opacity: 0.75; stroke: none; }
-.PredefinedType-black10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }
-.PredefinedType-black25 { fill: black; opacity: 0.25; stroke: none; }
-.PredefinedType-bestaandgebouw{ fill: url( #bestaand_gebouw); stroke: black; }
-.PredefinedType-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_100); }
-.PredefinedType-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_100); }
-.PredefinedType-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
-.PredefinedType-NEN474nietdragendelichtescheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_100); }
-.PredefinedType-NEN476gewapendbetonprefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_100); }
-.PredefinedType-NEN477ongewapendbeton{ fill: url(  #NEN47_7_ongewapend_beton_100); }
-.PredefinedType-NEN478sierbeton{ fill: url(  #NEN47_8_sierbeton_100); }
-.PredefinedType-NEN479natuursteen{ fill: url(  #NEN47_9_natuursteen_100); }
-.PredefinedType-NEN4710enkelewandvloerafwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_100); }
-.PredefinedType-NEN4711samengesteldewandvloerafwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_100); }
-.PredefinedType-NEN4712naaldhout{ fill: url(  #NEN47_12_naaldhout_100); }
-.PredefinedType-NEN4713loofhout{ fill: url(  #NEN47_13_loofhout_100); }
-.PredefinedType-NEN4714naaldloofhoutlangsarcering{ fill: url(  #NEN47_14_naald_loofhout_langsarcering_100); }
-.PredefinedType-NEN4716bekledingsplaat{ fill: url(  #NEN47_16_bekledingsplaat_100); }
-.PredefinedType-NEN4717isolatie{ fill: url(  #NEN47_17_isolatie_100); }
-.PredefinedType-NEN4725maaiveld{ fill: url(  #NEN47_25_maaiveld_100); }
-.PredefinedType-NEN4726zand{ fill: url(  #NEN47_26_zand_100); }
-.PredefinedType-NEN4727grind{ fill: url(  #NEN47_27_grind_100); }
-.PredefinedType-NEN4728water{ fill: url(  #NEN47_28_water_100); }
-.PredefinedType-metselwerkbaksteen{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_100); }
-.PredefinedType-specialesteenachtigematerialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_100); }
-.PredefinedType-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
-.PredefinedType-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_100); }
-.PredefinedType-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_100); }
-.PredefinedType-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_100); }
-.PredefinedType-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_100); }
-.PredefinedType-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_100); }
-.PredefinedType-enkelewandvloerafwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_100); }
-.PredefinedType-samengesteldewandvloerafwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_100); }
-.PredefinedType-naaldhout{ fill: url(  #CUST_NEN47_12_naaldhout_100); }
-.PredefinedType-loofhout{ fill: url(  #CUST_NEN47_13_loofhout_100); }
-.PredefinedType-naaldloofhoutlangsarcering{ fill: url(  #CUST_NEN47_14_naald_loofhout_langsarcering_100); }
-.PredefinedType-bekledingsplaat{ fill: url(  #CUST_NEN47_16_bekledingsplaat_100); }
-.PredefinedType-isolatie{ fill: url(  #CUST_NEN47_17_isolatie_100); }
-.PredefinedType-maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_100); }
-.PredefinedType-zand{ fill: url(  #CUST_NEN47_26_zand_100); }
-.PredefinedType-grind{ fill: url(  #CUST_NEN47_27_grind_100); }
-.PredefinedType-water{ fill: url(  #CUST_NEN47_28_water_100); }
-.PredefinedType-metselwerkbaksteenporiso{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_poriso_100); }
-.PredefinedType-metselwerkbaksteenrood{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_rood_100); }
-.PredefinedType-metselwerkbaksteencement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_100); }
-.PredefinedType-metselwerkbaksteentras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_100); }
-.PredefinedType-metselwerkbaksteenkalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_100); }
-.PredefinedType-kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
-.PredefinedType-natuursteenhardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_100); }
-.PredefinedType-natuursteenzandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_100); }
-.PredefinedType-natuursteenkalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_100); }
-.PredefinedType-natuursteentuf{ fill: url(  #CUST_NEN47_9_natuursteen_tuf_100); }
-.PredefinedType-natuursteenmergel{ fill: url(  #CUST_NEN47_9_natuursteen_mergel_100); }
-.PredefinedType-naaldhoutvuren{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_100); }
-.PredefinedType-naaldhoutvurengewolmaniseerd{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_gewolmaniseerd_100); }
-.PredefinedType-naaldhouteiken{ fill: url(  #CUST_NEN47_12_naaldhout_eiken_100); }
-.PredefinedType-naaldhoutlariks{ fill: url(  #CUST_NEN47_12_naaldhout_lariks_100); }
-.PredefinedType-naaldhoutmerbau{ fill: url(  #CUST_NEN47_12_naaldhout_merbau_100); }
-.PredefinedType-naaldhoutmeranti{ fill: url(  #CUST_NEN47_12_naaldhout_meranti_100); }
-.PredefinedType-naaldhoutjatoba{ fill: url(  #CUST_NEN47_12_naaldhout_jatoba_100); }
-.PredefinedType-naaldhoutmahonie{ fill: url(  #CUST_NEN47_12_naaldhout_mahonie_100); }
-.PredefinedType-naaldhoutdouglas{ fill: url(  #CUST_NEN47_12_naaldhout_douglas_100); }
-.PredefinedType-naaldhoutgrenen{ fill: url(  #CUST_NEN47_12_naaldhout_grenen_100); }
-.PredefinedType-naaldhoutredcedar{ fill: url(  #CUST_NEN47_12_naaldhout_red_cedar_100); }
-.PredefinedType-naaldhoutiroko{ fill: url(  #CUST_NEN47_12_naaldhout_iroko_100); }
-.PredefinedType-naaldhoutniove{ fill: url(  #CUST_NEN47_12_naaldhout_niove_100); }
-.PredefinedType-naaldhoutbangkirai{ fill: url(  #CUST_NEN47_12_naaldhout_bangkirai_100); }
-.PredefinedType-naaldhoutazobe{ fill: url(  #CUST_NEN47_12_naaldhout_azobe_100); }
-.PredefinedType-naaldhoutbamboe{ fill: url(  #CUST_NEN47_12_naaldhout_bamboe_100); }
-.PredefinedType-naaldhoutvurenCLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_100); }
-.PredefinedType-bekledingsplaatmultiplex{ fill: url(  #CUST_NEN47_16_bekledingsplaat_multiplex_100); }
-.PredefinedType-bekledingsplaatOSB{ fill: url(  #CUST_NEN47_16_bekledingsplaat_OSB_100); }
-.PredefinedType-bekledingsplaatMDF{ fill: url(  #CUST_NEN47_16_bekledingsplaat_MDF_100); }
-.PredefinedType-bekledingsplaatwatervast{ fill: url(  #CUST_NEN47_16_bekledingsplaat_watervast_100); }
-.PredefinedType-bekledingsplaatokoume{ fill: url(  #CUST_NEN47_16_bekledingsplaat_okoume_100); }
-.PredefinedType-bekledingsplaatrodespaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_rode_spaan_100); }
-.PredefinedType-bekledingsplaatgroenespaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_groene_spaan_100); }
-.PredefinedType-bekledingsplaatunderlayment{ fill: url(  #CUST_NEN47_16_bekledingsplaat_underlayment_100); }
-.PredefinedType-isolatieglaswol{ fill: url(  #CUST_NEN47_17_isolatie_glaswol_100); }
-.PredefinedType-isolatiesteenwol{ fill: url(  #CUST_NEN47_17_isolatie_steenwol_100); }
-.PredefinedType-isolatiePIR{ fill: url(  #CUST_NEN47_17_isolatie_PIR_100); }
-.PredefinedType-isolatiekooltherm{ fill: url(  #CUST_NEN47_17_isolatie_kooltherm_100); }
-.PredefinedType-isolatiePUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_100); }
-.PredefinedType-isolatieEPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_100); }
-.PredefinedType-isolatieEPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_100); }
-.PredefinedType-isolatiefoamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_100); }
-.PredefinedType-maaiveldgrond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_100); }
-.PredefinedType-maaiveldasfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_100); }
-.PredefinedType-maaiveldklei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_100); }
-.PredefinedType-maaiveldveen{ fill: url(  #CUST_NEN47_25_maaiveld_veen_100); }
-.PredefinedType-zandzand{ fill: url(  #CUST_NEN47_26_zand_zand_100); }
-.PredefinedType-waterwater{ fill: url(  #CUST_NEN47_28_water_water_100); }
-.material-NEN471metselwerkbaksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_100); }
-.material-NEN472specialesteenachtigematerialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_100); }
-.material-NEN473metselwerknietgebakkenkunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
-.material-NEN474nietdragendelichtescheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_100); }
-.material-NEN476gewapendbetonprefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_100); }
-.material-NEN477ongewapendbeton{ fill: url(  #NEN47_7_ongewapend_beton_100); }
-.material-NEN478sierbeton{ fill: url(  #NEN47_8_sierbeton_100); }
-.material-NEN479natuursteen{ fill: url(  #NEN47_9_natuursteen_100); }
-.material-NEN4710enkelewandvloerafwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_100); }
-.material-NEN4711samengesteldewandvloerafwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_100); }
-.material-NEN4712naaldhout{ fill: url(  #NEN47_12_naaldhout_100); }
-.material-NEN4713loofhout{ fill: url(  #NEN47_13_loofhout_100); }
-.material-NEN4714naaldloofhoutlangsarcering{ fill: url(  #NEN47_14_naald_loofhout_langsarcering_100); }
-.material-NEN4716bekledingsplaat{ fill: url(  #NEN47_16_bekledingsplaat_100); }
-.material-NEN4717isolatie{ fill: url(  #NEN47_17_isolatie_100); }
-.material-NEN4725maaiveld{ fill: url(  #NEN47_25_maaiveld_100); }
-.material-NEN4726zand{ fill: url(  #NEN47_26_zand_100); }
-.material-NEN4727grind{ fill: url(  #NEN47_27_grind_100); }
-.material-NEN4728water{ fill: url(  #NEN47_28_water_100); }
-.material-metselwerkbaksteen{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_100); }
-.material-specialesteenachtigematerialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_100); }
-.material-metselwerknietgebakkenkunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
-.material-nietdragendelichtescheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_100); }
-.material-gewapendbetonprefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_100); }
-.material-ongewapendbeton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_100); }
-.material-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_100); }
-.material-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_100); }
-.material-enkelewandvloerafwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_100); }
-.material-samengesteldewandvloerafwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_100); }
-.material-naaldhout{ fill: url(  #CUST_NEN47_12_naaldhout_100); }
-.material-loofhout{ fill: url(  #CUST_NEN47_13_loofhout_100); }
-.material-naaldloofhoutlangsarcering{ fill: url(  #CUST_NEN47_14_naald_loofhout_langsarcering_100); }
-.material-bekledingsplaat{ fill: url(  #CUST_NEN47_16_bekledingsplaat_100); }
-.material-isolatie{ fill: url(  #CUST_NEN47_17_isolatie_100); }
-.material-maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_100); }
-.material-zand{ fill: url(  #CUST_NEN47_26_zand_100); }
-.material-grind{ fill: url(  #CUST_NEN47_27_grind_100); }
-.material-water{ fill: url(  #CUST_NEN47_28_water_100); }
-.material-metselwerkbaksteenporiso{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_poriso_100); }
-.material-metselwerkbaksteenrood{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_rood_100); }
-.material-metselwerkbaksteencement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_100); }
-.material-metselwerkbaksteentras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_100); }
-.material-metselwerkbaksteenkalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_100); }
-.material-kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_100); }
-.material-natuursteenhardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_100); }
-.material-natuursteenzandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_100); }
-.material-natuursteenkalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_100); }
-.material-natuursteentuf{ fill: url(  #CUST_NEN47_9_natuursteen_tuf_100); }
-.material-natuursteenmergel{ fill: url(  #CUST_NEN47_9_natuursteen_mergel_100); }
-.material-naaldhoutvuren{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_100); }
-.material-naaldhoutvurengewolmaniseerd{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_gewolmaniseerd_100); }
-.material-naaldhouteiken{ fill: url(  #CUST_NEN47_12_naaldhout_eiken_100); }
-.material-naaldhoutlariks{ fill: url(  #CUST_NEN47_12_naaldhout_lariks_100); }
-.material-naaldhoutmerbau{ fill: url(  #CUST_NEN47_12_naaldhout_merbau_100); }
-.material-naaldhoutmeranti{ fill: url(  #CUST_NEN47_12_naaldhout_meranti_100); }
-.material-naaldhoutjatoba{ fill: url(  #CUST_NEN47_12_naaldhout_jatoba_100); }
-.material-naaldhoutmahonie{ fill: url(  #CUST_NEN47_12_naaldhout_mahonie_100); }
-.material-naaldhoutdouglas{ fill: url(  #CUST_NEN47_12_naaldhout_douglas_100); }
-.material-naaldhoutgrenen{ fill: url(  #CUST_NEN47_12_naaldhout_grenen_100); }
-.material-naaldhoutredcedar{ fill: url(  #CUST_NEN47_12_naaldhout_red_cedar_100); }
-.material-naaldhoutiroko{ fill: url(  #CUST_NEN47_12_naaldhout_iroko_100); }
-.material-naaldhoutniove{ fill: url(  #CUST_NEN47_12_naaldhout_niove_100); }
-.material-naaldhoutbangkirai{ fill: url(  #CUST_NEN47_12_naaldhout_bangkirai_100); }
-.material-naaldhoutazobe{ fill: url(  #CUST_NEN47_12_naaldhout_azobe_100); }
-.material-naaldhoutbamboe{ fill: url(  #CUST_NEN47_12_naaldhout_bamboe_100); }
-.material-naaldhoutvurenCLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_100); }
-.material-bekledingsplaatmultiplex{ fill: url(  #CUST_NEN47_16_bekledingsplaat_multiplex_100); }
-.material-bekledingsplaatOSB{ fill: url(  #CUST_NEN47_16_bekledingsplaat_OSB_100); }
-.material-bekledingsplaatMDF{ fill: url(  #CUST_NEN47_16_bekledingsplaat_MDF_100); }
-.material-bekledingsplaatwatervast{ fill: url(  #CUST_NEN47_16_bekledingsplaat_watervast_100); }
-.material-bekledingsplaatokoume{ fill: url(  #CUST_NEN47_16_bekledingsplaat_okoume_100); }
-.material-bekledingsplaatrodespaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_rode_spaan_100); }
-.material-bekledingsplaatgroenespaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_groene_spaan_100); }
-.material-bekledingsplaatunderlayment{ fill: url(  #CUST_NEN47_16_bekledingsplaat_underlayment_100); }
-.material-isolatieglaswol{ fill: url(  #CUST_NEN47_17_isolatie_glaswol_100); }
-.material-isolatiesteenwol{ fill: url(  #CUST_NEN47_17_isolatie_steenwol_100); }
-.material-isolatiePIR{ fill: url(  #CUST_NEN47_17_isolatie_PIR_100); }
-.material-isolatiekooltherm{ fill: url(  #CUST_NEN47_17_isolatie_kooltherm_100); }
-.material-isolatiePUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_100); }
-.material-isolatieEPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_100); }
-.material-isolatieEPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_100); }
-.material-isolatiefoamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_100); }
-.material-maaiveldgrond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_100); }
-.material-maaiveldasfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_100); }
-.material-maaiveldklei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_100); }
-.material-maaiveldveen{ fill: url(  #CUST_NEN47_25_maaiveld_veen_100); }
-.material-zandzand{ fill: url(  #CUST_NEN47_26_zand_zand_100); }
-.material-waterwater{ fill: url(  #CUST_NEN47_28_water_water_100); }
+.PredefinedType-FILLAREA.green { fill:green; }
+.PredefinedType-FILLAREA.blue { fill:blue; }
+.PredefinedType-FILLAREA.yellow { fill:yellow; }
+.PredefinedType-FILLAREA.red { fill:red; }
+.PredefinedType-FILLAREA.purple { fill:purple; }
+.PredefinedType-FILLAREA.darkgrey { fill:#696969; }
+.PredefinedType-FILLAREA.sand { fill: url(#sand); }
+.PredefinedType-FILLAREA.earth { fill: url(#earth); }
+.PredefinedType-FILLAREA.glass { fill: url(#glass); }
+.PredefinedType-FILLAREA.grass { fill: url(#grass); }
+.PredefinedType-FILLAREA.wood { fill: url(#wood); }
+.PredefinedType-FILLAREA.concrete { fill: url(#concrete); }
+.PredefinedType-FILLAREA.black { fill: black; }
+.PredefinedType-FILLAREA.blank { fill: white; stroke: none; }
+.PredefinedType-FILLAREA.white{ fill: white; stroke: none;}
+.PredefinedType-FILLAREA.white25 { fill: white; opacity: 0.25; stroke: none; }
+.PredefinedType-FILLAREA.white50 { fill: white; opacity: 0.5; stroke: none; }
+.PredefinedType-FILLAREA.white75 { fill: white; opacity: 0.75; stroke: none; }
+.PredefinedType-FILLAREA.black10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.black25 { fill: black; opacity: 0.25; stroke: none; }
+.PredefinedType-FILLAREA.bestaand_gebouw { fill: url( #bestaand_gebouw); stroke: black; }
+.PredefinedType-FILLAREA.NEN47_1_metselwerk_baksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_50); }
+.PredefinedType-FILLAREA.NEN47_2_speciale_steenachtige_materialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_50); }
+.PredefinedType-FILLAREA.NEN47_3_metselwerk_niet_gebakken_kunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
+.PredefinedType-FILLAREA.NEN47_4_niet_dragende_lichte_scheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_50); }
+.PredefinedType-FILLAREA.NEN47_5_gewapend_beton_tpg{ fill: url(  #NEN47_5_gewapend_beton_tpg_50); }
+.PredefinedType-FILLAREA.NEN47_6_gewapend_beton_prefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_50); }
+.PredefinedType-FILLAREA.NEN47_7_ongewapend_beton{ fill: url(  #NEN47_7_ongewapend_beton_50); }
+.PredefinedType-FILLAREA.NEN47_8_sierbeton{ fill: url(  #NEN47_8_sierbeton_50); }
+.PredefinedType-FILLAREA.NEN47_9_natuursteen{ fill: url(  #NEN47_9_natuursteen_50); }
+.PredefinedType-FILLAREA.NEN47_10_enkele_wand_vloer_afwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_50); }
+.PredefinedType-FILLAREA.NEN47_11_samengestelde_wand_vloer_afwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_50); }
+.PredefinedType-FILLAREA.NEN47_12_naaldhout{ fill: url(  #NEN47_12_naaldhout_50); }
+.PredefinedType-FILLAREA.NEN47_13_loofhout{ fill: url(  #NEN47_13_loofhout_50); }
+.PredefinedType-FILLAREA.NEN47_14_naald_loofhout_langsarcering{ fill: url(  #NEN47_14_naald_loofhout_langsarcering_50); }
+.PredefinedType-FILLAREA.NEN47_16_bekledingsplaat{ fill: url(  #NEN47_16_bekledingsplaat_50); }
+.PredefinedType-FILLAREA.NEN47_17_isolatie{ fill: url(  #NEN47_17_isolatie_50); }
+.PredefinedType-FILLAREA.NEN47_18_staal{ fill: url(  #NEN47_18_staal_50); }
+.PredefinedType-FILLAREA.NEN47_19_aluminium_brons_koper{ fill: url(  #NEN47_19_aluminium_brons_koper_50); }
+.PredefinedType-FILLAREA.NEN47_20_lood{ fill: url(  #NEN47_20_lood_50); }
+.PredefinedType-FILLAREA.NEN47_21_zink{ fill: url(  #NEN47_21_zink_50); }
+.PredefinedType-FILLAREA.NEN47_22_kunststof{ fill: url(  #NEN47_22_kunststof_50); }
+.PredefinedType-FILLAREA.NEN47_23_afdichtingsmiddel{ fill: url(  #NEN47_23_afdichtingsmiddel_50); }
+.PredefinedType-FILLAREA.NEN47_24_bitumen{ fill: url(  #NEN47_24_bitumen_50); }
+.PredefinedType-FILLAREA.NEN47_25_maaiveld{ fill: url(  #NEN47_25_maaiveld_50); }
+.PredefinedType-FILLAREA.NEN47_26_zand{ fill: url(  #NEN47_26_zand_50); }
+.PredefinedType-FILLAREA.NEN47_27_grind{ fill: url(  #NEN47_27_grind_50); }
+.PredefinedType-FILLAREA.NEN47_28_water{ fill: url(  #NEN47_28_water_50); }
+.PredefinedType-FILLAREA.NEN47_29_glas{ fill: url(  #NEN47_29_glas_50); }
+.PredefinedType-FILLAREA.metselwerk_baksteen{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_50); }
+.PredefinedType-FILLAREA.speciale_steenachtige_materialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_50); }
+.PredefinedType-FILLAREA.metselwerk_niet_gebakken_kunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
+.PredefinedType-FILLAREA.niet_dragende_lichte_scheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_50); }
+.PredefinedType-FILLAREA.gewapend_beton_tpg{ fill: url(  #CUST_NEN47_5_gewapend_beton_tpg_50); }
+.PredefinedType-FILLAREA.gewapend_beton_prefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_50); }
+.PredefinedType-FILLAREA.ongewapend_beton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_50); }
+.PredefinedType-FILLAREA.sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_50); }
+.PredefinedType-FILLAREA.natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_50); }
+.PredefinedType-FILLAREA.enkele_wand_vloer_afwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_50); }
+.PredefinedType-FILLAREA.samengestelde_wand_vloer_afwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_50); }
+.PredefinedType-FILLAREA.naaldhout{ fill: url(  #CUST_NEN47_12_naaldhout_50); }
+.PredefinedType-FILLAREA.loofhout{ fill: url(  #CUST_NEN47_13_loofhout_50); }
+.PredefinedType-FILLAREA.naald_loofhout_langsarcering{ fill: url(  #CUST_NEN47_14_naald_loofhout_langsarcering_50); }
+.PredefinedType-FILLAREA.bekledingsplaat{ fill: url(  #CUST_NEN47_16_bekledingsplaat_50); }
+.PredefinedType-FILLAREA.isolatie{ fill: url(  #CUST_NEN47_17_isolatie_50); }
+.PredefinedType-FILLAREA.staal{ fill: url(  #CUST_NEN47_18_staal_50); }
+.PredefinedType-FILLAREA.aluminium_brons_koper{ fill: url(  #CUST_NEN47_19_aluminium_brons_koper_50); }
+.PredefinedType-FILLAREA.lood{ fill: url(  #CUST_NEN47_20_lood_50); }
+.PredefinedType-FILLAREA.zink{ fill: url(  #CUST_NEN47_21_zink_50); }
+.PredefinedType-FILLAREA.kunststof{ fill: url(  #CUST_NEN47_22_kunststof_50); }
+.PredefinedType-FILLAREA.afdichtingsmiddel{ fill: url(  #CUST_NEN47_23_afdichtingsmiddel_50); }
+.PredefinedType-FILLAREA.bitumen{ fill: url(  #CUST_NEN47_24_bitumen_50); }
+.PredefinedType-FILLAREA.maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_50); }
+.PredefinedType-FILLAREA.zand{ fill: url(  #CUST_NEN47_26_zand_50); }
+.PredefinedType-FILLAREA.grind{ fill: url(  #CUST_NEN47_27_grind_50); }
+.PredefinedType-FILLAREA.water{ fill: url(  #CUST_NEN47_28_water_50); }
+.PredefinedType-FILLAREA.glas{ fill: url(  #CUST_NEN47_29_glas_50); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_poriso{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_poriso_50); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_rood{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_rood_50); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_cement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_50); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_tras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_50); }
+.PredefinedType-FILLAREA.metselwerk_baksteen_kalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_50); }
+.PredefinedType-FILLAREA.kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
+.PredefinedType-FILLAREA.natuursteen_hardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_50); }
+.PredefinedType-FILLAREA.natuursteen_zandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_50); }
+.PredefinedType-FILLAREA.natuursteen_kalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_50); }
+.PredefinedType-FILLAREA.natuursteent_uf{ fill: url(  #CUST_NEN47_9_natuursteen_tuf_50); }
+.PredefinedType-FILLAREA.natuursteen_mergel{ fill: url(  #CUST_NEN47_9_natuursteen_mergel_50); }
+.PredefinedType-FILLAREA.naaldhout_vuren{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_50); }
+.PredefinedType-FILLAREA.naaldhout_vuren_gewolmaniseerd{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_gewolmaniseerd_50); }
+.PredefinedType-FILLAREA.naaldhout_eiken{ fill: url(  #CUST_NEN47_12_naaldhout_eiken_50); }
+.PredefinedType-FILLAREA.naaldhout_lariks{ fill: url(  #CUST_NEN47_12_naaldhout_lariks_50); }
+.PredefinedType-FILLAREA.naaldhout_merbau{ fill: url(  #CUST_NEN47_12_naaldhout_merbau_50); }
+.PredefinedType-FILLAREA.naaldhout_meranti{ fill: url(  #CUST_NEN47_12_naaldhout_meranti_50); }
+.PredefinedType-FILLAREA.naaldhout_jatoba{ fill: url(  #CUST_NEN47_12_naaldhout_jatoba_50); }
+.PredefinedType-FILLAREA.naaldhout_mahonie{ fill: url(  #CUST_NEN47_12_naaldhout_mahonie_50); }
+.PredefinedType-FILLAREA.naaldhout_douglas{ fill: url(  #CUST_NEN47_12_naaldhout_douglas_50); }
+.PredefinedType-FILLAREA.naaldhout_grenen{ fill: url(  #CUST_NEN47_12_naaldhout_grenen_50); }
+.PredefinedType-FILLAREA.naaldhout_red_cedar{ fill: url(  #CUST_NEN47_12_naaldhout_red_cedar_50); }
+.PredefinedType-FILLAREA.naaldhout_iroko{ fill: url(  #CUST_NEN47_12_naaldhout_iroko_50); }
+.PredefinedType-FILLAREA.naaldhout_niove{ fill: url(  #CUST_NEN47_12_naaldhout_niove_50); }
+.PredefinedType-FILLAREA.naaldhout_bangkirai{ fill: url(  #CUST_NEN47_12_naaldhout_bangkirai_50); }
+.PredefinedType-FILLAREA.naaldhout_azobe{ fill: url(  #CUST_NEN47_12_naaldhout_azobe_50); }
+.PredefinedType-FILLAREA.naaldhout_bamboe{ fill: url(  #CUST_NEN47_12_naaldhout_bamboe_50); }
+.PredefinedType-FILLAREA.naaldhout_vuren_CLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_multiplex{ fill: url(  #CUST_NEN47_16_bekledingsplaat_multiplex_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_OSB{ fill: url(  #CUST_NEN47_16_bekledingsplaat_OSB_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_MDF{ fill: url(  #CUST_NEN47_16_bekledingsplaat_MDF_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_watervast{ fill: url(  #CUST_NEN47_16_bekledingsplaat_watervast_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_okoume{ fill: url(  #CUST_NEN47_16_bekledingsplaat_okoume_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_rode_spaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_rode_spaan_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_groene_spaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_groene_spaan_50); }
+.PredefinedType-FILLAREA.bekledingsplaat_underlayment{ fill: url(  #CUST_NEN47_16_bekledingsplaat_underlayment_50); }
+.PredefinedType-FILLAREA.isolatie_glaswol{ fill: url(  #CUST_NEN47_17_isolatie_glaswol_50); }
+.PredefinedType-FILLAREA.isolatie_steenwol{ fill: url(  #CUST_NEN47_17_isolatie_steenwol_50); }
+.PredefinedType-FILLAREA.isolatie_PIR{ fill: url(  #CUST_NEN47_17_isolatie_PIR_50); }
+.PredefinedType-FILLAREA.isolatie_kooltherm{ fill: url(  #CUST_NEN47_17_isolatie_kooltherm_50); }
+.PredefinedType-FILLAREA.isolatie_PUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_50); }
+.PredefinedType-FILLAREA.isolatie_EPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_50); }
+.PredefinedType-FILLAREA.isolatie_EPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_50); }
+.PredefinedType-FILLAREA.isolatie_foamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_50); }
+.PredefinedType-FILLAREA.maaiveld_grond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_50); }
+.PredefinedType-FILLAREA.maaiveld_asfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_50); }
+.PredefinedType-FILLAREA.maaiveld_klei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_50); }
+.PredefinedType-FILLAREA.maaiveld_veen{ fill: url(  #CUST_NEN47_25_maaiveld_veen_50); }
+.PredefinedType-FILLAREA.zand_zand{ fill: url(  #CUST_NEN47_26_zand_zand_50); }
+.PredefinedType-FILLAREA.water_water{ fill: url(  #CUST_NEN47_28_water_water_50); }
+.PredefinedType-FILLAREA.glas_helder{ fill: url(  #CUST_NEN47_29_glas_helder_50); }
+.PredefinedType-FILLAREA.glas_mat{ fill: url(  #CUST_NEN47_29_glas_mat_50); }
+.material-NEN47_1_metselwerk_baksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_50); }
+.material-NEN47_2_speciale_steenachtige_materialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_50); }
+.material-NEN47_3_metselwerk_niet_gebakken_kunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
+.material-NEN47_4_niet_dragende_lichte_scheidingswanden{ fill: url(  #NEN47_4_niet_dragende_lichte_scheidingswanden_50); }
+.material-NEN47_5_gewapend_beton_tpg{ fill: url(  #NEN47_5_gewapend_beton_tpg_50); }
+.material-NEN47_6_gewapend_beton_prefab{ fill: url(  #NEN47_6_gewapend_beton_prefab_50); }
+.material-NEN47_7_ongewapend_beton{ fill: url(  #NEN47_7_ongewapend_beton_50); }
+.material-NEN47_8_sierbeton{ fill: url(  #NEN47_8_sierbeton_50); }
+.material-NEN47_9_natuursteen{ fill: url(  #NEN47_9_natuursteen_50); }
+.material-NEN47_10_enkele_wand_vloer_afwerking{ fill: url(  #NEN47_10_enkele_wand_vloer_afwerking_50); }
+.material-NEN47_11_samengestelde_wand_vloer_afwerking{ fill: url(  #NEN47_11_samengestelde_wand_vloer_afwerking_50); }
+.material-NEN47_12_naaldhout{ fill: url(  #NEN47_12_naaldhout_50); }
+.material-NEN47_13_loofhout{ fill: url(  #NEN47_13_loofhout_50); }
+.material-NEN47_14_naald_loofhout_langsarcering{ fill: url(  #NEN47_14_naald_loofhout_langsarcering_50); }
+.material-NEN47_16_bekledingsplaat{ fill: url(  #NEN47_16_bekledingsplaat_50); }
+.material-NEN47_17_isolatie{ fill: url(  #NEN47_17_isolatie_50); }
+.material-NEN47_18_staal{ fill: url(  #NEN47_18_staal_50); }
+.material-NEN47_19_aluminium_brons_koper{ fill: url(  #NEN47_19_aluminium_brons_koper_50); }
+.material-NEN47_20_lood{ fill: url(  #NEN47_20_lood_50); }
+.material-NEN47_21_zink{ fill: url(  #NEN47_21_zink_50); }
+.material-NEN47_22_kunststof{ fill: url(  #NEN47_22_kunststof_50); }
+.material-NEN47_23_afdichtingsmiddel{ fill: url(  #NEN47_23_afdichtingsmiddel_50); }
+.material-NEN47_24_bitumen{ fill: url(  #NEN47_24_bitumen_50); }
+.material-NEN47_25_maaiveld{ fill: url(  #NEN47_25_maaiveld_50); }
+.material-NEN47_26_zand{ fill: url(  #NEN47_26_zand_50); }
+.material-NEN47_27_grind{ fill: url(  #NEN47_27_grind_50); }
+.material-NEN47_28_water{ fill: url(  #NEN47_28_water_50); }
+.material-NEN47_29_glas{ fill: url(  #NEN47_29_glas_50); }
+.material-metselwerk_baksteen{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_50); }
+.material-speciale_steenachtige_materialen{ fill: url(  #CUST_NEN47_2_speciale_steenachtige_materialen_50); }
+.material-metselwerk_niet_gebakken_kunststeen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
+.material-niet_dragende_lichte_scheidingswanden{ fill: url(  #CUST_NEN47_4_niet_dragende_lichte_scheidingswanden_50); }
+.material-gewapend_beton_tpg{ fill: url(  #CUST_NEN47_5_gewapend_beton_tpg_50); }
+.material-gewapend_beton_prefab{ fill: url(  #CUST_NEN47_6_gewapend_beton_prefab_50); }
+.material-ongewapend_beton{ fill: url(  #CUST_NEN47_7_ongewapend_beton_50); }
+.material-sierbeton{ fill: url(  #CUST_NEN47_8_sierbeton_50); }
+.material-natuursteen{ fill: url(  #CUST_NEN47_9_natuursteen_50); }
+.material-enkele_wand_vloer_afwerking{ fill: url(  #CUST_NEN47_10_enkele_wand_vloer_afwerking_50); }
+.material-samengestelde_wand_vloer_afwerking{ fill: url(  #CUST_NEN47_11_samengestelde_wand_vloer_afwerking_50); }
+.material-naaldhout{ fill: url(  #CUST_NEN47_12_naaldhout_50); }
+.material-loofhout{ fill: url(  #CUST_NEN47_13_loofhout_50); }
+.material-naald_loofhout_langsarcering{ fill: url(  #CUST_NEN47_14_naald_loofhout_langsarcering_50); }
+.material-bekledingsplaat{ fill: url(  #CUST_NEN47_16_bekledingsplaat_50); }
+.material-isolatie{ fill: url(  #CUST_NEN47_17_isolatie_50); }
+.material-staal{ fill: url(  #CUST_NEN47_18_staal_50); }
+.material-aluminium_brons_koper{ fill: url(  #CUST_NEN47_19_aluminium_brons_koper_50); }
+.material-lood{ fill: url(  #CUST_NEN47_20_lood_50); }
+.material-zink{ fill: url(  #CUST_NEN47_21_zink_50); }
+.material-kunststof{ fill: url(  #CUST_NEN47_22_kunststof_50); }
+.material-afdichtingsmiddel{ fill: url(  #CUST_NEN47_23_afdichtingsmiddel_50); }
+.material-bitumen{ fill: url(  #CUST_NEN47_24_bitumen_50); }
+.material-maaiveld{ fill: url(  #CUST_NEN47_25_maaiveld_50); }
+.material-zand{ fill: url(  #CUST_NEN47_26_zand_50); }
+.material-grind{ fill: url(  #CUST_NEN47_27_grind_50); }
+.material-water{ fill: url(  #CUST_NEN47_28_water_50); }
+.material-glas{ fill: url(  #CUST_NEN47_29_glas_50); }
+.material-metselwerk_baksteen_poriso{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_poriso_50); }
+.material-metselwerk_baksteen_rood{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_rood_50); }
+.material-metselwerk_baksteen_cement{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_cement_50); }
+.material-metselwerk_baksteen_tras{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_tras_50); }
+.material-metselwerk_baksteen_kalk{ fill: url(  #CUST_NEN47_1_metselwerk_baksteen_kalk_50); }
+.material-kalkzandsteen{ fill: url(  #CUST_NEN47_3_metselwerk_niet_gebakken_kunststeen_50); }
+.material-natuursteen_hardsteen{ fill: url(  #CUST_NEN47_9_natuursteen_hardsteen_50); }
+.material-natuursteen_zandsteen{ fill: url(  #CUST_NEN47_9_natuursteen_zandsteen_50); }
+.material-natuursteen_kalksteen{ fill: url(  #CUST_NEN47_9_natuursteen_kalksteen_50); }
+.material-natuursteent_uf{ fill: url(  #CUST_NEN47_9_natuursteen_tuf_50); }
+.material-natuursteen_mergel{ fill: url(  #CUST_NEN47_9_natuursteen_mergel_50); }
+.material-naaldhout_vuren{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_50); }
+.material-naaldhout_vuren_gewolmaniseerd{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_gewolmaniseerd_50); }
+.material-naaldhout_eiken{ fill: url(  #CUST_NEN47_12_naaldhout_eiken_50); }
+.material-naaldhout_lariks{ fill: url(  #CUST_NEN47_12_naaldhout_lariks_50); }
+.material-naaldhout_merbau{ fill: url(  #CUST_NEN47_12_naaldhout_merbau_50); }
+.material-naaldhout_meranti{ fill: url(  #CUST_NEN47_12_naaldhout_meranti_50); }
+.material-naaldhout_jatoba{ fill: url(  #CUST_NEN47_12_naaldhout_jatoba_50); }
+.material-naaldhout_mahonie{ fill: url(  #CUST_NEN47_12_naaldhout_mahonie_50); }
+.material-naaldhout_douglas{ fill: url(  #CUST_NEN47_12_naaldhout_douglas_50); }
+.material-naaldhout_grenen{ fill: url(  #CUST_NEN47_12_naaldhout_grenen_50); }
+.material-naaldhout_red_cedar{ fill: url(  #CUST_NEN47_12_naaldhout_red_cedar_50); }
+.material-naaldhout_iroko{ fill: url(  #CUST_NEN47_12_naaldhout_iroko_50); }
+.material-naaldhout_niove{ fill: url(  #CUST_NEN47_12_naaldhout_niove_50); }
+.material-naaldhout_bangkirai{ fill: url(  #CUST_NEN47_12_naaldhout_bangkirai_50); }
+.material-naaldhout_azobe{ fill: url(  #CUST_NEN47_12_naaldhout_azobe_50); }
+.material-naaldhout_bamboe{ fill: url(  #CUST_NEN47_12_naaldhout_bamboe_50); }
+.material-naaldhout_vuren_CLT{ fill: url(  #CUST_NEN47_12_naaldhout_vuren_CLT_50); }
+.material-bekledingsplaat_multiplex{ fill: url(  #CUST_NEN47_16_bekledingsplaat_multiplex_50); }
+.material-bekledingsplaat_OSB{ fill: url(  #CUST_NEN47_16_bekledingsplaat_OSB_50); }
+.material-bekledingsplaat_MDF{ fill: url(  #CUST_NEN47_16_bekledingsplaat_MDF_50); }
+.material-bekledingsplaat_watervast{ fill: url(  #CUST_NEN47_16_bekledingsplaat_watervast_50); }
+.material-bekledingsplaat_okoume{ fill: url(  #CUST_NEN47_16_bekledingsplaat_okoume_50); }
+.material-bekledingsplaat_rode_spaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_rode_spaan_50); }
+.material-bekledingsplaat_groene_spaan{ fill: url(  #CUST_NEN47_16_bekledingsplaat_groene_spaan_50); }
+.material-bekledingsplaat_underlayment{ fill: url(  #CUST_NEN47_16_bekledingsplaat_underlayment_50); }
+.material-isolatie_glaswol{ fill: url(  #CUST_NEN47_17_isolatie_glaswol_50); }
+.material-isolatie_steenwol{ fill: url(  #CUST_NEN47_17_isolatie_steenwol_50); }
+.material-isolatie_PIR{ fill: url(  #CUST_NEN47_17_isolatie_PIR_50); }
+.material-isolatie_kooltherm{ fill: url(  #CUST_NEN47_17_isolatie_kooltherm_50); }
+.material-isolatie_PUR{ fill: url(  #CUST_NEN47_17_isolatie_PUR_50); }
+.material-isolatie_EPS{ fill: url(  #CUST_NEN47_17_isolatie_EPS_50); }
+.material-isolatie_EPS00{ fill: url(  #CUST_NEN47_17_isolatie_EPS100_50); }
+.material-isolatie_foamglas{ fill: url(  #CUST_NEN47_17_isolatie_foamglas_50); }
+.material-maaiveld_grond{ fill: url(  #CUST_NEN47_25_maaiveld_grond_50); }
+.material-maaiveld_asfalt{ fill: url(  #CUST_NEN47_25_maaiveld_asfalt_50); }
+.material-maaiveld_klei{ fill: url(  #CUST_NEN47_25_maaiveld_klei_50); }
+.material-maaiveld_veen{ fill: url(  #CUST_NEN47_25_maaiveld_veen_50); }
+.material-zand_zand{ fill: url(  #CUST_NEN47_26_zand_zand_50); }
+.material-water_water{ fill: url(  #CUST_NEN47_28_water_water_50); }
+.material-glas_helder{ fill: url(  #CUST_NEN47_29_glas_helder_50); }
+.material-glas_mat{ fill: url(  #CUST_NEN47_29_glas_mat_50); }
 .PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }
 .PredefinedType-SECTION { marker-start: url(#section-level-marker); marker-end: url(#section-level-marker); }
 .PredefinedType-TEXT.blue { fill: blue; stroke: none; }
@@ -304,12 +357,12 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 .material-sand { fill: url(#sand); }
 .material-concrete { fill: url(#concrete); stroke-width: 0.5; }
 .IfcSpace { fill: none; stroke: none; }
-.PredefinedType-STUD { stroke: black; stroke-width: 1; }
-.PredefinedType-WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }
-.PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
-.PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
-.PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
-.PredefinedType-glas{ fill:#A0BEC8;}
+.PredefinedType-FILLAREA.STUD { stroke: black; stroke-width: 1; }
+.PredefinedType-FILLAREA.WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+.PredefinedType-FILLAREA.glas{ fill:#A0BEC8;}
 ]]></style><marker id="eng-dimension-marker-start" markerHeight="14" markerWidth="11" orient="auto" refX="1" refY="7">
         <g>
             <path d="M 11 3.5 L 11 10.5 L 1 7" class="annotation" style="fill:black;" />
@@ -892,6 +945,30 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 	<line x1="2.5" y1="0" x2="2.5" y2="3" style="stroke:black; stroke-width:0.2" />
 	<line x1="3" y1="0" x2="3" y2="3" style="stroke:black; stroke-width:0.2" />
 </pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_5_gewapend_beton_tpg_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
 <pattern id="NEN47_6_gewapend_beton_prefab_200" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
     no_background
     <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
@@ -1291,6 +1368,54 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.15" />
 	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.15" />
 </pattern>
+<pattern id="NEN47_18_staal_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_18_staal_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_18_staal_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_18_staal_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_18_staal_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_18_staal_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_18_staal_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_18_staal_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_19_aluminium_brons_koper_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
 <pattern id="NEN47_20_lood_50" width="6" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
     <rect width="3" height="3" style="fill:rgb(0,0,0);" />
 </pattern>
@@ -1308,6 +1433,30 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 </pattern>
 <pattern id="NEN47_20_lood_1" width="6" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
     <rect width="3" height="3" style="fill:rgb(0,0,0);" />
+</pattern>
+<pattern id="NEN47_21_zink_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_21_zink_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_21_zink_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_21_zink_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_21_zink_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_21_zink_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_21_zink_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_21_zink_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
 </pattern>
 <pattern id="NEN47_22_kunststof_50" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
     no_background
@@ -1356,6 +1505,30 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 <pattern id="NEN47_23_afdichtingsmiddel_1" width="10" height="10" patternTransform="scale(12 12)" patternUnits="userSpaceOnUse">
     no_background
 	<path d="M0.83 0.68l0.05043 0l-0.025215 0.05043z M0.26 4.34l0.05043 0l-0.025215 0.05043z M1.21 5.29l0.05043 0l-0.025215 0.05043z M2.16 1.69l0.05043 0l-0.025215 0.05043z M2.45 3.62l0.05043 0l-0.025215 0.05043z M3.52 6.58l0.05043 0l-0.025215 0.05043z M4.18 9.54l0.05043 0l-0.025215 0.05043z M4.37 0.64l0.05043 0l-0.025215 0.05043z M5.69 8.97l0.05043 0l-0.025215 0.05043z M5.33 2.56l0.05043 0l-0.025215 0.05043z M6.14 7.05l0.05043 0l-0.025215 0.05043z M6.5 0.81l0.05043 0l-0.025215 0.05043z M7.12 3.42l0.05043 0l-0.025215 0.05043z M7.96 1.05l0.05043 0l-0.025215 0.05043z M8.39 6.75l0.05043 0l-0.025215 0.05043z M8.5 9.41l0.05043 0l-0.025215 0.05043z M9.24 0.18l0.05043 0l-0.025215 0.05043z M9.43 7.99l0.05043 0l-0.025215 0.05043z M9.81 2.83l0.05043 0l-0.025215 0.05043z M1.86 8.35l0.05043 0l-0.025215 0.05043z" style="stroke:#000000;stroke-width:0.35;stroke-linecap:round" />
+</pattern>
+<pattern id="NEN47_24_bitumen_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_24_bitumen_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_24_bitumen_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_24_bitumen_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_24_bitumen_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_24_bitumen_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_24_bitumen_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="NEN47_24_bitumen_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
 </pattern>
 <pattern id="NEN47_25_maaiveld_200" width="20" height="10" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
     no_background
@@ -1862,6 +2035,30 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 	<line x1="2.5" y1="0" x2="2.5" y2="3" style="stroke:black; stroke-width:0.2" />
 	<line x1="3" y1="0" x2="3" y2="3" style="stroke:black; stroke-width:0.2" />
 </pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_5_gewapend_beton_tpg_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+	<path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
 <pattern id="CUST_NEN47_6_gewapend_beton_prefab_200" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
     <path style="fill: #C0C0C0;" d="M 0 0 1.5 0 1.5 1.5 0 1.5" />
     <line x1="0" y1="0" x2="0" y2="1.5" style="stroke:black; stroke-width:0.25" />
@@ -2261,6 +2458,54 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.15" />
 	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.15" />
 </pattern>
+<pattern id="CUST_NEN47_18_staal_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_18_staal_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_18_staal_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_18_staal_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_18_staal_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_18_staal_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_18_staal_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_18_staal_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_19_aluminium_brons_koper_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #C0C0C0;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
 <pattern id="CUST_NEN47_20_lood_50" width="6" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
     <rect width="3" height="3" style="fill:rgb(0,0,0);" />
 </pattern>
@@ -2278,6 +2523,30 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 </pattern>
 <pattern id="CUST_NEN47_20_lood_1" width="6" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
     <rect width="3" height="3" style="fill:rgb(0,0,0);" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_21_zink_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
 </pattern>
 <pattern id="CUST_NEN47_22_kunststof_50" width="1.5" height="1.5" patternTransform="rotate(45 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
     no_background
@@ -2326,6 +2595,30 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 <pattern id="CUST_NEN47_23_afdichtingsmiddel_1" width="10" height="10" patternTransform="scale(12 12)" patternUnits="userSpaceOnUse">
     no_background
 	<path d="M0.83 0.68l0.05043 0l-0.025215 0.05043z M0.26 4.34l0.05043 0l-0.025215 0.05043z M1.21 5.29l0.05043 0l-0.025215 0.05043z M2.16 1.69l0.05043 0l-0.025215 0.05043z M2.45 3.62l0.05043 0l-0.025215 0.05043z M3.52 6.58l0.05043 0l-0.025215 0.05043z M4.18 9.54l0.05043 0l-0.025215 0.05043z M4.37 0.64l0.05043 0l-0.025215 0.05043z M5.69 8.97l0.05043 0l-0.025215 0.05043z M5.33 2.56l0.05043 0l-0.025215 0.05043z M6.14 7.05l0.05043 0l-0.025215 0.05043z M6.5 0.81l0.05043 0l-0.025215 0.05043z M7.12 3.42l0.05043 0l-0.025215 0.05043z M7.96 1.05l0.05043 0l-0.025215 0.05043z M8.39 6.75l0.05043 0l-0.025215 0.05043z M8.5 9.41l0.05043 0l-0.025215 0.05043z M9.24 0.18l0.05043 0l-0.025215 0.05043z M9.43 7.99l0.05043 0l-0.025215 0.05043z M9.81 2.83l0.05043 0l-0.025215 0.05043z M1.86 8.35l0.05043 0l-0.025215 0.05043z" style="stroke:#000000;stroke-width:0.35;stroke-linecap:round" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_200" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_100" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
+</pattern>
+<pattern id="CUST_NEN47_24_bitumen_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
+    <path style="fill: #000000;" d="M 0 0 3 0 3 3 0 3" />
 </pattern>
 <pattern id="CUST_NEN47_25_maaiveld_200" width="20" height="10" patternTransform="rotate(0 0 0) scale(0.5 0.5)" patternUnits="userSpaceOnUse">
     <path style="fill: #DFE6D0;" d="M 0 0 20 0 20 20 0 20" />
@@ -2694,8 +2987,8 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 </pattern>
 <pattern id="CUST_NEN47_1_metselwerk_baksteen_rood_5" width="3" height="3" patternTransform="rotate(45 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #CD7C61;" d="M 0 0 3 0 3 3 0 3" />
-    <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.2" />
-    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.2" />
+    <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.15" />
+    <line x1="1.5" y1="0" x2="1.5" y2="3" style="stroke:black; stroke-width:0.15" />
 </pattern>
 <pattern id="CUST_NEN47_1_metselwerk_baksteen_rood_2" width="3" height="3" patternTransform="rotate(45 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
     <path style="fill: #CD7C61;" d="M 0 0 3 0 3 3 0 3" />
@@ -3851,8 +4144,8 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 </pattern>
 <pattern id="CUST_NEN47_17_isolatie_PIR_5" width="1.5" height="1.5" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
     <path style="fill: #F5EBC3;" d="M 0 0 3.64 0 3.64 3.64 0 3.64" />
-	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.2" />
-	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.2" />
+	<line x1="0" y1="0" x2="1.5" y2="1.5" style="stroke:black; stroke-width:0.15" />
+	<line x1="0" y1="1.5" x2="1.5" y2="0" style="stroke:black; stroke-width:0.15" />
 </pattern>
 <pattern id="CUST_NEN47_17_isolatie_PIR_2" width="1.5" height="1.5" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
     <path style="fill: #F5EBC3;" d="M 0 0 3.64 0 3.64 3.64 0 3.64" />
@@ -4900,217 +5193,194 @@ text.DIMENSION, tspan.DIMENSION { /* 2.5mm */ font-size: 4.13px; }
 	<line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
 	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
 </pattern>
-<pattern id="CUST_NEN47_29_glas_helder_50" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
-	<path style="fill: #ECF0EF;" d="M 0 0 3 0 3 3 0 3" />
-	<line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-</pattern>
-<pattern id="CUST_NEN47_29_glas_helder_20" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
-	<path style="fill: #ECF0EF;" d="M 0 0 3 0 3 3 0 3" />
-	<line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-</pattern>
-<pattern id="CUST_NEN47_29_glas_helder_10" width="3" height="3" patternTransform="rotate(0 0 0) scale(0.9 0.9)" patternUnits="userSpaceOnUse">
-	<path style="fill: #ECF0EF;" d="M 0 0 3 0 3 3 0 3" />
-	<line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-</pattern>
-<pattern id="CUST_NEN47_29_glas_helder_5" width="3" height="3" patternTransform="rotate(0 0 0) scale(2.6 2.6)" patternUnits="userSpaceOnUse">
-	<path style="fill: #ECF0EF;" d="M 0 0 3 0 3 3 0 3" />
-	<line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-</pattern>
-<pattern id="CUST_NEN47_29_glas_helder_2" width="3" height="3" patternTransform="rotate(0 0 0) scale(6 6)" patternUnits="userSpaceOnUse">
-	<path style="fill: #ECF0EF;" d="M 0 0 3 0 3 3 0 3" />
-	<line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-</pattern>
-<pattern id="CUST_NEN47_29_glas_helder_1" width="3" height="3" patternTransform="rotate(0 0 0) scale(12 12)" patternUnits="userSpaceOnUse">
-	<path style="fill: #ECF0EF;" d="M 0 0 3 0 3 3 0 3" />
-	<line x1="0" y1="0" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-	<line x1="0" y1="1" x2="3" y2="0" style="stroke:black; stroke-width:0.15" />
-</pattern>
-</defs>    <g ifc:name="Elevation 01_BWK_PLG_00_begane_grond" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,25.000010],[0.000000,10.000000,225.000006],[0.000000,0.000000,1.000000]]">
-        <g id="product-2de96125-daa6-4473-85a5-751c95fe6f49" class="IfcSlab material-gewapendbeton projection" ifc:name="beton_200" ifc:guid="0jwM4bsgP4SuMbTHoL$cz9">
-            <path d="M52.6,225 L52.6,224.1"/>
-            <path d="M52.6,225 L52.6,225"/>
+</defs>    <g ifc:name="Elevation 01_BWK_PLG_00_begane_grond" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[20.000000,0.000000,50.000020],[0.000000,20.000000,450.000011],[0.000000,0.000000,1.000000]]">
+        <g id="product-2de96125-daa6-4473-85a5-751c95fe6f49" class="IfcSlab material-gewapendbetontpg projection" ifc:name="beton_200" ifc:guid="0jwM4bsgP4SuMbTHoL$cz9">
+            <path d="M110,391.8 L110,391.8"/>
         </g>
         <g id="product-bdd2c04b-301b-437f-b5b4-c152c73b62ad" class="IfcSlab material-ongewapendbeton projection" ifc:name="dekvloer_70.001" ifc:guid="2zqi1BC1j3VxMqmLB7EsAj">
-            <path d="M25.9,198.3 L25.9,210.613"/>
-            <path d="M52.6,197.4 L52.6,197.4"/>
-            <path d="M45.1888,197.4 L36.0544,197.4"/>
-            <path d="M52.6,224.1 L52.6,197.4"/>
-            <path d="M25.9,224.1 L52.6,224.1"/>
-        </g>
-        <g id="product-24151b66-b605-46df-8c23-cdb722960a7c" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="0a5HjcjWL6tumZpRSYbWfy">
-            <path d="M23.6,197.4 L23.6,227.4"/>
-            <path d="M22.6,197.4 L23.6,197.4"/>
-            <path d="M22.6,227.4 L22.6,197.4"/>
-            <path d="M23.6,227.4 L22.6,227.4"/>
+            <path d="M110,391.8 L110,448.2"/>
+            <path d="M71.56,391.8 L110,391.8"/>
+            <path d="M51.8,419.062 L51.8,391.8"/>
+            <path d="M88.43,448.2 L51.8,448.2"/>
         </g>
         <g id="product-2f725bfd-1d36-4b75-a58d-cc5b9a1b49ab" class="IfcWall material-isolatie projection" ifc:name="ISO100" ifc:guid="0lSblz7JPBTQMDp5kQ6qch">
-            <path d="M25,197.4 L25,226"/>
-            <path d="M24,197.4 L25,197.4"/>
-            <path d="M24,226 L24,197.4"/>
-            <path d="M25,226 L24,226"/>
+            <path d="M50,390 L50,452"/>
+            <path d="M48,390 L50,390"/>
+            <path d="M48,452 L48,390"/>
+            <path d="M50,452 L48,452"/>
         </g>
         <g id="product-a8256432-6506-4059-9c01-fe484e21e762" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90.001" ifc:guid="2e9MGoPGP0MPm1$aXE8UTY">
-            <path d="M25.9,197.4 L25.9,224.1"/>
-            <path d="M25,197.4 L25.9,197.4"/>
-            <path d="M25,224.1 L25,197.4"/>
-            <path d="M25.9,224.1 L25,224.1"/>
-        </g>
-        <g id="product-d1eea825-bc53-4fdc-87d9-2ac5de7f5971" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90" ifc:guid="3HxgWbl5DFt8VPAiNUVrbn">
-            <path d="M52.6,224.1 L25,224.1"/>
-            <path d="M25,224.1 L25,225"/>
-            <path d="M52.6,225 L25,225"/>
-            <path d="M52.6,224.1 L52.6,225"/>
-        </g>
-        <g id="product-4ca552b4-5839-4d2d-9212-0d32fe4f6562" class="IfcWall material-isolatie projection" ifc:name="ISO100" ifc:guid="1CfLAqM3bDBP8I3JB_JsLY">
-            <path d="M52.6,225 L25,225"/>
-            <path d="M25,225 L25,226"/>
-            <path d="M52.6,226 L25,226"/>
-            <path d="M52.6,225 L52.6,226"/>
-        </g>
-        <g id="product-c5e9504b-7df5-48b3-97e7-63b109bc7cac" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="35wL1BVVL8ivVdOx49l7oi">
-            <path d="M52.6,227.4 L23.6,227.4"/>
-            <path d="M52.6,226.4 L52.6,227.4"/>
-            <path d="M23.6,226.4 L52.6,226.4"/>
-            <path d="M23.6,227.4 L23.6,226.4"/>
+            <path d="M51.8,390 L51.8,448.2"/>
+            <path d="M50,390 L51.8,390"/>
+            <path d="M50,448.2 L50,390"/>
+            <path d="M51.8,448.2 L50,448.2"/>
         </g>
         <g id="product-e006a622-80c5-4895-9be0-c8a07689d7fd" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90" ifc:guid="3W1gOYWCL8bPlWoA1sYTVz">
-            <path d="M36.0544,198.3 L36.0544,197.4"/>
-            <path d="M36.0544,197.4 L25.9,197.4"/>
-            <path d="M25.9,197.4 L25.9,198.3"/>
-            <path d="M36.0544,198.3 L25.9,198.3"/>
-            <path d="M45.1888,197.4 L45.1888,198.3"/>
-            <path d="M52.6,198.3 L45.1888,198.3"/>
-            <path d="M52.6,197.4 L52.6,198.3"/>
-            <path d="M52.6,197.4 L45.1888,197.4"/>
+            <path d="M110,391.8 L51.8,391.8"/>
+            <path d="M110,390 L110,391.8"/>
+            <path d="M51.8,390 L110,390"/>
+            <path d="M51.8,391.8 L51.8,390"/>
+        </g>
+        <g id="product-24151b66-b605-46df-8c23-cdb722960a7c" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="0a5HjcjWL6tumZpRSYbWfy">
+            <path d="M47.2,390 L47.2,454.8"/>
+            <path d="M45.2,390 L47.2,390"/>
+            <path d="M45.2,454.8 L45.2,390"/>
+            <path d="M47.2,454.8 L45.2,454.8"/>
+        </g>
+        <g id="product-c5e9504b-7df5-48b3-97e7-63b109bc7cac" class="IfcWall material-metselwerkbaksteenrood projection" ifc:name="MW100" ifc:guid="35wL1BVVL8ivVdOx49l7oi">
+            <path d="M110,454.8 L47.2,454.8"/>
+            <path d="M110,452.8 L110,454.8"/>
+            <path d="M47.2,452.8 L110,452.8"/>
+            <path d="M47.2,454.8 L47.2,452.8"/>
+        </g>
+        <g id="product-d1eea825-bc53-4fdc-87d9-2ac5de7f5971" class="IfcWall material-naaldhoutvurenCLT projection" ifc:name="CLT90" ifc:guid="3HxgWbl5DFt8VPAiNUVrbn">
+            <path d="M110,448.2 L50,448.2"/>
+            <path d="M50,448.2 L50,450"/>
+            <path d="M110,450 L50,450"/>
+            <path d="M110,448.2 L110,450"/>
+        </g>
+        <g id="product-4ca552b4-5839-4d2d-9212-0d32fe4f6562" class="IfcWall material-isolatie projection" ifc:name="ISO100" ifc:guid="1CfLAqM3bDBP8I3JB_JsLY">
+            <path d="M110,450 L50,450"/>
+            <path d="M50,450 L50,452"/>
+            <path d="M110,452 L50,452"/>
+            <path d="M110,450 L110,452"/>
         </g>
         <g id="product-8f1b571e-1ab6-428d-ac22-869257c874cb" class="IfcPile material-null projection" ifc:name="FP_220_Type_1" ifc:guid="2F6rSU6hP2ZQmYXf9No7JB">
-            <path d="M24,212.9 L23.9333,212.9"/>
-            <path d="M23.9333,212.9 L24,212.9"/>
-            <path d="M23.6,210.7 L23.9333,210.7"/>
-            <path d="M23.9333,210.7 L23.6,210.7"/>
-            <path d="M23.9333,211.8 L23.6,211.8"/>
-            <path d="M23.6,211.8 L23.9333,211.8"/>
-            <path d="M24,211 L23.6,211.4"/>
-            <path d="M23.6,211.4 L24,211"/>
-            <path d="M23.9333,210.7 L24,210.7"/>
-            <path d="M24,210.7 L23.9333,210.7"/>
-            <path d="M23.9333,211.8 L24,211.733"/>
-            <path d="M24,211.733 L23.9333,211.8"/>
-            <path d="M23.6,211.767 L24,211.367"/>
-            <path d="M24,211.367 L23.6,211.767"/>
-            <path d="M22.1,211.8 L22.6,211.8"/>
-            <path d="M22.6,211.8 L22.1,211.8"/>
-            <path d="M23.9333,210.7 L23.6,211.033"/>
-            <path d="M23.6,211.033 L23.9333,210.7"/>
-            <path d="M24,211.8 L23.9333,211.8"/>
-            <path d="M23.9333,211.8 L24,211.8"/>
-            <path d="M23.9333,212.9 L23.6,212.9"/>
-            <path d="M23.6,212.9 L23.9333,212.9"/>
+            <path d="M48,425.8 L47.8667,425.8"/>
+            <path d="M47.8667,425.8 L48,425.8"/>
+            <path d="M47.2,421.4 L47.8667,421.4"/>
+            <path d="M47.8667,421.4 L47.2,421.4"/>
+            <path d="M47.8667,423.6 L47.2,423.6"/>
+            <path d="M47.2,423.6 L47.8667,423.6"/>
+            <path d="M48,422 L47.2,422.8"/>
+            <path d="M47.2,422.8 L48,422"/>
+            <path d="M47.8667,421.4 L48,421.4"/>
+            <path d="M48,421.4 L47.8667,421.4"/>
+            <path d="M47.8667,423.6 L48,423.467"/>
+            <path d="M48,423.467 L47.8667,423.6"/>
+            <path d="M47.2,423.533 L48,422.733"/>
+            <path d="M48,422.733 L47.2,423.533"/>
+            <path d="M44.2,423.6 L45.2,423.6"/>
+            <path d="M45.2,423.6 L44.2,423.6"/>
+            <path d="M47.8667,421.4 L47.2,422.067"/>
+            <path d="M47.2,422.067 L47.8667,421.4"/>
+            <path d="M48,423.6 L47.8667,423.6"/>
+            <path d="M47.8667,423.6 L48,423.6"/>
+            <path d="M47.8667,425.8 L47.2,425.8"/>
+            <path d="M47.2,425.8 L47.8667,425.8"/>
         </g>
         <g id="product-41e90adb-649b-4055-9402-0577efead61e" class="IfcPile material-null projection" ifc:name="FP_220_Type_2" ifc:guid="11wGhRP9j0LPG21NVlwjOU">
-            <path d="M37.1,226.4 L37.1,226.067"/>
-            <path d="M37.1,226.067 L37.1,226.4"/>
-            <path d="M39.3,226.067 L38.9667,226.4"/>
-            <path d="M38.9667,226.4 L39.3,226.067"/>
-            <path d="M37.1,226.067 L37.1,226"/>
-            <path d="M37.1,226 L37.1,226.067"/>
-            <path d="M39,226 L38.6,226.4"/>
-            <path d="M38.6,226.4 L39,226"/>
-            <path d="M38.2333,226.4 L38.6333,226"/>
-            <path d="M38.6333,226 L38.2333,226.4"/>
-            <path d="M37.1,225 L37.1,225"/>
-            <path d="M37.1,225 L37.1,225"/>
-            <path d="M38.2,226.067 L38.2667,226"/>
-            <path d="M38.2667,226 L38.2,226.067"/>
-            <path d="M39.3,225 L39.3,225"/>
-            <path d="M39.3,225 L39.3,225"/>
-            <path d="M38.2,226.4 L38.2,226.067"/>
-            <path d="M38.2,226.067 L38.2,226.4"/>
-            <path d="M38.1667,225 L38.1667,225"/>
-            <path d="M38.1667,225 L38.1667,225"/>
-            <path d="M39.3,226.067 L39.3,226"/>
-            <path d="M39.3,226 L39.3,226.067"/>
-            <path d="M38.2,226.067 L38.2,226"/>
-            <path d="M38.2,226 L38.2,226.067"/>
-            <path d="M37.8,225 L37.8,225"/>
-            <path d="M37.8,225 L37.8,225"/>
-            <path d="M39.3,226.4 L39.3,226.067"/>
-            <path d="M39.3,226.067 L39.3,226.4"/>
-            <path d="M37.4333,225 L37.4333,225"/>
-            <path d="M37.4333,225 L37.4333,225"/>
-            <path d="M38.2,225 L38.2,225"/>
-            <path d="M38.2,225 L38.2,225"/>
-            <path d="M38.2,227.9 L38.2,227.4"/>
-            <path d="M38.2,227.4 L38.2,227.9"/>
+            <path d="M74.2,452.8 L74.2,452.133"/>
+            <path d="M74.2,452.133 L74.2,452.8"/>
+            <path d="M78.6,452.133 L77.9333,452.8"/>
+            <path d="M77.9333,452.8 L78.6,452.133"/>
+            <path d="M74.2,452.133 L74.2,452"/>
+            <path d="M74.2,452 L74.2,452.133"/>
+            <path d="M78,452 L77.2,452.8"/>
+            <path d="M77.2,452.8 L78,452"/>
+            <path d="M76.4667,452.8 L77.2667,452"/>
+            <path d="M77.2667,452 L76.4667,452.8"/>
+            <path d="M74.2,450 L74.2,450"/>
+            <path d="M74.2,450 L74.2,450"/>
+            <path d="M76.4,452.133 L76.5333,452"/>
+            <path d="M76.5333,452 L76.4,452.133"/>
+            <path d="M78.6,450 L78.6,450"/>
+            <path d="M78.6,450 L78.6,450"/>
+            <path d="M76.4,452.8 L76.4,452.133"/>
+            <path d="M76.4,452.133 L76.4,452.8"/>
+            <path d="M76.3333,450 L76.3333,450"/>
+            <path d="M76.3333,450 L76.3333,450"/>
+            <path d="M78.6,452.133 L78.6,452"/>
+            <path d="M78.6,452 L78.6,452.133"/>
+            <path d="M76.4,452.133 L76.4,452"/>
+            <path d="M76.4,452 L76.4,452.133"/>
+            <path d="M75.6,450 L75.6,450"/>
+            <path d="M75.6,450 L75.6,450"/>
+            <path d="M78.6,452.8 L78.6,452.133"/>
+            <path d="M78.6,452.133 L78.6,452.8"/>
+            <path d="M74.8667,450 L74.8667,450"/>
+            <path d="M74.8667,450 L74.8667,450"/>
+            <path d="M76.4,450 L76.4,450"/>
+            <path d="M76.4,450 L76.4,450"/>
+            <path d="M76.4,455.8 L76.4,454.8"/>
+            <path d="M76.4,454.8 L76.4,455.8"/>
         </g>
-    <g ifc:guid="0Mu_oMfm52hvAVMsNs635_" ifc:name="Example Space" class="IfcSpace material-null cut"><path d="M52.60002136230469,224.10000801086426 L52.60001182556152,205.60999870300293 L52.60001182556152,198.29999923706055 L33.465003967285156,198.30000400543213 L25.900001525878906,198.3000087738037 L25.90001106262207,216.79000854492188 L25.90001106262207,224.10000801086426 L45.035014152526855,224.10000801086426 Z"/></g><g class="cut material-metselwerkbaksteenrood IfcWall 0a5HjcjWL6tumZpRSYbWfy 35wL1BVVL8ivVdOx49l7oi"><path d="M23.600006103515625,210.20000457763672 L23.59999656677246,197.4000072479248 L23.02666664123535,197.4000072479248 L22.60000228881836,197.4000072479248 L22.60000228881836,214.6000099182129 L22.600011825561523,227.4000072479248 L23.173341751098633,227.4000072479248 L23.600006103515625,227.4000072479248 L34.651803970336914,227.4000072479248 L36.03276252746582,227.4000072479248 L45.46133041381836,227.4000072479248 L52.60000705718994,227.4000072479248 L52.60000705718994,226.9733428955078 L52.60000705718994,226.4000129699707 L45.46133041381836,226.4000129699707 L36.03276252746582,226.4000129699707 L34.651803970336914,226.4000129699707 L23.600006103515625,226.4000129699707 Z"/></g><g class="0lSblz7JPBTQMDp5kQ6qch cut 1CfLAqM3bDBP8I3JB_JsLY IfcWall material-isolatie"><path d="M25.0,209.60267066955566 L25.0,197.4000072479248 L24.42667007446289,197.4000072479248 L24.0000057220459,197.4000072479248 L24.0000057220459,213.7973403930664 L24.0000057220459,226.00001335144043 L24.573345184326172,226.00001335144043 L25.000009536743164,226.00001335144043 Z"/></g><g class="0lSblz7JPBTQMDp5kQ6qch cut 1CfLAqM3bDBP8I3JB_JsLY IfcWall material-isolatie"><path d="M34.718475341796875,225.00000953674316 L25.000009536743164,225.00000953674316 L25.000009536743164,225.42667388916016 L25.000009536743164,226.00001335144043 L34.718475341796875,226.00000381469727 L36.03276252746582,226.00000381469727 L45.46133041381836,226.00000381469727 L52.60000705718994,226.00000381469727 L52.60000705718994,225.42667388916016 L52.60000705718994,225.0 L45.46133041381836,225.0 L36.03276252746582,225.00000953674316 Z"/></g><g class="2e9MGoPGP0MPm1$aXE8UTY cut material-naaldhoutvurenCLT 3HxgWbl5DFt8VPAiNUVrbn IfcWall 3W1gOYWCL8bPlWoA1sYTVz"><path d="M45.18877983093262,197.39999771118164 L45.18877983093262,197.72483825683594 L45.18877983093262,198.29999923706055 L49.92504119873047,198.29999446868896 L52.60000705718994,198.29999446868896 L52.60000705718994,197.65499114990234 L52.60000705718994,197.39999294281006 L49.92504119873047,197.39999771118164 Z"/></g><g class="2e9MGoPGP0MPm1$aXE8UTY cut material-naaldhoutvurenCLT 3HxgWbl5DFt8VPAiNUVrbn IfcWall 3W1gOYWCL8bPlWoA1sYTVz"><path d="M29.565067291259766,198.30000400543213 L36.054391860961914,198.29999923706055 L36.054391860961914,197.97515869140625 L36.054391860961914,197.40000247955322 L29.565067291259766,197.4000072479248 L25.900001525878906,197.4000072479248 L25.26970863342285,197.4000072479248 L25.0,197.4000072479248 L25.000009536743164,216.0987091064453 L25.000009536743164,224.10000801086426 L25.000009536743164,224.3697166442871 L25.000009536743164,225.00000953674316 L34.38804626464844,225.00000953674316 L36.59604072570801,225.00000953674316 L45.704050064086914,225.0 L52.60000705718994,225.0 L52.60000705718994,224.36970710754395 L52.60000705718994,224.0999984741211 L45.704050064086914,224.10000801086426 L36.59604072570801,224.10000801086426 L34.38804626464844,224.10000801086426 L25.90001106262207,224.10000801086426 L25.900001525878906,205.4013156890869 L25.900001525878906,198.3000087738037 Z"/></g><g id="product-7f9c48ec-33d6-4873-9626-17aaf58c8ed1" class="IfcBeam material-gewapendbeton projection" ifc:name="BB 400x500" ifc:guid="1$d4ZiCzP8SvOc5whrZ8xH">
-            <path d="M52.6,225 L52.6,227.7"/>
-            <path d="M26.3,225 L26.3,225"/>
-            <path d="M26.3,226 L26.3,226.4"/>
-            <path d="M26.3,227.4 L26.3,227.7"/>
-            <path d="M26.3,227.7 L52.6,227.7"/>
+    <g ifc:guid="0Mu_oMfm52hvAVMsNs635_" ifc:name="Example Space" class="IfcSpace material-null cut"><path d="M51.80000305175781,407.77997970581055 L51.80002212524414,448.2000160217285 L68.29004287719727,448.2000160217285 L110.00007629394531,448.1999969482422 L110.00006675720215,432.2199821472168 L110.00005722045898,391.79993629455566 L93.51003646850586,391.79993629455566 L51.80000305175781,391.799955368042 Z"/></g><g class="1CfLAqM3bDBP8I3JB_JsLY IfcWall cut 0lSblz7JPBTQMDp5kQ6qch material-isolatie"><path d="M50.0,416.4533233642578 L50.0,389.99996185302734 L48.85334014892578,389.99996185302734 L47.99999237060547,389.99996185302734 L48.0000114440918,425.5466651916504 L48.0000114440918,452.00002670288086 L49.146690368652344,452.00002670288086 L50.00001907348633,452.00002670288086 Z"/></g><g class="1CfLAqM3bDBP8I3JB_JsLY IfcWall cut 0lSblz7JPBTQMDp5kQ6qch material-isolatie"><path d="M69.43695068359375,450.0000190734863 L50.00001907348633,450.0000190734863 L50.00001907348633,450.8533477783203 L50.00001907348633,452.00002670288086 L69.43695068359375,452.00000762939453 L72.29410171508789,452.00000762939453 L91.15123748779297,452.00000762939453 L110.00007629394531,452.00000762939453 L110.00007629394531,450.853328704834 L110.00007629394531,450.0 L91.15123748779297,450.0 L72.29410171508789,450.0000190734863 Z"/></g><g class="IfcWall 2e9MGoPGP0MPm1$aXE8UTY cut 3W1gOYWCL8bPlWoA1sYTVz 3HxgWbl5DFt8VPAiNUVrbn material-naaldhoutvurenCLT"><path d="M92.45162963867188,391.7999458312988 L110.00005722045898,391.7999267578125 L110.00005722045898,390.5426597595215 L110.00005722045898,389.99993324279785 L69.34843063354492,389.9999523162842 L51.80000305175781,389.99996185302734 L50.5394172668457,389.99996185302734 L50.0,389.99996185302734 L50.00001907348633,430.7589530944824 L50.00001907348633,448.2000160217285 L50.00001907348633,448.7394332885742 L50.00001907348633,450.0000190734863 L68.77609252929688,450.0000190734863 L73.57610702514648,450.0000190734863 L91.7920970916748,450.0 L110.00006675720215,450.0 L110.00006675720215,448.7394142150879 L110.00006675720215,448.1999969482422 L91.7920970916748,448.2000160217285 L73.57608795166016,448.2000160217285 L68.77609252929688,448.2000160217285 L51.80002212524414,448.2000160217285 L51.80000305175781,407.4410152435303 L51.80000305175781,391.79996490478516 Z"/></g><g class="IfcWall cut 35wL1BVVL8ivVdOx49l7oi material-metselwerkbaksteenrood 0a5HjcjWL6tumZpRSYbWfy"><path d="M47.20001220703125,417.6479911804199 L47.20001220703125,389.99996185302734 L46.0533332824707,389.99996185302734 L45.20000457763672,389.99996185302734 L45.20000457763672,427.15200424194336 L45.20002365112305,454.8000144958496 L46.346683502197266,454.8000144958496 L47.20001220703125,454.8000144958496 L69.30360794067383,454.8000144958496 L72.29410171508789,454.8000144958496 L91.15123748779297,454.8000144958496 L110.00007629394531,454.8000144958496 L110.00007629394531,453.9466857910156 L110.00007629394531,452.8000259399414 L91.15123748779297,452.8000259399414 L72.29410171508789,452.8000259399414 L69.30360794067383,452.8000259399414 L47.20001220703125,452.8000259399414 Z"/></g><g id="product-ab85943e-e372-43ef-ad25-cad109981d3f" class="IfcBeam material-gewapendbetontpg projection" ifc:name="BB 400x500" ifc:guid="2hXPG_ut93xwqboj49c1q$">
+            <path d="M50,390 L50,390"/>
+            <path d="M44.6,455.4 L52.6,455.4"/>
+            <path d="M52.6,455.4 L52.6,454.8"/>
+            <path d="M52.6,452.8 L52.6,452"/>
+            <path d="M44.6,455.4 L44.6,390"/>
         </g>
-        <g id="product-ab85943e-e372-43ef-ad25-cad109981d3f" class="IfcBeam material-gewapendbeton projection" ifc:name="BB 400x500" ifc:guid="2hXPG_ut93xwqboj49c1q$">
-            <path d="M22.3,197.4 L22.6,197.4"/>
-            <path d="M23.6,197.4 L24,197.4"/>
-            <path d="M22.3,227.7 L26.3,227.7"/>
-            <path d="M26.3,227.7 L26.3,227.4"/>
-            <path d="M26.3,226.4 L26.3,226"/>
-            <path d="M22.3,227.7 L22.3,197.4"/>
+        <g id="product-7f9c48ec-33d6-4873-9626-17aaf58c8ed1" class="IfcBeam material-gewapendbetontpg projection" ifc:name="BB 400x500" ifc:guid="1$d4ZiCzP8SvOc5whrZ8xH">
+            <path d="M110,450 L110,450"/>
+            <path d="M110,452 L110,452.8"/>
+            <path d="M110,454.8 L110,455.4"/>
+            <path d="M52.6,450 L52.6,450"/>
+            <path d="M52.6,452 L52.6,452.8"/>
+            <path d="M52.6,454.8 L52.6,455.4"/>
+            <path d="M52.6,455.4 L110,455.4"/>
+            <path d="M110,447.4 L110,447.4"/>
         </g>
-        <path d="M52.60002136230469,224.10000801086426 L52.60001182556152,205.60999870300293 L52.60001182556152,198.29999923706055 L33.465003967285156,198.30000400543213 L25.900001525878906,198.3000087738037 L25.90001106262207,216.79000854492188 L25.90001106262207,224.10000801086426 L45.035014152526855,224.10000801086426 Z" class="IfcSpace material-null"/></g>
+        <path d="M51.80000305175781,407.77997970581055 L51.80002212524414,448.2000160217285 L68.29004287719727,448.2000160217285 L110.00007629394531,448.1999969482422 L110.00006675720215,432.2199821472168 L110.00005722045898,391.79993629455566 L93.51003646850586,391.79993629455566 L51.80000305175781,391.799955368042 Z" class="IfcSpace material-null"/></g>
   <defs/>
-  <line class="GlobalId-1zxOydFqLCRQUK6gIqcju9 IfcAnnotation PredefinedType-LINEWORK dashed22 blue" x1="220.00125122070312" x2="220.00125122070312" y1="134.1849365234375" y2="71.68492126464844"/>
-  <line class="GlobalId-0a8KIWZOf2AfHuVWxxRXFV IfcAnnotation PredefinedType-SECTION" x1="-4.999990463256836" x2="55.00000762939453" y1="258.6257629394531" y2="258.6257629394531"/>
-  <use transform="rotate(0.0, -4.999990463256836, 258.6257629394531)" x="-4.999990463256836" xlink:href="#section-arrow" y="258.6257629394531"/>
-  <use x="-4.999990463256836" xlink:href="#section-tag" y="258.6257629394531"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-4.999990463256836" y="256.1257629394531">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-4.999990463256836" y="261.1257629394531">-</text>
-  <use transform="rotate(0.0, 55.00000762939453, 258.6257629394531)" x="55.00000762939453" xlink:href="#section-arrow" y="258.6257629394531"/>
-  <use x="55.00000762939453" xlink:href="#section-tag" y="258.6257629394531"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="55.00000762939453" y="256.1257629394531">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="55.00000762939453" y="261.1257629394531">-</text>
-  <line class="GlobalId-3BcoEr79j6YRqgCEXspB1z IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="55.000030517578125" x2="55.000030517578125" y1="245.0" y2="175.0"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="55.000030517578125" y="245.0">02</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="55.000030517578125" y="175.0">02</text>
-  <use transform="rotate(-0.0, 25.000009536743164, 302.93829345703125)" x="25.000009536743164" xlink:href="#elevation-arrow" y="302.93829345703125"/>
-  <use x="25.000009536743164" xlink:href="#elevation-tag" y="302.93829345703125"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="300.43829345703125">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="305.43829345703125">-</text>
-  <line class="GlobalId-0rQReRBlv3gPynkpItDmJs IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="194.99998474121094" y2="194.99998474121094"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="194.99998474121094">B</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="194.99998474121094">B</text>
-  <line class="GlobalId-14MvIFMcP4NwtjVhZMmroZ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="5.000019073486328" x2="75.00001525878906" y1="225.0" y2="225.0"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="5.000019073486328" y="225.0">A</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="75.00001525878906" y="225.0">A</text>
-  <line class="GlobalId-1WBexDxdb0r9ZTDkXxRijG IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="25.000019073486328" x2="25.000019073486328" y1="245.0" y2="175.0"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="245.0">01</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="25.000019073486328" y="175.0">01</text>
-  <use transform="rotate(180.00000500895632, 25.000009536743164, -23.063077926635742)" x="25.000009536743164" xlink:href="#elevation-arrow" y="-23.063077926635742"/>
-  <use x="25.000009536743164" xlink:href="#elevation-tag" y="-23.063077926635742"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="-25.563077926635742">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="25.000009536743164" y="-20.563077926635742">-</text>
-  <line class="GlobalId-2y6NFyym559uuXlG31I1dk IfcAnnotation PredefinedType-SECTION" x1="274.99847412109375" x2="-224.99847412109375" y1="695.0159912109375" y2="695.01611328125"/>
-  <use transform="rotate(179.999991348578, 274.99847412109375, 695.0159912109375)" x="274.99847412109375" xlink:href="#section-arrow" y="695.0159912109375"/>
-  <use x="274.99847412109375" xlink:href="#section-tag" y="695.0159912109375"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="692.5159912109375">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="274.99847412109375" y="697.5159912109375">-</text>
-  <use transform="rotate(179.999991348578, -224.99847412109375, 695.01611328125)" x="-224.99847412109375" xlink:href="#section-arrow" y="695.01611328125"/>
-  <use x="-224.99847412109375" xlink:href="#section-tag" y="695.01611328125"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="692.51611328125">-</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-224.99847412109375" y="697.51611328125">-</text>
-  <use transform="rotate(90.00000250447816, -16.883268356323242, 214.39007568359375)" x="-16.883268356323242" xlink:href="#elevation-arrow" y="214.39007568359375"/>
-  <use x="-16.883268356323242" xlink:href="#elevation-tag" y="214.39007568359375"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-16.883268356323242" y="211.89007568359375">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-16.883268356323242" y="216.89007568359375">-</text>
-  <use transform="rotate(-90.00000250447816, 270.995361328125, 225.0)" x="270.995361328125" xlink:href="#elevation-arrow" y="225.0"/>
-  <use x="270.995361328125" xlink:href="#elevation-tag" y="225.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="270.995361328125" y="222.5">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="270.995361328125" y="227.5">-</text>
-  <path class="GlobalId-0lz0Vzmy9EdvuqlQApIwjC IfcAnnotation PredefinedType-gewapendbetonprefab" d="M 200.03493309020996 69.62532997131348 L 168.7849235534668 69.62532997131348 L 168.7849235534668 132.12533950805664 L 200.03493309020996 132.12533950805664 L 200.03493309020996 69.62532997131348"/>
+  <line class="GlobalId-2y6NFyym559uuXlG31I1dk IfcAnnotation PredefinedType-SECTION" x1="549.9969482421875" x2="-449.9969482421875" y1="1390.031982421875" y2="1390.0322265625"/>
+  <use transform="rotate(179.999991348578, 549.9969482421875, 1390.031982421875)" x="549.9969482421875" xlink:href="#section-arrow" y="1390.031982421875"/>
+  <use x="549.9969482421875" xlink:href="#section-tag" y="1390.031982421875"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="549.9969482421875" y="1387.531982421875">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="549.9969482421875" y="1392.531982421875">-</text>
+  <use transform="rotate(179.999991348578, -449.9969482421875, 1390.0322265625)" x="-449.9969482421875" xlink:href="#section-arrow" y="1390.0322265625"/>
+  <use x="-449.9969482421875" xlink:href="#section-tag" y="1390.0322265625"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-449.9969482421875" y="1387.5322265625">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-449.9969482421875" y="1392.5322265625">-</text>
+  <use transform="rotate(90.00000250447816, -33.766536712646484, 428.7801513671875)" x="-33.766536712646484" xlink:href="#elevation-arrow" y="428.7801513671875"/>
+  <use x="-33.766536712646484" xlink:href="#elevation-tag" y="428.7801513671875"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-33.766536712646484" y="426.2801513671875">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-33.766536712646484" y="431.2801513671875">-</text>
+  <use transform="rotate(-90.00000250447816, 541.99072265625, 450.0)" x="541.99072265625" xlink:href="#elevation-arrow" y="450.0"/>
+  <use x="541.99072265625" xlink:href="#elevation-tag" y="450.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="447.5">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="452.5">-</text>
+  <path class="GlobalId-2Krs9hZjfBHe7vIcaYHfWi IfcAnnotation PredefinedType-FILLAREA isolatie_PUR" d="M 204.15329933166504 310.59393882751465 L 141.6533088684082 310.59393882751465 L 141.6533088684082 185.5939483642578 L 204.15329933166504 185.5939483642578 L 204.15329933166504 310.59393882751465"/>
+  <path class="GlobalId-0SPL7RBxXE7B_nBly4rFNo IfcAnnotation PredefinedType-FILLAREA metselwerk_baksteen_rood" d="M 315.7103157043457 332.26327896118164 L 253.2103157043457 332.26327896118164 L 253.2103157043457 207.26327896118164 L 315.7103157043457 207.26327896118164 L 315.7103157043457 332.26327896118164"/>
+  <line class="GlobalId-0a8KIWZOf2AfHuVWxxRXFV IfcAnnotation PredefinedType-SECTION" x1="-9.999980926513672" x2="110.00001525878906" y1="517.2515258789062" y2="517.2515258789062"/>
+  <use transform="rotate(0.0, -9.999980926513672, 517.2515258789062)" x="-9.999980926513672" xlink:href="#section-arrow" y="517.2515258789062"/>
+  <use x="-9.999980926513672" xlink:href="#section-tag" y="517.2515258789062"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-9.999980926513672" y="514.7515258789062">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="-9.999980926513672" y="519.7515258789062">-</text>
+  <use transform="rotate(0.0, 110.00001525878906, 517.2515258789062)" x="110.00001525878906" xlink:href="#section-arrow" y="517.2515258789062"/>
+  <use x="110.00001525878906" xlink:href="#section-tag" y="517.2515258789062"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="110.00001525878906" y="514.7515258789062">-</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="110.00001525878906" y="519.7515258789062">-</text>
+  <use transform="rotate(-0.0, 50.00001907348633, 605.8765869140625)" x="50.00001907348633" xlink:href="#elevation-arrow" y="605.8765869140625"/>
+  <use x="50.00001907348633" xlink:href="#elevation-tag" y="605.8765869140625"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="603.3765869140625">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="608.3765869140625">-</text>
+  <line class="GlobalId-2BM41tHbr1ifWGhpvBQspW IfcAnnotation PredefinedType-DIMENSION" x1="50.000038146972656" x2="110.00006103515625" y1="480.0" y2="480.0"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(80.00004577636719, 479.0) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
+  </text>
+  <line class="GlobalId-2BM41tHbr1ifWGhpvBQspW IfcAnnotation PredefinedType-DIMENSION" x1="20.000038146972656" x2="20.000038146972656" y1="450.0" y2="389.9999694824219"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(19.000038146972656, 420.0) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
+  </text>
+  <use transform="rotate(180.00000500895632, 50.00001907348633, -46.126155853271484)" x="50.00001907348633" xlink:href="#elevation-arrow" y="-46.126155853271484"/>
+  <use x="50.00001907348633" xlink:href="#elevation-tag" y="-46.126155853271484"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-48.626155853271484">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-43.626155853271484">-</text>
+  <line class="GlobalId-2cMezBAJz10e0U9Kka$ijV IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="110.00006866455078" x2="110.00006866455078" y1="490.0" y2="-46.126155853271484"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.00006866455078" y="490.0">02</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.00006866455078" y="-46.126155853271484">02</text>
+  <line class="GlobalId-1oXP9f3Hr2JOL18qRv0RsZ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="10.000057220458984" x2="541.99072265625" y1="450.0" y2="450.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="10.000057220458984" y="450.0">A</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="450.0">A</text>
+  <line class="GlobalId-0yhSKdboTBaP0Fl8c3nLx7 IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="50.000057220458984" x2="50.000057220458984" y1="490.0" y2="-46.126155853271484"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="50.000057220458984" y="490.0">01</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="50.000057220458984" y="-46.126155853271484">01</text>
+  <line class="GlobalId-3VRlJ7QhLE$Bzbpl9xr7Nn IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="10.000057220458984" x2="541.99072265625" y1="389.9999694824219" y2="389.9999694824219"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="10.000057220458984" y="389.9999694824219">B</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="389.9999694824219">B</text>
+  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-blank" d="M 410.0000190734863 545.6291770935059 L 520.906925201416 545.6291770935059 L 520.906925201416 89.99998092651367 L 410.0000190734863 89.99998092651367 L 410.0000190734863 545.6291770935059"/>
+  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-blank" d="M 409.999942779541 -20.147266387939453 L -19.73712921142578 -20.147266387939453 L -19.73712921142578 89.99998092651367 L 409.9999809265137 89.99998092651367 L 409.999942779541 -20.147266387939453"/>
+  <path class="GlobalId-0djW$2IyDCcu3nVTpketer IfcAnnotation PredefinedType-blank" d="M 520.9068870544434 89.99998092651367 L 409.999942779541 89.99998092651367 L 409.9999809265137 -20.147266387939453 L 520.9068870544434 -20.147266387939453 L 520.9068870544434 89.99998092651367"/>
 </svg>

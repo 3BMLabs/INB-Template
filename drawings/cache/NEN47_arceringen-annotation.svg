@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:50" height="120.00000953674316mm" id="root" version="1.1" viewBox="0 0 100.00000794728595 120.00000953674316" width="100.00000794728595mm">
+  <defs/>
+  <path class="GlobalId-0dkdghyr53XPRsPP35VHhb IfcAnnotation PredefinedType-FILLAREA NEN47_9_natuursteen" d="M 30.09979645411173 34.85111713409424 L 24.09973541895548 34.85111713409424 L 24.09973541895548 36.85112476348877 L 30.09979645411173 36.85112476348877 L 30.09979645411173 34.85111713409424"/>
+  <path class="GlobalId-2a1J_2anLDlA38NsgYccxU IfcAnnotation PredefinedType-NEN478sierbeton" d="M 471.957782904307 28.8511323928833 L 465.9577981630961 28.8511323928833 L 465.9577981630961 30.851140022277832 L 471.957782904307 30.851140022277832 L 471.957782904307 28.8511323928833"/>
+  <path class="GlobalId-3pSj0wryD4D9J$6Lv5Eq_I IfcAnnotation PredefinedType-FILLAREA NEN47_4_niet_dragende_lichte_scheidingswanden" d="M 30.09979645411173 19.85111713409424 L 24.09973541895548 19.85111713409424 L 24.09973541895548 21.85112476348877 L 30.09979645411173 21.85112476348877 L 30.09979645411173 19.85111713409424"/>
+  <path class="GlobalId-3933gwrXn918$XzY9qyIiF IfcAnnotation PredefinedType-FILLAREA NEN47_5_gewapend_beton_tpg" d="M 30.09979645411173 22.851147651672363 L 24.09973541895548 22.851147651672363 L 24.09973541895548 24.851155281066895 L 30.09979645411173 24.851155281066895 L 30.09979645411173 22.851147651672363"/>
+  <path class="GlobalId-31aK2giB51d9wGPkngTO3e IfcAnnotation PredefinedType-FILLAREA NEN47_24_bitumen" d="M 30.09979645411173 87.8511095046997 L 24.09973541895548 87.8511095046997 L 24.09973541895548 89.85111713409424 L 30.09979645411173 89.85111713409424 L 30.09979645411173 87.8511095046997"/>
+  <path class="GlobalId-0rjYDpKETE6gzeMEzCPw$g IfcAnnotation PredefinedType-FILLAREA NEN47_6_gewapend_beton_prefab" d="M 30.09979645411173 25.851101875305176 L 24.09973541895548 25.851101875305176 L 24.09973541895548 27.851109504699707 L 30.09979645411173 27.851109504699707 L 30.09979645411173 25.851101875305176"/>
+  <path class="GlobalId-1r2J7t0h52P8LgAvUqboJz IfcAnnotation PredefinedType-FILLAREA NEN47_18_staal" d="M 30.09979645411173 65.85114002227783 L 24.09973541895548 65.85114002227783 L 24.09973541895548 67.85114765167236 L 30.09979645411173 67.85114765167236 L 30.09979645411173 65.85114002227783"/>
+  <path class="GlobalId-3VRiW3Mwz5iB7fDuZbYMG3 IfcAnnotation PredefinedType-FILLAREA NEN47_23_afdichtingsmiddel" d="M 30.09979645411173 84.8511552810669 L 24.09973541895548 84.8511552810669 L 24.09973541895548 86.85116291046143 L 30.09979645411173 86.85116291046143 L 30.09979645411173 84.8511552810669"/>
+  <path class="GlobalId-37bqQNK355a9I1$5p91fUv IfcAnnotation PredefinedType-FILLAREA NEN47_22_kunststof" d="M 30.09979645411173 81.85112476348877 L 24.09973541895548 81.85112476348877 L 24.09973541895548 83.8511323928833 L 30.09979645411173 83.8511323928833 L 30.09979645411173 81.85112476348877"/>
+  <path class="GlobalId-1jmrXAHDDAVBU$kRt7nwlm IfcAnnotation PredefinedType-FILLAREA NEN47_10_enkele_wand_vloer_afwerking" d="M 30.09979645411173 37.85110950469971 L 24.09973541895548 37.85110950469971 L 24.09973541895548 39.85111713409424 L 30.09979645411173 39.85111713409424 L 30.09979645411173 37.85110950469971"/>
+  <path class="GlobalId-0k5H6utVXAxRA7EAZ_0eni IfcAnnotation PredefinedType-FILLAREA NEN47_17_isolatie" d="M 30.09979645411173 62.85110950469971 L 24.09973541895548 62.85110950469971 L 24.09973541895548 64.85111713409424 L 30.09979645411173 64.85111713409424 L 30.09979645411173 62.85110950469971"/>
+  <path class="GlobalId-096tNIZ_b9zez00QbCDc_b IfcAnnotation PredefinedType-FILLAREA NEN47_16_bekledingsplaat" d="M 30.09979645411173 59.85111713409424 L 24.09973541895548 59.85111713409424 L 24.09973541895548 61.85112476348877 L 30.09979645411173 61.85112476348877 L 30.09979645411173 59.85111713409424"/>
+  <path class="GlobalId-2Lhsx5moDFiOdQgqQoF0WM IfcAnnotation PredefinedType-FILLAREA NEN47_3_metselwerk_niet_gebakken_kunststeen" d="M 30.09979645411173 16.85112476348877 L 24.09973541895548 16.85112476348877 L 24.09973541895548 18.8511323928833 L 30.09979645411173 18.8511323928833 L 30.09979645411173 16.85112476348877"/>
+  <path class="GlobalId-2nbLiS7_jBBRHWJI5wGGIM IfcAnnotation PredefinedType-FILLAREA NEN47_28_water" d="M 30.09979645411173 99.85111713409424 L 24.09973541895548 99.85111713409424 L 24.09973541895548 101.85112476348877 L 30.09979645411173 101.85112476348877 L 30.09979645411173 99.85111713409424"/>
+  <path class="GlobalId-1u52XKcMz8TBfHOMcVmbAm IfcAnnotation PredefinedType-FILLAREA NEN47_11_samengestelde_wand_vloer_afwerking" d="M 30.09979645411173 47.85114765167236 L 24.09973541895548 47.85114765167236 L 24.09973541895548 49.851155281066895 L 30.09979645411173 49.851155281066895 L 30.09979645411173 47.85114765167236"/>
+  <path class="GlobalId-2nQWauWx9Bwu8CWXHhjtlc IfcAnnotation PredefinedType-FILLAREA NEN47_14_naald_loofhout_langsarcering" d="M 30.09979645411173 56.85112476348877 L 24.09973541895548 56.85112476348877 L 24.09973541895548 58.8511323928833 L 30.09979645411173 58.8511323928833 L 30.09979645411173 56.85112476348877"/>
+  <path class="GlobalId-0rNiD7RKP5V9dhcz2aXxd8 IfcAnnotation PredefinedType-FILLAREA NEN47_13_loofhout" d="M 30.09979645411173 53.8511323928833 L 24.09973541895548 53.8511323928833 L 24.09973541895548 55.85114002227783 L 30.09979645411173 55.85114002227783 L 30.09979645411173 53.8511323928833"/>
+  <path class="GlobalId-3eMH6iAwbALwH2uuuKzzU7 IfcAnnotation PredefinedType-FILLAREA NEN47_26_zand" d="M 30.09979645411173 93.8511323928833 L 24.09973541895548 93.8511323928833 L 24.09973541895548 95.85114002227783 L 30.09979645411173 95.85114002227783 L 30.09979645411173 93.8511323928833"/>
+  <path class="GlobalId-3j5qabSyn5MA67BLT_8iWf IfcAnnotation PredefinedType-FILLAREA NEN47_25_maaiveld" d="M 30.09979645411173 90.85114002227783 L 24.09973541895548 90.85114002227783 L 24.09973541895548 92.85114765167236 L 30.09979645411173 92.85114765167236 L 30.09979645411173 90.85114002227783"/>
+  <path class="GlobalId-0WAsZCQyD4VRKRqUMP6F5K IfcAnnotation PredefinedType-FILLAREA NEN47_20_lood" d="M 30.09979645411173 71.85112476348877 L 24.09973541895548 71.85112476348877 L 24.09973541895548 73.8511323928833 L 30.09979645411173 73.8511323928833 L 30.09979645411173 71.85112476348877"/>
+  <path class="GlobalId-0kqViOLpr5Cv8dFOah11zS IfcAnnotation PredefinedType-FILLAREA NEN47_29_glas" d="M 30.09979645411173 102.8511095046997 L 24.09973541895548 102.8511095046997 L 24.09973541895548 104.85111713409424 L 30.09979645411173 104.85111713409424 L 30.09979645411173 102.8511095046997"/>
+  <path class="GlobalId-0pvqc8EA12TQMIFlnYgFNV IfcAnnotation PredefinedType-FILLAREA NEN47_27_grind" d="M 30.09979645411173 96.85116291046143 L 24.09973541895548 96.85116291046143 L 24.09973541895548 98.85117053985596 L 30.09979645411173 98.85117053985596 L 30.09979645411173 96.85116291046143"/>
+  <path class="GlobalId-0YGcXDjGz1pu2WpzTytC3O IfcAnnotation PredefinedType-FILLAREA NEN47_2_speciale_steenachtige_materialen" d="M 30.09979645411173 13.8511323928833 L 24.09973541895548 13.8511323928833 L 24.09973541895548 15.851140022277832 L 30.09979645411173 15.851140022277832 L 30.09979645411173 13.8511323928833"/>
+  <path class="GlobalId-1g1BrWuunDh9RRzttEk480 IfcAnnotation PredefinedType-FILLAREA NEN47_7_ongewapend_beton" d="M 30.09979645411173 28.8511323928833 L 24.09973541895548 28.8511323928833 L 24.09973541895548 30.851140022277832 L 30.09979645411173 30.851140022277832 L 30.09979645411173 28.8511323928833"/>
+  <path class="GlobalId-0T9l$UGFf09B5waRnWdlq8 IfcAnnotation PredefinedType-FILLAREA NEN47_21_zink" d="M 30.09979645411173 74.85111713409424 L 24.09973541895548 74.85111713409424 L 24.09973541895548 76.85112476348877 L 30.09979645411173 76.85112476348877 L 30.09979645411173 74.85111713409424"/>
+  <path class="GlobalId-3FbUrzLe19FR$pj6mIh41N IfcAnnotation PredefinedType-FILLAREA NEN47_19_aluminium_brons_koper" d="M 30.09979645411173 68.8511323928833 L 24.09973541895548 68.8511323928833 L 24.09973541895548 70.85114002227783 L 30.09979645411173 70.85114002227783 L 30.09979645411173 68.8511323928833"/>
+  <path class="GlobalId-0Bvj615G5FngWDbyXbSUo0 IfcAnnotation PredefinedType-FILLAREA NEN47_12_naaldhout" d="M 30.09979645411173 50.85114002227783 L 24.09973541895548 50.85114002227783 L 24.09973541895548 52.85114765167236 L 30.09979645411173 52.85114765167236 L 30.09979645411173 50.85114002227783"/>
+  <path class="GlobalId-2lP2EqOUb9Du3K8Gb3Gujk IfcAnnotation PredefinedType-FILLAREA NEN47_1_metselwerk_baksteen" d="M 30.09979645411173 10.851101875305176 L 24.09973541895548 10.851101875305176 L 24.09973541895548 12.851109504699707 L 30.09979645411173 12.851109504699707 L 30.09979645411173 10.851101875305176"/>
+  <line class="GlobalId-0u3kBHhX9Cle6QsiIzg5xN IfcAnnotation PredefinedType-DIMENSION" x1="21.09970474243164" x2="21.09970474243164" y1="12.851109504699707" y2="10.851101875305176"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(20.09970474243164, 7.851101875305176) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">100</tspan>
+  </text>
+  <line class="GlobalId-0u3kBHhX9Cle6QsiIzg5xN IfcAnnotation PredefinedType-DIMENSION" x1="24.099735260009766" x2="30.099796295166016" y1="7.851071357727051" y2="7.851071357727051"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(27.09976577758789, 6.851071357727051) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">300</tspan>
+  </text>
+  <path class="GlobalId-2reZJnX7nEFP8nLXqHjk2N IfcAnnotation PredefinedType-FILLAREA NEN47_8_sierbeton" d="M 30.09979645411173 31.85112476348877 L 24.09973541895548 31.85112476348877 L 24.09973541895548 33.8511323928833 L 30.09979645411173 33.8511323928833 L 30.09979645411173 31.85112476348877"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 52.85114669799805) rotate(-0.0)">
+    <tspan class="GlobalId-0Z1pSN1rf2OfmVb3GOltnl IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_12_naaldhout</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 89.85111236572266) rotate(-0.0)">
+    <tspan class="GlobalId-1EycUC0Tz3kPSBI7ifkC1v IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_24_bitumen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 39.85111618041992) rotate(-0.0)">
+    <tspan class="GlobalId-06ShSYnqH0pApq2QjJKOe3 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_10_enkele_wand_vloer_afwerking</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 49.85115432739258) rotate(-0.0)">
+    <tspan class="GlobalId-196iwQ84jDYAEPqflYML6j IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_11_samengestelde_wand_vloer_afwerking</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 30.851139068603516) rotate(-0.0)">
+    <tspan class="GlobalId-1kelGTPMT7mQg6axZWpcsw IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_7_ongewapend_beton</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 15.851140022277832) rotate(-0.0)">
+    <tspan class="GlobalId-0rM3hEwLr0MBVpa0sdlYe1 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_2_speciale_steenachtige_materialen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 27.85110855102539) rotate(-0.0)">
+    <tspan class="GlobalId-3O0zWn_Un1KQZPWz2ntZXv IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_6_gewapend_beton_prefab</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 76.85112762451172) rotate(-0.0)">
+    <tspan class="GlobalId-19NE2Sqk90dxVft9rYF_HX IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_21_zink</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 83.85112762451172) rotate(-0.0)">
+    <tspan class="GlobalId-1pU4n58qL8bBxirEtsrAgk IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_22_kunststof</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 86.85115814208984) rotate(-0.0)">
+    <tspan class="GlobalId-3GFcigx3bBzgjwytI$9EAY IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_23_afdichtingsmiddel</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 73.85113525390625) rotate(-0.0)">
+    <tspan class="GlobalId-11CwtB77zDRBtBZiP3Y6H7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_20_lood</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 92.85114288330078) rotate(-0.0)">
+    <tspan class="GlobalId-2boeYdlVH7vxPDCkIpEBnA IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_25_maaiveld</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 24.851154327392578) rotate(-0.0)">
+    <tspan class="GlobalId-35xpEd9_L7gguFQHC3c4VI IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_5_gewapend_beton_tpg</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 61.85112380981445) rotate(-0.0)">
+    <tspan class="GlobalId-0JEcIv9496jvtNg9oRHYFq IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_16_bekledingsplaat</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 33.851131439208984) rotate(-0.0)">
+    <tspan class="GlobalId-237eQyZzLATx4XY0bB9n47 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_8_sierbeton</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 95.85113525390625) rotate(-0.0)">
+    <tspan class="GlobalId-1a5_oAkJjEmv8hTSaA1nkD IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_26_zand</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 21.851123809814453) rotate(-0.0)">
+    <tspan class="GlobalId-2$WPTD9W5Bih5M$LLGc3MX IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_4_niet_dragende_lichte_scheidingswanden</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 64.85111999511719) rotate(-0.0)">
+    <tspan class="GlobalId-2cM96nkDD8q9_pCVFGrVBr IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_17_isolatie</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(12.16202163696289, 10.851101875305176) rotate(89.999995674289)">
+    <tspan class="GlobalId-2h2GNta690yAOTAlHacEA8 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">NEN47 arceringen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 67.85115051269531) rotate(-0.0)">
+    <tspan class="GlobalId-3c$W8xCJX8RebfQRLtSIi7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_18_staal</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 104.85111236572266) rotate(-0.0)">
+    <tspan class="GlobalId-1Ur76nrDz0JPlR8Ob_Hgvt IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_29_glas</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 55.851139068603516) rotate(-0.0)">
+    <tspan class="GlobalId-3tYNjNuqL7dRs_CQ9BrxZG IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_13_loofhout</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 101.85111999511719) rotate(-0.0)">
+    <tspan class="GlobalId-1F2aDRN4981vinOSrtOq1l IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_28_water</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 12.851109504699707) rotate(-0.0)">
+    <tspan class="GlobalId-0MuUnoMaj01fptkMqmps2p IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_1_metselwerk_baksteen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 18.851131439208984) rotate(-0.0)">
+    <tspan class="GlobalId-2cr4OTFNDDBf5Z_RYZ5qsK IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_3_metselwerk_niet_gebakken_kunststeen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 98.85116577148438) rotate(-0.0)">
+    <tspan class="GlobalId-0uepOd0Ev9ZBJ9lBZM5ZXN IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_27_grind</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 70.85114288330078) rotate(-0.0)">
+    <tspan class="GlobalId-3ecJPrihzEi9hbN$L5xELn IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_19_aluminium_brons_koper</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 36.85112380981445) rotate(-0.0)">
+    <tspan class="GlobalId-3v$GV8O2D4TOiez01Q0rHW IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_9_natuursteen</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(31.09970474243164, 58.851131439208984) rotate(-0.0)">
+    <tspan class="GlobalId-3h01jhzRT9uwp2$jf7_Dl7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">NEN47_14_naald_loofhout_langsarcering</tspan>
+  </text>
+</svg>

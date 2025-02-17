@@ -7,19 +7,6 @@
   <line class="GlobalId-0dT9lGjEP0fgZBhldWHK3z IfcAnnotation PredefinedType-LINEWORK" x1="155.48565673828125" x2="155.48565673828125" y1="93.10566711425781" y2="74.60564422607422"/>
   <line class="GlobalId-0dT9lGjEP0fgZBhldWHK3z IfcAnnotation PredefinedType-LINEWORK" x1="155.48565673828125" x2="155.48565673828125" y1="65.60566711425781" y2="47.10564041137695"/>
   <line class="GlobalId-0dT9lGjEP0fgZBhldWHK3z IfcAnnotation PredefinedType-LINEWORK" x1="145.48577880859375" x2="145.48577880859375" y1="65.60566711425781" y2="47.10564041137695"/>
-  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="135.9528045654297" x2="135.9528045654297" y1="93.10566711425781" y2="31.0170841217041"/>
-  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="165.78453063964844" x2="165.78453063964844" y1="47.10564422607422" y2="45.75566101074219"/>
-  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="165.78453063964844" x2="165.78453063964844" y1="45.75566101074219" y2="31.0170841217041"/>
-  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="171.78451538085938" x2="171.78451538085938" y1="47.10564422607422" y2="31.0170841217041"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="145.48577880859375" y1="47.10564041137695" y2="45.75565719604492"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="155.48562622070312" y1="45.75565719604492" y2="45.75565719604492"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="145.48577880859375" y1="45.75565719604492" y2="31.01708221435547"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="155.48565673828125" y1="31.01708221435547" y2="31.01708221435547"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="155.48565673828125" x2="155.48565673828125" y1="31.01708221435547" y2="47.10567855834961"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="124.9857406616211" x2="212.1357421875" y1="47.10564041137695" y2="47.10564041137695"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="141.9857177734375" x2="158.98568725585938" y1="65.60566711425781" y2="65.60566711425781"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="141.9857177734375" x2="158.98568725585938" y1="74.60564422607422" y2="74.60564422607422"/>
-  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="212.1357421875" x2="124.9857406616211" y1="93.10566711425781" y2="93.10566711425781"/>
   <line class="GlobalId-01M$7TUXP6OeUB50Fc_AuP IfcAnnotation PredefinedType-LINEWORK" x1="20.43572425842285" x2="36.68572235107422" y1="130.55039978027344" y2="130.55039978027344"/>
   <line class="GlobalId-01M$7TUXP6OeUB50Fc_AuP IfcAnnotation PredefinedType-LINEWORK" x1="36.68572235107422" x2="52.485740661621094" y1="130.55039978027344" y2="130.55039978027344"/>
   <line class="GlobalId-01M$7TUXP6OeUB50Fc_AuP IfcAnnotation PredefinedType-LINEWORK" x1="52.485740661621094" x2="65.33573913574219" y1="130.55039978027344" y2="130.55039978027344"/>
@@ -110,44 +97,36 @@
   <line class="GlobalId-01M$7TUXP6OeUB50Fc_AuP IfcAnnotation PredefinedType-LINEWORK" x1="52.485740661621094" x2="65.33573913574219" y1="135.55039978027344" y2="135.55039978027344"/>
   <line class="GlobalId-01M$7TUXP6OeUB50Fc_AuP IfcAnnotation PredefinedType-LINEWORK" x1="20.43572425842285" x2="36.68572235107422" y1="135.55039978027344" y2="135.55039978027344"/>
   <line class="GlobalId-01M$7TUXP6OeUB50Fc_AuP IfcAnnotation PredefinedType-LINEWORK" x1="20.43572425842285" x2="212.1357421875" y1="124.05037689208984" y2="124.05037689208984"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(180.2857208251953, 92.60567474365234) rotate(-0.0)">
-    <tspan class="GlobalId-2ITmWZVn5BLvnwitCYXFn8 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">puntniveau</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(72.38575744628906, 156.80039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-2vbaP4CtD26Bk6ZGVAuEzl IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">20,33</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(166.93576049804688, 144.30039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-0kHvvAJ1n1IRPPLSpkof4n IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-1000</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(53.735740661621094, 134.05038452148438) rotate(-0.0)">
-    <tspan class="GlobalId-1iWA$xO0r7Pgx3qs2OXKdn IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">AANTAL</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(135.58580017089844, 156.80039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-3CYXbFSMX6MAb4Pic97tWp IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-670</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(72.38575744628906, 144.30039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-0hMAV9DiHFbvKeFYH7TrlP IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">22,33</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 134.05038452148438) rotate(-0.0)">
-    <tspan class="GlobalId-3twDcerAb8oeqBls80V9gF IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Symbool</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(89.2857437133789, 144.30039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-3HOjymUl12AgrLujU61$rg IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-21,00</tspan>
-  </text>
+  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="135.9528045654297" x2="135.9528045654297" y1="93.10566711425781" y2="31.0170841217041"/>
+  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="165.78453063964844" x2="165.78453063964844" y1="47.10564422607422" y2="45.75566101074219"/>
+  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="165.78453063964844" x2="165.78453063964844" y1="45.75566101074219" y2="31.0170841217041"/>
+  <line class="GlobalId-1UqmRUHdT8EQYnGj8F6qZR IfcAnnotation PredefinedType-DIMENSION" x1="171.78451538085938" x2="171.78451538085938" y1="47.10564422607422" y2="31.0170841217041"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="145.48577880859375" y1="47.10564041137695" y2="45.75565719604492"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="155.48562622070312" y1="45.75565719604492" y2="45.75565719604492"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="145.48577880859375" y1="45.75565719604492" y2="31.01708221435547"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="145.48577880859375" x2="155.48565673828125" y1="31.01708221435547" y2="31.01708221435547"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="155.48565673828125" x2="155.48565673828125" y1="31.01708221435547" y2="47.10567855834961"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="124.9857406616211" x2="212.1357421875" y1="47.10564041137695" y2="47.10564041137695"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="141.9857177734375" x2="158.98568725585938" y1="65.60566711425781" y2="65.60566711425781"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="141.9857177734375" x2="158.98568725585938" y1="74.60564422607422" y2="74.60564422607422"/>
+  <line class="GlobalId-1higrhPaT1AA45MVGyM61F IfcAnnotation PredefinedType-LINEWORK dashed" x1="212.1357421875" x2="124.9857406616211" y1="93.10566711425781" y2="93.10566711425781"/>
   <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(58.91072082519531, 163.05038452148438) rotate(-0.0)">
     <tspan class="GlobalId-2f0M6_wzf6kRgKggGgcb4b IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">44</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(37.93572235107422, 134.05038452148438) rotate(-0.0)">
-    <tspan class="GlobalId-0wliDDMojCl8UQxrRAbVQn IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">SCHACHT</tspan>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(44.53572082519531, 128.05039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-2VenCYVcv2oPtdigakVuCE IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[mm]</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(100.48577117919922, 134.05038452148438) rotate(-0.0)">
+    <tspan class="GlobalId-1PuhxbHQv3DuAytHz6U51l IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">O.K. BALK</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(44.53572082519531, 144.30039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-1DWb6TyO13aQS4icZZje6n IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">220</tspan>
   </text>
   <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(166.93576049804688, 156.80039978027344) rotate(-0.0)">
     <tspan class="GlobalId-3AxOGIGufF$xcmHPv8WSQl IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-1000</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 122.70294952392578) rotate(-0.0)">
     <tspan class="GlobalId-3KW2HtfrL8UeqhJLK6Tt6j IfcAnnotation PredefinedType-TEXT bold regular" dy="0em" x="0" y="0">PAALSTAAT PREFAB BETONPAAL</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 32.8797607421875) rotate(-0.0)">
-    <tspan class="GlobalId-0JBiU7OLj5Sf$awyhAMpC$ IfcAnnotation PredefinedType-TEXT large bold" dy="0em" x="0" y="0">RENVOOI PREFAB BETONPALEN</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 51.326297760009766) rotate(-0.0)">
     <tspan class="GlobalId-1I5Qu7lGj3hPaWos9yVycx IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Heiwerkzaamheden uitvoeren volgens NEN-EN 1997 &amp; NEN-EN 12699 </tspan>
@@ -168,6 +147,63 @@
   <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(58.91072082519531, 156.80039978027344) rotate(-0.0)">
     <tspan class="GlobalId-1olHTVB4D66g1xVw4lfmYs IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">28</tspan>
   </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(58.91072082519531, 144.30039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-3cdxvvxDXBfPJO2e2YZDDz IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">16</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(156.435791015625, 134.05038452148438) rotate(-0.0)">
+    <tspan class="GlobalId-0XTjmdebX15wubfsT$ClB5 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">AFHAKHOOGTE</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(89.2857437133789, 156.80039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-0MpBd_4Fj3IQRBFbc98vYM IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-19,00</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(180.2857208251953, 92.60567474365234) rotate(-0.0)">
+    <tspan class="GlobalId-2ITmWZVn5BLvnwitCYXFn8 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">puntniveau</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(166.93576049804688, 144.30039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-0kHvvAJ1n1IRPPLSpkof4n IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-1000</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(89.2857437133789, 128.05039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-1eLBsNnH51tBqKX0cunbac IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[m tov NAP]</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(53.735740661621094, 134.05038452148438) rotate(-0.0)">
+    <tspan class="GlobalId-1iWA$xO0r7Pgx3qs2OXKdn IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">AANTAL</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(29.771089553833008, 108.211181640625) rotate(-0.0)">
+    <tspan class="GlobalId-3khcptwWv7uAZqSW7kD2YJ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Wapening volgens opgaaf fabrikant</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(135.58580017089844, 156.80039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-3CYXbFSMX6MAb4Pic97tWp IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-670</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(72.38575744628906, 144.30039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-0hMAV9DiHFbvKeFYH7TrlP IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">22,33</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 134.05038452148438) rotate(-0.0)">
+    <tspan class="GlobalId-3twDcerAb8oeqBls80V9gF IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Symbool</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(89.2857437133789, 144.30039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-3HOjymUl12AgrLujU61$rg IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-21,00</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(166.93576049804688, 128.05039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-0KIarPL3bEAe55Y11wsXoU IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[mm tov PEIL]</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(37.93572235107422, 134.05038452148438) rotate(-0.0)">
+    <tspan class="GlobalId-0wliDDMojCl8UQxrRAbVQn IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">SCHACHT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 99.70825958251953) rotate(-0.0)">
+    <tspan class="GlobalId-05YYoO1b15qPBBnurC0put IfcAnnotation PredefinedType-TEXT small bold" dy="0em" x="0" y="0">PAALGEGEVENS</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(107.63577270507812, 156.80039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-1E9vzPg$9FCxnOma4z79Ag IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-1020</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 104.21658325195312) rotate(-0.0)">
+    <tspan class="GlobalId-0HyhWJEHj44PsI05hbYhJ7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Prefab betonpaal</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 32.8797607421875) rotate(-0.0)">
+    <tspan class="GlobalId-0JBiU7OLj5Sf$awyhAMpC$ IfcAnnotation PredefinedType-TEXT large bold" dy="0em" x="0" y="0">RENVOOI PREFAB BETONPALEN</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(135.58580017089844, 128.05039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-30t0_U9VX8yPDrYRHLK5ys IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[mm tov PEIL]</tspan>
+  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(80.58575439453125, 134.05038452148438) rotate(-0.0)">
     <tspan class="GlobalId-3dI3JinkX43w2gMA9cxp8d IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">INHEINIVEAU</tspan>
   </text>
@@ -176,6 +212,9 @@
   </text>
   <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(107.63577270507812, 144.30039978027344) rotate(-0.0)">
     <tspan class="GlobalId-3AhwrZ$XfA2AH9JoKGZqk4 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-1020</tspan>
+  </text>
+  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(72.38575744628906, 156.80039978027344) rotate(-0.0)">
+    <tspan class="GlobalId-2vbaP4CtD26Bk6ZGVAuEzl IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">20,33</tspan>
   </text>
   <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(135.58580017089844, 144.30039978027344) rotate(-0.0)">
     <tspan class="GlobalId-2JaBOMMQ9AMvYv_7u4K$xC IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-670</tspan>
@@ -189,9 +228,6 @@
   <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(72.38575744628906, 128.05039978027344) rotate(-0.0)">
     <tspan class="GlobalId-3iH$Pyp9jE7x1r7hthKvgZ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[m]</tspan>
   </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(89.2857437133789, 128.05039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-1eLBsNnH51tBqKX0cunbac IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[m tov NAP]</tspan>
-  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(117.28577423095703, 134.05038452148438) rotate(-0.0)">
     <tspan class="GlobalId-3iGaRadHb2pBYzb0RE8pNO IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">B.K. NIET GESNELDE PAAL</tspan>
   </text>
@@ -200,41 +236,5 @@
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(180.2857208251953, 46.605648040771484) rotate(-0.0)">
     <tspan class="GlobalId-0WV9g9$oL1_Q6ysaHIdQQq IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">onderkant fundering</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(29.771089553833008, 108.211181640625) rotate(-0.0)">
-    <tspan class="GlobalId-3khcptwWv7uAZqSW7kD2YJ IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-Wapening volgens opgaaf fabrikant</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(44.53572082519531, 128.05039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-2VenCYVcv2oPtdigakVuCE IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[mm]</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(100.48577117919922, 134.05038452148438) rotate(-0.0)">
-    <tspan class="GlobalId-1PuhxbHQv3DuAytHz6U51l IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">O.K. BALK</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(44.53572082519531, 144.30039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-1DWb6TyO13aQS4icZZje6n IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">220</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(166.93576049804688, 128.05039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-0KIarPL3bEAe55Y11wsXoU IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[mm tov PEIL]</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 99.70825958251953) rotate(-0.0)">
-    <tspan class="GlobalId-05YYoO1b15qPBBnurC0put IfcAnnotation PredefinedType-TEXT small bold" dy="0em" x="0" y="0">PAALGEGEVENS</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(107.63577270507812, 156.80039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-1E9vzPg$9FCxnOma4z79Ag IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-1020</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(58.91072082519531, 144.30039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-3cdxvvxDXBfPJO2e2YZDDz IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">16</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(22.93572425842285, 104.21658325195312) rotate(-0.0)">
-    <tspan class="GlobalId-0HyhWJEHj44PsI05hbYhJ7 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">Prefab betonpaal</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(135.58580017089844, 128.05039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-30t0_U9VX8yPDrYRHLK5ys IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">[mm tov PEIL]</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(156.435791015625, 134.05038452148438) rotate(-0.0)">
-    <tspan class="GlobalId-0XTjmdebX15wubfsT$ClB5 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">AFHAKHOOGTE</tspan>
-  </text>
-  <text dominant-baseline="middle" style="font-size: 0;" text-anchor="middle" transform="translate(89.2857437133789, 156.80039978027344) rotate(-0.0)">
-    <tspan class="GlobalId-0MpBd_4Fj3IQRBFbc98vYM IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">-19,00</tspan>
   </text>
 </svg>
