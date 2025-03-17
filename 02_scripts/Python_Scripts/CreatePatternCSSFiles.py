@@ -133,6 +133,28 @@ PREFIX_PATTERNS = '<?xml version="1.0" encoding="utf-8" ?>\n' \
 '    <path style="fill: white;" d="M 0 0 10 0 10 10 0 10" />\n' \
 '<path style="stroke:#000000;stroke-width:0.25;stroke-linecap:round" d="M.5.5H.8L.65.9zm1.2 3.7.692-.186-.149.611zm.4 3.2.56.203-.25.6zm1.5-5.3.6-.4-.3.5zm3.2-.3.35.25-.439.594zm.4 7.5.3-.2-.15.4zm1.7-5.6.25.4-.1-.3zm.2 2.8.4.2-.2.3zM.8 2.1l.1.1m.4 4.4.05-.05M2.7 3.4l.1.1m.4 1.7.1-.1m1.6-3.6.05.05M3.732.589 3.628.678M5.5 7.1l.1.1m.5-2.7.1-.1m1.2-2.1.05.05M8.3 8.4l.1.1m1.2 1.2.05-.05M.4 4.9.5 5m1-2.2.1-.1m.6 3 .1.1m1.5 1.5.1-.1m.8-4 .1.1m.3 3.1.05-.05M6.9 8.2l.1.1m.5-6.4.05-.05M8.7 4.3l.1.1m.4 1.8.1-.1M.3.2.4.3m.8 8.8.1-.1m1-7.2.1.1m.7 5.9.1-.1m.9-5.3.1.1m1.2 5.8.1-.1m-1.366.788.06.149M6.6.7l.1.1m1.2 4.7.1-.1m.6-2.8.1.1m.7 4.5.1-.1" />\n' \
 '</pattern>\n' \
+'<pattern id="verticaal_smal" width="2" height="2" patternUnits="userSpaceOnUse">\n' \
+'    <path style="fill: white;" d="M 0 0 2 0 2 2 0 2" />\n' \
+'    <line x1="0" y1="0" x2="0" y2="2" style="stroke:black; stroke-width:0.25" />\n' \
+'    <line x1="1" y1="0" x2="1" y2="2" style="stroke:black; stroke-width:0.25" />\n' \
+'</pattern>\n' \
+'<pattern id="verticaal_breed" width="10" height="10" patternUnits="userSpaceOnUse">\n' \
+'    <path style="fill: white;" d="M 0 0 10 0 10 10 0 10" />\n' \
+'    <line x1="0" y1="0" x2="0" y2="10" style="stroke:black; stroke-width:0.25" />\n' \
+'    <line x1="5" y1="0" x2="5" y2="10" style="stroke:black; stroke-width:0.25" />\n' \
+'</pattern>\n' \
+'<pattern id="horizontaal_breed" width="10" height="10" patternUnits="userSpaceOnUse">\n' \
+'    <path style="fill: white;" d="M 0 0 10 0 10 10 0 10" />\n' \
+'    <line x1="0" y1="0" x2="10" y2="0" style="stroke:black; stroke-width:0.25" />\n' \
+'    <line x1="0" y1="5" x2="10" y2="5" style="stroke:black; stroke-width:0.25" />\n' \
+'</pattern>\n' 
+'<pattern id="horizontaal_smal" width="2" height="2" patternUnits="userSpaceOnUse">\n' \
+'    <path style="fill: white;" d="M 0 0 2 0 2 2 0 2" />\n' \
+'    <line x1="0" y1="0" x2="2" y2="0" style="stroke:black; stroke-width:0.25" />\n' \
+'    <line x1="0" y1="1" x2="2" y2="1" style="stroke:black; stroke-width:0.25" />\n' \
+'</pattern>\n' 
+
+
 
 SUFFIX_PATTERNS = '</svg>'
 
@@ -429,7 +451,6 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-LINEWORK.lineweight_0_70 { stroke-width: 0.7; }\n' \
 '.PredefinedType-LINEWORK.lineweight_1_00 { stroke-width: 1.0; }\n' \
 '.PredefinedType-LINEWORK.lineweight_1_40 { stroke-width: 1.4; }\n' \
-'.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }\n' \
 '.PredefinedType-LINEWORK.grey { stroke:#808080; }\n' \
 '.PredefinedType-LINEWORK.black { stroke:black; }\n' \
 '.PredefinedType-LINEWORK.green { stroke:green; }\n' \
@@ -455,12 +476,12 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }\n' \
 '.PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }\n' \
 '.PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }\n' \
-'.PredefinedType-FILLAREA.green { fill:green; stroke:none; }\n' \
-'.PredefinedType-FILLAREA.blue { fill:blue; stroke:none; }\n' \
-'.PredefinedType-FILLAREA.yellow { fill:yellow; stroke:none; }\n' \
-'.PredefinedType-FILLAREA.red { fill:red; stroke:none; }\n' \
-'.PredefinedType-FILLAREA.purple { fill:purple; stroke:none; }\n' \
-'.PredefinedType-FILLAREA.darkgrey { fill:#696969; stroke:none; }\n' \
+'.PredefinedType-FILLAREA.green { fill:green; }\n' \
+'.PredefinedType-FILLAREA.blue { fill:blue; }\n' \
+'.PredefinedType-FILLAREA.yellow { fill:yellow; }\n' \
+'.PredefinedType-FILLAREA.red { fill:red; }\n' \
+'.PredefinedType-FILLAREA.purple { fill:purple;  }\n' \
+'.PredefinedType-FILLAREA.darkgrey { fill:#696969; }\n' \
 '.PredefinedType-FILLAREA.sand { fill: url(#sand); }\n' \
 '.PredefinedType-FILLAREA.earth { fill: url(#earth); }\n' \
 '.PredefinedType-FILLAREA.glass { fill: url(#glass); }\n' \
@@ -473,10 +494,31 @@ PREFIX_CSS = '/*\n' \
 '.PredefinedType-FILLAREA.white_25 { fill: white; opacity: 0.25; stroke: none; }\n' \
 '.PredefinedType-FILLAREA.white_50 { fill: white; opacity: 0.5; stroke: none; }\n' \
 '.PredefinedType-FILLAREA.white_75 { fill: white; opacity: 0.75; stroke: none; }\n' \
-'.PredefinedType-FILLAREA.black_10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }\n' \
+'.PredefinedType-FILLAREA.black_10 { fill: black; opacity: 0.10; stroke: none }\n' \
 '.PredefinedType-FILLAREA.black_25 { fill: black; opacity: 0.25; stroke: none; }\n'\
-'.PredefinedType-FILLAREA.bestaand_gebouw { fill: url( #bestaand_gebouw); stroke: black; }\n' \
-
+'.PredefinedType-FILLAREA.none { stroke:none; }\n' \
+'.PredefinedType-FILLAREA.continuous { stroke-dasharray: 10, 0; }\n' \
+'.PredefinedType-FILLAREA.dashed { stroke-dasharray: 6, 3; }\n' \
+'.PredefinedType-FILLAREA.hidden { stroke-dasharray: 9, 3; }\n' \
+'.PredefinedType-FILLAREA.center { stroke-dasharray: 12, 3, 3, 3; }\n' \
+'.PredefinedType-FILLAREA.phantom { stroke-dasharray: 12, 3, 3, 3, 3, 3; }\n' \
+'.PredefinedType-FILLAREA.dot { stroke-dasharray: 1, 3; }\n' \
+'.PredefinedType-FILLAREA.dashdot { stroke-dasharray: 6, 3, 1, 3; }\n' \
+'.PredefinedType-FILLAREA.border { stroke-dasharray: 15, 3, 3, 3; }\n' \
+'.PredefinedType-FILLAREA.divide { stroke-dasharray: 12, 3, 3, 3; }\n' \
+'.PredefinedType-FILLAREA.lineweight_0_13 { stroke-width: 0.13; }\n' \
+'.PredefinedType-FILLAREA.lineweight_0_18 { stroke-width: 0.18; }\n' \
+'.PredefinedType-FILLAREA.lineweight_0_25 { stroke-width: 0.25; }\n' \
+'.PredefinedType-FILLAREA.lineweight_0_35 { stroke-width: 0.35; }\n' \
+'.PredefinedType-FILLAREA.lineweight_0_50 { stroke-width: 0.5; }\n' \
+'.PredefinedType-FILLAREA.lineweight_0_70 { stroke-width: 0.7; }\n' \
+'.PredefinedType-FILLAREA.lineweight_1_00 { stroke-width: 1.0; }\n' \
+'.PredefinedType-FILLAREA.lineweight_1_40 { stroke-width: 1.4; }\n' \
+'.PredefinedType-FILLAREA.bestaand_gebouw { fill: url( #bestaand_gebouw); }\n' \
+'.PredefinedType-FILLAREA.verticaal_breed { fill: url( #verticaal_breed); }\n' \
+'.PredefinedType-FILLAREA.verticaal_smal { fill: url( #verticaal_smal); }\n' \
+'.PredefinedType-FILLAREA.horizontaal_breed { fill: url( #horizontaal_breed); }\n' \
+'.PredefinedType-FILLAREA.horizontaal_smal { fill: url( #horizontaal_smal); }\n' \
 
 SUFFIX_CSS = \
 '.PredefinedType-DIMENSION.mw { marker-start: url(#dimension-marker-start-mw); marker-end: url(#dimension-marker-end-mw); }\n' \
@@ -754,8 +796,11 @@ css_file_1.close()
 
 #duplicate and rename 1_50 to default.css
 from pathlib import Path
+import shutil
 
-src_path = Path(new_path_css_50)
+src_path = Path(new_path_css_50)  # Path to the original file (1_50)
 dest_path = Path(basepath)
 new_path_default = dest_path / "default.css"
-src_path.rename(new_path_default)
+
+# Copy the file instead of renaming/moving
+shutil.copy(src_path, new_path_default)

@@ -70,7 +70,6 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.lineweight_0_70 { stroke-width: 0.7; }
 .PredefinedType-LINEWORK.lineweight_1_00 { stroke-width: 1.0; }
 .PredefinedType-LINEWORK.lineweight_1_40 { stroke-width: 1.4; }
-.PredefinedType-LINEWORK.breakline { stroke:#696969; stroke-width: 0.75; stroke-dasharray: 8, 3, 4, 3; }
 .PredefinedType-LINEWORK.grey { stroke:#808080; }
 .PredefinedType-LINEWORK.black { stroke:black; }
 .PredefinedType-LINEWORK.green { stroke:green; }
@@ -96,12 +95,12 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-LINEWORK.section { marker-start: url(#section-marker); marker-end: url(#section-marker); stroke:black; stroke-width: 0.2; }
 .PredefinedType-LINEWORK.vloeroverspanning { stroke:black; marker-start: url(#vloeroverspanning-marker); marker-end: url(#vloeroverspanning-marker); stroke-width: 0.2; }
 .PredefinedType-LINEWORK.arrow { stroke-width: 0.25; marker-start: url(#arrow-marker-start); marker-end: url(#arrow-marker-end); }
-.PredefinedType-FILLAREA.green { fill:green; stroke:none; }
-.PredefinedType-FILLAREA.blue { fill:blue; stroke:none; }
-.PredefinedType-FILLAREA.yellow { fill:yellow; stroke:none; }
-.PredefinedType-FILLAREA.red { fill:red; stroke:none; }
-.PredefinedType-FILLAREA.purple { fill:purple; stroke:none; }
-.PredefinedType-FILLAREA.darkgrey { fill:#696969; stroke:none; }
+.PredefinedType-FILLAREA.green { fill:green; }
+.PredefinedType-FILLAREA.blue { fill:blue; }
+.PredefinedType-FILLAREA.yellow { fill:yellow; }
+.PredefinedType-FILLAREA.red { fill:red; }
+.PredefinedType-FILLAREA.purple { fill:purple;  }
+.PredefinedType-FILLAREA.darkgrey { fill:#696969; }
 .PredefinedType-FILLAREA.sand { fill: url(#sand); }
 .PredefinedType-FILLAREA.earth { fill: url(#earth); }
 .PredefinedType-FILLAREA.glass { fill: url(#glass); }
@@ -114,9 +113,31 @@ text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type
 .PredefinedType-FILLAREA.white_25 { fill: white; opacity: 0.25; stroke: none; }
 .PredefinedType-FILLAREA.white_50 { fill: white; opacity: 0.5; stroke: none; }
 .PredefinedType-FILLAREA.white_75 { fill: white; opacity: 0.75; stroke: none; }
-.PredefinedType-FILLAREA.black_10 { fill: black; opacity: 0.10; stroke: black; stroke-width: 0.5; }
+.PredefinedType-FILLAREA.black_10 { fill: black; opacity: 0.10; stroke: none }
 .PredefinedType-FILLAREA.black_25 { fill: black; opacity: 0.25; stroke: none; }
-.PredefinedType-FILLAREA.bestaand_gebouw { fill: url( #bestaand_gebouw); stroke: black; }
+.PredefinedType-FILLAREA.none { stroke:none; }
+.PredefinedType-FILLAREA.continuous { stroke-dasharray: 10, 0; }
+.PredefinedType-FILLAREA.dashed { stroke-dasharray: 6, 3; }
+.PredefinedType-FILLAREA.hidden { stroke-dasharray: 9, 3; }
+.PredefinedType-FILLAREA.center { stroke-dasharray: 12, 3, 3, 3; }
+.PredefinedType-FILLAREA.phantom { stroke-dasharray: 12, 3, 3, 3, 3, 3; }
+.PredefinedType-FILLAREA.dot { stroke-dasharray: 1, 3; }
+.PredefinedType-FILLAREA.dashdot { stroke-dasharray: 6, 3, 1, 3; }
+.PredefinedType-FILLAREA.border { stroke-dasharray: 15, 3, 3, 3; }
+.PredefinedType-FILLAREA.divide { stroke-dasharray: 12, 3, 3, 3; }
+.PredefinedType-FILLAREA.lineweight_0_13 { stroke-width: 0.13; }
+.PredefinedType-FILLAREA.lineweight_0_18 { stroke-width: 0.18; }
+.PredefinedType-FILLAREA.lineweight_0_25 { stroke-width: 0.25; }
+.PredefinedType-FILLAREA.lineweight_0_35 { stroke-width: 0.35; }
+.PredefinedType-FILLAREA.lineweight_0_50 { stroke-width: 0.5; }
+.PredefinedType-FILLAREA.lineweight_0_70 { stroke-width: 0.7; }
+.PredefinedType-FILLAREA.lineweight_1_00 { stroke-width: 1.0; }
+.PredefinedType-FILLAREA.lineweight_1_40 { stroke-width: 1.4; }
+.PredefinedType-FILLAREA.bestaand_gebouw { fill: url( #bestaand_gebouw); }
+.PredefinedType-FILLAREA.verticaal_breed { fill: url( #verticaal_breed); }
+.PredefinedType-FILLAREA.verticaal_smal { fill: url( #verticaal_smal); }
+.PredefinedType-FILLAREA.horizontaal_breed { fill: url( #horizontaal_breed); }
+.PredefinedType-FILLAREA.horizontaal_smal { fill: url( #horizontaal_smal); }
 .PredefinedType-FILLAREA.NEN47_1_metselwerk_baksteen{ fill: url(  #NEN47_1_metselwerk_baksteen_5); }
 .PredefinedType-FILLAREA.NEN47_2_speciale_steenachtige_materialen{ fill: url(  #NEN47_2_speciale_steenachtige_materialen_5); }
 .PredefinedType-FILLAREA.NEN47_3_metselwerk_niet_gebakken_kunststeen{ fill: url(  #NEN47_3_metselwerk_niet_gebakken_kunststeen_5); }

@@ -131,6 +131,21 @@
     <path style="fill: white;" d="M 0 0 10 0 10 10 0 10" />
 <path style="stroke:#000000;stroke-width:0.25;stroke-linecap:round" d="M.5.5H.8L.65.9zm1.2 3.7.692-.186-.149.611zm.4 3.2.56.203-.25.6zm1.5-5.3.6-.4-.3.5zm3.2-.3.35.25-.439.594zm.4 7.5.3-.2-.15.4zm1.7-5.6.25.4-.1-.3zm.2 2.8.4.2-.2.3zM.8 2.1l.1.1m.4 4.4.05-.05M2.7 3.4l.1.1m.4 1.7.1-.1m1.6-3.6.05.05M3.732.589 3.628.678M5.5 7.1l.1.1m.5-2.7.1-.1m1.2-2.1.05.05M8.3 8.4l.1.1m1.2 1.2.05-.05M.4 4.9.5 5m1-2.2.1-.1m.6 3 .1.1m1.5 1.5.1-.1m.8-4 .1.1m.3 3.1.05-.05M6.9 8.2l.1.1m.5-6.4.05-.05M8.7 4.3l.1.1m.4 1.8.1-.1M.3.2.4.3m.8 8.8.1-.1m1-7.2.1.1m.7 5.9.1-.1m.9-5.3.1.1m1.2 5.8.1-.1m-1.366.788.06.149M6.6.7l.1.1m1.2 4.7.1-.1m.6-2.8.1.1m.7 4.5.1-.1" />
 </pattern>
+<pattern id="verticaal_smal" width="2" height="2" patternUnits="userSpaceOnUse">
+    <path style="fill: white;" d="M 0 0 2 0 2 2 0 2" />
+    <line x1="0" y1="0" x2="0" y2="2" style="stroke:black; stroke-width:0.25" />
+    <line x1="1" y1="0" x2="1" y2="2" style="stroke:black; stroke-width:0.25" />
+</pattern>
+<pattern id="verticaal_breed" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path style="fill: white;" d="M 0 0 10 0 10 10 0 10" />
+    <line x1="0" y1="0" x2="0" y2="10" style="stroke:black; stroke-width:0.25" />
+    <line x1="5" y1="0" x2="5" y2="10" style="stroke:black; stroke-width:0.25" />
+</pattern>
+<pattern id="horizontaal_breed" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path style="fill: white;" d="M 0 0 10 0 10 10 0 10" />
+    <line x1="0" y1="0" x2="10" y2="0" style="stroke:black; stroke-width:0.25" />
+    <line x1="0" y1="5" x2="10" y2="5" style="stroke:black; stroke-width:0.25" />
+</pattern>
 <pattern id="NEN47_1_metselwerk_baksteen_100" width="3" height="3" patternTransform="rotate(45 0 0) scale(0.75 0.75)" patternUnits="userSpaceOnUse">
     no_background
     <line x1="1" y1="0" x2="1" y2="3" style="stroke:black; stroke-width:0.15" />

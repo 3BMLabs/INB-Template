@@ -212,13 +212,13 @@
             <path d="M78.6,451.4 L77.8667,451.4"/>
             <path d="M77.8667,451.4 L78.6,451.4"/>
         </g>
-    <g id="product-ab85943e-e372-43ef-ad25-cad109981d3f" class="IfcBeam material-gewapendbeton projection" ifc:name="BB 400x500" ifc:guid="2hXPG_ut93xwqboj49c1q$">
+    <g id="product-ab85943e-e372-43ef-ad25-cad109981d3f" class="IfcBeam material-gewapendbetontpg projection" ifc:name="BB 400x500" ifc:guid="2hXPG_ut93xwqboj49c1q$">
             <path d="M44.6,390 L52.6,390"/>
             <path d="M44.6,455.4 L52.6,455.4"/>
             <path d="M52.6,455.4 L52.6,390"/>
             <path d="M44.6,455.4 L44.6,390"/>
         </g>
-        <g id="product-7f9c48ec-33d6-4873-9626-17aaf58c8ed1" class="IfcBeam material-gewapendbeton projection" ifc:name="BB 400x500" ifc:guid="1$d4ZiCzP8SvOc5whrZ8xH">
+        <g id="product-7f9c48ec-33d6-4873-9626-17aaf58c8ed1" class="IfcBeam material-gewapendbetontpg projection" ifc:name="BB 400x500" ifc:guid="1$d4ZiCzP8SvOc5whrZ8xH">
             <path d="M110,447.4 L110,455.4"/>
             <path d="M52.6,447.4 L52.6,455.4"/>
             <path d="M52.6,455.4 L110,455.4"/>

@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:50" height="500.00003814697266mm" id="root" version="1.1" viewBox="0 0 500.00003814697266 500.00003814697266" width="500.00003814697266mm">
   <defs/>
-  <line class="GlobalId-3h9l3lP5zEIx1$YovDs$6k IfcAnnotation PredefinedType-DIMENSION" x1="50.000038146972656" x2="110.00006103515625" y1="480.0" y2="480.0"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(80.00004577636719, 479.0) rotate(0.0)">
-    <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
-  </text>
-  <line class="GlobalId-3h9l3lP5zEIx1$YovDs$6k IfcAnnotation PredefinedType-DIMENSION" x1="20.000038146972656" x2="20.000038146972656" y1="450.0" y2="389.9999694824219"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(19.000038146972656, 420.0) rotate(-90.00000250447816)">
-    <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
-  </text>
-  <use transform="rotate(180.00000500895632, 50.00001907348633, -46.126155853271484)" x="50.00001907348633" xlink:href="#elevation-arrow" y="-46.126155853271484"/>
-  <use x="50.00001907348633" xlink:href="#elevation-tag" y="-46.126155853271484"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-48.626155853271484">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-43.626155853271484">-</text>
-  <use transform="rotate(-90.00000250447816, 541.99072265625, 450.0)" x="541.99072265625" xlink:href="#elevation-arrow" y="450.0"/>
-  <use x="541.99072265625" xlink:href="#elevation-tag" y="450.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="447.5">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="452.5">-</text>
-  <use transform="rotate(-0.0, 50.00001907348633, 605.8765869140625)" x="50.00001907348633" xlink:href="#elevation-arrow" y="605.8765869140625"/>
-  <use x="50.00001907348633" xlink:href="#elevation-tag" y="605.8765869140625"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="603.3765869140625">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="608.3765869140625">-</text>
   <line class="GlobalId-3r$BwZXtnAzhm2RFrTIZHW IfcAnnotation PredefinedType-SECTION" x1="549.9969482421875" x2="-449.9969482421875" y1="1390.031982421875" y2="1390.0322265625"/>
   <use transform="rotate(179.999991348578, 549.9969482421875, 1390.031982421875)" x="549.9969482421875" xlink:href="#section-arrow" y="1390.031982421875"/>
   <use x="549.9969482421875" xlink:href="#section-tag" y="1390.031982421875"/>
@@ -43,17 +23,39 @@
   <use x="110.00001525878906" xlink:href="#section-tag" y="517.2515258789062"/>
   <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="110.00001525878906" y="514.7515258789062">-</text>
   <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="110.00001525878906" y="519.7515258789062">-</text>
+  <line class="GlobalId-3h9l3lP5zEIx1$YovDs$6k IfcAnnotation PredefinedType-DIMENSION" x1="50.000038146972656" x2="110.00006103515625" y1="480.0" y2="480.0"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(80.00004577636719, 479.0) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
+  </text>
+  <line class="GlobalId-3h9l3lP5zEIx1$YovDs$6k IfcAnnotation PredefinedType-DIMENSION" x1="20.000038146972656" x2="20.000038146972656" y1="450.0" y2="389.9999694824219"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(19.000038146972656, 420.0) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
+  </text>
+  <use transform="rotate(180.00000500895632, 50.00001907348633, -46.126155853271484)" x="50.00001907348633" xlink:href="#elevation-arrow" y="-46.126155853271484"/>
+  <use x="50.00001907348633" xlink:href="#elevation-tag" y="-46.126155853271484"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-48.626155853271484">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="-43.626155853271484">-</text>
+  <use transform="rotate(-90.00000250447816, 541.99072265625, 450.0)" x="541.99072265625" xlink:href="#elevation-arrow" y="450.0"/>
+  <use x="541.99072265625" xlink:href="#elevation-tag" y="450.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="447.5">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="452.5">-</text>
+  <use transform="rotate(-0.0, 50.00001907348633, 605.8765869140625)" x="50.00001907348633" xlink:href="#elevation-arrow" y="605.8765869140625"/>
+  <use x="50.00001907348633" xlink:href="#elevation-tag" y="605.8765869140625"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="603.3765869140625">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="50.00001907348633" y="608.3765869140625">-</text>
+  <line class="GlobalId-34z3qa2OP3k8MBaBZrm9qd IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="10.000057220458984" x2="541.99072265625" y1="389.9999694824219" y2="389.9999694824219"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="10.000057220458984" y="389.9999694824219">B</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="389.9999694824219">B</text>
+  <line class="GlobalId-2FxZ96bl96nxGCj4uaCogz IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="50.000057220458984" x2="50.000057220458984" y1="490.0" y2="-46.126155853271484"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="50.000057220458984" y="490.0">01</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="50.000057220458984" y="-46.126155853271484">01</text>
   <line class="GlobalId-0fbzylJi90sBf_BR6rfN6E IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="10.000057220458984" x2="541.99072265625" y1="450.0" y2="450.0"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="10.000057220458984" y="450.0">A</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="450.0">A</text>
   <line class="GlobalId-0nT9wF5mb4iQ7d8zrbMDoJ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="110.00006866455078" x2="110.00006866455078" y1="490.0" y2="-46.126155853271484"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.00006866455078" y="490.0">02</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.00006866455078" y="-46.126155853271484">02</text>
-  <line class="GlobalId-2FxZ96bl96nxGCj4uaCogz IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="50.000057220458984" x2="50.000057220458984" y1="490.0" y2="-46.126155853271484"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="50.000057220458984" y="490.0">01</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="50.000057220458984" y="-46.126155853271484">01</text>
-  <line class="GlobalId-34z3qa2OP3k8MBaBZrm9qd IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="10.000057220458984" x2="541.99072265625" y1="389.9999694824219" y2="389.9999694824219"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="10.000057220458984" y="389.9999694824219">B</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="541.99072265625" y="389.9999694824219">B</text>
-  <path class="GlobalId-1jW$YU5_1FZwZABqShSGUv IfcAnnotation PredefinedType-blank" d="M 520.906925201416 -20.147266387939453 L -19.73714828491211 -20.147266387939453 L -19.73714828491211 9.999980926513672 L 490.0000190734863 9.999980926513672 L 490.0000190734863 545.6291770935059 L 520.906925201416 545.6291770935059 L 520.906925201416 -20.147266387939453"/>
+  <path class="GlobalId-1jW$YU5_1FZwZABqShSGUv IfcAnnotation PredefinedType-FILLAREA red dashed" d="M 410.0000190734863 545.6291770935059 L 520.906925201416 545.6291770935059 L 520.906925201416 89.99998092651367 L 410.0000190734863 89.99998092651367 L 410.0000190734863 545.6291770935059"/>
+  <path class="GlobalId-1jW$YU5_1FZwZABqShSGUv IfcAnnotation PredefinedType-FILLAREA red dashed" d="M 410.0000190734863 -20.147266387939453 L -19.73714828491211 -20.147266387939453 L -19.73714828491211 89.99998092651367 L 410.0000190734863 89.99998092651367 L 410.0000190734863 -20.147266387939453"/>
+  <path class="GlobalId-1jW$YU5_1FZwZABqShSGUv IfcAnnotation PredefinedType-FILLAREA red dashed" d="M 410.0000190734863 89.99998092651367 L 520.906925201416 89.99998092651367 L 520.906925201416 -20.147266387939453 L 410.0000190734863 -20.147266387939453 L 410.0000190734863 89.99998092651367"/>
 </svg>
